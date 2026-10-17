@@ -1,0 +1,18 @@
+[
+  {
+    "bytes": 8100,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/source-docs/robyn/README.md",
+    "path": "README.md",
+    "sha256": "5fb338cd85be52f55b352c6d8e7b0fb08a1183b951f73ac8387aeb828c8f0065",
+    "status": "READ"
+  },
+  {
+    "bytes": 1133,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/source-docs/robyn/python/pyproject.toml",
+    "path": "python/pyproject.toml",
+    "sha256": "0ded8d7061d52afb0e2e809076b41478840557fdf2aa1681137315fa98227771",
+    "status": "READ"
+  }
+]

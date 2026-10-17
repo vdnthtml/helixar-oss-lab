@@ -1,0 +1,15 @@
+{
+  "subject": {
+    "tenant": "tenant-a.invalid"
+  },
+  "action": "propose",
+  "resource": {
+    "tenant": "tenant-a.invalid",
+    "target_hash": "sha256:synthetic.invalid"
+  },
+  "approval": {
+    "valid": "true",
+    "revoked": false,
+    "target_hash": "sha256:synthetic.invalid"
+  }
+}

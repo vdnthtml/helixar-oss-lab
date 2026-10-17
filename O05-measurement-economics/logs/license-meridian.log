@@ -1,0 +1,18 @@
+[
+  {
+    "path": "LICENSE",
+    "status": "READ",
+    "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+    "bytes": 11357,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/meridian/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "proto/LICENSE",
+    "status": "READ",
+    "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+    "bytes": 11357,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/meridian/proto/LICENSE",
+    "error": ""
+  }
+]

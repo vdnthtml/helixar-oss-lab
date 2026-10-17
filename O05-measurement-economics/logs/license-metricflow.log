@@ -1,0 +1,18 @@
+[
+  {
+    "path": "LICENSE",
+    "status": "READ",
+    "sha256": "438b69717fc3020f549d12e262421c57c5b21d38e97a36f8d9b9d68082c09974",
+    "bytes": 11344,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/metricflow/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "dbt-metricflow/LICENSE",
+    "status": "READ",
+    "sha256": "438b69717fc3020f549d12e262421c57c5b21d38e97a36f8d9b9d68082c09974",
+    "bytes": 11344,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/metricflow/dbt-metricflow/LICENSE",
+    "error": ""
+  }
+]

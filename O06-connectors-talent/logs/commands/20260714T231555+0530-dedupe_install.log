@@ -1,0 +1,105 @@
+Obtaining file:///Users/vedantswami/Projects/helixar-oss-labs/O06-connectors-talent/repos/dedupe
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Collecting scikit-learn (from dedupe==3.0.3)
+  Downloading scikit_learn-1.9.0-cp311-cp311-macosx_12_0_arm64.whl.metadata (11 kB)
+Collecting affinegap>=1.3 (from dedupe==3.0.3)
+  Downloading affinegap-1.12.tar.gz (33 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting categorical-distance>=1.9 (from dedupe==3.0.3)
+  Downloading categorical_distance-1.9-py3-none-any.whl.metadata (939 bytes)
+Collecting numpy>=1.20 (from dedupe==3.0.3)
+  Downloading numpy-2.4.6-cp311-cp311-macosx_14_0_arm64.whl.metadata (6.6 kB)
+Collecting doublemetaphone (from dedupe==3.0.3)
+  Downloading doublemetaphone-1.2-cp311-cp311-macosx_11_0_arm64.whl.metadata (637 bytes)
+Collecting highered>=0.2.0 (from dedupe==3.0.3)
+  Downloading highered-0.2.1-py2.py3-none-any.whl.metadata (977 bytes)
+Collecting simplecosine>=1.2 (from dedupe==3.0.3)
+  Downloading simplecosine-1.2-py2.py3-none-any.whl.metadata (912 bytes)
+Collecting haversine>=0.4.1 (from dedupe==3.0.3)
+  Downloading haversine-2.9.0-py2.py3-none-any.whl.metadata (5.8 kB)
+Collecting BTrees>=4.1.4 (from dedupe==3.0.3)
+  Downloading btrees-6.4-cp311-cp311-macosx_11_0_arm64.whl.metadata (21 kB)
+Collecting zope.index (from dedupe==3.0.3)
+  Downloading zope_index-8.1-cp311-cp311-macosx_11_0_arm64.whl.metadata (3.0 kB)
+Collecting dedupe_Levenshtein_search (from dedupe==3.0.3)
+  Downloading dedupe_Levenshtein_search-1.4.5-cp311-cp311-macosx_11_0_arm64.whl.metadata (504 bytes)
+Collecting persistent (from BTrees>=4.1.4->dedupe==3.0.3)
+  Downloading persistent-6.7-cp311-cp311-macosx_11_0_arm64.whl.metadata (23 kB)
+Collecting zope.interface (from BTrees>=4.1.4->dedupe==3.0.3)
+  Downloading zope_interface-8.5-cp311-cp311-macosx_11_0_arm64.whl.metadata (47 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 47.2/47.2 kB 1.8 MB/s eta 0:00:00
+Collecting pyhacrf-datamade>=0.2.0 (from highered>=0.2.0->dedupe==3.0.3)
+  Downloading pyhacrf_datamade-0.2.8-cp311-cp311-macosx_11_0_arm64.whl.metadata (3.9 kB)
+Collecting scipy>=1.10.0 (from scikit-learn->dedupe==3.0.3)
+  Using cached scipy-1.17.1-cp311-cp311-macosx_14_0_arm64.whl.metadata (62 kB)
+Collecting joblib>=1.4.0 (from scikit-learn->dedupe==3.0.3)
+  Using cached joblib-1.5.3-py3-none-any.whl.metadata (5.5 kB)
+Collecting narwhals>=2.0.1 (from scikit-learn->dedupe==3.0.3)
+  Using cached narwhals-2.24.0-py3-none-any.whl.metadata (15 kB)
+Collecting threadpoolctl>=3.5.0 (from scikit-learn->dedupe==3.0.3)
+  Downloading threadpoolctl-3.6.0-py3-none-any.whl.metadata (13 kB)
+Collecting PyLBFGS>=0.1.3 (from pyhacrf-datamade>=0.2.0->highered>=0.2.0->dedupe==3.0.3)
+  Downloading PyLBFGS-0.2.0.16-cp311-cp311-macosx_11_0_arm64.whl.metadata (1.9 kB)
+Collecting zope.deferredimport (from persistent->BTrees>=4.1.4->dedupe==3.0.3)
+  Downloading zope_deferredimport-6.1.1-py3-none-any.whl.metadata (5.9 kB)
+Collecting cffi (from persistent->BTrees>=4.1.4->dedupe==3.0.3)
+  Downloading cffi-2.1.0-cp311-cp311-macosx_11_0_arm64.whl.metadata (2.5 kB)
+Collecting pycparser (from cffi->persistent->BTrees>=4.1.4->dedupe==3.0.3)
+  Using cached pycparser-3.0-py3-none-any.whl.metadata (8.2 kB)
+Collecting zope.proxy (from zope.deferredimport->persistent->BTrees>=4.1.4->dedupe==3.0.3)
+  Downloading zope_proxy-7.2-cp311-cp311-macosx_11_0_arm64.whl.metadata (12 kB)
+Downloading btrees-6.4-cp311-cp311-macosx_11_0_arm64.whl (957 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 957.3/957.3 kB 3.5 MB/s eta 0:00:00
+Downloading categorical_distance-1.9-py3-none-any.whl (3.3 kB)
+Downloading haversine-2.9.0-py2.py3-none-any.whl (7.7 kB)
+Downloading highered-0.2.1-py2.py3-none-any.whl (3.3 kB)
+Downloading numpy-2.4.6-cp311-cp311-macosx_14_0_arm64.whl (5.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.5/5.5 MB 9.1 MB/s eta 0:00:00
+Downloading simplecosine-1.2-py2.py3-none-any.whl (3.2 kB)
+Downloading dedupe_Levenshtein_search-1.4.5-cp311-cp311-macosx_11_0_arm64.whl (10 kB)
+Downloading doublemetaphone-1.2-cp311-cp311-macosx_11_0_arm64.whl (30 kB)
+Downloading scikit_learn-1.9.0-cp311-cp311-macosx_12_0_arm64.whl (8.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.3/8.3 MB 13.9 MB/s eta 0:00:00
+Downloading zope_index-8.1-cp311-cp311-macosx_11_0_arm64.whl (88 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 88.1/88.1 kB 4.9 MB/s eta 0:00:00
+Using cached joblib-1.5.3-py3-none-any.whl (309 kB)
+Using cached narwhals-2.24.0-py3-none-any.whl (461 kB)
+Downloading pyhacrf_datamade-0.2.8-cp311-cp311-macosx_11_0_arm64.whl (198 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 198.8/198.8 kB 11.0 MB/s eta 0:00:00
+Using cached scipy-1.17.1-cp311-cp311-macosx_14_0_arm64.whl (20.3 MB)
+Downloading threadpoolctl-3.6.0-py3-none-any.whl (18 kB)
+Downloading persistent-6.7-cp311-cp311-macosx_11_0_arm64.whl (150 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 150.5/150.5 kB 10.8 MB/s eta 0:00:00
+Downloading zope_interface-8.5-cp311-cp311-macosx_11_0_arm64.whl (211 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 211.8/211.8 kB 7.7 MB/s eta 0:00:00
+Downloading PyLBFGS-0.2.0.16-cp311-cp311-macosx_11_0_arm64.whl (61 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.2/61.2 kB 3.7 MB/s eta 0:00:00
+Downloading cffi-2.1.0-cp311-cp311-macosx_11_0_arm64.whl (184 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 184.2/184.2 kB 7.4 MB/s eta 0:00:00
+Downloading zope_deferredimport-6.1.1-py3-none-any.whl (9.6 kB)
+Using cached pycparser-3.0-py3-none-any.whl (48 kB)
+Downloading zope_proxy-7.2-cp311-cp311-macosx_11_0_arm64.whl (38 kB)
+Building wheels for collected packages: dedupe, affinegap
+  Building editable for dedupe (pyproject.toml): started
+  Building editable for dedupe (pyproject.toml): finished with status 'done'
+  Created wheel for dedupe: filename=dedupe-3.0.3-0.editable-cp311-cp311-macosx_11_0_arm64.whl size=7069 sha256=459b983117d829ee4b98fe6ac2d83a16e5f0e64f044b1d0d6aebc0ff645a9ffc
+  Stored in directory: /private/var/folders/vj/_w3ccnk96p3dxghn29rf_vz80000gn/T/pip-ephem-wheel-cache-r72398z5/wheels/9f/67/8a/a70df33ac8c7325c343ec321d5169665ed08602a1966be4ead
+  Building wheel for affinegap (pyproject.toml): started
+  Building wheel for affinegap (pyproject.toml): finished with status 'done'
+  Created wheel for affinegap: filename=affinegap-1.12-cp311-cp311-macosx_11_0_arm64.whl size=24734 sha256=6e7bd91f7d6598f52e57e7940d5b936cd939f11f6bdb270b9e76df711092d241
+  Stored in directory: /Users/vedantswami/Library/Caches/pip/wheels/32/65/6e/bf13d087abec1151492a77d80aa9f797b7ebbd311b6d624bdc
+Successfully built dedupe affinegap
+Installing collected packages: doublemetaphone, dedupe_Levenshtein_search, affinegap, zope.interface, threadpoolctl, pycparser, numpy, narwhals, joblib, haversine, zope.proxy, simplecosine, scipy, PyLBFGS, cffi, categorical-distance, zope.deferredimport, scikit-learn, pyhacrf-datamade, persistent, highered, BTrees, zope.index, dedupe
+Successfully installed BTrees-6.4 PyLBFGS-0.2.0.16 affinegap-1.12 categorical-distance-1.9 cffi-2.1.0 dedupe-3.0.3 dedupe_Levenshtein_search-1.4.5 doublemetaphone-1.2 haversine-2.9.0 highered-0.2.1 joblib-1.5.3 narwhals-2.24.0 numpy-2.4.6 persistent-6.7 pycparser-3.0 pyhacrf-datamade-0.2.8 scikit-learn-1.9.0 scipy-1.17.1 simplecosine-1.2 threadpoolctl-3.6.0 zope.deferredimport-6.1.1 zope.index-8.1 zope.interface-8.5 zope.proxy-7.2

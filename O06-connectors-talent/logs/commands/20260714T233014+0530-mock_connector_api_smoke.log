@@ -1,0 +1,19 @@
+{"bind": "127.0.0.1", "crossTenantDenied": "PASS", "deletion": "PASS", "export": "PASS", "externalRequests": 0, "healthCheck": "PASS", "loopbackRequests": 10, "port": 53176, "realTokens": 0, "status": "PASS", "suppression": "PASS", "syntheticTokens": 2, "tenantIsolation": "PASS"}
+        0.55 real         0.03 user         0.01 sys
+            27656192  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                2046  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                  39  messages sent
+                  28  messages received
+                   0  signals received
+                   5  voluntary context switches
+                 317  involuntary context switches
+           319740170  instructions retired
+           172606964  cycles elapsed
+            15680016  peak memory footprint

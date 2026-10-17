@@ -1,0 +1,16 @@
+{
+  "activity_accounting": {
+    "external_business_writes": 0,
+    "loopback_command_envelopes": 0,
+    "lower_level_http_request_count": "UNKNOWN_NOT_PACKET_CAPTURED",
+    "predicted_process_records_after_current_validator": 88,
+    "process_records_before_current_validator": 87,
+    "public_network_command_envelopes": 26
+  },
+  "errors": [
+    "lab-owned process still running: ['55659 /bin/bash -c source /var/folders/vj/_w3ccnk96p3dxghn29rf_vz80000gn/T/hermes-snap-e13d94d9657f.sh >/dev/null 2>&1 || true\\\\012builtin cd -- /Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory || exit 126\\\\012eval \\'python3 labctl.py --kind local --label finalization-lease-after-generator-merge -- python3 -c \\'\\\\\\'\\'import json,time,pathlib,subprocess; p=pathlib.Path(\"process-log.jsonl\"); a=[json.loads(x) for x in p.read_text().splitlines() if x.strip()]; ps=subprocess.run([\"ps\",\"-axo\",\"pid=,command=\"],text=True,capture_output=True).stdout; active=[x.strip() for x in ps.splitlines() if any(k in x for k in [\"reconcile_final_deliverables.py\",\"generate_deliverables.py\",\"mem0_fixture.py\",\"graphiti_kuzu_fixture.py\"]) and \"python3 -c\" not in x]; time.sleep(3); b=[json.loads(x) for x in p.read_text().splitlines() if x.strip()]; assert (len(a),max(r[\"sequence\"] for r in a))==(len(b),max(r[\"sequence\"] for r in b)); assert not active,active; print(json.dumps({\"quiet_seconds\":3,\"records\":len(b),\"max_sequence\":max(r[\"sequence\"] for r in b),\"active_writers\":active,\"stable\":True}))\\'\\\\\\'\\'\\'\\\\012__hermes_ec=$?\\\\012export -p > /var/folders/vj/_w3ccnk96p3dxghn29rf_vz80000gn/T/hermes-snap-e13d94d9657f.sh 2>/dev/null || true\\\\012pwd -P > /var/folders/vj/_w3ccnk96p3dxghn29rf_vz80000gn/T/hermes-cwd-e13d94d9657f.txt 2>/dev/null || true\\\\012printf \\'\\\\n__HERMES_CWD_e13d94d9657f__%s__HERMES_CWD_e13d94d9657f__\\\\n\\' \"$(pwd -P)\"\\\\012exit $__hermes_ec']"
+  ],
+  "output": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/artifacts/final-validation.json",
+  "phase": "final",
+  "status": "FAIL"
+}

@@ -1,0 +1,386 @@
+{
+  "hf-vbench-models.json": {
+    "files_over_2gb": [
+      {
+        "blob_id": "ebd7108bcb2989e443eb27499a4d575cb24852ee",
+        "lfs_sha256": "d49b83b8c236e65778aaed3824053e1d930ea1993706d171b574a8bdb69ceecf",
+        "rfilename": "ViCLIP-L_InternVid-FLT-10M.pth",
+        "size": 4142600732
+      }
+    ],
+    "gated": false,
+    "id": "OpenGVLab/VBench_Used_Models",
+    "largest_file_bytes": 4142600732,
+    "lastModified": "2025-02-17T02:50:29.000Z",
+    "license": "apache-2.0",
+    "pipeline_tag": null,
+    "private": false,
+    "sha": "83290ee59b4e2c0a4d198857edbc79dd186b8d44",
+    "sibling_count": 6,
+    "siblings": [
+      {
+        "blob_id": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+        "lfs_sha256": null,
+        "rfilename": ".gitattributes",
+        "size": 1519
+      },
+      {
+        "blob_id": "7b95401dc46245ac339fc25059d4a56d90b4cde5",
+        "lfs_sha256": null,
+        "rfilename": "README.md",
+        "size": 31
+      },
+      {
+        "blob_id": "ebd7108bcb2989e443eb27499a4d575cb24852ee",
+        "lfs_sha256": "d49b83b8c236e65778aaed3824053e1d930ea1993706d171b574a8bdb69ceecf",
+        "rfilename": "ViCLIP-L_InternVid-FLT-10M.pth",
+        "size": 4142600732
+      },
+      {
+        "blob_id": "e022f2ea4b914d0553c818bc71e8f60b3d8f381b",
+        "lfs_sha256": "7a4d6ad6eac6632db3693f4b97f9f8f6445b65b1e139a6fc6686150522238c56",
+        "rfilename": "ViClip-InternVid-10M-FLT.pth",
+        "size": 1710545812
+      },
+      {
+        "blob_id": "ca279a4ea3a6e2e42781f40b97caeb50b3283ce4",
+        "lfs_sha256": "53b6e9b3fd948eac55b574c9b6f94ad0743dff46ba449df7ac2d33009ee92ef1",
+        "rfilename": "grit_b_densecap_objectdet.pth",
+        "size": 417381733
+      },
+      {
+        "blob_id": "10b8f62514554b2376e56c5f5e80dd01f2380f7e",
+        "lfs_sha256": "bfee78a03bf806fbc0c216309e8f92792011b7db6556fa860e9d869c1e69fecd",
+        "rfilename": "l16_ptk710_ftk710_ftk400_f16_res224.pth",
+        "size": 607024201
+      }
+    ],
+    "total_bytes": 6877554028
+  },
+  "hf-videoscore-qwen.json": {
+    "files_over_2gb": [
+      {
+        "blob_id": "dcb42d0be9c1e91373703f067515ab8715a7c12e",
+        "lfs_sha256": "a4e9f765c15b9c487be76d648a908fc512cf019d3171ddc8eb6e42395744b616",
+        "rfilename": "model-00001-of-00004.safetensors",
+        "size": 4966659944
+      },
+      {
+        "blob_id": "2376bf695f538a23559cb2e50c7c78275dc062f5",
+        "lfs_sha256": "891d6a27e2e4863afb777e79f6eb811ae2e93dbe8bb9c8060e816353a24eb917",
+        "rfilename": "model-00002-of-00004.safetensors",
+        "size": 4991495816
+      },
+      {
+        "blob_id": "f82d877fc8925973e2c22dbf614b9f2662fe820b",
+        "lfs_sha256": "2b46c81ef5b4151de8699d21f9287924210daf86d237b53b3a5fe177f7d90c80",
+        "rfilename": "model-00003-of-00004.safetensors",
+        "size": 4932751040
+      }
+    ],
+    "gated": false,
+    "id": "TIGER-Lab/VideoScore-Qwen2-VL",
+    "largest_file_bytes": 4991495816,
+    "lastModified": "2025-01-09T01:23:35.000Z",
+    "license": null,
+    "pipeline_tag": "text-classification",
+    "private": false,
+    "sha": "104140782ebe37689d8d3bcca5325cba1a3c2eb8",
+    "sibling_count": 17,
+    "siblings": [
+      {
+        "blob_id": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+        "lfs_sha256": null,
+        "rfilename": ".gitattributes",
+        "size": 1519
+      },
+      {
+        "blob_id": "b37e062d5572e7aeed8d9f1fbe0dd003a7881185",
+        "lfs_sha256": null,
+        "rfilename": "README.md",
+        "size": 7422
+      },
+      {
+        "blob_id": "caa81304af029feb531f1fe80a096dc539ea0153",
+        "lfs_sha256": null,
+        "rfilename": "added_tokens.json",
+        "size": 392
+      },
+      {
+        "blob_id": "c136d46269fa51bcc1d86a86a95d106bbd4342db",
+        "lfs_sha256": null,
+        "rfilename": "chat_template.json",
+        "size": 1048
+      },
+      {
+        "blob_id": "68543899bebcc94615948d4239ac8ebb44c1ee4d",
+        "lfs_sha256": null,
+        "rfilename": "config.json",
+        "size": 1414
+      },
+      {
+        "blob_id": "a624feb163d5d40bc81b77a96df369bf9ce64cdc",
+        "lfs_sha256": null,
+        "rfilename": "generation_config.json",
+        "size": 317
+      },
+      {
+        "blob_id": "31349551d90c7606f325fe0f11bbb8bd5fa0d7c7",
+        "lfs_sha256": null,
+        "rfilename": "merges.txt",
+        "size": 1671853
+      },
+      {
+        "blob_id": "dcb42d0be9c1e91373703f067515ab8715a7c12e",
+        "lfs_sha256": "a4e9f765c15b9c487be76d648a908fc512cf019d3171ddc8eb6e42395744b616",
+        "rfilename": "model-00001-of-00004.safetensors",
+        "size": 4966659944
+      },
+      {
+        "blob_id": "2376bf695f538a23559cb2e50c7c78275dc062f5",
+        "lfs_sha256": "891d6a27e2e4863afb777e79f6eb811ae2e93dbe8bb9c8060e816353a24eb917",
+        "rfilename": "model-00002-of-00004.safetensors",
+        "size": 4991495816
+      },
+      {
+        "blob_id": "f82d877fc8925973e2c22dbf614b9f2662fe820b",
+        "lfs_sha256": "2b46c81ef5b4151de8699d21f9287924210daf86d237b53b3a5fe177f7d90c80",
+        "rfilename": "model-00003-of-00004.safetensors",
+        "size": 4932751040
+      },
+      {
+        "blob_id": "5d7a54eccb69e3dc6b3dd39e941477b815de7f8e",
+        "lfs_sha256": "f54fb973bd77b42b92325ccf4b16df75ea1f4571644a766a4c0ebcf5fa864f7c",
+        "rfilename": "model-00004-of-00004.safetensors",
+        "size": 601965506
+      },
+      {
+        "blob_id": "c90eb3af473e9c5290eee2e4c572640d4bec3c55",
+        "lfs_sha256": null,
+        "rfilename": "model.safetensors.index.json",
+        "size": 56522
+      },
+      {
+        "blob_id": "2ef5e95d7d22f4b301fbf6bd6de694f5918a33fd",
+        "lfs_sha256": null,
+        "rfilename": "preprocessor_config.json",
+        "size": 567
+      },
+      {
+        "blob_id": "ac23c0aaa2434523c494330aeb79c58395378103",
+        "lfs_sha256": null,
+        "rfilename": "special_tokens_map.json",
+        "size": 613
+      },
+      {
+        "blob_id": "6a12bcd76a6f4151c9aca398ff5ef0dbfdb4a235",
+        "lfs_sha256": null,
+        "rfilename": "tokenizer.json",
+        "size": 7030148
+      },
+      {
+        "blob_id": "6287abf187a01a1ad531bdc60bacfe972d51254e",
+        "lfs_sha256": null,
+        "rfilename": "tokenizer_config.json",
+        "size": 4297
+      },
+      {
+        "blob_id": "4783fe10ac3adce15ac8f358ef5462739852c569",
+        "lfs_sha256": null,
+        "rfilename": "vocab.json",
+        "size": 2776833
+      }
+    ],
+    "total_bytes": 15504425251
+  },
+  "hf-videoscore-v1.1.json": {
+    "files_over_2gb": [
+      {
+        "blob_id": "3e6a6a3966f926f9e0513ff5207fcdfe52db2daa",
+        "lfs_sha256": "b8a28baa9ac4da349d57c6515a8693bc008a182832f7b8cccc9d7bfadcf6e4a3",
+        "rfilename": "model-00001-of-00004.safetensors",
+        "size": 4966706832
+      },
+      {
+        "blob_id": "ea7369926fa078cb4e8c4f8984c32035ecf28e0b",
+        "lfs_sha256": "5e5971a1665b52550650c9789d535b88ef6919c37ff9eb6da4f8e7de51407320",
+        "rfilename": "model-00002-of-00004.safetensors",
+        "size": 4915917232
+      },
+      {
+        "blob_id": "d64c35ff2786f1908827959bd6078e75f3c04ad8",
+        "lfs_sha256": "f7912f9572b7b45a715592dea5dac5c920525e1f7b978b3ec61de653f974ac3b",
+        "rfilename": "model-00003-of-00004.safetensors",
+        "size": 4999820504
+      }
+    ],
+    "gated": false,
+    "id": "TIGER-Lab/VideoScore-v1.1",
+    "largest_file_bytes": 4999820504,
+    "lastModified": "2025-02-13T00:28:54.000Z",
+    "license": "mit",
+    "pipeline_tag": "video-text-to-text",
+    "private": false,
+    "sha": "0731e98e15f8c06a3e3b4dc6c7a4b8d866f22a89",
+    "sibling_count": 17,
+    "siblings": [
+      {
+        "blob_id": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+        "lfs_sha256": null,
+        "rfilename": ".gitattributes",
+        "size": 1519
+      },
+      {
+        "blob_id": "d5b188fb6d9184e642f56cc2610a85b014c50711",
+        "lfs_sha256": null,
+        "rfilename": "README.md",
+        "size": 8265
+      },
+      {
+        "blob_id": "92c64f2802f0f0606fb89ef69b3752af6b4cdef6",
+        "lfs_sha256": null,
+        "rfilename": "added_tokens.json",
+        "size": 92
+      },
+      {
+        "blob_id": "2c965c0c44f4b2b4981fefbb0ffda0e44ab3d5ee",
+        "lfs_sha256": null,
+        "rfilename": "chat_template.json",
+        "size": 418
+      },
+      {
+        "blob_id": "04f03191630be616f4a598a563eb7cadc453395a",
+        "lfs_sha256": null,
+        "rfilename": "config.json",
+        "size": 6555
+      },
+      {
+        "blob_id": "5fe8d5742818e67982155b08b742cd6b3db04817",
+        "lfs_sha256": null,
+        "rfilename": "generation_config.json",
+        "size": 228
+      },
+      {
+        "blob_id": "3e6a6a3966f926f9e0513ff5207fcdfe52db2daa",
+        "lfs_sha256": "b8a28baa9ac4da349d57c6515a8693bc008a182832f7b8cccc9d7bfadcf6e4a3",
+        "rfilename": "model-00001-of-00004.safetensors",
+        "size": 4966706832
+      },
+      {
+        "blob_id": "ea7369926fa078cb4e8c4f8984c32035ecf28e0b",
+        "lfs_sha256": "5e5971a1665b52550650c9789d535b88ef6919c37ff9eb6da4f8e7de51407320",
+        "rfilename": "model-00002-of-00004.safetensors",
+        "size": 4915917232
+      },
+      {
+        "blob_id": "d64c35ff2786f1908827959bd6078e75f3c04ad8",
+        "lfs_sha256": "f7912f9572b7b45a715592dea5dac5c920525e1f7b978b3ec61de653f974ac3b",
+        "rfilename": "model-00003-of-00004.safetensors",
+        "size": 4999820504
+      },
+      {
+        "blob_id": "b6fec43937b166ada83aa84b97f8a0956e8950cb",
+        "lfs_sha256": "f46ed453b50c095dcfafc20eb911f4328c09dc36383a7c60b28bd01c6e7408ef",
+        "rfilename": "model-00004-of-00004.safetensors",
+        "size": 1661063426
+      },
+      {
+        "blob_id": "497f0523e38743e5824c0a0c0af306697f37efdc",
+        "lfs_sha256": null,
+        "rfilename": "model.safetensors.index.json",
+        "size": 74406
+      },
+      {
+        "blob_id": "1e298d374ed6cfc6558f2dedf96957c23ae851df",
+        "lfs_sha256": null,
+        "rfilename": "preprocessor_config.json",
+        "size": 461
+      },
+      {
+        "blob_id": "8364d256c74bd8d54bf5d720bf8064b93c41a577",
+        "lfs_sha256": null,
+        "rfilename": "processor_config.json",
+        "size": 68
+      },
+      {
+        "blob_id": "3830c9e8de6c50712fdc24ad25b60289b47e6f0a",
+        "lfs_sha256": null,
+        "rfilename": "special_tokens_map.json",
+        "size": 1041
+      },
+      {
+        "blob_id": "8ef9e2b894bda9a40136bc77eed3628b240a1161",
+        "lfs_sha256": null,
+        "rfilename": "tokenizer.json",
+        "size": 3506329
+      },
+      {
+        "blob_id": "8b443ef19c2a19acc3ac64fb9c3db4a72921dff6",
+        "lfs_sha256": "dadfd56d766715c61d2ef780a525ab43b8e6da4de6865bda3d95fdef5e134055",
+        "rfilename": "tokenizer.model",
+        "size": 493443
+      },
+      {
+        "blob_id": "1a4359eec71e078955a1bd5fa7b8f5150491e678",
+        "lfs_sha256": null,
+        "rfilename": "tokenizer_config.json",
+        "size": 1695
+      }
+    ],
+    "total_bytes": 16547602514
+  },
+  "pypi-twelvelabs-1.2.9.json": {
+    "classifiers": [
+      "Intended Audience :: Developers",
+      "Operating System :: MacOS",
+      "Operating System :: Microsoft :: Windows",
+      "Operating System :: OS Independent",
+      "Operating System :: POSIX",
+      "Operating System :: POSIX :: Linux",
+      "Programming Language :: Python",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9",
+      "Topic :: Software Development :: Libraries :: Python Modules",
+      "Typing :: Typed"
+    ],
+    "license": null,
+    "license_expression": null,
+    "name": "twelvelabs",
+    "project_urls": null,
+    "version": "1.2.9"
+  },
+  "source_files": {
+    "README.txt": {
+      "bytes": 117,
+      "sha256": "9b9ad19db1f3160447f5233e7be1d0f7b9ae81f8a8dbd968a6353ea788454fbc"
+    },
+    "c2pa-spec-2.2.html": {
+      "bytes": 839508,
+      "sha256": "a1f401d240c28cae005e228ae80825b357856ea7d20c7e1118673bfdfc603e3e"
+    },
+    "hf-vbench-models.json": {
+      "bytes": 1625,
+      "sha256": "69e7a111c1a1640032c0c8c04f5e1f6fed0219e589f4c08ca83ff36c3191103a"
+    },
+    "hf-videoscore-qwen.json": {
+      "bytes": 5438,
+      "sha256": "bd4a815d609c8e928220ca8ef5724c5ed849e4c6c85731d224f46cd2836afd29"
+    },
+    "hf-videoscore-v1.1.json": {
+      "bytes": 4089,
+      "sha256": "083d558e4ba92223407fd0b52a8cdb62f5781ee0cca77e4fec1e15d5ca4ff9b9"
+    },
+    "pypi-twelvelabs-1.2.9.json": {
+      "bytes": 18469,
+      "sha256": "462de44b162610b8be225ad5fb44a8d23cfc37ff9d8a2b8b6eb63c1488e2c566"
+    },
+    "w3c-prov-o.html": {
+      "bytes": 464179,
+      "sha256": "6b96671ab84faf12ce3f041aca12c3f93a6df2ed242348810743179a68e69555"
+    }
+  }
+}

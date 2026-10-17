@@ -1,0 +1,26 @@
+[
+  {
+    "path": "README.md",
+    "status": "READ",
+    "sha256": "db38d93d071ad290da9c31c1c0855c74ce7d0d7a92918bb64631df2250c90a91",
+    "bytes": 7740,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/source-docs/meridian/README.md",
+    "error": ""
+  },
+  {
+    "path": "pyproject.toml",
+    "status": "READ",
+    "sha256": "87b6636c67f5cfe0365af1812c5df0690f63e1f4999ff09e4e330b545b2d53e9",
+    "bytes": 3213,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/source-docs/meridian/pyproject.toml",
+    "error": ""
+  },
+  {
+    "path": "setup.py",
+    "status": "READ",
+    "sha256": "9f19e43fad4e1b23d70c4d506ba2e29c723b895482a3a5b27e419db39fbf2256",
+    "bytes": 2094,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/source-docs/meridian/setup.py",
+    "error": ""
+  }
+]

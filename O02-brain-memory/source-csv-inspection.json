@@ -1,0 +1,930 @@
+[
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R01 Sol-Fleet/open-source-inventory.csv",
+    "row_count": 24,
+    "headers": [
+      "asset_id",
+      "owner",
+      "repository",
+      "asset_scope",
+      "license",
+      "license_status",
+      "activity_as_of_2026_07_14",
+      "community_signal",
+      "reusable_primitive",
+      "helixar_decision",
+      "track_tag",
+      "risks_or_conditions",
+      "evidence_url"
+    ],
+    "candidate_matches": [
+      {
+        "row_number": 10,
+        "row": {
+          "asset_id": "R01-O009",
+          "owner": "Letta",
+          "repository": "https://github.com/letta-ai/letta",
+          "asset_scope": "stateful agent server and memory",
+          "license": "Apache-2.0",
+          "license_status": "verified",
+          "activity_as_of_2026_07_14": "active",
+          "community_signal": "large active community",
+          "reusable_primitive": "memory block types agent state and inspection APIs",
+          "helixar_decision": "ADAPT memory classes; reject autonomous global truth writes",
+          "track_tag": "SHARED PLATFORM",
+          "risks_or_conditions": "last-write-wins shared memory and agent-written drift",
+          "evidence_url": "https://github.com/letta-ai/letta/blob/main/LICENSE"
+        }
+      },
+      {
+        "row_number": 11,
+        "row": {
+          "asset_id": "R01-O010",
+          "owner": "Letta",
+          "repository": "https://github.com/letta-ai/letta-evals",
+          "asset_scope": "stateful agent evaluation kit",
+          "license": "MIT",
+          "license_status": "verified",
+          "activity_as_of_2026_07_14": "active; 2026-05 release observed",
+          "community_signal": "small focused community",
+          "reusable_primitive": "memory and recovery evaluation patterns",
+          "helixar_decision": "INSPECT for Luna fixture ideas after schema freeze",
+          "track_tag": "SHARED PLATFORM",
+          "risks_or_conditions": "evaluation data rights and benchmark fit must be checked",
+          "evidence_url": "https://github.com/letta-ai/letta-evals"
+        }
+      },
+      {
+        "row_number": 12,
+        "row": {
+          "asset_id": "R01-O011",
+          "owner": "Mem0",
+          "repository": "https://github.com/mem0ai/mem0",
+          "asset_scope": "memory SDK and adapters",
+          "license": "Apache-2.0",
+          "license_status": "verified",
+          "activity_as_of_2026_07_14": "active",
+          "community_signal": "large fast-growing community",
+          "reusable_primitive": "scoped add/search/update/history/delete and provider adapters",
+          "helixar_decision": "ADAPT contracts and deletion fixtures; do not promote automatically",
+          "track_tag": "SHARED PLATFORM",
+          "risks_or_conditions": "extraction correctness provider matrix and derived deletion cascade",
+          "evidence_url": "https://github.com/mem0ai/mem0/blob/main/LICENSE"
+        }
+      },
+      {
+        "row_number": 13,
+        "row": {
+          "asset_id": "R01-O012",
+          "owner": "Mem0",
+          "repository": "https://github.com/mem0ai/mem0-mcp",
+          "asset_scope": "MCP memory server",
+          "license": "Apache-2.0",
+          "license_status": "verified",
+          "activity_as_of_2026_07_14": "active",
+          "community_signal": "moderate early community",
+          "reusable_primitive": "MCP adapter for memory operations",
+          "helixar_decision": "INSPECT only after internal permission/revocation contract freezes",
+          "track_tag": "SHARED PLATFORM",
+          "risks_or_conditions": "MCP exposure can widen read/write authority and leak memory",
+          "evidence_url": "https://github.com/mem0ai/mem0-mcp"
+        }
+      },
+      {
+        "row_number": 14,
+        "row": {
+          "asset_id": "R01-O013",
+          "owner": "Zep",
+          "repository": "https://github.com/getzep/graphiti",
+          "asset_scope": "temporal context graph",
+          "license": "Apache-2.0",
+          "license_status": "verified",
+          "activity_as_of_2026_07_14": "active",
+          "community_signal": "large growing graph-memory community",
+          "reusable_primitive": "bitemporal facts episodes provenance and hybrid retrieval",
+          "helixar_decision": "ADAPT data model; defer engine until simple retrieval fails",
+          "track_tag": "SHARED PLATFORM",
+          "risks_or_conditions": "graph/model/database complexity; invalidation is not hard deletion",
+          "evidence_url": "https://blog.getzep.com/announcing-a-new-direction-for-zeps-open-source-strategy/"
+        }
+      },
+      {
+        "row_number": 15,
+        "row": {
+          "asset_id": "R01-O014",
+          "owner": "LlamaIndex",
+          "repository": "https://github.com/run-llama/llama_index",
+          "asset_scope": "document and context framework",
+          "license": "MIT",
+          "license_status": "verified",
+          "activity_as_of_2026_07_14": "active",
+          "community_signal": "very large ecosystem",
+          "reusable_primitive": "document nodes retrieval workflows and connectors",
+          "helixar_decision": "ADAPT interfaces/fixtures; do not make it orchestration authority",
+          "track_tag": "SHARED PLATFORM",
+          "risks_or_conditions": "dependency churn component licenses and abstraction complexity",
+          "evidence_url": "https://github.com/run-llama/llama_index/blob/main/LICENSE"
+        }
+      },
+      {
+        "row_number": 16,
+        "row": {
+          "asset_id": "R01-O015",
+          "owner": "Unstructured",
+          "repository": "https://github.com/Unstructured-IO/unstructured",
+          "asset_scope": "document partitioning library",
+          "license": "license file present; verify exact file terms at implementation",
+          "license_status": "partially verified",
+          "activity_as_of_2026_07_14": "active",
+          "community_signal": "large document-AI community",
+          "reusable_primitive": "format detection structured elements partition/chunk pipeline",
+          "helixar_decision": "EVALUATE on golden corpus; OPEN-SOURCE use only after license recheck",
+          "track_tag": "SHARED PLATFORM",
+          "risks_or_conditions": "heavy dependencies OCR variance analytics configuration and prompt injection",
+          "evidence_url": "https://github.com/Unstructured-IO/unstructured"
+        }
+      },
+      {
+        "row_number": 17,
+        "row": {
+          "asset_id": "R01-O016",
+          "owner": "Unstructured",
+          "repository": "https://github.com/Unstructured-IO/unstructured-api",
+          "asset_scope": "document preprocessing API",
+          "license": "Apache-2.0",
+          "license_status": "verified",
+          "activity_as_of_2026_07_14": "active",
+          "community_signal": "moderate community",
+          "reusable_primitive": "self-hosted preprocessing service wrapper",
+          "helixar_decision": "OPTIONAL adapter after corpus acceptance",
+          "track_tag": "SHARED PLATFORM",
+          "risks_or_conditions": "operational weight and analytics opt-out review",
+          "evidence_url": "https://github.com/Unstructured-IO/unstructured-api"
+        }
+      }
+    ]
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R01 Sol-Fleet/evidence-ledger.csv",
+    "row_count": 100,
+    "headers": [
+      "evidence_id",
+      "entity",
+      "source_surface",
+      "title",
+      "url",
+      "publisher",
+      "published_or_updated",
+      "checked_at",
+      "claim_label",
+      "material_claim",
+      "evidence_question",
+      "source_quality",
+      "source_status",
+      "notes"
+    ],
+    "candidate_matches": [
+      {
+        "row_number": 18,
+        "row": {
+          "evidence_id": "R01-E017",
+          "entity": "Unstructured",
+          "source_surface": "docs",
+          "title": "Open-source ingestion overview",
+          "url": "https://docs.unstructured.io/open-source/ingestion/overview",
+          "publisher": "Unstructured",
+          "published_or_updated": "2026 current docs",
+          "checked_at": "2026-07-14",
+          "claim_label": "OBSERVED",
+          "material_claim": "pipeline provides partition chunk embedding enrichment and connector stages",
+          "evidence_question": "ingestion architecture",
+          "source_quality": "A",
+          "source_status": "current",
+          "notes": "vendor now recommends UI/API for full option set"
+        }
+      },
+      {
+        "row_number": 19,
+        "row": {
+          "evidence_id": "R01-E018",
+          "entity": "Unstructured",
+          "source_surface": "open source",
+          "title": "Unstructured repository",
+          "url": "https://github.com/Unstructured-IO/unstructured",
+          "publisher": "Unstructured",
+          "published_or_updated": "2026 active",
+          "checked_at": "2026-07-14",
+          "claim_label": "OBSERVED",
+          "material_claim": "public document preprocessing library supports many file types and modular partition functions",
+          "evidence_question": "open source",
+          "source_quality": "A",
+          "source_status": "current",
+          "notes": "main library license file exists; API repository is Apache-2.0"
+        }
+      },
+      {
+        "row_number": 20,
+        "row": {
+          "evidence_id": "R01-E019",
+          "entity": "Unstructured",
+          "source_surface": "open source",
+          "title": "Unstructured API repository",
+          "url": "https://github.com/Unstructured-IO/unstructured-api",
+          "publisher": "Unstructured",
+          "published_or_updated": "2026 active",
+          "checked_at": "2026-07-14",
+          "claim_label": "OBSERVED",
+          "material_claim": "API repository is Apache-2.0 and exposes a general preprocessing service",
+          "evidence_question": "reuse",
+          "source_quality": "A",
+          "source_status": "current",
+          "notes": "analytics collection must be reviewed before self-host"
+        }
+      },
+      {
+        "row_number": 21,
+        "row": {
+          "evidence_id": "R01-E020",
+          "entity": "Unstructured",
+          "source_surface": "user voice",
+          "title": "Format-specific independent benchmark",
+          "url": "",
+          "publisher": "independent",
+          "published_or_updated": "UNKNOWN",
+          "checked_at": "2026-07-14",
+          "claim_label": "UNKNOWN",
+          "material_claim": "No single user report safely generalizes across Helixar PDFs slides spreadsheets and tables",
+          "evidence_question": "quality friction",
+          "source_quality": "D",
+          "source_status": "unresolved",
+          "notes": "Hermes must run the owned golden corpus rather than rely on global claims"
+        }
+      },
+      {
+        "row_number": 22,
+        "row": {
+          "evidence_id": "R01-E021",
+          "entity": "Zep",
+          "source_surface": "docs",
+          "title": "Zep versus Graphiti",
+          "url": "https://help.getzep.com/zep-vs-graphiti",
+          "publisher": "Zep",
+          "published_or_updated": "2026 current docs",
+          "checked_at": "2026-07-14",
+          "claim_label": "OBSERVED",
+          "material_claim": "Graphiti is a local open temporal graph framework while Zep operates governed context graphs at managed scale",
+          "evidence_question": "product boundary",
+          "source_quality": "A",
+          "source_status": "current",
+          "notes": "avoids conflating OSS and managed product"
+        }
+      },
+      {
+        "row_number": 23,
+        "row": {
+          "evidence_id": "R01-E022",
+          "entity": "Zep",
+          "source_surface": "product",
+          "title": "Graphiti platform page",
+          "url": "https://www.getzep.com/platform/graphiti/",
+          "publisher": "Zep",
+          "published_or_updated": "2026 current",
+          "checked_at": "2026-07-14",
+          "claim_label": "COMPANY-CLAIMED",
+          "material_claim": "temporal edges track validity and system knowledge time while hybrid retrieval combines graph vector and text",
+          "evidence_question": "memory architecture",
+          "source_quality": "A",
+          "source_status": "current",
+          "notes": "performance numbers remain company-claimed"
+        }
+      },
+      {
+        "row_number": 24,
+        "row": {
+          "evidence_id": "R01-E023",
+          "entity": "Zep",
+          "source_surface": "open source",
+          "title": "Graphiti repository",
+          "url": "https://github.com/getzep/graphiti",
+          "publisher": "Zep",
+          "published_or_updated": "2026 active",
+          "checked_at": "2026-07-14",
+          "claim_label": "OBSERVED",
+          "material_claim": "Graphiti retains provenance to episodes and invalidates changed facts under Apache-2.0",
+          "evidence_question": "open source and deletion semantics",
+          "source_quality": "A",
+          "source_status": "current",
+          "notes": "fact invalidation is not equivalent to hard privacy deletion"
+        }
+      },
+      {
+        "row_number": 38,
+        "row": {
+          "evidence_id": "R01-E037",
+          "entity": "LlamaIndex",
+          "source_surface": "open source",
+          "title": "LlamaIndex license",
+          "url": "https://github.com/run-llama/llama_index/blob/main/LICENSE",
+          "publisher": "LlamaIndex",
+          "published_or_updated": "2026 active",
+          "checked_at": "2026-07-14",
+          "claim_label": "OBSERVED",
+          "material_claim": "LlamaIndex core is MIT licensed",
+          "evidence_question": "open source",
+          "source_quality": "A",
+          "source_status": "current",
+          "notes": "large active repository"
+        }
+      },
+      {
+        "row_number": 39,
+        "row": {
+          "evidence_id": "R01-E038",
+          "entity": "LlamaIndex",
+          "source_surface": "open source",
+          "title": "Run-Llama repository index",
+          "url": "https://github.com/orgs/run-llama/repositories",
+          "publisher": "LlamaIndex",
+          "published_or_updated": "2026 current",
+          "checked_at": "2026-07-14",
+          "claim_label": "OBSERVED",
+          "material_claim": "ecosystem includes document parsing workflows templates and agent packages with varying licenses",
+          "evidence_question": "reuse",
+          "source_quality": "A",
+          "source_status": "current",
+          "notes": "license every selected component separately"
+        }
+      },
+      {
+        "row_number": 40,
+        "row": {
+          "evidence_id": "R01-E039",
+          "entity": "LlamaIndex",
+          "source_surface": "user voice",
+          "title": "Production framework comparison",
+          "url": "https://www.reddit.com/r/LangChain/comments/1u6cpn9/langchain_or_llamaindex_for_rag_ive_built/",
+          "publisher": "Reddit user",
+          "published_or_updated": "2026-06",
+          "checked_at": "2026-07-14",
+          "claim_label": "USER-REPORTED",
+          "material_claim": "one practitioner found document retrieval strong but workflow orchestration less graph-native than LangGraph",
+          "evidence_question": "user friction",
+          "source_quality": "C",
+          "source_status": "current-but-anecdotal",
+          "notes": "use as comparison hypothesis only"
+        }
+      },
+      {
+        "row_number": 41,
+        "row": {
+          "evidence_id": "R01-E040",
+          "entity": "LlamaIndex",
+          "source_surface": "docs/commercial",
+          "title": "Current workflow docs and Cloud pricing",
+          "url": "",
+          "publisher": "LlamaIndex",
+          "published_or_updated": "UNKNOWN",
+          "checked_at": "2026-07-14",
+          "claim_label": "UNKNOWN",
+          "material_claim": "Current canonical workflow and Cloud pricing pages were not retained from an opened primary result",
+          "evidence_question": "product and commercial",
+          "source_quality": "D",
+          "source_status": "unresolved",
+          "notes": "repair before a buy decision; OSS status is still verified"
+        }
+      },
+      {
+        "row_number": 50,
+        "row": {
+          "evidence_id": "R01-E049",
+          "entity": "Letta",
+          "source_surface": "docs",
+          "title": "Memory blocks",
+          "url": "https://docs.letta.com/guides/core-concepts/memory/memory-blocks",
+          "publisher": "Letta",
+          "published_or_updated": "2026 current docs",
+          "checked_at": "2026-07-14",
+          "claim_label": "OBSERVED",
+          "material_claim": "memory blocks are persistent always-visible shareable and deletable; concurrent writes are last-write-wins",
+          "evidence_question": "memory architecture and friction",
+          "source_quality": "A",
+          "source_status": "current",
+          "notes": "global truth requires external concurrency control"
+        }
+      },
+      {
+        "row_number": 51,
+        "row": {
+          "evidence_id": "R01-E050",
+          "entity": "Letta",
+          "source_surface": "docs",
+          "title": "Context hierarchy",
+          "url": "https://docs.letta.com/guides/core-concepts/memory/context-hierarchy",
+          "publisher": "Letta",
+          "published_or_updated": "2026 current docs",
+          "checked_at": "2026-07-14",
+          "claim_label": "OBSERVED",
+          "material_claim": "platform separates block file and archival context abstractions",
+          "evidence_question": "memory classes",
+          "source_quality": "A",
+          "source_status": "current",
+          "notes": "Helixar should also separate runtime working state from promoted knowledge"
+        }
+      },
+      {
+        "row_number": 52,
+        "row": {
+          "evidence_id": "R01-E051",
+          "entity": "Letta",
+          "source_surface": "open source",
+          "title": "Letta repository",
+          "url": "https://github.com/letta-ai/letta",
+          "publisher": "Letta",
+          "published_or_updated": "2026 active",
+          "checked_at": "2026-07-14",
+          "claim_label": "OBSERVED",
+          "material_claim": "stateful agent server is Apache-2.0 with active ecosystem",
+          "evidence_question": "open source",
+          "source_quality": "A",
+          "source_status": "current",
+          "notes": "evaluate APIs but do not accept autonomous truth promotion"
+        }
+      },
+      {
+        "row_number": 53,
+        "row": {
+          "evidence_id": "R01-E052",
+          "entity": "Letta",
+          "source_surface": "user voice",
+          "title": "Current independent user report",
+          "url": "",
+          "publisher": "independent",
+          "published_or_updated": "UNKNOWN",
+          "checked_at": "2026-07-14",
+          "claim_label": "UNKNOWN",
+          "material_claim": "No sufficiently bounded independent production report was retained",
+          "evidence_question": "user friction",
+          "source_quality": "D",
+          "source_status": "unresolved",
+          "notes": "GitHub issues and a memory-concurrency spike are required before adoption"
+        }
+      },
+      {
+        "row_number": 54,
+        "row": {
+          "evidence_id": "R01-E053",
+          "entity": "Mem0",
+          "source_surface": "pricing",
+          "title": "Mem0 pricing",
+          "url": "https://mem0.ai/pricing",
+          "publisher": "Mem0",
+          "published_or_updated": "2026 current",
+          "checked_at": "2026-07-14",
+          "claim_label": "OBSERVED",
+          "material_claim": "plans meter add and retrieval requests and reserve graph memory audit logs SSO and on-prem features by tier",
+          "evidence_question": "commercial",
+          "source_quality": "A",
+          "source_status": "current",
+          "notes": "current page showed inconsistent Pro display values; verify quote"
+        }
+      },
+      {
+        "row_number": 55,
+        "row": {
+          "evidence_id": "R01-E054",
+          "entity": "Mem0",
+          "source_surface": "open source",
+          "title": "Mem0 repository",
+          "url": "https://github.com/mem0ai/mem0",
+          "publisher": "Mem0",
+          "published_or_updated": "2026 active",
+          "checked_at": "2026-07-14",
+          "claim_label": "OBSERVED",
+          "material_claim": "memory SDK is Apache-2.0 and integrates multiple stores and agent frameworks",
+          "evidence_question": "open source",
+          "source_quality": "A",
+          "source_status": "current",
+          "notes": "large provider surface increases test matrix"
+        }
+      },
+      {
+        "row_number": 56,
+        "row": {
+          "evidence_id": "R01-E055",
+          "entity": "Mem0",
+          "source_surface": "docs/code",
+          "title": "Mem0 API reference summary",
+          "url": "https://github.com/mem0ai/mem0/blob/main/LLM.md",
+          "publisher": "Mem0",
+          "published_or_updated": "2026 current",
+          "checked_at": "2026-07-14",
+          "claim_label": "OBSERVED",
+          "material_claim": "public API includes history update batch delete add and scoped search",
+          "evidence_question": "memory CRUD",
+          "source_quality": "A",
+          "source_status": "current",
+          "notes": "deletion cascade across configured stores must be tested"
+        }
+      },
+      {
+        "row_number": 57,
+        "row": {
+          "evidence_id": "R01-E056",
+          "entity": "Mem0",
+          "source_surface": "user voice",
+          "title": "MemGuard discussion",
+          "url": "https://github.com/mem0ai/mem0/discussions/4730",
+          "publisher": "GitHub community",
+          "published_or_updated": "2026-04",
+          "checked_at": "2026-07-14",
+          "claim_label": "USER-REPORTED",
+          "material_claim": "a community sidecar proposes continuous validation because stored memories can require correctness checks",
+          "evidence_question": "failure signal",
+          "source_quality": "C",
+          "source_status": "current-but-unvalidated",
+          "notes": "no replies; use only as a falsification case"
+        }
+      },
+      {
+        "row_number": 97,
+        "row": {
+          "evidence_id": "R01-E096",
+          "entity": "memory deletion",
+          "source_surface": "official docs",
+          "title": "Letta memory block deletion",
+          "url": "https://docs.letta.com/guides/core-concepts/memory/memory-blocks",
+          "publisher": "Letta",
+          "published_or_updated": "2026 current",
+          "checked_at": "2026-07-14",
+          "claim_label": "OBSERVED",
+          "material_claim": "deleting a shared block removes it from all agents that use it",
+          "evidence_question": "memory deletion",
+          "source_quality": "A",
+          "source_status": "current",
+          "notes": "scope and blast radius must be previewed"
+        }
+      },
+      {
+        "row_number": 99,
+        "row": {
+          "evidence_id": "R01-E098",
+          "entity": "memory deletion",
+          "source_surface": "official API summary",
+          "title": "Mem0 memory operations",
+          "url": "https://github.com/mem0ai/mem0/blob/main/LLM.md",
+          "publisher": "Mem0",
+          "published_or_updated": "2026 current",
+          "checked_at": "2026-07-14",
+          "claim_label": "OBSERVED",
+          "material_claim": "memory records support history update and batch delete operations",
+          "evidence_question": "memory deletion and audit",
+          "source_quality": "A",
+          "source_status": "current",
+          "notes": "history retention must be aligned with privacy policy"
+        }
+      }
+    ]
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R02 Sol-Trust/open-source-inventory.csv",
+    "row_count": 18,
+    "headers": [
+      "project",
+      "repository",
+      "verified_on",
+      "ownership_or_status",
+      "license_observed",
+      "release_or_activity_observed",
+      "maintenance_class",
+      "primary_capability",
+      "protocol_or_artifact",
+      "reuse_decision",
+      "known_risk_or_gap",
+      "hermes_gate",
+      "exit_or_replacement"
+    ],
+    "candidate_matches": []
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R02 Sol-Trust/evidence-ledger.csv",
+    "row_count": 106,
+    "headers": [
+      "evidence_id",
+      "entity",
+      "source_class",
+      "claim_label",
+      "title",
+      "url",
+      "checked_on",
+      "claim_supported",
+      "proof_independence",
+      "source_status",
+      "expires_on",
+      "notes"
+    ],
+    "candidate_matches": []
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R03 Terra-Authority/open-source-inventory.csv",
+    "row_count": 15,
+    "headers": [
+      "asset_id",
+      "project_or_protocol",
+      "maintainer",
+      "url",
+      "relationship",
+      "license",
+      "version_or_release_observed",
+      "activity_observed_on",
+      "community_or_health",
+      "reusable_component",
+      "adoption_decision",
+      "risks_or_notes",
+      "confidence",
+      "expiry"
+    ],
+    "candidate_matches": []
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R03 Terra-Authority/evidence-ledger.csv",
+    "row_count": 49,
+    "headers": [
+      "evidence_id",
+      "company",
+      "claim_class",
+      "evidence_class",
+      "claim",
+      "source_url",
+      "source_title",
+      "published_or_observed_on",
+      "checked_on",
+      "status",
+      "repair_for",
+      "confidence",
+      "expiry",
+      "notes"
+    ],
+    "candidate_matches": []
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R04 Terra-Market/open-source-inventory.csv",
+    "row_count": 15,
+    "headers": [
+      "asset",
+      "kind",
+      "canonical_url",
+      "license_or_terms",
+      "verified_at",
+      "role_in_field",
+      "decision",
+      "exact_reuse_boundary",
+      "risks_and_conditions",
+      "strategic_tag"
+    ],
+    "candidate_matches": []
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R04 Terra-Market/evidence-ledger.csv",
+    "row_count": 86,
+    "headers": [
+      "evidence_id",
+      "entity",
+      "claim",
+      "claim_label",
+      "surface",
+      "url",
+      "checked_at",
+      "result",
+      "support_and_limits",
+      "freshness_expiry",
+      "workbook_repair"
+    ],
+    "candidate_matches": []
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R05 Terra-Pain/open-source-inventory.csv",
+    "row_count": 13,
+    "headers": [
+      "asset",
+      "asset_type",
+      "canonical_url",
+      "status_checked_at",
+      "license_or_status",
+      "latest_release_observed",
+      "release_community_health",
+      "reusable_component",
+      "decision",
+      "integration_boundary",
+      "material_risks",
+      "evidence_label",
+      "source_url"
+    ],
+    "candidate_matches": []
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R05 Terra-Pain/evidence-ledger.csv",
+    "row_count": 64,
+    "headers": [
+      "evidence_id",
+      "entity",
+      "claim_dimension",
+      "evidence_label",
+      "claim",
+      "url",
+      "source_type",
+      "published_at",
+      "checked_at",
+      "independent",
+      "directness",
+      "confidence",
+      "fresh_until",
+      "repaired_from_url",
+      "notes"
+    ],
+    "candidate_matches": []
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R06 Luna-Creative/open-source-inventory.csv",
+    "row_count": 9,
+    "headers": [
+      "inventory_id",
+      "name",
+      "kind",
+      "project_url",
+      "license_or_terms",
+      "license_verified_on",
+      "maintenance_signal",
+      "r06_use",
+      "decision",
+      "restriction_or_due_diligence"
+    ],
+    "candidate_matches": []
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R06 Luna-Creative/evidence-ledger.csv",
+    "row_count": 65,
+    "headers": [
+      "evidence_id",
+      "entity",
+      "source_class",
+      "title",
+      "url",
+      "claim_label",
+      "claim_supported",
+      "claim_boundary",
+      "published_or_updated",
+      "retrieved_on",
+      "confidence",
+      "verification_status"
+    ],
+    "candidate_matches": []
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R07 Mars-GTM/open-source-inventory.csv",
+    "row_count": 11,
+    "headers": [
+      "project",
+      "repository_or_site",
+      "category",
+      "license_observed",
+      "activity_observed_as_of",
+      "reusable_component",
+      "material_risk",
+      "r07_decision",
+      "hermes_instruction",
+      "strategic_tag",
+      "confidence"
+    ],
+    "candidate_matches": []
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R07 Mars-GTM/evidence-ledger.csv",
+    "row_count": 73,
+    "headers": [
+      "evidence_id",
+      "company_or_topic",
+      "source_class",
+      "claim_label",
+      "claim",
+      "source_url",
+      "published_or_observed_date",
+      "accessed_at",
+      "independence",
+      "confidence",
+      "status",
+      "expires_on",
+      "notes"
+    ],
+    "candidate_matches": []
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R08 Mars-Measurement/open-source-inventory.csv",
+    "row_count": 17,
+    "headers": [
+      "asset_id",
+      "owner",
+      "repository",
+      "asset_type",
+      "license_observed",
+      "activity_observed",
+      "community_or_issue_signal",
+      "reusable_primitive",
+      "reuse_decision",
+      "risk_or_gate",
+      "checked_at"
+    ],
+    "candidate_matches": []
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R08 Mars-Measurement/evidence-ledger.csv",
+    "row_count": 87,
+    "headers": [
+      "evidence_id",
+      "company",
+      "claim_label",
+      "claim",
+      "source_class",
+      "url",
+      "checked_at",
+      "url_status",
+      "supports",
+      "freshness_days",
+      "notes"
+    ],
+    "candidate_matches": []
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R09 Mars-Economics/open-source-inventory.csv",
+    "row_count": 11,
+    "headers": [
+      "name",
+      "category",
+      "url",
+      "artifact_or_protocol",
+      "current_status",
+      "license",
+      "release_cadence",
+      "issues_community_health",
+      "reusable_component",
+      "decision",
+      "risks_and_boundary",
+      "strategic_tag",
+      "evidence_ids",
+      "checked_date"
+    ],
+    "candidate_matches": []
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R09 Mars-Economics/evidence-ledger.csv",
+    "row_count": 73,
+    "headers": [
+      "evidence_id",
+      "subject",
+      "evidence_class",
+      "claim",
+      "claim_label",
+      "url_or_local_path",
+      "checked_date",
+      "source_date",
+      "access_status",
+      "confidence",
+      "expiry",
+      "notes"
+    ],
+    "candidate_matches": []
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R10 Mercury-Talent/open-source-inventory.csv",
+    "row_count": 11,
+    "headers": [
+      "project",
+      "category",
+      "repository",
+      "license_status",
+      "activity_snapshot_2026_07_14",
+      "relevant_mechanic",
+      "adoption_decision",
+      "reuse_condition",
+      "risk_notes",
+      "strategic_tag"
+    ],
+    "candidate_matches": []
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R10 Mercury-Talent/evidence-ledger.csv",
+    "row_count": 45,
+    "headers": [
+      "evidence_id",
+      "company_or_topic",
+      "evidence_class",
+      "claim_label",
+      "claim",
+      "source_url",
+      "published_or_checked_at",
+      "confidence",
+      "freshness_review",
+      "notes"
+    ],
+    "candidate_matches": []
+  }
+]

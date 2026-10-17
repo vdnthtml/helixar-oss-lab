@@ -1,0 +1,195 @@
+[
+  {
+    "candidate": "ffmpeg",
+    "origin": "https://github.com/FFmpeg/FFmpeg.git",
+    "commit": "312c8309162eab790d6bed069db7eb1a52263e1e",
+    "tree": "77f1a0b194aaa8754476203386ef32b5ae2d6c5b",
+    "describe": "312c830",
+    "commit_date": "2026-07-14T14:26:53Z",
+    "archive_sha256": "0771c323fdd8ae1efebd127df47f4cca2d79ac01e0175e3ede9dfd52f384e549",
+    "working_tree_bytes": 112707536,
+    "license_files": [
+      {
+        "path": "LICENSE.md",
+        "exists": true,
+        "sha256": "2e1d16c72fd74e12063776371da757322f8b77589386532f4fd8634bde7de1af"
+      },
+      {
+        "path": "COPYING.LGPLv2.1",
+        "exists": true,
+        "sha256": "246041b6ecf9bc32d718a62c57877c78b5eb397b6467e74ed7ae2626ab189c30"
+      },
+      {
+        "path": "COPYING.GPLv2",
+        "exists": true,
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+      }
+    ]
+  },
+  {
+    "candidate": "opentimelineio",
+    "origin": "https://github.com/AcademySoftwareFoundation/OpenTimelineIO.git",
+    "commit": "0eebd211b2055f111e2c53d04b5581adc594c1fc",
+    "tree": "1c938744d7d27240cff5bc4be4d128d0c85d081f",
+    "describe": "0eebd21",
+    "commit_date": "2026-07-14T08:32:17-07:00",
+    "archive_sha256": "3c4e308b40e7928ecd39d780ce3dcede40e6eb24d3b36bca5f12e2c6eccfad43",
+    "working_tree_bytes": 5748260,
+    "license_files": [
+      {
+        "path": "LICENSE.txt",
+        "exists": true,
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      }
+    ]
+  },
+  {
+    "candidate": "c2pa-rs",
+    "origin": "https://github.com/contentauth/c2pa-rs.git",
+    "commit": "aec0d138367f3e6fe232e48379ee3032e18193f6",
+    "tree": "b15821e8d70b0ddbd4f0c8e99ffc9bf197f1718d",
+    "describe": "aec0d13",
+    "commit_date": "2026-07-13T15:38:22-07:00",
+    "archive_sha256": "56708ca97aedecaa7885c759bdd8dfb883487672edcc364310799933ee2d2c0a",
+    "working_tree_bytes": 334783006,
+    "license_files": [
+      {
+        "path": "LICENSE-APACHE",
+        "exists": true,
+        "sha256": "86bdd5dafab77451044b6fd6d2efab23e3410ce658eb097f04c04f4f54aed62f"
+      },
+      {
+        "path": "LICENSE-MIT",
+        "exists": true,
+        "sha256": "89375a50de90d2dcaa04406086da832ad452ebcaf6ab402ef3d51b8401a67c71"
+      },
+      {
+        "path": "cli/Cargo.toml",
+        "exists": true,
+        "sha256": "32eeb8bf9394ca801d4bc46760a666afff5d8625c60b01c7efd389ced030cbd8"
+      }
+    ]
+  },
+  {
+    "candidate": "vbench",
+    "origin": "https://github.com/Vchitect/VBench.git",
+    "commit": "45e79ec14e69a2187202c675d2dbce1a71843d53",
+    "tree": "b56ce900d7c843bcbca4cec5585ae8d7dffc8672",
+    "describe": "45e79ec",
+    "commit_date": "2026-03-23T16:32:26+08:00",
+    "archive_sha256": "461acb5ef8317de842b88d9ad8e7e960b0328655a1e821bb54841899c787a389",
+    "working_tree_bytes": 346431417,
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "exists": true,
+        "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1"
+      },
+      {
+        "path": "requirements.txt",
+        "exists": true,
+        "sha256": "ee8d54a4c701cdc82e92c1e59b24bbf1a4e1a233bfe06ee8cd4bf68dd4d95d7f"
+      }
+    ]
+  },
+  {
+    "candidate": "videoscore",
+    "origin": "https://github.com/TIGER-AI-Lab/VideoScore.git",
+    "commit": "f87faf4647e637066bcb74721670cd579e0f4349",
+    "tree": "f90c301f03f464e82c3af17ada9c891367d81033",
+    "describe": "f87faf4",
+    "commit_date": "2025-12-03T21:41:27-06:00",
+    "archive_sha256": "06ca18d6745347c2eb979e4c76851ba7728a6b8c2da8a3fd70486e0845cd0d71",
+    "working_tree_bytes": 2420689,
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "exists": true,
+        "sha256": "821d038afa755049f68fff5a0bcb4db416f16426b39447c095b80670be795fc8"
+      }
+    ]
+  },
+  {
+    "candidate": "twelvelabs-python",
+    "origin": "https://github.com/twelvelabs-io/twelvelabs-python.git",
+    "commit": "9a8502cc61052b95187b734a3f4984a81654f818",
+    "tree": "3298c7ad1fb7ebf42930d2a772a9814c7555cb2e",
+    "describe": "1.2.9",
+    "commit_date": "2026-07-07T21:25:02+09:00",
+    "archive_sha256": "e4a82a7b4c155eb8bb6199756fb3afda812e01f0cd8caf8bb45c533a80a61bb9",
+    "working_tree_bytes": 29171022,
+    "license_files": [
+      {
+        "path": "0.4/LICENSE",
+        "exists": true,
+        "sha256": "b0aaec88641ffa1ce0462b911ab7160aed54465990285044d53c33b2eec1b1bf"
+      },
+      {
+        "path": "pyproject.toml",
+        "exists": true,
+        "sha256": "4a44980aad3f8bebf811a7fad67a408ffdf797e6d713b8e191b10bd70b6986ba"
+      }
+    ]
+  },
+  {
+    "candidate": "hume-python-sdk",
+    "origin": "https://github.com/HumeAI/hume-python-sdk.git",
+    "commit": "84e24b3be3e8e53df94bf23c28d9191aaa1217c0",
+    "tree": "3ef0fbd5cfe4d170a9435f26560afde4c3858e2c",
+    "describe": "v0.14.0",
+    "commit_date": "2026-06-17T18:42:04+02:00",
+    "archive_sha256": "6ec43d871b3f851cc1ee65415ca3f5d5b6362954b294caa3363599a566dc2111",
+    "working_tree_bytes": 1855606,
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "exists": true,
+        "sha256": "c3e0ec227dd17ecf689bf2fd714cf685a64002cf9e987c0652dab75a5974fd64"
+      },
+      {
+        "path": "pyproject.toml",
+        "exists": true,
+        "sha256": "0345c21f2b0a0856c11a5e3babfff683a68776082927ac88649bdc0c1ec70517"
+      }
+    ]
+  },
+  {
+    "candidate": "opentelemetry-specification",
+    "origin": "https://github.com/open-telemetry/opentelemetry-specification.git",
+    "commit": "d9f58bb8021f196a4bc57f35c1d07c2d5f908023",
+    "tree": "2098ae279f29b4c3c04063d24eb3237e5da3f3c4",
+    "describe": "d9f58bb",
+    "commit_date": "2026-07-13T16:29:03Z",
+    "archive_sha256": "f30031c0be12f7936db1e71fb6a3d5770d976dda44ff4524703129bcba4e62fb",
+    "working_tree_bytes": 34910369,
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "exists": true,
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      }
+    ]
+  },
+  {
+    "candidate": "whisper",
+    "origin": "https://github.com/openai/whisper.git",
+    "commit": "04f449b8a437f1bbd3dba5c9f826aca972e7709a",
+    "tree": "aa9c8dffd631fa42ace669c397e3c5bbea2a793c",
+    "describe": "04f449b",
+    "commit_date": "2026-04-15T09:32:15-07:00",
+    "archive_sha256": "00884aeea0f1ad14a84eff74aa028f240f5c4928f2074dc4e1070ad99f2036e7",
+    "working_tree_bytes": 17653825,
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "exists": true,
+        "sha256": "b5d65a59060e68c4ff940e1eddfa6f94b2d68fdf58ed7f4dd57721c997e35e9d"
+      },
+      {
+        "path": "pyproject.toml",
+        "exists": true,
+        "sha256": "9c8111da3701070095304ea5e12b6301eddcca3bb65e491a982b102d6042b1c4"
+      }
+    ]
+  }
+]

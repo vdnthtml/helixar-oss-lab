@@ -1,0 +1,55 @@
+{
+  "assertions": {
+    "costConservation": true,
+    "exportRoundTrip": true,
+    "lateReversalRestatesNewSnapshot": true,
+    "metricDefinitionsHashed": true,
+    "missingFxFailsClosed": true,
+    "moneyMinorUnitExact": true,
+    "priorSnapshotImmutable": true,
+    "stageSeparation": true,
+    "unreconciledExcluded": false
+  },
+  "candidate": "DuckDB",
+  "consolidationGate": "BLOCKED_UNRESOLVED_FX",
+  "costConservation": {
+    "directMinor": 2000,
+    "sharedMinor": 500,
+    "totalMinor": 3000,
+    "unallocatedMinor": 500
+  },
+  "database": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/tmp/duckdb-economics.duckdb",
+  "export": {
+    "csvRows": 2,
+    "csvSha256": "cd965b016cdd9ab75def607e3da05313472eb5435e815f64ef2fe3d48eedb9ae",
+    "parquetRows": 2,
+    "parquetSha256": "2a4be5c2403278ece923ecab796fa2dd7979303332f89f8ae75dbf227874180d"
+  },
+  "fixture": "synthetic finance.example.invalid events",
+  "lateDataAndReversal": {
+    "deltaMinor": -166500,
+    "febRestatedSnapshotMinor": 916083,
+    "janPersistedAfterRestatementMinor": 1082583,
+    "janSnapshotMinor": 1082583
+  },
+  "metricHashes": {
+    "net_cash_inr_minor_v1": "654baadba75016dc873341b0e0ee4fd06580cf5bd59846441d45d01a9d559aea",
+    "recognized_revenue_inr_minor_v1": "3a35c4fe038b49b5d33b9aa1c4e083a934cf3486821ef35d37c7ffc5afed8ec9"
+  },
+  "missingFx": [
+    {
+      "currency": "EUR",
+      "rows": 1
+    }
+  ],
+  "money": {
+    "binaryFloatUsed": false,
+    "fxStorage": "DECIMAL(18,8)",
+    "storage": "BIGINT minor units",
+    "usd10001MinorAt8325": 832583
+  },
+  "pass": false,
+  "recognizedRevenueMinor": 300000,
+  "schemaDigest": "3b5eb7395f0b0f4c6080384315e105e65e2e1c8bab924cc3c62153f978b31451",
+  "version": "1.5.4"
+}

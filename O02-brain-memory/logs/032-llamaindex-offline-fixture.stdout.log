@@ -1,0 +1,23 @@
+{
+  "candidate": "LlamaIndex core",
+  "deterministic_order_before_reload": [
+    [
+      "node-beta",
+      "source.invalid/document-001",
+      1.0
+    ],
+    [
+      "node-alpha",
+      "source.invalid/document-001",
+      0.5
+    ]
+  ],
+  "export_path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/exports/llamaindex-export.json",
+  "export_sha256": "b35cb09dc6a9d53182ecbcf8ec5acb8c117afc9138131892d92b6aea80fd3cf3",
+  "external_business_writes": 0,
+  "hosted_provider_calls": 0,
+  "persistence_reload_equal": true,
+  "public_api_indexed_nodes": 2,
+  "run_dir": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/storage/llamaindex/run-fj8k7xlm",
+  "source_lineage_retained": true
+}

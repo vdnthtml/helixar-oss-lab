@@ -1,0 +1,6 @@
+{
+  "subject": {"id": "operator.invalid", "tenant": "tenant-b.invalid"},
+  "action": "propose",
+  "resource": {"tenant": "tenant-a.invalid", "target_hash": "sha256:synthetic.invalid"},
+  "approval": {"valid": true, "target_hash": "sha256:synthetic.invalid"}
+}

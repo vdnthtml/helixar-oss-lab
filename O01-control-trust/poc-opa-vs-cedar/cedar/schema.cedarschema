@@ -1,0 +1,30 @@
+namespace Helixar {
+  entity Operator = {
+    tenant: String
+  };
+
+  entity Proposal = {
+    tenant: String,
+    targetHash: String
+  };
+
+  action "propose" appliesTo {
+    principal: [Operator],
+    resource: [Proposal],
+    context: {
+      approvalValid: Bool,
+      approvalRevoked: Bool,
+      approvalTargetHash: String
+    }
+  };
+
+  action "execute" appliesTo {
+    principal: [Operator],
+    resource: [Proposal],
+    context: {
+      approvalValid: Bool,
+      approvalRevoked: Bool,
+      approvalTargetHash: String
+    }
+  };
+}

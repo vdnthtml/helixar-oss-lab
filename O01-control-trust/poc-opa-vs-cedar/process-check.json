@@ -1,0 +1,8 @@
+{
+  "active_candidate_processes": [],
+  "candidate_bound_ports": [],
+  "method": "exact candidate executable paths searched in ps; no candidate process means no candidate listener can remain",
+  "no_candidate_listeners": true,
+  "no_candidate_processes": true,
+  "ps_exit_code": 0
+}

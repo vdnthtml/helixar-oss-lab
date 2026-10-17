@@ -1,0 +1,20 @@
+{
+  "active_mutators_first": [],
+  "active_mutators_second": [],
+  "checked_at_utc": "2026-07-14T18:56:26.975760+00:00",
+  "first": {
+    "allocator": 91,
+    "max_sequence": 90,
+    "records": 90,
+    "sequence_set_contiguous": true
+  },
+  "pass": true,
+  "quiet_seconds": 5,
+  "second": {
+    "allocator": 91,
+    "max_sequence": 90,
+    "records": 90,
+    "sequence_set_contiguous": true
+  },
+  "stable": true
+}

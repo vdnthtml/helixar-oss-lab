@@ -1,0 +1,156 @@
+
+=== 2026-07-14T18:23:30.689513+00:00 /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' /usr/bin/python3 poc-opa-vs-cedar/run_comparison.py ===
+{
+  "status": "PASS",
+  "acceptance": {
+    "six_case_parity": true,
+    "opa_valid_policy_passes": true,
+    "cedar_valid_policy_passes": true,
+    "opa_typo_rejected": true,
+    "cedar_typo_rejected": true,
+    "malformed_fail_closed": true
+  },
+  "benchmark": {
+    "opa": {
+      "iterations": 50,
+      "median_ms": 10.436,
+      "p95_ms": 11.426,
+      "min_ms": 9.74,
+      "max_ms": 13.046
+    },
+    "cedar": {
+      "iterations": 50,
+      "median_ms": 4.418,
+      "p95_ms": 5.02,
+      "min_ms": 4.009,
+      "max_ms": 5.514
+    }
+  }
+}
+
+=== 2026-07-14T18:32:14.917865+00:00 /usr/bin/time -l /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/envs/opa/opa eval --strict --strict-builtin-errors --format raw --data poc-opa-vs-cedar/opa/policy.rego --input poc-opa-vs-cedar/generated/allow_exact_scope/opa-input.json --schema poc-opa-vs-cedar/opa/input-schema.json data.helixar.authz.allow ===
+true
+        0.09 real         0.01 user         0.02 sys
+            29868032  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                1564  page reclaims
+                1021  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                  29  signals received
+                   9  voluntary context switches
+                1001  involuntary context switches
+           255135374  instructions retired
+           123736965  cycles elapsed
+            12911192  peak memory footprint
+
+=== 2026-07-14T18:32:16.140627+00:00 /usr/bin/time -l /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/envs/cedar-poc/bin/cedar authorize --schema poc-opa-vs-cedar/cedar/schema.cedarschema --policies poc-opa-vs-cedar/cedar/policy.cedar --entities poc-opa-vs-cedar/generated/allow_exact_scope/cedar-entities.json --context poc-opa-vs-cedar/generated/allow_exact_scope/cedar-context.json --principal 'Helixar::Operator::"operator.invalid"' --action 'Helixar::Action::"propose"' --resource 'Helixar::Proposal::"proposal.invalid"' --error-format plain ===
+
+ALLOW
+        0.03 real         0.00 user         0.00 sys
+             9437184  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                 709  page reclaims
+                 381  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   4  voluntary context switches
+                 179  involuntary context switches
+           130265501  instructions retired
+            54930858  cycles elapsed
+             3260752  peak memory footprint
+
+=== 2026-07-14T18:35:03.165815+00:00 /usr/bin/python3 poc-opa-vs-cedar/generate_poc_deliverables.py ===
+{
+  "status": "generated",
+  "files": [
+    "/Users/vedantswami/Projects/Dystopia/Dystopia/02_Projects/Helixar World-Class Benchmark Program/Architecture/O01A OPA vs Cedar Decision POC.md",
+    "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O01-control-trust/opa-vs-cedar/matched-cases.csv",
+    "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O01-control-trust/opa-vs-cedar/comparison-evidence.json",
+    "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O01-control-trust/opa-vs-cedar/provenance.csv",
+    "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O01-control-trust/opa-vs-cedar/decision-matrix.csv",
+    "/Users/vedantswami/Projects/Dystopia/Dystopia/04_Logs/Runs/2026-07-15 - OPA vs Cedar Decision POC Run Receipt.md"
+  ]
+}
+
+=== 2026-07-14T18:41:12.385764+00:00 /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' /usr/bin/python3 poc-opa-vs-cedar/validate_poc.py ===
+Traceback (most recent call last):
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/poc-opa-vs-cedar/validate_poc.py", line 89, in <module>
+    ps = subprocess.run(["/bin/ps", "ax", "-o", "pid=,command="], text=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+PermissionError: [Errno 1] Operation not permitted: '/bin/ps'
+
+=== 2026-07-14T18:41:46.447043+00:00 /usr/bin/python3 poc-opa-vs-cedar/capture_process_check.py ===
+{
+  "ps_exit_code": 0,
+  "active_candidate_processes": [],
+  "no_candidate_processes": true,
+  "candidate_bound_ports": [],
+  "no_candidate_listeners": true,
+  "method": "exact candidate executable paths searched in ps; no candidate process means no candidate listener can remain"
+}
+
+=== 2026-07-14T18:41:46.537871+00:00 /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' /usr/bin/python3 poc-opa-vs-cedar/validate_poc.py ===
+{
+  "status": "FAIL",
+  "boolean_failures": [
+    "report_nonclaim_present"
+  ],
+  "lab_bytes": 4001937476,
+  "candidate_processes": [],
+  "manifest_entries": 23
+}
+
+=== 2026-07-14T18:42:07.005004+00:00 /usr/bin/python3 poc-opa-vs-cedar/capture_process_check.py ===
+{
+  "ps_exit_code": 0,
+  "active_candidate_processes": [],
+  "no_candidate_processes": true,
+  "candidate_bound_ports": [],
+  "no_candidate_listeners": true,
+  "method": "exact candidate executable paths searched in ps; no candidate process means no candidate listener can remain"
+}
+
+=== 2026-07-14T18:42:07.095833+00:00 /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' /usr/bin/python3 poc-opa-vs-cedar/validate_poc.py ===
+{
+  "status": "PASS",
+  "boolean_failures": [],
+  "lab_bytes": 4001939189,
+  "candidate_processes": [],
+  "manifest_entries": 23
+}
+
+=== 2026-07-14T18:42:53.086572+00:00 /usr/bin/sandbox-exec -p '(version 1)(allow default)(deny network*)' /usr/bin/python3 poc-opa-vs-cedar/validate_poc.py ===
+{
+  "status": "PASS",
+  "boolean_failures": [],
+  "lab_bytes": 4001940046,
+  "candidate_processes": [],
+  "manifest_entries": 23
+}
+
+=== 2026-07-14T18:43:08.166058+00:00 /usr/bin/python3 poc-opa-vs-cedar/capture_process_check.py ===
+{
+  "ps_exit_code": 0,
+  "active_candidate_processes": [],
+  "no_candidate_processes": true,
+  "candidate_bound_ports": [],
+  "no_candidate_listeners": true,
+  "method": "exact candidate executable paths searched in ps; no candidate process means no candidate listener can remain"
+}

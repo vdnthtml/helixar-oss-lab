@@ -1,0 +1,19 @@
+{
+  "candidate": "llamaindex-core",
+  "embedding": "llama_index.core.embeddings.MockEmbedding(8)",
+  "offline": true,
+  "package_version": "0.14.23",
+  "persisted_tree_sha256_before_delete": "d349ee89a5b54beaacc4ffe4d231e6375682b2ee32e7032012515769ff852ff7",
+  "remaining_ref_doc_ids": [
+    "doc-demand"
+  ],
+  "status": "PASS",
+  "tests": {
+    "delete_ref_doc": true,
+    "document_ingest": true,
+    "persist": true,
+    "reload": true,
+    "retrieval": true,
+    "source_metadata_lineage": true
+  }
+}

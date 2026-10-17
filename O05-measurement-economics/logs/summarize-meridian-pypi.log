@@ -1,0 +1,3 @@
+1.7.0 >=3.10
+requires 32
+sdist/wheels [('google_meridian-1.7.0-py3-none-any.whl', 503601, '69fbd9ed9a3a47b4f4fde68967969e4e5c294689aad1ac0c16d332b81902fefe'), ('google_meridian-1.7.0.tar.gz', 427680, 'f0882233e3927bc0c87a0275b2163207ad7026ab69ba80d332067801f1f5c034')]

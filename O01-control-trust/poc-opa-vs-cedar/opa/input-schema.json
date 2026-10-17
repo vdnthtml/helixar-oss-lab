@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subject", "action", "resource", "approval"],
+  "properties": {
+    "subject": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tenant"],
+      "properties": {"tenant": {"type": "string"}}
+    },
+    "action": {"type": "string", "enum": ["propose", "execute"]},
+    "resource": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tenant", "target_hash"],
+      "properties": {
+        "tenant": {"type": "string"},
+        "target_hash": {"type": "string"}
+      }
+    },
+    "approval": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["valid", "revoked", "target_hash"],
+      "properties": {
+        "valid": {"type": "boolean"},
+        "revoked": {"type": "boolean"},
+        "target_hash": {"type": "string"}
+      }
+    }
+  }
+}

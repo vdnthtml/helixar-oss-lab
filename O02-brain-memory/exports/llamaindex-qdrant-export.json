@@ -1,0 +1,80 @@
+{
+  "candidate": "LlamaIndex+Qdrant embedded",
+  "collection": "o02_llamaindex_qdrant",
+  "governance_audit": [
+    {
+      "event": "PROPOSE",
+      "node_id": "11111111-1111-4111-8111-111111111111",
+      "state": "proposed"
+    },
+    {
+      "actor": "synthetic-human.invalid",
+      "event": "APPROVE",
+      "node_id": "11111111-1111-4111-8111-111111111111",
+      "state": "approved"
+    },
+    {
+      "event": "DELETE",
+      "node_id": "33333333-3333-4333-8333-333333333333",
+      "state": "deleted"
+    },
+    {
+      "event": "REVOKE",
+      "node_id": "11111111-1111-4111-8111-111111111111",
+      "reason": "synthetic-test",
+      "state": "revoked"
+    }
+  ],
+  "points": [
+    {
+      "id": "11111111-1111-4111-8111-111111111111",
+      "order_value": null,
+      "payload": {
+        "_node_content": "{\"id_\": \"11111111-1111-4111-8111-111111111111\", \"embedding\": null, \"metadata\": {\"source_id\": \"fixture://alpha-v1\", \"source_sha256\": \"0e90242b5a98abd20f272baefab884168b7d355f13996721f705beaa37874842\", \"governance_state\": \"revoked\"}, \"excluded_embed_metadata_keys\": [], \"excluded_llm_metadata_keys\": [], \"relationships\": {}, \"metadata_template\": \"{key}: {value}\", \"metadata_separator\": \"\\n\", \"text\": \"alpha launch policy approved\", \"mimetype\": \"text/plain\", \"start_char_idx\": null, \"end_char_idx\": null, \"text_template\": \"{metadata_str}\\n\\n{content}\", \"class_name\": \"TextNode\"}",
+        "_node_type": "TextNode",
+        "doc_id": "None",
+        "document_id": "None",
+        "governance_state": "revoked",
+        "ref_doc_id": "None",
+        "source_id": "fixture://alpha-v1",
+        "source_sha256": "0e90242b5a98abd20f272baefab884168b7d355f13996721f705beaa37874842"
+      },
+      "shard_key": null,
+      "vector": [
+        0.44721361994743347,
+        0.0,
+        0.0,
+        0.44721361994743347,
+        0.0,
+        0.44721361994743347,
+        0.44721361994743347,
+        0.44721361994743347
+      ]
+    },
+    {
+      "id": "22222222-2222-4222-8222-222222222222",
+      "order_value": null,
+      "payload": {
+        "_node_content": "{\"id_\": \"22222222-2222-4222-8222-222222222222\", \"embedding\": null, \"metadata\": {\"source_id\": \"fixture://beta-v1\", \"source_sha256\": \"2daec96c269f927fc4bd4c1645a0b20bae3eb583c738a4d78f8e30e370bf39d7\", \"governance_state\": \"approved\"}, \"excluded_embed_metadata_keys\": [], \"excluded_llm_metadata_keys\": [], \"relationships\": {}, \"metadata_template\": \"{key}: {value}\", \"metadata_separator\": \"\\n\", \"text\": \"beta finance policy approved\", \"mimetype\": \"text/plain\", \"start_char_idx\": null, \"end_char_idx\": null, \"text_template\": \"{metadata_str}\\n\\n{content}\", \"class_name\": \"TextNode\"}",
+        "_node_type": "TextNode",
+        "doc_id": "None",
+        "document_id": "None",
+        "governance_state": "approved",
+        "ref_doc_id": "None",
+        "source_id": "fixture://beta-v1",
+        "source_sha256": "2daec96c269f927fc4bd4c1645a0b20bae3eb583c738a4d78f8e30e370bf39d7"
+      },
+      "shard_key": null,
+      "vector": [
+        0.0,
+        0.37796449661254883,
+        0.0,
+        0.0,
+        0.37796449661254883,
+        0.37796449661254883,
+        0.7559289932250977,
+        0.0
+      ]
+    }
+  ]
+}

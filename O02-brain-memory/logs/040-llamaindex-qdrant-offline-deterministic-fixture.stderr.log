@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/fixtures/llamaindex_qdrant_fixture.py", line 26, in <module>
+    class DeterministicEmbedding(BaseEmbedding):
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/envs/llamaindex/lib/python3.11/site-packages/pydantic/_internal/_model_construction.py", line 133, in __new__
+    private_attributes = inspect_namespace(
+                         ^^^^^^^^^^^^^^^^^^
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/envs/llamaindex/lib/python3.11/site-packages/pydantic/_internal/_model_construction.py", line 494, in inspect_namespace
+    raise PydanticUserError(
+pydantic.errors.PydanticUserError: A non-annotated attribute was detected: `VOCAB = ('alpha', 'beta', 'gamma', 'launch', 'finance', 'policy', 'approved', 'revoked')`. All model fields require a type annotation; if `VOCAB` is not meant to be a field, you may be able to resolve this error by annotating it as a `ClassVar` or updating `model_config['ignored_types']`.
+
+For further information visit https://errors.pydantic.dev/2.13/u/model-field-missing-annotation

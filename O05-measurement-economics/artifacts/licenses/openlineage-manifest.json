@@ -1,0 +1,26 @@
+[
+  {
+    "bytes": 11357,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/openlineage/LICENSE",
+    "path": "LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "status": "READ"
+  },
+  {
+    "bytes": 271,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/openlineage/NOTICE.txt",
+    "path": "NOTICE.txt",
+    "sha256": "ad00241101b56c5d13ad74a3bc62019af57ec07d3c643a9d9501069d5e7ae468",
+    "status": "READ"
+  },
+  {
+    "bytes": 11357,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/openlineage/client/python/LICENSE",
+    "path": "client/python/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "status": "READ"
+  }
+]

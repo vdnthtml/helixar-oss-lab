@@ -1,0 +1,47 @@
+{
+  "all_pass": true,
+  "results": [
+    {
+      "environment": "mem0",
+      "exit_code": 0,
+      "include_system_site_packages_false": true,
+      "pass": true,
+      "python": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/envs/mem0/bin/python",
+      "stderr": "",
+      "stdout": "No broken requirements found."
+    },
+    {
+      "environment": "llamaindex",
+      "exit_code": 0,
+      "include_system_site_packages_false": true,
+      "pass": true,
+      "python": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/envs/llamaindex/bin/python",
+      "stderr": "",
+      "stdout": "No broken requirements found."
+    },
+    {
+      "environment": "unstructured",
+      "exit_code": 0,
+      "include_system_site_packages_false": true,
+      "pass": true,
+      "python": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/envs/unstructured/bin/python",
+      "stderr": "",
+      "stdout": "No broken requirements found."
+    },
+    {
+      "environment": "graphiti",
+      "exit_code": 0,
+      "include_system_site_packages_false": true,
+      "pass": true,
+      "python": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/envs/graphiti/bin/python",
+      "stderr": "",
+      "stdout": "No broken requirements found."
+    }
+  ],
+  "sanitized_environment_keys": [
+    "PYTHONPATH",
+    "PYTHONHOME",
+    "VIRTUAL_ENV",
+    "__PYVENV_LAUNCHER__"
+  ]
+}

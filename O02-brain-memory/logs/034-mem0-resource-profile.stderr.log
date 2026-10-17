@@ -1,0 +1,22 @@
+Failed to load spaCy lemma model: spaCy is not installed. Install it with: pip install mem0ai[nlp]
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+Failed to load spaCy full model: spaCy is not installed. Install it with: pip install mem0ai[nlp]
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+        0.67 real         0.50 user         0.08 sys
+            94732288  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               13850  page reclaims
+                 570  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 565  voluntary context switches
+                1935  involuntary context switches
+          4741724189  instructions retired
+          2234073681  cycles elapsed
+            73761416  peak memory footprint

@@ -1,0 +1,1308 @@
+
+=== 2026-07-14T17:26:40.672706+00:00 git clone --depth 1 --filter=blob:none --no-checkout https://github.com/data-privacy-stack/presidio.git /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/sources/presidio ===
+Cloning into '/Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/sources/presidio'...
+
+=== 2026-07-14T17:26:41.855186+00:00 git rev-parse HEAD ===
+6337265a560dc2eba84b5f46f8c73ab2e402524e
+
+=== 2026-07-14T17:26:41.906962+00:00 git symbolic-ref --short refs/remotes/origin/HEAD ===
+origin/main
+
+=== 2026-07-14T17:26:41.965705+00:00 git ls-tree -r --name-only HEAD ===
+.devcontainer/presidio-analyzer-transformers/devcontainer.json
+.devcontainer/presidio-analyzer/devcontainer.json
+.devcontainer/presidio-anonymizer/devcontainer.json
+.devcontainer/presidio-image-redactor/devcontainer.json
+.env
+.gitattributes
+.github/CODEOWNERS
+.github/ISSUE_TEMPLATE/bug_report.md
+.github/ISSUE_TEMPLATE/feature-request.md
+.github/ISSUE_TEMPLATE/general-questions.md
+.github/PULL_REQUEST_TEMPLATE.md
+.github/copilot-instructions.md
+.github/dependabot.yml
+.github/github-repo-stats.yml
+.github/pipelines/requirements-build.txt
+.github/pipelines/requirements-ruff.txt
+.github/workflows/ci.yml
+.github/workflows/codeql-analysis.yml
+.github/workflows/defender-for-devops.yml
+.github/workflows/label-external.yml
+.github/workflows/release-docs.yml
+.github/workflows/release.yml
+.gitignore
+.pre-commit-config.yaml
+CHANGELOG.md
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+LICENSE
+NOTICE
+README.MD
+SECURITY.md
+SUPPORT.md
+docker-compose.yml
+docs/NOTICE
+docs/ahds_integration.md
+docs/analyzer/adding_recognizers.md
+docs/analyzer/analyzer_engine_provider.md
+docs/analyzer/customizing_nlp_models.md
+docs/analyzer/decision_process.md
+docs/analyzer/developing_recognizers.md
+docs/analyzer/filtering_by_country.md
+docs/analyzer/index.md
+docs/analyzer/languages-config.yml
+docs/analyzer/languages.md
+docs/analyzer/nlp_engines/gpu_usage.md
+docs/analyzer/nlp_engines/spacy_stanza.md
+docs/analyzer/nlp_engines/transformers.md
+docs/analyzer/recognizer_registry_provider.md
+docs/anonymizer/adding_operators.md
+docs/anonymizer/index.md
+docs/api-docs/api-docs.html
+docs/api-docs/api-docs.yml
+docs/api-docs/logo.svg
+docs/api.md
+docs/api/analyzer_python.md
+docs/api/anonymizer_python.md
+docs/api/image_redactor_python.md
+docs/api/structured_python.md
+docs/assets/analyze-anonymize.png
+docs/assets/analyzer-design.png
+docs/assets/anonymizer-design.png
+docs/assets/before-after.png
+docs/assets/changing_text.gif
+docs/assets/demo.gif
+docs/assets/detection_flow.gif
+docs/assets/dicom-image-redactor-design.png
+docs/assets/dps-icon.svg
+docs/assets/findings.png
+docs/assets/image-redactor-design.png
+docs/assets/inkey.svg
+docs/assets/ms_icon.png
+docs/assets/ocr-example.png
+docs/assets/presidio_gif.gif
+docs/assets/recognizers_class_diagram.png
+docs/assets/spacy-transformers-ner.png
+docs/build_release.md
+docs/community.md
+docs/design.md
+docs/development.md
+docs/evaluation/index.md
+docs/faq.md
+docs/getting_started.md
+docs/getting_started/getting_started_images.md
+docs/getting_started/getting_started_structured.md
+docs/getting_started/getting_started_text.md
+docs/image-redactor/evaluating_dicom_redaction.md
+docs/image-redactor/index.md
+docs/image-redactor/ocr_text.png
+docs/index.md
+docs/installation.md
+docs/learn_presidio/concepts.md
+docs/learn_presidio/index.md
+docs/presidio_V2.md
+docs/project_transition.md
+docs/recipes/CONTRIBUTING.md
+docs/recipes/german-language-support/README.md
+docs/recipes/german-language-support/spacy_en_de.yaml
+docs/recipes/index.md
+docs/recipes/template.md
+docs/requirements-docs.txt
+docs/samples/deployments/app-service/index.md
+docs/samples/deployments/app-service/presidio-app-service.json
+docs/samples/deployments/app-service/presidio-services.json
+docs/samples/deployments/app-service/values.json
+docs/samples/deployments/data-factory/arm-templates/azure-deploy-adf-app-service.json
+docs/samples/deployments/data-factory/arm-templates/azure-deploy-adf-databricks.json
+docs/samples/deployments/data-factory/arm-templates/azure-deploy-adf-template-gallery-http.json
+docs/samples/deployments/data-factory/images/adf-app-service-screenshot.png
+docs/samples/deployments/data-factory/images/adf-databricks-screenshot.png
+docs/samples/deployments/data-factory/images/data-anonymization-databricks-01.png
+docs/samples/deployments/data-factory/images/data-anonymization-databricks-02.png
+docs/samples/deployments/data-factory/images/data-anonymization-databricks-03.png
+docs/samples/deployments/data-factory/images/data-anonymization-databricks-04.png
+docs/samples/deployments/data-factory/images/data-anonymization-databricks-05.png
+docs/samples/deployments/data-factory/images/data-anonymization-databricks-06.png
+docs/samples/deployments/data-factory/images/data-anonymization-databricks-07.png
+docs/samples/deployments/data-factory/images/data-anonymization-http-01.png
+docs/samples/deployments/data-factory/images/data-anonymization-http-02.png
+docs/samples/deployments/data-factory/images/data-anonymization-http-03.png
+docs/samples/deployments/data-factory/images/data-anonymization-http-04.png
+docs/samples/deployments/data-factory/index.md
+docs/samples/deployments/data-factory/presidio-data-factory-template-gallery-databricks.md
+docs/samples/deployments/data-factory/presidio-data-factory-template-gallery-http.md
+docs/samples/deployments/data-factory/presidio-data-factory.md
+docs/samples/deployments/index.md
+docs/samples/deployments/k8s/charts/presidio/.helmignore
+docs/samples/deployments/k8s/charts/presidio/Chart.yaml
+docs/samples/deployments/k8s/charts/presidio/templates/NOTES.txt
+docs/samples/deployments/k8s/charts/presidio/templates/_helpers.tpl
+docs/samples/deployments/k8s/charts/presidio/templates/analyzer-deployment.yaml
+docs/samples/deployments/k8s/charts/presidio/templates/analyzer-service.yaml
+docs/samples/deployments/k8s/charts/presidio/templates/anonymizer-deployment.yaml
+docs/samples/deployments/k8s/charts/presidio/templates/anonymizer-image-deployment.yaml
+docs/samples/deployments/k8s/charts/presidio/templates/anonymizer-image-service.yaml
+docs/samples/deployments/k8s/charts/presidio/templates/anonymizer-service.yaml
+docs/samples/deployments/k8s/charts/presidio/templates/ingress.yaml
+docs/samples/deployments/k8s/charts/presidio/values.yaml
+docs/samples/deployments/k8s/deployment/deploy-presidio.sh
+docs/samples/deployments/k8s/deployment/run-with-kind.sh
+docs/samples/deployments/k8s/index.md
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/.devcontainer/devcontainer.json
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/.devcontainer/post-create.sh
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/.gitignore
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/deployments/api/configmap.yaml
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/deployments/api/deployment.yaml
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/deployments/api/service.yaml
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/deployments/client/configmap.yaml
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/deployments/client/deployment.yaml
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/deployments/client/loadbalancer.yaml
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/deployments/client/service.yaml
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/deployments/redis/deployment.yaml
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/deployments/redis/service.yaml
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/docs/.attachments/architecture.png
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/docs/.attachments/llm_chat.png
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/docs/.diagrams/architecture.mermaid
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/docs/sample_for_presidio_pr/anonymization_toolkit_sample.md
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/index.md
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/infrastructure/deploy.sh
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/infrastructure/main.bicep
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/infrastructure/modules/acr.bicep
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/infrastructure/modules/aks.bicep
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/infrastructure/modules/redis.bicep
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/infrastructure/modules/roles.bicep
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/src/.gitignore
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/src/api/.env.sample
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/src/api/Dockerfile
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/src/api/README.md
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/src/api/__init__.py
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/src/api/config/config.py
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/src/api/main.py
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/src/api/requirements.txt
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/src/api/services/__init__.py
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/src/api/services/anonymizers/__init__.py
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/src/api/services/anonymizers/instance_counter_anonymizer.py
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/src/api/services/anonymizers/instance_counter_deanonymizer.py
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/src/api/services/presidio/__init__.py
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/src/api/services/presidio/http_presidio_service.py
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/src/api/services/presidio/hybrid_presidio_service.py
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/src/api/services/presidio/presidio_service.py
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/src/api/services/presidio/python_presidio_service.py
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/src/api/services/state/__init__.py
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/src/api/services/state/inmemory_state_service.py
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/src/api/services/state/redis_state_service.py
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/src/api/services/state/state_service.py
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/src/api/services/toolkit_service.py
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/src/client_app/.attachments/client_ui.png
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/src/client_app/.dockerignore
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/src/client_app/.env.sample
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/src/client_app/Dockerfile
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/src/client_app/README.md
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/src/client_app/client.py
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/src/client_app/requirements.txt
+docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/src/client_app/serve.py
+docs/samples/deployments/redacting-telemetry/app/Dockerfile
+docs/samples/deployments/redacting-telemetry/app/main.py
+docs/samples/deployments/redacting-telemetry/app/presidio_client.py
+docs/samples/deployments/redacting-telemetry/app/requirements.txt
+docs/samples/deployments/redacting-telemetry/docker-compose.yml
+docs/samples/deployments/redacting-telemetry/grafana/provisioning/dashboards/dashboards.yml
+docs/samples/deployments/redacting-telemetry/grafana/provisioning/dashboards/pii-dashboard.json
+docs/samples/deployments/redacting-telemetry/grafana/provisioning/datasources/datasources.yml
+docs/samples/deployments/redacting-telemetry/index.md
+docs/samples/deployments/redacting-telemetry/otel-collector-config.yaml
+docs/samples/deployments/redacting-telemetry/tempo-config.yaml
+docs/samples/deployments/spark/arm-template/databricks.json
+docs/samples/deployments/spark/arm-template/databricks.parameters.json
+docs/samples/deployments/spark/config/cluster.config.json
+docs/samples/deployments/spark/config/run.setup.config.json
+docs/samples/deployments/spark/index.md
+docs/samples/deployments/spark/notebooks/00_setup.py
+docs/samples/deployments/spark/notebooks/01_transform_presidio.py
+docs/samples/deployments/spark/scripts/configure_databricks.sh
+docs/samples/deployments/spark/setup/startup.sh
+docs/samples/docker/PresidioAnalyzer.postman_collection.json
+docs/samples/docker/PresidioAnonymizer.postman_collection.json
+docs/samples/docker/index.md
+docs/samples/docker/litellm.md
+docs/samples/fabric/artifacts/presidio_and_spark.ipynb
+docs/samples/fabric/data/fabric_sample_data.csv
+docs/samples/fabric/env_setup.md
+docs/samples/fabric/images/anon_results.png
+docs/samples/fabric/images/custom_env_1.png
+docs/samples/fabric/images/custom_env_2.png
+docs/samples/fabric/images/custom_env_4.png
+docs/samples/fabric/images/delta_table.png
+docs/samples/fabric/images/env_to_notebook.png
+docs/samples/fabric/images/large_model.png
+docs/samples/fabric/images/pii_summary.png
+docs/samples/fabric/images/scale_results.png
+docs/samples/fabric/images/spark_pool.png
+docs/samples/fabric/index.md
+docs/samples/index.md
+docs/samples/python/Anonymizing known values.ipynb
+docs/samples/python/ahds/__init__.py
+docs/samples/python/ahds/example_ahds_surrogate.py
+docs/samples/python/ahds/index.md
+docs/samples/python/batch_processing.ipynb
+docs/samples/python/csv_sample_data/sample_data.csv
+docs/samples/python/csv_sample_data/test_structured.csv
+docs/samples/python/custom_presidio.py
+docs/samples/python/customizing_presidio_analyzer.ipynb
+docs/samples/python/encrypt_decrypt.ipynb
+docs/samples/python/example_custom_lambda_anonymizer.py
+docs/samples/python/example_dicom_image_redactor.ipynb
+docs/samples/python/example_dicom_redactor_evaluation.ipynb
+docs/samples/python/example_pdf_annotation.ipynb
+docs/samples/python/example_remote_recognizer.py
+docs/samples/python/example_structured.ipynb
+docs/samples/python/flair_recognizer.py
+docs/samples/python/getting_entity_values.ipynb
+docs/samples/python/gliner.md
+docs/samples/python/image_redaction_allow_list_approach.ipynb
+docs/samples/python/integrating_with_external_services.ipynb
+docs/samples/python/keep_entities.ipynb
+docs/samples/python/langextract/index.md
+docs/samples/python/ner_model_configuration.ipynb
+docs/samples/python/no_code_config.ipynb
+docs/samples/python/plot_custom_bboxes.ipynb
+docs/samples/python/presidio_notebook.ipynb
+docs/samples/python/process_csv_file.py
+docs/samples/python/pseudonymization.ipynb
+docs/samples/python/sample_data/0_ORIGINAL.dcm
+docs/samples/python/sample_data/1_ORIGINAL.dcm
+docs/samples/python/sample_data/2_ORIGINAL.dcm
+docs/samples/python/sample_data/3_ORIGINAL.dcm
+docs/samples/python/sample_data/ground_truth.json
+docs/samples/python/sample_data/sample.pdf
+docs/samples/python/sample_data/test_structured.json
+docs/samples/python/sample_data/test_structured_complex.json
+docs/samples/python/simple_anonymization_example.py
+docs/samples/python/span_marker_recognizer.py
+docs/samples/python/streamlit/Dockerfile
+docs/samples/python/streamlit/azure_ai_language_wrapper.py
+docs/samples/python/streamlit/demo_text.txt
+docs/samples/python/streamlit/flair_recognizer.py
+docs/samples/python/streamlit/index.md
+docs/samples/python/streamlit/openai_fake_data_generator.py
+docs/samples/python/streamlit/presidio_helpers.py
+docs/samples/python/streamlit/presidio_nlp_engine_config.py
+docs/samples/python/streamlit/presidio_streamlit.py
+docs/samples/python/streamlit/requirements.txt
+docs/samples/python/streamlit/test_streamlit.py
+docs/samples/python/synth_data_with_openai.ipynb
+docs/samples/python/text_analytics/__init__.py
+docs/samples/python/text_analytics/index.md
+docs/samples/python/transformers_recognizer/__init__.py
+docs/samples/python/transformers_recognizer/configuration.py
+docs/samples/python/transformers_recognizer/index.md
+docs/samples/python/transformers_recognizer/transformer_recognizer.py
+docs/structured/index.md
+docs/stylesheets/extra.css
+docs/supported_entities.md
+docs/text_anonymization.md
+docs/tutorial/00_getting_started.md
+docs/tutorial/01_deny_list.md
+docs/tutorial/02_regex.md
+docs/tutorial/03_rule_based.md
+docs/tutorial/04_external_services.md
+docs/tutorial/05_languages.md
+docs/tutorial/06_context.md
+docs/tutorial/07_decision_process.md
+docs/tutorial/08_no_code.md
+docs/tutorial/09_ad_hoc.md
+docs/tutorial/10_simple_anonymization.md
+docs/tutorial/11_custom_anonymization.md
+docs/tutorial/12_encryption.md
+docs/tutorial/13_allow_list.md
+docs/tutorial/index.md
+e2e-tests/README.md
+e2e-tests/common/__init__.py
+e2e-tests/common/assertions.py
+e2e-tests/common/constants.py
+e2e-tests/common/methods.py
+e2e-tests/pytest.ini
+e2e-tests/requirements.txt
+e2e-tests/resources/demo.txt
+e2e-tests/resources/demo_anonymized.txt
+e2e-tests/resources/ollama_test_config.yaml
+e2e-tests/resources/original_image.png
+e2e-tests/resources/purple_redact.png
+e2e-tests/resources/test_ollama_enabled_recognizers.yaml
+e2e-tests/tests/__init__.py
+e2e-tests/tests/test_api_analyzer.py
+e2e-tests/tests/test_api_anonymizer.py
+e2e-tests/tests/test_api_e2e_integration_flows.py
+e2e-tests/tests/test_api_image_redactor.py
+e2e-tests/tests/test_package_e2e_integration_flows.py
+mkdocs.yml
+overrides/main.html
+presidio-analyzer/.dockerignore
+presidio-analyzer/Dockerfile
+presidio-analyzer/Dockerfile.dev
+presidio-analyzer/Dockerfile.stanza
+presidio-analyzer/Dockerfile.transformers
+presidio-analyzer/Dockerfile.windows
+presidio-analyzer/Pipfile
+presidio-analyzer/README.md
+presidio-analyzer/app.py
+presidio-analyzer/deploytoazure.json
+presidio-analyzer/entrypoint.sh
+presidio-analyzer/install_dependencies.sh
+presidio-analyzer/install_nlp_models.py
+presidio-analyzer/logging.ini
+presidio-analyzer/presidio_analyzer/__init__.py
+presidio-analyzer/presidio_analyzer/analysis_explanation.py
+presidio-analyzer/presidio_analyzer/analyzer_engine.py
+presidio-analyzer/presidio_analyzer/analyzer_engine_provider.py
+presidio-analyzer/presidio_analyzer/analyzer_request.py
+presidio-analyzer/presidio_analyzer/app_tracer.py
+presidio-analyzer/presidio_analyzer/batch_analyzer_engine.py
+presidio-analyzer/presidio_analyzer/chunkers/__init__.py
+presidio-analyzer/presidio_analyzer/chunkers/base_chunker.py
+presidio-analyzer/presidio_analyzer/chunkers/character_based_text_chunker.py
+presidio-analyzer/presidio_analyzer/chunkers/text_chunker_provider.py
+presidio-analyzer/presidio_analyzer/conf/default.yaml
+presidio-analyzer/presidio_analyzer/conf/default_analyzer.yaml
+presidio-analyzer/presidio_analyzer/conf/default_analyzer_full.yaml
+presidio-analyzer/presidio_analyzer/conf/default_recognizers.yaml
+presidio-analyzer/presidio_analyzer/conf/example_recognizers.yaml
+presidio-analyzer/presidio_analyzer/conf/langextract_config_azureopenai.yaml
+presidio-analyzer/presidio_analyzer/conf/langextract_config_basic.yaml
+presidio-analyzer/presidio_analyzer/conf/langextract_prompts/default_pii_phi_examples.yaml
+presidio-analyzer/presidio_analyzer/conf/langextract_prompts/default_pii_phi_prompt.j2
+presidio-analyzer/presidio_analyzer/conf/slim.yaml
+presidio-analyzer/presidio_analyzer/conf/slim_nlp.yaml
+presidio-analyzer/presidio_analyzer/conf/spacy.yaml
+presidio-analyzer/presidio_analyzer/conf/spacy_multilingual.yaml
+presidio-analyzer/presidio_analyzer/conf/stanza.yaml
+presidio-analyzer/presidio_analyzer/conf/stanza_multilingual.yaml
+presidio-analyzer/presidio_analyzer/conf/transformers.yaml
+presidio-analyzer/presidio_analyzer/context_aware_enhancers/__init__.py
+presidio-analyzer/presidio_analyzer/context_aware_enhancers/context_aware_enhancer.py
+presidio-analyzer/presidio_analyzer/context_aware_enhancers/lemma_context_aware_enhancer.py
+presidio-analyzer/presidio_analyzer/dict_analyzer_result.py
+presidio-analyzer/presidio_analyzer/entity_recognizer.py
+presidio-analyzer/presidio_analyzer/input_validation/__init__.py
+presidio-analyzer/presidio_analyzer/input_validation/language_validation.py
+presidio-analyzer/presidio_analyzer/input_validation/schemas.py
+presidio-analyzer/presidio_analyzer/input_validation/yaml_recognizer_models.py
+presidio-analyzer/presidio_analyzer/llm_utils/__init__.py
+presidio-analyzer/presidio_analyzer/llm_utils/azure_auth_helper.py
+presidio-analyzer/presidio_analyzer/llm_utils/config_loader.py
+presidio-analyzer/presidio_analyzer/llm_utils/entity_mapper.py
+presidio-analyzer/presidio_analyzer/llm_utils/examples_loader.py
+presidio-analyzer/presidio_analyzer/llm_utils/langextract_helper.py
+presidio-analyzer/presidio_analyzer/llm_utils/prompt_loader.py
+presidio-analyzer/presidio_analyzer/lm_recognizer.py
+presidio-analyzer/presidio_analyzer/local_recognizer.py
+presidio-analyzer/presidio_analyzer/nlp_engine/__init__.py
+presidio-analyzer/presidio_analyzer/nlp_engine/device_detector.py
+presidio-analyzer/presidio_analyzer/nlp_engine/ner_model_configuration.py
+presidio-analyzer/presidio_analyzer/nlp_engine/nlp_artifacts.py
+presidio-analyzer/presidio_analyzer/nlp_engine/nlp_engine.py
+presidio-analyzer/presidio_analyzer/nlp_engine/nlp_engine_provider.py
+presidio-analyzer/presidio_analyzer/nlp_engine/slim_spacy_nlp_engine.py
+presidio-analyzer/presidio_analyzer/nlp_engine/spacy_nlp_engine.py
+presidio-analyzer/presidio_analyzer/nlp_engine/stanza_nlp_engine.py
+presidio-analyzer/presidio_analyzer/nlp_engine/transformers_nlp_engine.py
+presidio-analyzer/presidio_analyzer/pattern.py
+presidio-analyzer/presidio_analyzer/pattern_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/__init__.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/__init__.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/australia/__init__.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/australia/au_abn_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/australia/au_acn_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/australia/au_medicare_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/australia/au_tfn_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/canada/__init__.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/canada/ca_sin_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/finland/__init__.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/finland/fi_personal_identity_code_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/germany/__init__.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/germany/de_bsnr_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/germany/de_fuehrerschein_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/germany/de_handelsregister_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/germany/de_health_insurance_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/germany/de_id_card_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/germany/de_kfz_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/germany/de_lanr_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/germany/de_passport_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/germany/de_plz_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/germany/de_social_security_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/germany/de_tax_id_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/germany/de_tax_number_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/germany/de_vat_id_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/india/__init__.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/india/in_aadhaar_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/india/in_gstin_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/india/in_pan_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/india/in_passport_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/india/in_vehicle_registration_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/india/in_voter_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/italy/__init__.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/italy/it_driver_license_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/italy/it_fiscal_code_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/italy/it_identity_card_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/italy/it_passport_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/italy/it_vat_code.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/korea/__init__.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/korea/kr_brn_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/korea/kr_driver_license_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/korea/kr_frn_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/korea/kr_passport_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/korea/kr_rrn_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/nigeria/__init__.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/nigeria/ng_nin_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/nigeria/ng_vehicle_registration_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/philippines/__init__.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/philippines/ph_tin_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/philippines/ph_umid_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/poland/__init__.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/poland/pl_pesel_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/singapore/__init__.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/singapore/sg_fin_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/singapore/sg_uen_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/south_africa/__init__.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/south_africa/za_id_number_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/spain/__init__.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/spain/es_nie_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/spain/es_nif_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/spain/es_passport_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/sweden/__init__.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/sweden/se_organisationsnummer_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/sweden/se_personnummer_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/thai/__init__.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/thai/th_tnin_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/turkey/__init__.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/turkey/tr_license_plate_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/turkey/tr_national_id_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/uk/__init__.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/uk/uk_driving_licence_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/uk/uk_nhs_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/uk/uk_nino_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/uk/uk_passport_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/uk/uk_postcode_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/uk/uk_vehicle_registration_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/us/__init__.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/us/aba_routing_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/us/medical_license_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/us/us_bank_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/us/us_driver_license_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/us/us_itin_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/us/us_mbi_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/us/us_npi_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/us/us_passport_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/country_specific/us/us_ssn_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/generic/__init__.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/generic/credit_card_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/generic/crypto_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/generic/date_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/generic/email_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/generic/iban_patterns.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/generic/iban_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/generic/ip_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/generic/mac_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/generic/phone_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/generic/url_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/ner/__init__.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/ner/gliner_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/ner/huggingface_ner_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/ner/medical_ner_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/nlp_engine_recognizers/__init__.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/nlp_engine_recognizers/spacy_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/nlp_engine_recognizers/stanza_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/nlp_engine_recognizers/transformers_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/third_party/__init__.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/third_party/ahds_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/third_party/azure_ai_language.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/third_party/azure_openai_langextract_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/third_party/azure_openai_provider.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/third_party/basic_langextract_recognizer.py
+presidio-analyzer/presidio_analyzer/predefined_recognizers/third_party/langextract_recognizer.py
+presidio-analyzer/presidio_analyzer/py.typed
+presidio-analyzer/presidio_analyzer/recognizer_registry/__init__.py
+presidio-analyzer/presidio_analyzer/recognizer_registry/recognizer_registry.py
+presidio-analyzer/presidio_analyzer/recognizer_registry/recognizer_registry_provider.py
+presidio-analyzer/presidio_analyzer/recognizer_registry/recognizers_loader_utils.py
+presidio-analyzer/presidio_analyzer/recognizer_result.py
+presidio-analyzer/presidio_analyzer/remote_recognizer.py
+presidio-analyzer/presidio_analyzer/score_thresholds.py
+presidio-analyzer/pyproject.toml
+presidio-analyzer/tests/__init__.py
+presidio-analyzer/tests/assertions.py
+presidio-analyzer/tests/conf/custom_recognizer_yaml.yaml
+presidio-analyzer/tests/conf/default.yaml
+presidio-analyzer/tests/conf/missing_global_regex_flags.yaml
+presidio-analyzer/tests/conf/missing_recognizers.yaml
+presidio-analyzer/tests/conf/recognizer_configuration_missing_keys.yaml
+presidio-analyzer/tests/conf/recognizers.yaml
+presidio-analyzer/tests/conf/recognizers_error.yaml
+presidio-analyzer/tests/conf/simple_analyzer_engine.yaml
+presidio-analyzer/tests/conf/test.yaml
+presidio-analyzer/tests/conf/test_ahds_reco.yaml
+presidio-analyzer/tests/conf/test_analyzer_engine.yaml
+presidio-analyzer/tests/conf/test_azure_ai_language_reco.yaml
+presidio-analyzer/tests/conf/test_minimal_registry_conf.yaml
+presidio-analyzer/tests/conf/test_multiple_nlp_recognizers.yaml
+presidio-analyzer/tests/conf/test_nlp_reco_disabled_conf.yaml
+presidio-analyzer/tests/conf/test_nlp_reco_does_not_match_engine.yaml
+presidio-analyzer/tests/conf/test_nlp_recognizer_only_conf.yaml
+presidio-analyzer/tests/conf/test_no_nlp_engine.yaml
+presidio-analyzer/tests/conf/test_no_nlp_reco_conf.yaml
+presidio-analyzer/tests/conf/test_no_nlp_reco_conf_multilingual.yaml
+presidio-analyzer/tests/conf/test_recognizer_registry.yaml
+presidio-analyzer/tests/conf/test_recognizers.yaml
+presidio-analyzer/tests/conf/test_stanza.yaml
+presidio-analyzer/tests/conf/test_stanza_without_recognizer.yaml
+presidio-analyzer/tests/conf/test_transformers.yaml
+presidio-analyzer/tests/conftest.py
+presidio-analyzer/tests/data/context_sentences_tests.txt
+presidio-analyzer/tests/mocks/__init__.py
+presidio-analyzer/tests/mocks/app_tracer_mock.py
+presidio-analyzer/tests/mocks/nlp_engine_mock.py
+presidio-analyzer/tests/mocks/recognizer_registry_mock.py
+presidio-analyzer/tests/test_aba_routing_recognizer.py
+presidio-analyzer/tests/test_ahds_recognizer.py
+presidio-analyzer/tests/test_ahds_recognizer_credential_selection.py
+presidio-analyzer/tests/test_analyzer_engine.py
+presidio-analyzer/tests/test_analyzer_engine_provider.py
+presidio-analyzer/tests/test_analyzer_request.py
+presidio-analyzer/tests/test_assertions.py
+presidio-analyzer/tests/test_au_abn_recognizer.py
+presidio-analyzer/tests/test_au_acn_recognizer.py
+presidio-analyzer/tests/test_au_medicare_recognizer.py
+presidio-analyzer/tests/test_au_tfn_recognizer.py
+presidio-analyzer/tests/test_azure_ai_language_recognizer.py
+presidio-analyzer/tests/test_azure_auth_helper.py
+presidio-analyzer/tests/test_azure_openai_langextract_recognizer.py
+presidio-analyzer/tests/test_base_chunker.py
+presidio-analyzer/tests/test_basic_langextract_recognizer.py
+presidio-analyzer/tests/test_batch_analyzer_engine.py
+presidio-analyzer/tests/test_ca_sin_recognizer.py
+presidio-analyzer/tests/test_certificate_number_recognizer.py
+presidio-analyzer/tests/test_character_based_text_chunker.py
+presidio-analyzer/tests/test_config_loader.py
+presidio-analyzer/tests/test_configuration_validator.py
+presidio-analyzer/tests/test_context_support.py
+presidio-analyzer/tests/test_credit_card_recognizer.py
+presidio-analyzer/tests/test_crypto_recognizer.py
+presidio-analyzer/tests/test_date_recognizer.py
+presidio-analyzer/tests/test_de_bsnr_recognizer.py
+presidio-analyzer/tests/test_de_fuehrerschein_recognizer.py
+presidio-analyzer/tests/test_de_handelsregister_recognizer.py
+presidio-analyzer/tests/test_de_health_insurance_recognizer.py
+presidio-analyzer/tests/test_de_id_card_recognizer.py
+presidio-analyzer/tests/test_de_kfz_recognizer.py
+presidio-analyzer/tests/test_de_lanr_recognizer.py
+presidio-analyzer/tests/test_de_passport_recognizer.py
+presidio-analyzer/tests/test_de_plz_recognizer.py
+presidio-analyzer/tests/test_de_social_security_recognizer.py
+presidio-analyzer/tests/test_de_tax_id_recognizer.py
+presidio-analyzer/tests/test_de_tax_number_recognizer.py
+presidio-analyzer/tests/test_de_vat_id_recognizer.py
+presidio-analyzer/tests/test_device_detector.py
+presidio-analyzer/tests/test_email_recognizer.py
+presidio-analyzer/tests/test_entity_mapper.py
+presidio-analyzer/tests/test_entity_recognizer.py
+presidio-analyzer/tests/test_es_nie_recognizer.py
+presidio-analyzer/tests/test_es_nif_recognizer.py
+presidio-analyzer/tests/test_es_passport_recognizer.py
+presidio-analyzer/tests/test_examples_loader.py
+presidio-analyzer/tests/test_fi_personal_identity_code_recognizer.py
+presidio-analyzer/tests/test_gliner_recognizer.py
+presidio-analyzer/tests/test_huggingface_ner_recognizer.py
+presidio-analyzer/tests/test_iban_recognizer.py
+presidio-analyzer/tests/test_in_aadhaar_recognizer.py
+presidio-analyzer/tests/test_in_gstin_recognizer.py
+presidio-analyzer/tests/test_in_pan_recognizer.py
+presidio-analyzer/tests/test_in_passport_recognizer.py
+presidio-analyzer/tests/test_in_vehicle_registration_recognizer.py
+presidio-analyzer/tests/test_in_voter_recognizer.py
+presidio-analyzer/tests/test_ip_recognizer.py
+presidio-analyzer/tests/test_it_driver_license_recognizer.py
+presidio-analyzer/tests/test_it_fiscal_code_recognizer.py
+presidio-analyzer/tests/test_it_identity_card_recognizer.py
+presidio-analyzer/tests/test_it_passport_recognizer.py
+presidio-analyzer/tests/test_it_vat_code_recognizer.py
+presidio-analyzer/tests/test_kr_brn_recognizer.py
+presidio-analyzer/tests/test_kr_driver_license_recognizer.py
+presidio-analyzer/tests/test_kr_frn_recognizer.py
+presidio-analyzer/tests/test_kr_passport_recognizer.py
+presidio-analyzer/tests/test_kr_rrn_recognizer.py
+presidio-analyzer/tests/test_langextract_helper.py
+presidio-analyzer/tests/test_language_validation.py
+presidio-analyzer/tests/test_lemma_context_aware_enhancer.py
+presidio-analyzer/tests/test_lm_recognizer.py
+presidio-analyzer/tests/test_mac_recognizer.py
+presidio-analyzer/tests/test_medical_ner_recognizer.py
+presidio-analyzer/tests/test_ner_model_configuration.py
+presidio-analyzer/tests/test_ng_nin_recognizer.py
+presidio-analyzer/tests/test_ng_vehicle_registration_recognizer.py
+presidio-analyzer/tests/test_nlp_engine_provider.py
+presidio-analyzer/tests/test_pattern.py
+presidio-analyzer/tests/test_pattern_recognizer.py
+presidio-analyzer/tests/test_ph_mobile_number_recognizer.py
+presidio-analyzer/tests/test_ph_tin_recognizer.py
+presidio-analyzer/tests/test_ph_umid_recognizer.py
+presidio-analyzer/tests/test_phone_recognizer.py
+presidio-analyzer/tests/test_pl_pesel_recognizer.py
+presidio-analyzer/tests/test_prompt_loader.py
+presidio-analyzer/tests/test_recognizer_registry.py
+presidio-analyzer/tests/test_recognizer_registry_provider.py
+presidio-analyzer/tests/test_recognizer_result.py
+presidio-analyzer/tests/test_recognizers_loader_utils.py
+presidio-analyzer/tests/test_se_organisationsnummer_recognizer.py
+presidio-analyzer/tests/test_se_personnummer_recognizer.py
+presidio-analyzer/tests/test_sg_fin_recognizer.py
+presidio-analyzer/tests/test_sg_uen_recognizer.py
+presidio-analyzer/tests/test_slim_spacy_nlp_engine.py
+presidio-analyzer/tests/test_spacy_nlp_engine.py
+presidio-analyzer/tests/test_spacy_recognizer.py
+presidio-analyzer/tests/test_stanza_batch_processing.py
+presidio-analyzer/tests/test_stanza_nlp_engine.py
+presidio-analyzer/tests/test_stanza_recognizer.py
+presidio-analyzer/tests/test_text_chunker_provider.py
+presidio-analyzer/tests/test_th_tnin_recognizer.py
+presidio-analyzer/tests/test_tr_license_plate_recognizer.py
+presidio-analyzer/tests/test_tr_national_id_recognizer.py
+presidio-analyzer/tests/test_tr_phone_number_recognizer.py
+presidio-analyzer/tests/test_transformers_nlp_engine.py
+presidio-analyzer/tests/test_transformers_recognizer.py
+presidio-analyzer/tests/test_uk_driving_licence_recognizer.py
+presidio-analyzer/tests/test_uk_nhs_recognizer.py
+presidio-analyzer/tests/test_uk_nino_recognizer.py
+presidio-analyzer/tests/test_uk_passport_recognizer.py
+presidio-analyzer/tests/test_uk_postcode_recognizer.py
+presidio-analyzer/tests/test_uk_vehicle_registration_recognizer.py
+presidio-analyzer/tests/test_url_recognizer.py
+presidio-analyzer/tests/test_us_bank_recognizer.py
+presidio-analyzer/tests/test_us_driver_license_recognizer.py
+presidio-analyzer/tests/test_us_itin_recognizer.py
+presidio-analyzer/tests/test_us_mbi_recognizer.py
+presidio-analyzer/tests/test_us_npi_recognizer.py
+presidio-analyzer/tests/test_us_passport_recognizer.py
+presidio-analyzer/tests/test_us_ssn_recognizer.py
+presidio-analyzer/tests/test_yaml_recognizer_models.py
+presidio-analyzer/tests/test_za_id_number_recognizer.py
+presidio-analyzer/uv.lock
+presidio-anonymizer/.dockerignore
+presidio-anonymizer/Dockerfile
+presidio-anonymizer/Dockerfile.dev
+presidio-anonymizer/Dockerfile.windows
+presidio-anonymizer/README.md
+presidio-anonymizer/app.py
+presidio-anonymizer/deploytoazure.json
+presidio-anonymizer/entrypoint.sh
+presidio-anonymizer/logging.ini
+presidio-anonymizer/presidio_anonymizer/__init__.py
+presidio-anonymizer/presidio_anonymizer/anonymizer_engine.py
+presidio-anonymizer/presidio_anonymizer/batch_anonymizer_engine.py
+presidio-anonymizer/presidio_anonymizer/batch_deanonymize_engine.py
+presidio-anonymizer/presidio_anonymizer/core/__init__.py
+presidio-anonymizer/presidio_anonymizer/core/engine_base.py
+presidio-anonymizer/presidio_anonymizer/core/text_replace_builder.py
+presidio-anonymizer/presidio_anonymizer/deanonymize_engine.py
+presidio-anonymizer/presidio_anonymizer/entities/__init__.py
+presidio-anonymizer/presidio_anonymizer/entities/conflict_resolution_strategy.py
+presidio-anonymizer/presidio_anonymizer/entities/engine/__init__.py
+presidio-anonymizer/presidio_anonymizer/entities/engine/dict_recognizer_result.py
+presidio-anonymizer/presidio_anonymizer/entities/engine/operator_config.py
+presidio-anonymizer/presidio_anonymizer/entities/engine/pii_entity.py
+presidio-anonymizer/presidio_anonymizer/entities/engine/recognizer_result.py
+presidio-anonymizer/presidio_anonymizer/entities/engine/result/__init__.py
+presidio-anonymizer/presidio_anonymizer/entities/engine/result/engine_result.py
+presidio-anonymizer/presidio_anonymizer/entities/engine/result/operator_result.py
+presidio-anonymizer/presidio_anonymizer/entities/invalid_exception.py
+presidio-anonymizer/presidio_anonymizer/operators/__init__.py
+presidio-anonymizer/presidio_anonymizer/operators/aes_cipher.py
+presidio-anonymizer/presidio_anonymizer/operators/ahds_surrogate.py
+presidio-anonymizer/presidio_anonymizer/operators/custom.py
+presidio-anonymizer/presidio_anonymizer/operators/deanonymize_keep.py
+presidio-anonymizer/presidio_anonymizer/operators/decrypt.py
+presidio-anonymizer/presidio_anonymizer/operators/encrypt.py
+presidio-anonymizer/presidio_anonymizer/operators/hash.py
+presidio-anonymizer/presidio_anonymizer/operators/keep.py
+presidio-anonymizer/presidio_anonymizer/operators/mask.py
+presidio-anonymizer/presidio_anonymizer/operators/operator.py
+presidio-anonymizer/presidio_anonymizer/operators/operators_factory.py
+presidio-anonymizer/presidio_anonymizer/operators/redact.py
+presidio-anonymizer/presidio_anonymizer/operators/replace.py
+presidio-anonymizer/presidio_anonymizer/py.typed
+presidio-anonymizer/presidio_anonymizer/services/__init__.py
+presidio-anonymizer/presidio_anonymizer/services/app_entities_convertor.py
+presidio-anonymizer/presidio_anonymizer/services/validators.py
+presidio-anonymizer/pyproject.toml
+presidio-anonymizer/tests/__init__.py
+presidio-anonymizer/tests/conftest.py
+presidio-anonymizer/tests/integration/__init__.py
+presidio-anonymizer/tests/integration/test_anonymize_engine.py
+presidio-anonymizer/tests/integration/test_deanonymize_engine.py
+presidio-anonymizer/tests/mock_operators.py
+presidio-anonymizer/tests/operators/__init__.py
+presidio-anonymizer/tests/operators/test_custom.py
+presidio-anonymizer/tests/operators/test_decrypt.py
+presidio-anonymizer/tests/operators/test_encrypt.py
+presidio-anonymizer/tests/operators/test_hash.py
+presidio-anonymizer/tests/operators/test_keep.py
+presidio-anonymizer/tests/operators/test_mask.py
+presidio-anonymizer/tests/operators/test_operators_factory.py
+presidio-anonymizer/tests/operators/test_redact.py
+presidio-anonymizer/tests/operators/test_replace.py
+presidio-anonymizer/tests/services/__init__.py
+presidio-anonymizer/tests/services/test_aes_cypher.py
+presidio-anonymizer/tests/services/test_validators.py
+presidio-anonymizer/tests/test_ahds_surrogate.py
+presidio-anonymizer/tests/test_ahds_surrogate_credential_selection.py
+presidio-anonymizer/tests/test_anonymizer_engine.py
+presidio-anonymizer/tests/test_app_entities_convertor.py
+presidio-anonymizer/tests/test_batch_anonymizer_engine.py
+presidio-anonymizer/tests/test_batch_deanonymize_engine.py
+presidio-anonymizer/tests/test_conflict_resolution_strategy.py
+presidio-anonymizer/tests/test_engine_result.py
+presidio-anonymizer/tests/test_operator_config.py
+presidio-anonymizer/tests/test_operator_result.py
+presidio-anonymizer/tests/test_readme.py
+presidio-anonymizer/tests/test_recognizer_result.py
+presidio-anonymizer/tests/test_text_replace_builder.py
+presidio-anonymizer/uv.lock
+presidio-cli/.presidiocli
+presidio-cli/Pipfile
+presidio-cli/README.md
+presidio-cli/presidio_cli/__init__.py
+presidio-cli/presidio_cli/__main__.py
+presidio-cli/presidio_cli/analyzer.py
+presidio-cli/presidio_cli/cli.py
+presidio-cli/presidio_cli/conf/default.yaml
+presidio-cli/presidio_cli/conf/limited.yaml
+presidio-cli/presidio_cli/config.py
+presidio-cli/pyproject.toml
+presidio-cli/tests/__init__.py
+presidio-cli/tests/conftest.py
+presidio-cli/tests/test_analyzer.py
+presidio-cli/tests/test_cli.py
+presidio-cli/tests/test_config.py
+presidio-cli/uv.lock
+presidio-image-redactor/.dockerignore
+presidio-image-redactor/Dockerfile
+presidio-image-redactor/Dockerfile.dev
+presidio-image-redactor/Evaluation_Approach.md
+presidio-image-redactor/README.md
+presidio-image-redactor/app.py
+presidio-image-redactor/deploytoazure.json
+presidio-image-redactor/entrypoint.sh
+presidio-image-redactor/img.png
+presidio-image-redactor/presidio_image_redactor/__init__.py
+presidio-image-redactor/presidio_image_redactor/bbox.py
+presidio-image-redactor/presidio_image_redactor/dicom_image_pii_verify_engine.py
+presidio-image-redactor/presidio_image_redactor/dicom_image_redactor_engine.py
+presidio-image-redactor/presidio_image_redactor/document_intelligence_ocr.py
+presidio-image-redactor/presidio_image_redactor/entities/__init__.py
+presidio-image-redactor/presidio_image_redactor/entities/api_request_convertor.py
+presidio-image-redactor/presidio_image_redactor/entities/image_recognizer_result.py
+presidio-image-redactor/presidio_image_redactor/entities/invalid_exception.py
+presidio-image-redactor/presidio_image_redactor/image_analyzer_engine.py
+presidio-image-redactor/presidio_image_redactor/image_pii_verify_engine.py
+presidio-image-redactor/presidio_image_redactor/image_processing_engine.py
+presidio-image-redactor/presidio_image_redactor/image_redactor_engine.py
+presidio-image-redactor/presidio_image_redactor/ocr.py
+presidio-image-redactor/presidio_image_redactor/py.typed
+presidio-image-redactor/presidio_image_redactor/tesseract_ocr.py
+presidio-image-redactor/pyproject.toml
+presidio-image-redactor/tests/__init__.py
+presidio-image-redactor/tests/conftest.py
+presidio-image-redactor/tests/engine_test_utils.py
+presidio-image-redactor/tests/integration/methods.py
+presidio-image-redactor/tests/integration/resources/0_ORIGINAL.dcm
+presidio-image-redactor/tests/integration/resources/0_ORIGINAL_redacted.dcm
+presidio-image-redactor/tests/integration/resources/dicom_pii_verify_integration.json
+presidio-image-redactor/tests/integration/resources/dir1/dir2/1_ORIGINAL.dcm
+presidio-image-redactor/tests/integration/resources/dir1/dir2/2_ORIGINAL.dcm
+presidio-image-redactor/tests/integration/resources/kwargs_test.jpg
+presidio-image-redactor/tests/integration/resources/no_ocr.jpg
+presidio-image-redactor/tests/integration/resources/no_ocr.png
+presidio-image-redactor/tests/integration/resources/ocr_bounding_box.png
+presidio-image-redactor/tests/integration/resources/ocr_bounding_box_redacted.png
+presidio-image-redactor/tests/integration/resources/ocr_test.png
+presidio-image-redactor/tests/integration/resources/ocr_test_redacted.png
+presidio-image-redactor/tests/integration/resources/ocr_test_redacted_matrix.png
+presidio-image-redactor/tests/integration/resources/pii_verify.png
+presidio-image-redactor/tests/integration/test_dicom_image_pii_verify_engine_integration.py
+presidio-image-redactor/tests/integration/test_dicom_image_redactor_engine_integration.py
+presidio-image-redactor/tests/integration/test_image_analyzer_engine_integration.py
+presidio-image-redactor/tests/integration/test_image_pii_verify_engine.py
+presidio-image-redactor/tests/integration/test_image_processing_engine.py
+presidio-image-redactor/tests/integration/test_image_redactor_engine.py
+presidio-image-redactor/tests/test_api_request_convertor.py
+presidio-image-redactor/tests/test_bbox.py
+presidio-image-redactor/tests/test_data/0_ORIGINAL.dcm
+presidio-image-redactor/tests/test_data/0_ORIGINAL_compressed.dcm
+presidio-image-redactor/tests/test_data/0_ORIGINAL_icon_image_sequence.dcm
+presidio-image-redactor/tests/test_data/0_ORIGINAL_no_pixels.dcm
+presidio-image-redactor/tests/test_data/RGB_ORIGINAL.dcm
+presidio-image-redactor/tests/test_data/dicom_dir_1/dicom_dir_2/1_ORIGINAL.DCM
+presidio-image-redactor/tests/test_data/dicom_dir_1/dicom_dir_2/2_ORIGINAL.dicom
+presidio-image-redactor/tests/test_data/dicom_dir_1/dicom_dir_3/3_ORIGINAL.DICOM
+presidio-image-redactor/tests/test_data/numpy_arrays/0_ORIGINAL.npy
+presidio-image-redactor/tests/test_data/numpy_arrays/1_ORIGINAL.npy
+presidio-image-redactor/tests/test_data/numpy_arrays/2_ORIGINAL.npy
+presidio-image-redactor/tests/test_data/numpy_arrays/3_ORIGINAL.npy
+presidio-image-redactor/tests/test_data/numpy_arrays/RGB_ORIGINAL.npy
+presidio-image-redactor/tests/test_data/png_images/0_ORIGINAL.png
+presidio-image-redactor/tests/test_data/png_images/1_ORIGINAL.png
+presidio-image-redactor/tests/test_data/png_images/2_ORIGINAL.png
+presidio-image-redactor/tests/test_data/png_images/3_ORIGINAL.png
+presidio-image-redactor/tests/test_data/png_images/RGB_ORIGINAL.png
+presidio-image-redactor/tests/test_dicom_image_pii_verify_engine.py
+presidio-image-redactor/tests/test_dicom_image_redactor_engine.py
+presidio-image-redactor/tests/test_document_intelligence_ocr.py
+presidio-image-redactor/tests/test_image_analyzer_engine.py
+presidio-image-redactor/tests/test_phi_list.py
+presidio-image-redactor/tests/test_tesseract_ocr.py
+presidio-image-redactor/uv.lock
+presidio-structured/README.md
+presidio-structured/logging.ini
+presidio-structured/presidio_structured/__init__.py
+presidio-structured/presidio_structured/analysis_builder.py
+presidio-structured/presidio_structured/config/__init__.py
+presidio-structured/presidio_structured/config/structured_analysis.py
+presidio-structured/presidio_structured/data/__init__.py
+presidio-structured/presidio_structured/data/data_processors.py
+presidio-structured/presidio_structured/data/data_reader.py
+presidio-structured/presidio_structured/py.typed
+presidio-structured/presidio_structured/structured_engine.py
+presidio-structured/pyproject.toml
+presidio-structured/tests/__init__.py
+presidio-structured/tests/conftest.py
+presidio-structured/tests/data/test_data_transformers.py
+presidio-structured/tests/test_analysis_builder.py
+presidio-structured/tests/test_tabular_engine.py
+presidio-structured/uv.lock
+presidio/README.md
+presidio/presidio/__init__.py
+presidio/pyproject.toml
+pyproject.toml
+scripts/zensical_build.py
+
+=== 2026-07-14T17:26:42.024762+00:00 git show HEAD:pyproject.toml ===
+[tool.ruff]
+
+exclude = [
+    # Ruff recommended:
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".ipynb_checkpoints",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pyenv",
+    ".pytest_cache",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    ".vscode",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "site-packages",
+    "venv",
+
+    # Project specific:
+    "docs/samples",
+    "e2e-tests/",
+    "*/tests/*"
+]
+
+# Same as Black.
+line-length = 88
+indent-width = 4
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "D", "N", "W",
+        # To be added:
+        # "SIM", "UP", "ANN", "B"
+]
+ignore = ["E203", "D100", "D202", "D407", "ANN204"]
+
+fixable = ["ALL"]
+
+# Allow unused variables when underscore-prefixed.
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+[tool.ruff.format]
+# Like Black, use double quotes for strings.
+quote-style = "double"
+
+# Like Black, indent with spaces, rather than tabs.
+indent-style = "space"
+
+# Like Black, respect magic trailing commas.
+skip-magic-trailing-comma = false
+
+# Like Black, automatically detect the appropriate line ending.
+line-ending = "auto"
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
+
+=== 2026-07-14T17:26:42.755240+00:00 git show HEAD:LICENSE ===
+The MIT License (MIT)
+
+Copyright (c) Presidio Contributors.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+=== 2026-07-14T17:26:43.535754+00:00 git checkout --detach HEAD ===
+HEAD is now at 6337265 feat(analyzer): add recognizer-level threshold config (#2116)
+
+=== 2026-07-14T17:29:24.558529+00:00 python3 -m venv .venv ===
+
+=== 2026-07-14T17:29:27.287594+00:00 .venv/bin/pip install --disable-pip-version-check /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/sources/presidio/presidio-analyzer /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/sources/presidio/presidio-anonymizer ===
+Processing /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/sources/presidio/presidio-analyzer
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Processing /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/sources/presidio/presidio-anonymizer
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting click<9.0.0,>=8.1.0 (from presidio_analyzer==2.2.363)
+  Using cached click-8.4.2-py3-none-any.whl.metadata (2.6 kB)
+Collecting numpy<2.5.0,>=1.19.0 (from presidio_analyzer==2.2.363)
+  Downloading numpy-2.4.6-cp313-cp313-macosx_14_0_arm64.whl.metadata (6.6 kB)
+Collecting phonenumbers<10.0.0,>=9.0.28 (from presidio_analyzer==2.2.363)
+  Downloading phonenumbers-9.0.34-py2.py3-none-any.whl.metadata (10 kB)
+Collecting pydantic<3.0.0,>=2.12.5 (from presidio_analyzer==2.2.363)
+  Using cached pydantic-2.13.4-py3-none-any.whl.metadata (109 kB)
+Collecting pyyaml<7.0.0,>=6.0.3 (from presidio_analyzer==2.2.363)
+  Downloading pyyaml-6.0.3-cp313-cp313-macosx_11_0_arm64.whl.metadata (2.4 kB)
+Collecting regex>=2023.0.0 (from presidio_analyzer==2.2.363)
+  Downloading regex-2026.7.10-cp313-cp313-macosx_11_0_arm64.whl.metadata (40 kB)
+Collecting spacy!=3.7.0,<4.0.0,>=3.4.4 (from presidio_analyzer==2.2.363)
+  Downloading spacy-3.8.14-cp313-cp313-macosx_11_0_arm64.whl.metadata (28 kB)
+Collecting tldextract<6.0.0,>=5.3.1 (from presidio_analyzer==2.2.363)
+  Downloading tldextract-5.3.1-py3-none-any.whl.metadata (7.3 kB)
+Collecting cryptography<49.0.0,>=48.0.1 (from presidio_anonymizer==2.2.363)
+  Downloading cryptography-48.0.1-cp311-abi3-macosx_10_9_universal2.whl.metadata (4.3 kB)
+Collecting cffi>=2.0.0 (from cryptography<49.0.0,>=48.0.1->presidio_anonymizer==2.2.363)
+  Downloading cffi-2.1.0-cp313-cp313-macosx_11_0_arm64.whl.metadata (2.5 kB)
+Collecting annotated-types>=0.6.0 (from pydantic<3.0.0,>=2.12.5->presidio_analyzer==2.2.363)
+  Using cached annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.46.4 (from pydantic<3.0.0,>=2.12.5->presidio_analyzer==2.2.363)
+  Downloading pydantic_core-2.46.4-cp313-cp313-macosx_11_0_arm64.whl.metadata (6.6 kB)
+Collecting typing-extensions>=4.14.1 (from pydantic<3.0.0,>=2.12.5->presidio_analyzer==2.2.363)
+  Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting typing-inspection>=0.4.2 (from pydantic<3.0.0,>=2.12.5->presidio_analyzer==2.2.363)
+  Using cached typing_inspection-0.4.2-py3-none-any.whl.metadata (2.6 kB)
+Collecting spacy-legacy<3.1.0,>=3.0.11 (from spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Downloading spacy_legacy-3.0.12-py2.py3-none-any.whl.metadata (2.8 kB)
+Collecting spacy-loggers<2.0.0,>=1.0.0 (from spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Downloading spacy_loggers-1.0.5-py3-none-any.whl.metadata (23 kB)
+Collecting murmurhash<1.1.0,>=0.28.0 (from spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Downloading murmurhash-1.0.15-cp313-cp313-macosx_11_0_arm64.whl.metadata (2.3 kB)
+Collecting cymem<2.1.0,>=2.0.2 (from spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Downloading cymem-2.0.13-cp313-cp313-macosx_11_0_arm64.whl.metadata (9.7 kB)
+Collecting preshed<3.1.0,>=3.0.2 (from spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Downloading preshed-3.0.13-cp313-cp313-macosx_11_0_arm64.whl.metadata (5.2 kB)
+Collecting thinc<8.4.0,>=8.3.12 (from spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Downloading thinc-8.3.13-cp313-cp313-macosx_11_0_arm64.whl.metadata (14 kB)
+Collecting wasabi<1.2.0,>=0.9.1 (from spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Downloading wasabi-1.1.3-py3-none-any.whl.metadata (28 kB)
+Collecting srsly<3.0.0,>=2.5.3 (from spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Downloading srsly-2.5.3-cp313-cp313-macosx_11_0_arm64.whl.metadata (19 kB)
+Collecting catalogue<2.1.0,>=2.0.6 (from spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Downloading catalogue-2.0.10-py3-none-any.whl.metadata (14 kB)
+Collecting weasel<2.0.0,>=1.0.0 (from spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Downloading weasel-1.0.0-py3-none-any.whl.metadata (4.6 kB)
+Collecting confection<2.0.0,>=1.3.2 (from spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Downloading confection-1.3.3-py3-none-any.whl.metadata (19 kB)
+Collecting typer<1.0.0,>=0.3.0 (from spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Downloading typer-0.26.8-py3-none-any.whl.metadata (15 kB)
+Collecting tqdm<5.0.0,>=4.38.0 (from spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Downloading tqdm-4.68.4-py3-none-any.whl.metadata (57 kB)
+Collecting requests<3.0.0,>=2.13.0 (from spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+Collecting jinja2 (from spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting setuptools (from spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Using cached setuptools-83.0.0-py3-none-any.whl.metadata (6.6 kB)
+Collecting packaging>=20.0 (from spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Using cached packaging-26.2-py3-none-any.whl.metadata (3.5 kB)
+Collecting idna (from tldextract<6.0.0,>=5.3.1->presidio_analyzer==2.2.363)
+  Using cached idna-3.18-py3-none-any.whl.metadata (6.1 kB)
+Collecting requests-file>=1.4 (from tldextract<6.0.0,>=5.3.1->presidio_analyzer==2.2.363)
+  Downloading requests_file-3.0.1-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting filelock>=3.0.8 (from tldextract<6.0.0,>=5.3.1->presidio_analyzer==2.2.363)
+  Downloading filelock-3.29.7-py3-none-any.whl.metadata (2.0 kB)
+Collecting pycparser (from cffi>=2.0.0->cryptography<49.0.0,>=48.0.1->presidio_anonymizer==2.2.363)
+  Downloading pycparser-3.0-py3-none-any.whl.metadata (8.2 kB)
+Collecting charset_normalizer<4,>=2 (from requests<3.0.0,>=2.13.0->spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Downloading charset_normalizer-3.4.9-cp313-cp313-macosx_10_13_universal2.whl.metadata (41 kB)
+Collecting urllib3<3,>=1.26 (from requests<3.0.0,>=2.13.0->spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Downloading urllib3-2.7.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting certifi>=2023.5.7 (from requests<3.0.0,>=2.13.0->spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Using cached certifi-2026.6.17-py3-none-any.whl.metadata (2.5 kB)
+Collecting blis<1.4.0,>=1.3.0 (from thinc<8.4.0,>=8.3.12->spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Downloading blis-1.3.3-cp313-cp313-macosx_11_0_arm64.whl.metadata (7.5 kB)
+Collecting shellingham>=1.3.0 (from typer<1.0.0,>=0.3.0->spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Downloading shellingham-1.5.4-py2.py3-none-any.whl.metadata (3.5 kB)
+Collecting rich>=13.8.0 (from typer<1.0.0,>=0.3.0->spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Downloading rich-15.0.0-py3-none-any.whl.metadata (18 kB)
+Collecting annotated-doc>=0.0.2 (from typer<1.0.0,>=0.3.0->spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Using cached annotated_doc-0.0.4-py3-none-any.whl.metadata (6.6 kB)
+Collecting cloudpathlib>=0.7.0 (from weasel<2.0.0,>=1.0.0->spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Downloading cloudpathlib-0.24.0-py3-none-any.whl.metadata (16 kB)
+Collecting smart-open>=5.2.1 (from weasel<2.0.0,>=1.0.0->spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Downloading smart_open-8.0.0-py3-none-any.whl.metadata (24 kB)
+Collecting httpx>=0.24.0 (from weasel<2.0.0,>=1.0.0->spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Using cached httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+Collecting MarkupSafe>=2.0 (from jinja2->spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Downloading markupsafe-3.0.3-cp313-cp313-macosx_11_0_arm64.whl.metadata (2.7 kB)
+Collecting anyio (from httpx>=0.24.0->weasel<2.0.0,>=1.0.0->spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Using cached anyio-4.14.2-py3-none-any.whl.metadata (4.6 kB)
+Collecting httpcore==1.* (from httpx>=0.24.0->weasel<2.0.0,>=1.0.0->spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Using cached httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+Collecting h11>=0.16 (from httpcore==1.*->httpx>=0.24.0->weasel<2.0.0,>=1.0.0->spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Using cached h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=13.8.0->typer<1.0.0,>=0.3.0->spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Downloading markdown_it_py-4.2.0-py3-none-any.whl.metadata (7.4 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=13.8.0->typer<1.0.0,>=0.3.0->spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Using cached pygments-2.20.0-py3-none-any.whl.metadata (2.5 kB)
+Collecting wrapt (from smart-open>=5.2.1->weasel<2.0.0,>=1.0.0->spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Downloading wrapt-2.2.2-cp313-cp313-macosx_11_0_arm64.whl.metadata (7.4 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=13.8.0->typer<1.0.0,>=0.3.0->spacy!=3.7.0,<4.0.0,>=3.4.4->presidio_analyzer==2.2.363)
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Using cached click-8.4.2-py3-none-any.whl (119 kB)
+Downloading cryptography-48.0.1-cp311-abi3-macosx_10_9_universal2.whl (8.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.0/8.0 MB 19.7 MB/s eta 0:00:00
+Downloading numpy-2.4.6-cp313-cp313-macosx_14_0_arm64.whl (5.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.2/5.2 MB 24.1 MB/s eta 0:00:00
+Downloading phonenumbers-9.0.34-py2.py3-none-any.whl (2.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.6/2.6 MB 25.9 MB/s eta 0:00:00
+Using cached pydantic-2.13.4-py3-none-any.whl (472 kB)
+Using cached pydantic_core-2.46.4-cp313-cp313-macosx_11_0_arm64.whl (2.0 MB)
+Using cached pyyaml-6.0.3-cp313-cp313-macosx_11_0_arm64.whl (173 kB)
+Downloading regex-2026.7.10-cp313-cp313-macosx_11_0_arm64.whl (291 kB)
+Downloading spacy-3.8.14-cp313-cp313-macosx_11_0_arm64.whl (6.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.0/6.0 MB 28.9 MB/s eta 0:00:00
+Downloading tldextract-5.3.1-py3-none-any.whl (105 kB)
+Using cached annotated_types-0.7.0-py3-none-any.whl (13 kB)
+Downloading catalogue-2.0.10-py3-none-any.whl (17 kB)
+Downloading cffi-2.1.0-cp313-cp313-macosx_11_0_arm64.whl (184 kB)
+Downloading confection-1.3.3-py3-none-any.whl (35 kB)
+Downloading cymem-2.0.13-cp313-cp313-macosx_11_0_arm64.whl (42 kB)
+Downloading filelock-3.29.7-py3-none-any.whl (46 kB)
+Downloading murmurhash-1.0.15-cp313-cp313-macosx_11_0_arm64.whl (27 kB)
+Using cached packaging-26.2-py3-none-any.whl (100 kB)
+Downloading preshed-3.0.13-cp313-cp313-macosx_11_0_arm64.whl (136 kB)
+Using cached requests-2.34.2-py3-none-any.whl (73 kB)
+Using cached idna-3.18-py3-none-any.whl (65 kB)
+Downloading requests_file-3.0.1-py2.py3-none-any.whl (4.5 kB)
+Downloading spacy_legacy-3.0.12-py2.py3-none-any.whl (29 kB)
+Downloading spacy_loggers-1.0.5-py3-none-any.whl (22 kB)
+Downloading srsly-2.5.3-cp313-cp313-macosx_11_0_arm64.whl (656 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 656.7/656.7 kB 20.6 MB/s eta 0:00:00
+Downloading thinc-8.3.13-cp313-cp313-macosx_11_0_arm64.whl (788 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 788.1/788.1 kB 20.7 MB/s eta 0:00:00
+Downloading tqdm-4.68.4-py3-none-any.whl (676 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 676.6/676.6 kB 24.8 MB/s eta 0:00:00
+Downloading typer-0.26.8-py3-none-any.whl (122 kB)
+Using cached typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Using cached typing_inspection-0.4.2-py3-none-any.whl (14 kB)
+Downloading wasabi-1.1.3-py3-none-any.whl (27 kB)
+Downloading weasel-1.0.0-py3-none-any.whl (50 kB)
+Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+Using cached setuptools-83.0.0-py3-none-any.whl (1.0 MB)
+Using cached annotated_doc-0.0.4-py3-none-any.whl (5.3 kB)
+Downloading blis-1.3.3-cp313-cp313-macosx_11_0_arm64.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 19.2 MB/s eta 0:00:00
+Using cached certifi-2026.6.17-py3-none-any.whl (133 kB)
+Using cached charset_normalizer-3.4.9-cp313-cp313-macosx_10_13_universal2.whl (317 kB)
+Downloading cloudpathlib-0.24.0-py3-none-any.whl (63 kB)
+Using cached httpx-0.28.1-py3-none-any.whl (73 kB)
+Using cached httpcore-1.0.9-py3-none-any.whl (78 kB)
+Downloading markupsafe-3.0.3-cp313-cp313-macosx_11_0_arm64.whl (12 kB)
+Downloading rich-15.0.0-py3-none-any.whl (310 kB)
+Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Downloading smart_open-8.0.0-py3-none-any.whl (73 kB)
+Using cached urllib3-2.7.0-py3-none-any.whl (131 kB)
+Downloading pycparser-3.0-py3-none-any.whl (48 kB)
+Downloading markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
+Using cached pygments-2.20.0-py3-none-any.whl (1.2 MB)
+Using cached anyio-4.14.2-py3-none-any.whl (125 kB)
+Downloading wrapt-2.2.2-cp313-cp313-macosx_11_0_arm64.whl (81 kB)
+Using cached h11-0.16.0-py3-none-any.whl (37 kB)
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Building wheels for collected packages: presidio_analyzer, presidio_anonymizer
+  Building wheel for presidio_analyzer (pyproject.toml): started
+  Building wheel for presidio_analyzer (pyproject.toml): finished with status 'done'
+  Created wheel for presidio_analyzer: filename=presidio_analyzer-2.2.363-py3-none-any.whl size=263366 sha256=b352059243c9b171a23f3a5ea7360fe6932898d66edc1cac1a22c26d0e4c3fb1
+  Stored in directory: /Users/vedantswami/Library/Caches/pip/wheels/c9/15/7c/a79a02953eb892687559f44bd256d013992d49d53c2633616f
+  Building wheel for presidio_anonymizer (pyproject.toml): started
+  Building wheel for presidio_anonymizer (pyproject.toml): finished with status 'done'
+  Created wheel for presidio_anonymizer: filename=presidio_anonymizer-2.2.363-py3-none-any.whl size=38128 sha256=b39d461bb06999b52befbfc73c0506debf4980435ca3a7f6c8ac576960f752a8
+  Stored in directory: /Users/vedantswami/Library/Caches/pip/wheels/00/0b/50/ce89e535a026713a50339643d0fee8e402f5b9c704a0da5bf6
+Successfully built presidio_analyzer presidio_anonymizer
+Installing collected packages: wrapt, wasabi, urllib3, typing-extensions, tqdm, spacy-loggers, spacy-legacy, shellingham, setuptools, regex, pyyaml, pygments, pycparser, phonenumbers, packaging, numpy, murmurhash, mdurl, MarkupSafe, idna, h11, filelock, cymem, confection, cloudpathlib, click, charset_normalizer, certifi, catalogue, annotated-types, annotated-doc, typing-inspection, srsly, smart-open, requests, pydantic-core, preshed, markdown-it-py, jinja2, httpcore, cffi, blis, anyio, rich, requests-file, pydantic, httpx, cryptography, typer, tldextract, thinc, presidio_anonymizer, weasel, spacy, presidio_analyzer
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+hermes-agent 0.16.0 requires croniter==6.0.0, which is not installed.
+hermes-agent 0.16.0 requires fastapi<1,>=0.104.0, which is not installed.
+hermes-agent 0.16.0 requires fire==0.7.1, which is not installed.
+hermes-agent 0.16.0 requires Markdown==3.10.2, which is not installed.
+hermes-agent 0.16.0 requires openai==2.24.0, which is not installed.
+hermes-agent 0.16.0 requires pathspec==1.1.1, which is not installed.
+hermes-agent 0.16.0 requires Pillow==12.2.0, which is not installed.
+hermes-agent 0.16.0 requires prompt_toolkit==3.0.52, which is not installed.
+hermes-agent 0.16.0 requires psutil==7.2.2, which is not installed.
+hermes-agent 0.16.0 requires ptyprocess<1,>=0.7.0; sys_platform != "win32", which is not installed.
+hermes-agent 0.16.0 requires PyJWT[crypto]==2.13.0, which is not installed.
+hermes-agent 0.16.0 requires python-dotenv==1.2.2, which is not installed.
+hermes-agent 0.16.0 requires ruamel.yaml==0.18.17, which is not installed.
+hermes-agent 0.16.0 requires tenacity==9.1.4, which is not installed.
+hermes-agent 0.16.0 requires uvicorn[standard]<1,>=0.24.0, which is not installed.
+hermes-agent 0.16.0 requires packaging==26.0, but you have packaging 26.2 which is incompatible.
+hermes-agent 0.16.0 requires requests==2.33.0, but you have requests 2.34.2 which is incompatible.
+hermes-agent 0.16.0 requires rich==14.3.3, but you have rich 15.0.0 which is incompatible.
+Successfully installed MarkupSafe-3.0.3 annotated-doc-0.0.4 annotated-types-0.7.0 anyio-4.14.2 blis-1.3.3 catalogue-2.0.10 certifi-2026.6.17 cffi-2.1.0 charset_normalizer-3.4.9 click-8.4.2 cloudpathlib-0.24.0 confection-1.3.3 cryptography-48.0.1 cymem-2.0.13 filelock-3.29.7 h11-0.16.0 httpcore-1.0.9 httpx-0.28.1 idna-3.18 jinja2-3.1.6 markdown-it-py-4.2.0 mdurl-0.1.2 murmurhash-1.0.15 numpy-2.4.6 packaging-26.2 phonenumbers-9.0.34 preshed-3.0.13 presidio_analyzer-2.2.363 presidio_anonymizer-2.2.363 pycparser-3.0 pydantic-2.13.4 pydantic-core-2.46.4 pygments-2.20.0 pyyaml-6.0.3 regex-2026.7.10 requests-2.34.2 requests-file-3.0.1 rich-15.0.0 setuptools-83.0.0 shellingham-1.5.4 smart-open-8.0.0 spacy-3.8.14 spacy-legacy-3.0.12 spacy-loggers-1.0.5 srsly-2.5.3 thinc-8.3.13 tldextract-5.3.1 tqdm-4.68.4 typer-0.26.8 typing-extensions-4.16.0 typing-inspection-0.4.2 urllib3-2.7.0 wasabi-1.1.3 weasel-1.0.0 wrapt-2.2.2
+
+=== 2026-07-14T17:32:40.775492+00:00 /usr/bin/time -l /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/envs/presidio/.venv/bin/python /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/fixtures/presidio_fixture.py ===
+Collecting en-core-web-lg==3.8.0
+  Downloading https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.8.0/en_core_web_lg-3.8.0-py3-none-any.whl (400.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 400.7/400.7 MB 1.7 MB/s eta 0:00:00
+Installing collected packages: en-core-web-lg
+Successfully installed en-core-web-lg-3.8.0
+
+[notice] A new release of pip is available: 24.2 -> 26.1.2
+[notice] To update, run: /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/envs/presidio/.venv/bin/python -m pip install --upgrade pip
+[38;5;2m✔ Download and installation successful[0m
+You can now load the package via spacy.load('en_core_web_lg')
+Traceback (most recent call last):
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/fixtures/presidio_fixture.py", line 9, in <module>
+    assert len(results) == 1 and results[0].score == 0.9
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+       78.49 real         3.52 user         1.65 sys
+           803831808  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               86174  page reclaims
+               25520  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                  58  messages sent
+               64124  messages received
+                   0  signals received
+                2883  voluntary context switches
+               51939  involuntary context switches
+         14401355941  instructions retired
+          6134095490  cycles elapsed
+           785106048  peak memory footprint
+
+=== 2026-07-14T17:35:24.428790+00:00 /usr/bin/time -l /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/envs/presidio/.venv/bin/python /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/fixtures/presidio_fixture.py ===
+Traceback (most recent call last):
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/fixtures/presidio_fixture.py", line 9, in <module>
+    assert len(results) == 1 and abs(results[0].score - 0.9) < 1e-9, results
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: []
+        1.85 real         1.16 user         0.35 sys
+           633585664  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               75366  page reclaims
+                2204  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                1360  voluntary context switches
+                6701  involuntary context switches
+         14110237626  instructions retired
+          5811234469  cycles elapsed
+           782517352  peak memory footprint
+
+=== 2026-07-14T17:35:50.850125+00:00 /usr/bin/time -l /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/envs/presidio/.venv/bin/python /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/fixtures/presidio_fixture.py ===
+PASS presidio_custom_recognizer matches=1 redacted=Contact <EMAIL_ADDRESS> with receipt.invalid only.
+        1.81 real         1.21 user         0.34 sys
+           690601984  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               79631  page reclaims
+                  41  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                1284  voluntary context switches
+                8816  involuntary context switches
+         13940673248  instructions retired
+          5922275332  cycles elapsed
+           782369872  peak memory footprint
+
+=== 2026-07-14T17:36:28.886480+00:00 sandbox-exec -p '(version 1)(allow default)(deny network*)' /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/envs/presidio/.venv/bin/python /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/fixtures/presidio_fixture.py ===
+PASS presidio_custom_recognizer matches=1 redacted=Contact <EMAIL_ADDRESS> with receipt.invalid only.
+
+=== 2026-07-14T17:37:52.370137+00:00 .venv/bin/pip check ===
+hermes-agent 0.16.0 requires croniter, which is not installed.
+hermes-agent 0.16.0 requires fastapi, which is not installed.
+hermes-agent 0.16.0 requires fire, which is not installed.
+hermes-agent 0.16.0 requires markdown, which is not installed.
+hermes-agent 0.16.0 requires openai, which is not installed.
+hermes-agent 0.16.0 requires pathspec, which is not installed.
+hermes-agent 0.16.0 requires pillow, which is not installed.
+hermes-agent 0.16.0 requires prompt-toolkit, which is not installed.
+hermes-agent 0.16.0 requires psutil, which is not installed.
+hermes-agent 0.16.0 requires ptyprocess, which is not installed.
+hermes-agent 0.16.0 requires pyjwt, which is not installed.
+hermes-agent 0.16.0 requires python-dotenv, which is not installed.
+hermes-agent 0.16.0 requires ruamel-yaml, which is not installed.
+hermes-agent 0.16.0 requires tenacity, which is not installed.
+hermes-agent 0.16.0 requires uvicorn, which is not installed.
+hermes-agent 0.16.0 has requirement packaging==26.0, but you have packaging 26.2.
+hermes-agent 0.16.0 has requirement requests==2.33.0, but you have requests 2.34.2.
+hermes-agent 0.16.0 has requirement rich==14.3.3, but you have rich 15.0.0.
+
+=== 2026-07-14T17:38:49.823364+00:00 env -u PYTHONPATH .venv/bin/pip check ===
+No broken requirements found.
+
+=== 2026-07-14T17:38:50.117323+00:00 env -u PYTHONPATH .venv/bin/python -c 'import importlib.metadata as m; print(m.version('"'"'presidio-analyzer'"'"'), m.version('"'"'presidio-anonymizer'"'"'))' ===
+2.2.363 2.2.363

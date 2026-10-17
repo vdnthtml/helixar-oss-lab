@@ -1,0 +1,757 @@
+
+=== 2026-07-14T17:25:36.682311+00:00 git clone --depth 1 --filter=blob:none --no-checkout https://github.com/open-telemetry/opentelemetry-specification.git /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/sources/opentelemetry ===
+Cloning into '/Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/sources/opentelemetry'...
+
+=== 2026-07-14T17:25:37.793106+00:00 git rev-parse HEAD ===
+d9f58bb8021f196a4bc57f35c1d07c2d5f908023
+
+=== 2026-07-14T17:25:37.902329+00:00 git symbolic-ref --short refs/remotes/origin/HEAD ===
+origin/main
+
+=== 2026-07-14T17:25:38.024718+00:00 git ls-tree -r --name-only HEAD ===
+.cspell.yaml
+.gitattributes
+.github/CODEOWNERS
+.github/ISSUE_TEMPLATE/baggage.md
+.github/ISSUE_TEMPLATE/context.md
+.github/ISSUE_TEMPLATE/logs.md
+.github/ISSUE_TEMPLATE/metrics.md
+.github/ISSUE_TEMPLATE/miscellaneous.md
+.github/ISSUE_TEMPLATE/profiling.md
+.github/ISSUE_TEMPLATE/protocol.md
+.github/ISSUE_TEMPLATE/resource.md
+.github/ISSUE_TEMPLATE/trace.md
+.github/PULL_REQUEST_TEMPLATE.md
+.github/renovate.json5
+.github/scripts/compliance_matrix.py
+.github/scripts/triage-helper/Pipfile
+.github/scripts/triage-helper/Pipfile.lock
+.github/scripts/triage-helper/app.py
+.github/workflows/checks.yaml
+.github/workflows/fossa.yml
+.github/workflows/ossf-scorecard.yml
+.github/workflows/stale-pr.yaml
+.github/workflows/triage-followup.yml
+.github/workflows/verify-changelog.yaml
+.gitignore
+.lychee.toml
+.markdownlint.yaml
+.nvmrc
+.textlintignore
+.textlintrc.yml
+.vscode/extensions.json
+.vscode/settings.json
+.yamllint
+AGENTS.md
+CHANGELOG.md
+CLAUDE.md
+CONTRIBUTING.md
+LICENSE
+Makefile
+README.md
+RELEASING.md
+development/README.md
+development/metrics/config-service.md
+development/trace/zpages.md
+internal/img/api-lifecycle.png
+internal/img/architecture.png
+internal/img/dynamic-config-service.png
+internal/img/library-design.png
+internal/img/library-full.png
+internal/img/library-minimal.png
+internal/img/long-term-support.png
+issue-management.md
+oteps/0000-template.md
+oteps/0001-telemetry-without-manual-instrumentation.md
+oteps/0005-global-init.md
+oteps/0007-no-out-of-band-reporting.md
+oteps/0016-named-tracers.md
+oteps/0035-opentelemetry-protocol.md
+oteps/0038-version-semantic-attribute.md
+oteps/0066-separate-context-propagation.md
+oteps/0083-component.md
+oteps/0099-otlp-http.md
+oteps/0110-z-pages.md
+oteps/0111-auto-resource-detection.md
+oteps/0119-standard-system-metrics.md
+oteps/0122-otlp-http-json.md
+oteps/0143-versioning-and-stability.md
+oteps/0147-upgrade-procedures.md
+oteps/0149-exponential-histogram.md
+oteps/0152-telemetry-schemas.md
+oteps/0155-external-modules.md
+oteps/0156-columnar-encoding.md
+oteps/0178-mapping-to-otlp-anyvalue.md
+oteps/0182-otlp-remote-parent.md
+oteps/0199-support-elastic-common-schema-in-opentelemetry.md
+oteps/0201-scope-attributes.md
+oteps/0202-events-and-logs-api.md
+oteps/0225-configuration.md
+oteps/0227-separate-semantic-conventions.md
+oteps/0232-maturity-of-otel.md
+oteps/0243-app-telemetry-schema-vision-roadmap.md
+oteps/0258-env-context-baggage-carriers.md
+oteps/0265-event-vision.md
+oteps/0266-move-oteps-to-spec.md
+oteps/4430-span-event-api-deprecation-plan.md
+oteps/4485-extending-attributes-to-support-complex-values.md
+oteps/4738-telemetry-policy.md
+oteps/4815-semantic-conventions-schema-v2.md
+oteps/4931-context-scoped-attributes.md
+oteps/5109-central-benchmarks-repository.md
+oteps/README.md
+oteps/assets/0225-config.yaml
+oteps/assets/0225-schema.json
+oteps/entities/0256-entities-data-model.md
+oteps/entities/0264-resource-and-entities.md
+oteps/entities/4665-multiple-resource-in-sdk.md
+oteps/experimental/0121-config-service.md
+oteps/images/otlp-client-server.png
+oteps/images/otlp-concurrent.png
+oteps/images/otlp-multi-destination.png
+oteps/images/otlp-request-response.png
+oteps/images/otlp-sequential.png
+oteps/img/0066_context_propagation_details.png
+oteps/img/0066_context_propagation_overview.png
+oteps/img/0143_api_lifecycle.png
+oteps/img/0143_cross_cutting.png
+oteps/img/0143_long_term.png
+oteps/img/0152-collector.png
+oteps/img/0152-otel-schema.png
+oteps/img/0152-query-translate.png
+oteps/img/0152-source-and-backend.png
+oteps/img/0156-arrow-ecosystem.svg
+oteps/img/0156-resource-events.svg
+oteps/img/0156_All trials.png
+oteps/img/0156_Best trials.png
+oteps/img/0156_OTEL - Arrow IPC.png
+oteps/img/0156_OTEL - HowToUseArrow.png
+oteps/img/0156_OTEL - ProtocolSeqDiagram.png
+oteps/img/0156_OTEL - Row vs Column.png
+oteps/img/0156_OTEL-Metric-Model.png
+oteps/img/0156_RecordBatch.png
+oteps/img/0156_collector_internal_overview.png
+oteps/img/0156_collector_phase_2.png
+oteps/img/0156_compression_ratio_summary_multivariate_metrics.png
+oteps/img/0156_compression_ratio_summary_std_metrics.png
+oteps/img/0156_logs_bytes.png
+oteps/img/0156_logs_schema.png
+oteps/img/0156_logs_step_times.png
+oteps/img/0156_logs_step_times_phase1.png
+oteps/img/0156_metrics_schema.png
+oteps/img/0156_metrics_small_batches.png
+oteps/img/0156_metrics_step_times.png
+oteps/img/0156_metrics_step_times_phase1.png
+oteps/img/0156_multivariate_metrics_bytes.png
+oteps/img/0156_summary.png
+oteps/img/0156_summary_time_spent.png
+oteps/img/0156_traces_schema.png
+oteps/img/0156_traces_step_times_phase1.png
+oteps/img/0156_traffic_reduction_use_case.png
+oteps/img/0156_univariate_metrics_bytes.png
+oteps/img/0201-scope-multiplexing.png
+oteps/img/0207-context-scoped-attributes.drawio.png
+oteps/img/0235-sampling-threshold-calculation.png
+oteps/img/0243-otel-weaver-component-schema.svg
+oteps/img/0243-otel-weaver-concepts.svg
+oteps/img/0243-otel-weaver-dev-strategies.svg
+oteps/img/0243-otel-weaver-hierarchy.svg
+oteps/img/0243-otel-weaver-overview.svg
+oteps/img/0243-otel-weaver-resolved-schema.svg
+oteps/img/0243-otel-weaver-responsibilities-properties.svg
+oteps/img/0243-otel-weaver-use-cases.svg
+oteps/img/0258-env-context-opentofu-trace.png
+oteps/img/0258-env-context-opentofu-tracing.png
+oteps/img/0258-env-context-parent-child-process.png
+oteps/logs/0091-logs-vocabulary.md
+oteps/logs/0092-logs-vision.md
+oteps/logs/0097-log-data-model.md
+oteps/logs/0130-logs-1.0ga-definition.md
+oteps/logs/0150-logging-library-sdk.md
+oteps/logs/images/otep0150/appender.png
+oteps/logs/images/otep0150/custom-exporter.png
+oteps/logs/images/otep0150/custom-processor.png
+oteps/logs/images/otep0150/otlp-file.png
+oteps/metrics/0003-measure-metric-type.md
+oteps/metrics/0008-metric-observer.md
+oteps/metrics/0009-metric-handles.md
+oteps/metrics/0010-cumulative-to-counter.md
+oteps/metrics/0049-metric-label-set.md
+oteps/metrics/0070-metric-bound-instrument.md
+oteps/metrics/0072-metric-observer.md
+oteps/metrics/0080-remove-metric-gauge.md
+oteps/metrics/0088-metric-instrument-optional-refinements.md
+oteps/metrics/0090-remove-labelset-from-metrics-api.md
+oteps/metrics/0098-metric-instruments-explained.md
+oteps/metrics/0108-naming-guidelines.md
+oteps/metrics/0113-exemplars.md
+oteps/metrics/0126-Configurable-Metric-Aggregations.md
+oteps/metrics/0131-otlp-export-behavior.md
+oteps/metrics/0146-metrics-prototype-scenarios.md
+oteps/profiles/0212-profiling-vision.md
+oteps/profiles/0239-profiles-data-model.md
+oteps/profiles/4719-process-ctx.md
+oteps/profiles/images/otep0239/profiles-data-model.png
+oteps/trace/0002-remove-spandata.md
+oteps/trace/0006-sampling.md
+oteps/trace/0059-otlp-trace-data-format.md
+oteps/trace/0136-error_flagging.md
+oteps/trace/0168-sampling-propagation.md
+oteps/trace/0170-sampling-probability.md
+oteps/trace/0173-messaging-semantic-conventions.md
+oteps/trace/0174-http-semantic-conventions.md
+oteps/trace/0205-messaging-semantic-conventions-context-propagation.md
+oteps/trace/0220-messaging-semantic-conventions-span-structure.md
+oteps/trace/0235-sampling-threshold-in-trace-state.md
+oteps/trace/0250-Composite_Samplers.md
+oteps/trace/4673-experimental-probability-sampling.md
+package.json
+schemas/1.10.0
+schemas/1.11.0
+schemas/1.12.0
+schemas/1.13.0
+schemas/1.14.0
+schemas/1.15.0
+schemas/1.16.0
+schemas/1.17.0
+schemas/1.18.0
+schemas/1.19.0
+schemas/1.20.0
+schemas/1.21.0
+schemas/1.4.0
+schemas/1.5.0
+schemas/1.6.1
+schemas/1.7.0
+schemas/1.8.0
+schemas/1.9.0
+spec-compliance-matrix.md
+spec-compliance-matrix/cpp.yaml
+spec-compliance-matrix/dotnet.yaml
+spec-compliance-matrix/erlang.yaml
+spec-compliance-matrix/go.yaml
+spec-compliance-matrix/java.yaml
+spec-compliance-matrix/js.yaml
+spec-compliance-matrix/kotlin.yaml
+spec-compliance-matrix/php.yaml
+spec-compliance-matrix/python.yaml
+spec-compliance-matrix/ruby.yaml
+spec-compliance-matrix/rust.yaml
+spec-compliance-matrix/swift.yaml
+spec-compliance-matrix/template.yaml
+specification/README.md
+specification/baggage/README.md
+specification/baggage/api.md
+specification/common/README.md
+specification/common/attribute-naming.md
+specification/common/attribute-requirement-level.md
+specification/common/attribute-type-mapping.md
+specification/common/instrumentation-scope.md
+specification/common/mapping-to-non-otlp.md
+specification/compatibility/README.md
+specification/compatibility/logging_trace_context.md
+specification/compatibility/opencensus.md
+specification/compatibility/opentracing.md
+specification/compatibility/prometheus_and_openmetrics.md
+specification/configuration/README.md
+specification/configuration/api.md
+specification/configuration/common.md
+specification/configuration/data-model.md
+specification/configuration/sdk-environment-variables.md
+specification/configuration/sdk.md
+specification/configuration/supplementary-guidelines.md
+specification/context/README.md
+specification/context/api-propagators.md
+specification/context/env-carriers.md
+specification/document-status.md
+specification/entities/README.md
+specification/entities/data-model.md
+specification/entities/entity-events.md
+specification/entities/entity-propagation.md
+specification/error-handling.md
+specification/glossary.md
+specification/library-guidelines.md
+specification/library-layout.md
+specification/logs/README.md
+specification/logs/api.md
+specification/logs/data-model-appendix.md
+specification/logs/data-model.md
+specification/logs/img/app-to-file-logs-fb.png
+specification/logs/img/app-to-file-logs-otelcol.png
+specification/logs/img/app-to-otelcol.png
+specification/logs/img/appender.png
+specification/logs/img/application-api-sdk.png
+specification/logs/img/separate-collection.png
+specification/logs/img/unified-collection.png
+specification/logs/noop.md
+specification/logs/sdk.md
+specification/logs/sdk_exporters/README.md
+specification/logs/sdk_exporters/stdout.md
+specification/logs/supplementary-guidelines.md
+specification/metrics/README.md
+specification/metrics/api.md
+specification/metrics/data-model.md
+specification/metrics/img/accumulator-detail.png
+specification/metrics/img/metrics-sdk.png
+specification/metrics/img/model-cumulative-sum.png
+specification/metrics/img/model-delta-histogram.png
+specification/metrics/img/model-delta-sum.png
+specification/metrics/img/model-event-layer.png
+specification/metrics/img/model-gauge.png
+specification/metrics/img/model-layers-stream.png
+specification/metrics/img/model-layers.png
+specification/metrics/metric-requirement-level.md
+specification/metrics/noop.md
+specification/metrics/sdk.md
+specification/metrics/sdk_exporters/README.md
+specification/metrics/sdk_exporters/in-memory.md
+specification/metrics/sdk_exporters/otlp.md
+specification/metrics/sdk_exporters/prometheus.md
+specification/metrics/sdk_exporters/stdout.md
+specification/metrics/supplementary-guidelines.md
+specification/overview.md
+specification/performance-benchmark.md
+specification/performance.md
+specification/profiles/README.md
+specification/profiles/data-format.md
+specification/profiles/mappings.md
+specification/profiles/pprof.md
+specification/protocol/README.md
+specification/protocol/design-goals.md
+specification/protocol/exporter.md
+specification/protocol/file-exporter.md
+specification/protocol/img/otlp-client-server.png
+specification/protocol/img/otlp-concurrent.png
+specification/protocol/img/otlp-multi-destination.png
+specification/protocol/img/otlp-request-response.png
+specification/protocol/img/otlp-sequential.png
+specification/protocol/otlp.md
+specification/protocol/requirements.md
+specification/resource/README.md
+specification/resource/data-model.md
+specification/resource/sdk.md
+specification/schemas/README.md
+specification/schemas/file_format_v1.0.0.md
+specification/schemas/file_format_v1.1.0.md
+specification/schemas/img/0152-collector.png
+specification/schemas/img/0152-otel-schema.png
+specification/schemas/img/0152-query-translate.png
+specification/schemas/img/0152-source-and-backend.png
+specification/self-observability-supplementary-guidelines.md
+specification/self-observability.md
+specification/semantic-conventions.md
+specification/specification-principles.md
+specification/telemetry-stability.md
+specification/trace/README.md
+specification/trace/api.md
+specification/trace/exceptions.md
+specification/trace/sdk.md
+specification/trace/sdk_exporters/README.md
+specification/trace/sdk_exporters/stdout.md
+specification/trace/sdk_exporters/zipkin.md
+specification/trace/tracestate-handling.md
+specification/trace/tracestate-probability-sampling.md
+specification/upgrading.md
+specification/vendors.md
+specification/versioning-and-stability.md
+supplementary-guidelines/compatibility/aws.md
+
+=== 2026-07-14T17:25:38.179716+00:00 git show HEAD:README.md ===
+# OpenTelemetry Specification
+
+[![Slack](https://img.shields.io/badge/slack-@cncf/otel--specification-brightgreen.svg?logo=slack)](https://cloud-native.slack.com/archives/C01N7PP1THC)
+[![Release](https://img.shields.io/github/v/release/open-telemetry/opentelemetry-specification)](https://github.com/open-telemetry/opentelemetry-specification/releases/)
+[![OpenSSF Scorecard for opentelemetry-specification](https://api.scorecard.dev/projects/github.com/open-telemetry/opentelemetry-specification/badge)](https://scorecard.dev/viewer/?uri=github.com/open-telemetry/opentelemetry-specification)
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/11058/badge)](https://www.bestpractices.dev/projects/11058)
+
+![OpenTelemetry Logo](https://opentelemetry.io/img/logos/opentelemetry-horizontal-color.png)
+
+The **[OpenTelemetry][] specification** describes the cross-language
+requirements and expectations for all OpenTelemetry implementations.
+
+- The [latest release][] is hosted at
+  [opentelemetry.io/docs/specs/otel][]
+- Markdown sources are under [specification](./specification/README.md)
+
+## Change / contribution process
+
+For details, see [CONTRIBUTING.md](CONTRIBUTING.md), in particular read
+[Proposing a change](CONTRIBUTING.md#proposing-a-change) before submitting a PR.
+
+## Questions
+
+Questions that need additional attention can be brought to the regular
+specifications meeting. EU and US timezone friendly meeting is held every
+Tuesday at 8 AM Pacific time. Meeting notes are held in the [Google
+doc](https://docs.google.com/document/d/1pdvPeKjA8v8w_fGKAN68JjWBmVJtPCpqdi9IZrd6eEo/edit).
+APAC timezone friendly meetings are held on request. See
+[OpenTelemetry calendar](https://github.com/open-telemetry/community#calendar).
+
+Escalations to technical committee may be made over the
+[email](https://github.com/open-telemetry/community/blob/main/README.md#mailing-lists).
+Technical committee holds regular meetings, notes are held
+[here](https://docs.google.com/document/d/1hOHPCu5TGenqTeWPB9qQB_qd33uITZBcvK1FnWxYJAw/edit?usp=sharing).
+
+## Specification compliance matrix by language
+
+See [Compliance of Implementations with
+Specification](./spec-compliance-matrix.md).
+
+## Project Timeline
+
+The current project status as well as information on notable past releases is found at
+[the OpenTelemetry project page](https://opentelemetry.io/status/).
+
+Information about current work and future development plans is found at the
+[specification development milestones](https://github.com/open-telemetry/opentelemetry-specification/milestones).
+
+## Versioning the Specification
+
+Changes to the [specification](./specification/overview.md) are versioned according to [Semantic Versioning 2.0](https://semver.org/spec/v2.0.0.html) and described in [CHANGELOG.md](CHANGELOG.md). Layout changes are not versioned. Specific implementations of the specification should specify which version they implement.
+
+Changes to the change process itself are not currently versioned but may be independently versioned in the future.
+
+## License
+
+By contributing to OpenTelemetry Specification repository, you agree that your contributions will be licensed under its [Apache 2.0 License](LICENSE).
+
+[OpenTelemetry]: https://opentelemetry.io
+[latest release]: https://github.com/open-telemetry/opentelemetry-specification/releases/latest
+[opentelemetry.io/docs/specs/otel]: https://opentelemetry.io/docs/specs/otel/
+
+## Maintainers
+
+The maintainers of the specification are a superset of the Technical Committee.
+
+- [OpenTelemetry Technical Committee](https://github.com/open-telemetry/community/blob/main/community-members.md#technical-committee)
+- [Josh Suereth](https://github.com/jsuereth), Google
+- [Robert Pająk](https://github.com/pellared), Splunk
+
+For more information about the maintainer role, see the [community repository](https://github.com/open-telemetry/community/blob/main/guides/contributor/membership.md#maintainer).
+
+## Approvers
+
+[Specification sponsors](https://github.com/open-telemetry/community/blob/main/guides/contributor/membership.md#specification-sponsor) represent the approver role for the specification, along with additional responsibilities and privileges.
+
+- [Alex Boten](https://github.com/codeboten), Honeycomb
+- [Christian Neumüller](https://github.com/Oberon00), Dynatrace
+- [Cijo Thomas](https://github.com/cijothomas), Microsoft
+- [Daniel Dyla](https://github.com/dyladan), Dynatrace
+- [Josh Suereth](https://github.com/jsuereth), Google
+- [Juraci Paixão Kröhling](https://github.com/jpkrohling), OllyGarden
+- [Leighton Chen](https://github.com/lzchen), Microsoft
+- [Marc Alff](https://github.com/marcalff), Oracle
+- [Severin Neumann](https://github.com/svrnm), Independent
+- [Ted Young](https://github.com/tedsuo), Grafana Labs
+- [Tristan Sloughter](https://github.com/tsloughter), MyDecisiveAI
+- [Tyler Yahn](https://github.com/MrAlias), Splunk
+
+For more information about the approver role, see the [community repository](https://github.com/open-telemetry/community/blob/main/guides/contributor/membership.md#approver).
+
+## Triagers
+
+- [OpenTelemetry Governance Committee](https://github.com/open-telemetry/community/blob/main/community-members.md#governance-committee)
+
+For more information about the triager role, see the [community repository](https://github.com/open-telemetry/community/blob/main/guides/contributor/membership.md#triager).
+
+## Emeritus
+
+- [Christian Beedgen](https://github.com/kumoroku), Approver
+- [Daniel Jaglowski](https://github.com/djaglowski), Approver
+- [David Poncelow](https://github.com/zenmoto), Approver
+- [Nikita Salnikov-Tarnovski](https://github.com/iNikem), Approver
+
+=== 2026-07-14T17:25:39.118624+00:00 git show HEAD:package.json ===
+{
+  "devDependencies": {
+    "@cspell/dict-people-names": "1.1.16",
+    "cspell": "10.0.1",
+    "doctoc": "2.5.0",
+    "markdown-link-check": "3.14.2",
+    "markdownlint-cli": "0.49.0",
+    "textlint": "15.7.1",
+    "textlint-filter-rule-allowlist": "4.0.0",
+    "textlint-filter-rule-comments": "1.3.0",
+    "textlint-rule-common-misspellings": "1.0.1",
+    "textlint-rule-period-in-header": "0.1.2",
+    "textlint-rule-terminology": "5.2.16"
+  }
+}
+
+=== 2026-07-14T17:25:39.957331+00:00 git show HEAD:LICENSE ===
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "[]"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright [yyyy] [name of copyright owner]
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+=== 2026-07-14T17:25:40.796101+00:00 git checkout --detach HEAD ===
+HEAD is now at d9f58bb Update github-actions deps (#5203)
+
+=== 2026-07-14T17:29:23.449828+00:00 python3 -m venv .venv ===
+
+=== 2026-07-14T17:29:25.533552+00:00 .venv/bin/pip install --disable-pip-version-check opentelemetry-sdk ===
+Collecting opentelemetry-sdk
+  Downloading opentelemetry_sdk-1.43.0-py3-none-any.whl.metadata (1.7 kB)
+Collecting opentelemetry-api==1.43.0 (from opentelemetry-sdk)
+  Downloading opentelemetry_api-1.43.0-py3-none-any.whl.metadata (1.4 kB)
+Collecting opentelemetry-semantic-conventions==0.64b0 (from opentelemetry-sdk)
+  Downloading opentelemetry_semantic_conventions-0.64b0-py3-none-any.whl.metadata (2.4 kB)
+Collecting typing-extensions>=4.5.0 (from opentelemetry-sdk)
+  Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Downloading opentelemetry_sdk-1.43.0-py3-none-any.whl (178 kB)
+Downloading opentelemetry_api-1.43.0-py3-none-any.whl (61 kB)
+Downloading opentelemetry_semantic_conventions-0.64b0-py3-none-any.whl (203 kB)
+Using cached typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Installing collected packages: typing-extensions, opentelemetry-api, opentelemetry-semantic-conventions, opentelemetry-sdk
+Successfully installed opentelemetry-api-1.43.0 opentelemetry-sdk-1.43.0 opentelemetry-semantic-conventions-0.64b0 typing-extensions-4.16.0
+
+=== 2026-07-14T17:32:39.579919+00:00 /usr/bin/time -l /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/envs/opentelemetry/.venv/bin/python /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/fixtures/opentelemetry_fixture.py ===
+PASS otel_in_memory_export spans=1 sensitive_content_attributes=0
+        0.06 real         0.04 user         0.01 sys
+            24297472  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                2525  page reclaims
+                   2  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  61  voluntary context switches
+                 241  involuntary context switches
+           429240981  instructions retired
+           227007389  cycles elapsed
+            14402016  peak memory footprint
+
+=== 2026-07-14T17:36:27.556896+00:00 sandbox-exec -p '(version 1)(allow default)(deny network*)' /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/envs/opentelemetry/.venv/bin/python /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/fixtures/opentelemetry_fixture.py ===
+PASS otel_in_memory_export spans=1 sensitive_content_attributes=0
+
+=== 2026-07-14T17:37:48.018203+00:00 .venv/bin/pip check ===
+hermes-agent 0.16.0 requires croniter, which is not installed.
+hermes-agent 0.16.0 requires fastapi, which is not installed.
+hermes-agent 0.16.0 requires fire, which is not installed.
+hermes-agent 0.16.0 requires httpx, which is not installed.
+hermes-agent 0.16.0 requires jinja2, which is not installed.
+hermes-agent 0.16.0 requires markdown, which is not installed.
+hermes-agent 0.16.0 requires openai, which is not installed.
+hermes-agent 0.16.0 requires packaging, which is not installed.
+hermes-agent 0.16.0 requires pathspec, which is not installed.
+hermes-agent 0.16.0 requires pillow, which is not installed.
+hermes-agent 0.16.0 requires prompt-toolkit, which is not installed.
+hermes-agent 0.16.0 requires psutil, which is not installed.
+hermes-agent 0.16.0 requires ptyprocess, which is not installed.
+hermes-agent 0.16.0 requires pydantic, which is not installed.
+hermes-agent 0.16.0 requires pyjwt, which is not installed.
+hermes-agent 0.16.0 requires python-dotenv, which is not installed.
+hermes-agent 0.16.0 requires pyyaml, which is not installed.
+hermes-agent 0.16.0 requires requests, which is not installed.
+hermes-agent 0.16.0 requires rich, which is not installed.
+hermes-agent 0.16.0 requires ruamel-yaml, which is not installed.
+hermes-agent 0.16.0 requires tenacity, which is not installed.
+hermes-agent 0.16.0 requires urllib3, which is not installed.
+hermes-agent 0.16.0 requires uvicorn, which is not installed.
+
+=== 2026-07-14T17:38:33.259323+00:00 env -u PYTHONPATH .venv/bin/pip check ===
+No broken requirements found.
+
+=== 2026-07-14T17:38:33.534515+00:00 env -u PYTHONPATH .venv/bin/python -c 'import importlib.metadata as m; print(m.version('"'"'opentelemetry-sdk'"'"'))' ===
+1.43.0

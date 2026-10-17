@@ -1,0 +1,288 @@
+
+=== 2026-07-14T17:49:29.132767+00:00 python3 /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/validate_deliverables.py ===
+Traceback (most recent call last):
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/validate_deliverables.py", line 35, in <module>
+    check('no_bound_ports_csv',all(x['bound_ports']=='NONE' for x in smoke+res+clean))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/validate_deliverables.py", line 35, in <genexpr>
+    check('no_bound_ports_csv',all(x['bound_ports']=='NONE' for x in smoke+res+clean))
+                                   ~^^^^^^^^^^^^^^^
+KeyError: 'bound_ports'
+
+=== 2026-07-14T17:49:43.225582+00:00 python3 /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/validate_deliverables.py ===
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "report_exists_nonempty",
+      "status": "PASS",
+      "detail": "/Users/vedantswami/Projects/Dystopia/Dystopia/02_Projects/Helixar World-Class Benchmark Program/Architecture/O01 Control Plane, Trust and Observability OSS Lab Report.md"
+    },
+    {
+      "check": "candidate-inventory.csv_exists_nonempty",
+      "status": "PASS",
+      "detail": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O01-control-trust/candidate-inventory.csv"
+    },
+    {
+      "check": "license-and-security.csv_exists_nonempty",
+      "status": "PASS",
+      "detail": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O01-control-trust/license-and-security.csv"
+    },
+    {
+      "check": "deployment-smoke-results.csv_exists_nonempty",
+      "status": "PASS",
+      "detail": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O01-control-trust/deployment-smoke-results.csv"
+    },
+    {
+      "check": "resource-profile.csv_exists_nonempty",
+      "status": "PASS",
+      "detail": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O01-control-trust/resource-profile.csv"
+    },
+    {
+      "check": "contract-fit.csv_exists_nonempty",
+      "status": "PASS",
+      "detail": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O01-control-trust/contract-fit.csv"
+    },
+    {
+      "check": "cleanup-manifest.csv_exists_nonempty",
+      "status": "PASS",
+      "detail": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O01-control-trust/cleanup-manifest.csv"
+    },
+    {
+      "check": "inventory_17_unique",
+      "status": "PASS",
+      "detail": "rows=17 unique=17"
+    },
+    {
+      "check": "license_17_unique",
+      "status": "PASS",
+      "detail": "rows=17 unique=17"
+    },
+    {
+      "check": "resource_17_unique",
+      "status": "PASS",
+      "detail": "rows=17 unique=17"
+    },
+    {
+      "check": "contract_17_unique",
+      "status": "PASS",
+      "detail": "rows=17 unique=17"
+    },
+    {
+      "check": "cleanup_17_plus_lab",
+      "status": "PASS",
+      "detail": "rows=18"
+    },
+    {
+      "check": "smoke_accounts_all_candidates",
+      "status": "PASS",
+      "detail": "rows=18"
+    },
+    {
+      "check": "inventory_stage_distinctions",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "classification_enum",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "exact_git_hashes",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "exact_license_hashes",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "opa_release_commit",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "every_pass_has_command_output_evidence",
+      "status": "PASS",
+      "detail": "pass_rows=5"
+    },
+    {
+      "check": "orchestrator_pass",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "policy_pass",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "two_eval_observability_pass",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "final_smokes_network_denied",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "no_bound_ports_csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "no_external_state_cleanup",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "phoenix_license_block",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "production_unknown_contracts",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "license_hash_temporal",
+      "status": "PASS",
+      "detail": "/Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/inspected/temporal/LICENSE"
+    },
+    {
+      "check": "license_hash_langgraph",
+      "status": "PASS",
+      "detail": "/Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/inspected/langgraph/LICENSE"
+    },
+    {
+      "check": "license_hash_trigger-dev",
+      "status": "PASS",
+      "detail": "/Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/inspected/trigger-dev/LICENSE"
+    },
+    {
+      "check": "license_hash_prefect",
+      "status": "PASS",
+      "detail": "/Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/inspected/prefect/LICENSE"
+    },
+    {
+      "check": "license_hash_opa",
+      "status": "PASS",
+      "detail": "/Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/inspected/opa/LICENSE-v1.18.2"
+    },
+    {
+      "check": "license_hash_cedar",
+      "status": "PASS",
+      "detail": "/Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/inspected/cedar/LICENSE"
+    },
+    {
+      "check": "license_hash_openfga",
+      "status": "PASS",
+      "detail": "/Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/inspected/openfga/LICENSE"
+    },
+    {
+      "check": "license_hash_opentelemetry",
+      "status": "PASS",
+      "detail": "/Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/inspected/opentelemetry/LICENSE"
+    },
+    {
+      "check": "license_hash_openinference",
+      "status": "PASS",
+      "detail": "/Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/inspected/openinference/LICENSE"
+    },
+    {
+      "check": "license_hash_promptfoo",
+      "status": "PASS",
+      "detail": "/Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/inspected/promptfoo/LICENSE"
+    },
+    {
+      "check": "license_hash_inspect-ai",
+      "status": "PASS",
+      "detail": "/Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/inspected/inspect-ai/LICENSE"
+    },
+    {
+      "check": "license_hash_langfuse",
+      "status": "PASS",
+      "detail": "/Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/inspected/langfuse/LICENSE"
+    },
+    {
+      "check": "license_hash_phoenix",
+      "status": "PASS",
+      "detail": "/Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/inspected/phoenix/LICENSE"
+    },
+    {
+      "check": "license_hash_giskard",
+      "status": "PASS",
+      "detail": "/Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/inspected/giskard/LICENSE"
+    },
+    {
+      "check": "license_hash_pyrit",
+      "status": "PASS",
+      "detail": "/Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/inspected/pyrit/LICENSE"
+    },
+    {
+      "check": "license_hash_garak",
+      "status": "PASS",
+      "detail": "/Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/inspected/garak/LICENSE"
+    },
+    {
+      "check": "license_hash_presidio",
+      "status": "PASS",
+      "detail": "/Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/inspected/presidio/LICENSE"
+    },
+    {
+      "check": "no_live_lab_candidate_process",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "no_candidate_listener",
+      "status": "PASS",
+      "detail": ""
+    }
+  ],
+  "hashes": {
+    "/Users/vedantswami/Projects/Dystopia/Dystopia/02_Projects/Helixar World-Class Benchmark Program/Architecture/O01 Control Plane, Trust and Observability OSS Lab Report.md": {
+      "sha256": "7ef271f080d4f7495313a8ee46a1038555947c6e7d860a7917af77572980a581",
+      "bytes": 27089
+    },
+    "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O01-control-trust/candidate-inventory.csv": {
+      "sha256": "580737c44af76a5bc3d93ba08b9ba696aefe40589e2b21f830b53f77be78d2b7",
+      "bytes": 10179
+    },
+    "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O01-control-trust/license-and-security.csv": {
+      "sha256": "10a727f718d5be539bf400ea85392833611d2c82ae64e563c7615d953b477a37",
+      "bytes": 6196
+    },
+    "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O01-control-trust/deployment-smoke-results.csv": {
+      "sha256": "934acb5bb35fc4c41ab73fcbca3e6368b0b0c84c884defb5715a57d7e61cf89a",
+      "bytes": 6179
+    },
+    "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O01-control-trust/resource-profile.csv": {
+      "sha256": "500cdc8b04511e979aa74333344f5dbfbdc215e0aee7410c53386361b4e33946",
+      "bytes": 6520
+    },
+    "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O01-control-trust/contract-fit.csv": {
+      "sha256": "15749698acfa31fe48bea6ff15c2bfa4d96d2a08390af0fbf445bf8ef6e923e5",
+      "bytes": 9810
+    },
+    "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O01-control-trust/cleanup-manifest.csv": {
+      "sha256": "b1307b5b2edc5ec695b7e1cfbd6dc0735c443b940947fb3cad5d44fb0b08c2a2",
+      "bytes": 10872
+    }
+  },
+  "row_counts": {
+    "candidate_inventory": 17,
+    "license_security": 17,
+    "deployment_smoke": 18,
+    "resource_profile": 17,
+    "contract_fit": 17,
+    "cleanup_manifest": 18
+  },
+  "pass_smoke_rows": 5,
+  "live_lab_process_matches": [],
+  "candidate_listener_matches": []
+}

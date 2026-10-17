@@ -1,0 +1,20 @@
+  0%|          | 0/660 [00:00<?, ?frames/s]100%|██████████| 660/660 [00:01<00:00, 636.22frames/s]100%|██████████| 660/660 [00:01<00:00, 636.13frames/s]
+  0%|          | 0/660 [00:00<?, ?frames/s]100%|██████████| 660/660 [00:00<00:00, 2527.92frames/s]100%|██████████| 660/660 [00:00<00:00, 2526.91frames/s]
+        3.96 real         2.80 user         0.60 sys
+           723320832  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               80754  page reclaims
+                7147  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                2331  voluntary context switches
+               22200  involuntary context switches
+         24233797687  instructions retired
+         11903535989  cycles elapsed
+           627066128  peak memory footprint

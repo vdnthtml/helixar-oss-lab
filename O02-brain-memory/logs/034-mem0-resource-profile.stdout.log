@@ -1,0 +1,18 @@
+{
+  "candidate": "Mem0",
+  "concurrent_write_count": 4,
+  "deletion_tombstone_passed": true,
+  "deterministic_query_order_passed": true,
+  "export_path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/exports/mem0-governed-export.json",
+  "export_sha256": "43625b0f1a8f3b9ba47340f992d3163c29aae51ae32fd5b1b990654380156980",
+  "external_business_writes": 0,
+  "hosted_provider_calls": 0,
+  "native_revoked_item_still_retrievable": true,
+  "persistence_reopen_passed": true,
+  "promotion_wrapper_passed": true,
+  "revocation_wrapper_passed": true,
+  "run_dir": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/storage/mem0/run-36ogh9cf",
+  "source_lineage_retained": true,
+  "storage_combination": "Mem0 OSS + embedded Qdrant + SQLite history",
+  "telemetry_env": "false"
+}

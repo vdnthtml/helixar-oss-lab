@@ -1,0 +1,194 @@
+{
+  "checks": {
+    "activity_accounting": {
+      "external_business_writes": 0,
+      "loopback_command_envelopes": 0,
+      "lower_level_http_request_count": "UNKNOWN_NOT_PACKET_CAPTURED",
+      "predicted_process_records_after_current_validator": 97,
+      "process_records_before_current_validator": 96,
+      "public_network_command_envelopes": 26
+    },
+    "candidate_ports_free": {
+      "5432": true,
+      "6333": true,
+      "6334": true,
+      "9000": true,
+      "9001": true
+    },
+    "candidate_repositories": [
+      {
+        "candidate": "Letta",
+        "head": "b76da9092518cbaa2d09042e52fdcbde69243e18",
+        "pass": true,
+        "path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/repos/letta",
+        "root": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/repos/letta",
+        "status": "",
+        "tree": "7067c69e4ba1f579cfe879d9bf71a4a0d61ca3db"
+      },
+      {
+        "candidate": "Letta current (letta-code)",
+        "head": "7d3afd54b930d092d5f4547b3d874cb7efb15999",
+        "pass": true,
+        "path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/repos/letta-code",
+        "root": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/repos/letta-code",
+        "status": "",
+        "tree": "3409a813616aa6a7f05aacd56f988981b59703f2"
+      },
+      {
+        "candidate": "Mem0",
+        "head": "ccbe5861a138c7583e01bb3a3aa6168e52526a23",
+        "pass": true,
+        "path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/repos/mem0",
+        "root": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/repos/mem0",
+        "status": "",
+        "tree": "812317e78c83a9acee947ade1869ce158337ad49"
+      },
+      {
+        "candidate": "Graphiti",
+        "head": "526dcad7a300f3c5c506ff96a68bcdc7ca9f97ed",
+        "pass": true,
+        "path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/repos/graphiti",
+        "root": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/repos/graphiti",
+        "status": "",
+        "tree": "f3c6b396c841cfd1bdda3672967c04fc07495133"
+      },
+      {
+        "candidate": "LlamaIndex",
+        "head": "67514f63410c6d4c2344e7ca14b3ea7214d0bb84",
+        "pass": true,
+        "path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/repos/llama_index",
+        "root": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/repos/llama_index",
+        "status": "",
+        "tree": "8f421c804a8bc4aaf228e9be8c28879517f66a1d"
+      },
+      {
+        "candidate": "Unstructured",
+        "head": "c38745b32f5302a38f61245214d77fafff59368f",
+        "pass": true,
+        "path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/repos/unstructured",
+        "root": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/repos/unstructured",
+        "status": "",
+        "tree": "548b0104d9e7fea0eb1e7932974c4f12c94ae8f3"
+      },
+      {
+        "candidate": "PostgreSQL+pgvector",
+        "head": "a6420355c5d1c08f4c5fbd5112fc17e4cf3b5eb5",
+        "pass": true,
+        "path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/repos/pgvector",
+        "root": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/repos/pgvector",
+        "status": "",
+        "tree": "52b7f4807f58d7ae61990ba5c95f26755e66d65a"
+      },
+      {
+        "candidate": "Qdrant",
+        "head": "44ad62f8cd69642be5afa6441612525e24a0d063",
+        "pass": true,
+        "path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/repos/qdrant",
+        "root": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/repos/qdrant",
+        "status": "",
+        "tree": "c6b12563a75f1c5ee866e763be8ad93ebc51e5a8"
+      },
+      {
+        "candidate": "MinIO",
+        "head": "7aac2a2c5b7c882e68c1ce017d8256be2feea27f",
+        "pass": true,
+        "path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/repos/minio",
+        "root": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/repos/minio",
+        "status": "",
+        "tree": "376b09b793c57170a905208e64590164d8ab7a3b"
+      }
+    ],
+    "csv_row_counts": {
+      "candidate-inventory.csv": 8,
+      "cleanup-manifest.csv": 6,
+      "contract-fit.csv": 8,
+      "deployment-smoke-results.csv": 20,
+      "license-and-security.csv": 8,
+      "resource-profile.csv": 8
+    },
+    "disclosed_mandatory_context_drift": [
+      {
+        "current_sha256": "4997c8b5f07c6c910278706cb548838d497fa82772dd3876662fe53677fb4cd7",
+        "exists": true,
+        "expected_sha256": "5ab0b779d7f37000d842ebb27e88bc3ad6dfe180a49d0435142b87f24fcd3873",
+        "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Current State/Dystopia Current Snapshot.md",
+        "role": "mandatory_context",
+        "unchanged": false
+      },
+      {
+        "current_sha256": "2648eb9a0a2b7d59a0b695354cdb28d81291360de1628d30cec223215828fd4c",
+        "exists": true,
+        "expected_sha256": "dde8c9c85e463ed15249c0ffeaceef371dc40c9d7cb1e555c93578f78f463f6d",
+        "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/04_Logs/Daily/Daily Log - 2026-07-14.md",
+        "role": "mandatory_context",
+        "unchanged": false
+      },
+      {
+        "current_sha256": "8cb5beb063982cd612822d242a828b3d3ffa9c9573230e4da05a1f7b72d106ff",
+        "exists": true,
+        "expected_sha256": "36557820ecd031a3a87729386c45e9ed58f241782795afcc79cc25d08cb5b5ad",
+        "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/02_Projects/Helixar World-Class Benchmark Program/00 Helixar World-Class Benchmark Program - Control Center.md",
+        "role": "mandatory_context",
+        "unchanged": false
+      }
+    ],
+    "evidence_path_hash_failures": [],
+    "lab_owned_processes": [],
+    "output_hashes": {
+      "/Users/vedantswami/Projects/Dystopia/Dystopia/02_Projects/Helixar World-Class Benchmark Program/Architecture/O02 Brain, Memory, Retrieval and Storage OSS Lab Report.md": {
+        "bytes": 20324,
+        "sha256": "1eb5a0eb2720d897a5609f104706712254a1771eafc67ab7a785e4f62baf0b16"
+      },
+      "/Users/vedantswami/Projects/Dystopia/Dystopia/04_Logs/Runs/Run Receipt - 2026-07-14 - O02 Brain Memory OSS Lab.md": {
+        "bytes": 15192,
+        "sha256": "4cd530a2c04897199f5ac35c2222186251a56acff258f95aa6a8eac250759268"
+      },
+      "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O02-brain-memory/candidate-inventory.csv": {
+        "bytes": 4873,
+        "sha256": "41dea149d466106ebe641055daefc0cb0dd0b8aa551d567e21dda6cbd84bdd47"
+      },
+      "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O02-brain-memory/cleanup-manifest.csv": {
+        "bytes": 6260,
+        "sha256": "ff84eb4efe945e3c102eafbfd884691765cc4374aaec3676e42ab4a41099fdbb"
+      },
+      "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O02-brain-memory/contract-fit.csv": {
+        "bytes": 6227,
+        "sha256": "491757976e894b7e47c64cf0e21a9b42185a641a6ef1a0580d1332687408abc5"
+      },
+      "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O02-brain-memory/deployment-smoke-results.csv": {
+        "bytes": 13643,
+        "sha256": "48c839b9dd1c6b80a1241d1e44da98e3a7bfd040d14acec5604ed9a732ae9621"
+      },
+      "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O02-brain-memory/license-and-security.csv": {
+        "bytes": 8339,
+        "sha256": "c5d835051f53ab89f28784b0fe701353ad045cf33009dc2c48a8773be1b2886e"
+      },
+      "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O02-brain-memory/resource-profile.csv": {
+        "bytes": 6618,
+        "sha256": "17659492ee999187ff518824a9819c7559e6190d1a15f7a2263e531268651fff"
+      }
+    },
+    "report_wikilinks": {
+      "count": 12,
+      "unresolved": []
+    },
+    "required_outputs": {
+      "/Users/vedantswami/Projects/Dystopia/Dystopia/02_Projects/Helixar World-Class Benchmark Program/Architecture/O02 Brain, Memory, Retrieval and Storage OSS Lab Report.md": true,
+      "/Users/vedantswami/Projects/Dystopia/Dystopia/04_Logs/Runs/Run Receipt - 2026-07-14 - O02 Brain Memory OSS Lab.md": true,
+      "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O02-brain-memory/candidate-inventory.csv": true,
+      "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O02-brain-memory/cleanup-manifest.csv": true,
+      "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O02-brain-memory/contract-fit.csv": true,
+      "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O02-brain-memory/deployment-smoke-results.csv": true,
+      "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O02-brain-memory/license-and-security.csv": true,
+      "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O02-brain-memory/resource-profile.csv": true
+    },
+    "secret_pattern_hits": [],
+    "source_csv_immutability": {
+      "all_unchanged": true,
+      "count": 20
+    }
+  },
+  "errors": [],
+  "phase": "final",
+  "status": "PASS"
+}

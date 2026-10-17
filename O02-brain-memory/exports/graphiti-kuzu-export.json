@@ -1,0 +1,22 @@
+{
+  "backend": "Kuzu local adapter (deprecated upstream)",
+  "candidate": "Graphiti",
+  "node": {
+    "attributes": {
+      "governance_state": "revoked",
+      "revocation_reason": "synthetic-test",
+      "source_id": "fixture://alpha-v1",
+      "source_sha256": "0e90242b5a98abd20f272baefab884168b7d355f13996721f705beaa37874842"
+    },
+    "created_at": "2026-07-14T18:41:13.384881",
+    "group_id": "tenant-a.invalid",
+    "labels": [
+      "Policy",
+      "Entity"
+    ],
+    "name": "Alpha launch policy",
+    "name_embedding": null,
+    "summary": "alpha launch policy approved",
+    "uuid": "44444444-4444-4444-8444-444444444444"
+  }
+}

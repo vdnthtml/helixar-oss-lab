@@ -1,0 +1,37 @@
+
+=== 2026-07-14T17:50:04.084122+00:00 python3 /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/freeze_receipt_data.py ===
+{
+  "frozen_at_utc": "2026-07-14T17:50:04.106063+00:00",
+  "started_at_utc": "2026-07-14T17:23:26.413812+00:00",
+  "last_completed_before_freeze_utc": "2026-07-14T17:49:43.346309+00:00",
+  "logged_command_count_including_this_freeze": 241,
+  "network_command_count": 134,
+  "unplanned_network_fetch_count": 1,
+  "network_fetch_operation_count": 135,
+  "local_command_count_including_this_freeze": 107,
+  "failed_command_count": 11,
+  "external_write_count": 0,
+  "business_action_count": 0,
+  "credential_access_count": 0,
+  "implementation_repository_write_count": 0,
+  "validation-result.json": {
+    "sha256": "389483858e2525194046698aead3db9427a60ab647556084a57b829454fa3bed",
+    "bytes": 9647
+  },
+  "source-metadata.json": {
+    "sha256": "0b7ab29ccb4137e586d65b44f04c1bfbc8a15420b9f0d1db5084c36c0b981e53",
+    "bytes": 13527
+  },
+  "lab-summary.json": {
+    "sha256": "a4ed0c463c1053a0d2b217e88aa01cd4440eeba9dd4f140800032bcbef2b8278",
+    "bytes": 20745
+  },
+  "logs/process-network.jsonl": {
+    "sha256": "788655d406c534ac09bd8fe19b1889a0f0a35738d6736ed9693696583915882b",
+    "bytes": 115240
+  },
+  "logs/network-exceptions.jsonl": {
+    "sha256": "c362cf59a67eb9be8100fcbaacbd0856b54487eac78f9306a7ccdb103afb4956",
+    "bytes": 849
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "candidate_rows": 8,
+  "graphiti_fixture_sha256": "155483381b8cbf08ee7326d92bf903fa393a19c0c1c540052bfab0f37575445e",
+  "mem0_fixture_sha256": "06d75376b3d6ae30f53773a2dd179f50fedefad4e58e0bf8feb2853b5290d805",
+  "network_envelopes_before_final_gate": 26,
+  "report": "/Users/vedantswami/Projects/Dystopia/Dystopia/02_Projects/Helixar World-Class Benchmark Program/Architecture/O02 Brain, Memory, Retrieval and Storage OSS Lab Report.md",
+  "smoke_rows": 20
+}

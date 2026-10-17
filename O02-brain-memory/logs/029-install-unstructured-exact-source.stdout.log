@@ -1,0 +1,89 @@
+Processing ./repos/unstructured
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: beautifulsoup4<5.0.0,>=4.14.3 in ./envs/unstructured/lib/python3.11/site-packages (from unstructured==0.25.0) (4.15.0)
+Requirement already satisfied: charset-normalizer<4.0.0,>=3.4.4 in ./envs/unstructured/lib/python3.11/site-packages (from unstructured==0.25.0) (3.4.9)
+Requirement already satisfied: emoji<3.0.0,>=2.15.0 in ./envs/unstructured/lib/python3.11/site-packages (from unstructured==0.25.0) (2.15.0)
+Requirement already satisfied: filelock<4.0.0,>=3.12.0 in ./envs/unstructured/lib/python3.11/site-packages (from unstructured==0.25.0) (3.29.7)
+Requirement already satisfied: filetype<2.0.0,>=1.2.0 in ./envs/unstructured/lib/python3.11/site-packages (from unstructured==0.25.0) (1.2.0)
+Requirement already satisfied: html5lib<2.0.0,>=1.1 in ./envs/unstructured/lib/python3.11/site-packages (from unstructured==0.25.0) (1.1)
+Requirement already satisfied: installer<1.0.0,>=0.7.0 in ./envs/unstructured/lib/python3.11/site-packages (from unstructured==0.25.0) (0.7.0)
+Requirement already satisfied: langdetect<2.0.0,>=1.0.9 in ./envs/unstructured/lib/python3.11/site-packages (from unstructured==0.25.0) (1.0.9)
+Requirement already satisfied: lxml<7.0.0,>=5.0.0 in ./envs/unstructured/lib/python3.11/site-packages (from unstructured==0.25.0) (6.1.1)
+Requirement already satisfied: nh3<1.0.0,>=0.3.0 in ./envs/unstructured/lib/python3.11/site-packages (from unstructured==0.25.0) (0.3.6)
+Requirement already satisfied: numba<1.0.0,>=0.60.0 in ./envs/unstructured/lib/python3.11/site-packages (from unstructured==0.25.0) (0.66.0)
+Requirement already satisfied: numpy<3.0.0,>=1.26.0 in ./envs/unstructured/lib/python3.11/site-packages (from unstructured==0.25.0) (2.4.6)
+Requirement already satisfied: psutil<8.0.0,>=7.2.2 in ./envs/unstructured/lib/python3.11/site-packages (from unstructured==0.25.0) (7.2.2)
+Requirement already satisfied: python-iso639<2027.0.0,>=2026.1.31 in ./envs/unstructured/lib/python3.11/site-packages (from unstructured==0.25.0) (2026.4.20)
+Requirement already satisfied: python-magic<1.0.0,>=0.4.27 in ./envs/unstructured/lib/python3.11/site-packages (from unstructured==0.25.0) (0.4.27)
+Requirement already satisfied: python-oxmsg<1.0.0,>=0.0.2 in ./envs/unstructured/lib/python3.11/site-packages (from unstructured==0.25.0) (0.0.2)
+Requirement already satisfied: rapidfuzz<4.0.0,>=3.14.3 in ./envs/unstructured/lib/python3.11/site-packages (from unstructured==0.25.0) (3.14.5)
+Requirement already satisfied: regex<2027.0.0,>=2024.0.0 in ./envs/unstructured/lib/python3.11/site-packages (from unstructured==0.25.0) (2026.7.10)
+Requirement already satisfied: requests<3.0.0,>=2.32.5 in ./envs/unstructured/lib/python3.11/site-packages (from unstructured==0.25.0) (2.34.2)
+Requirement already satisfied: spacy<4.0.0,>=3.7.0 in ./envs/unstructured/lib/python3.11/site-packages (from unstructured==0.25.0) (3.8.14)
+Requirement already satisfied: tqdm<5.0.0,>=4.67.3 in ./envs/unstructured/lib/python3.11/site-packages (from unstructured==0.25.0) (4.68.4)
+Requirement already satisfied: typing-extensions<5.0.0,>=4.15.0 in ./envs/unstructured/lib/python3.11/site-packages (from unstructured==0.25.0) (4.16.0)
+Requirement already satisfied: unstructured-client<1.0.0,>=0.25.9 in ./envs/unstructured/lib/python3.11/site-packages (from unstructured==0.25.0) (0.45.0)
+Requirement already satisfied: wrapt<3.0.0,>=2.1.1 in ./envs/unstructured/lib/python3.11/site-packages (from unstructured==0.25.0) (2.2.2)
+Requirement already satisfied: soupsieve>=1.6.1 in ./envs/unstructured/lib/python3.11/site-packages (from beautifulsoup4<5.0.0,>=4.14.3->unstructured==0.25.0) (2.8.4)
+Requirement already satisfied: six>=1.9 in ./envs/unstructured/lib/python3.11/site-packages (from html5lib<2.0.0,>=1.1->unstructured==0.25.0) (1.17.0)
+Requirement already satisfied: webencodings in ./envs/unstructured/lib/python3.11/site-packages (from html5lib<2.0.0,>=1.1->unstructured==0.25.0) (0.5.1)
+Requirement already satisfied: llvmlite<0.49,>=0.48.0dev0 in ./envs/unstructured/lib/python3.11/site-packages (from numba<1.0.0,>=0.60.0->unstructured==0.25.0) (0.48.0)
+Requirement already satisfied: click in ./envs/unstructured/lib/python3.11/site-packages (from python-oxmsg<1.0.0,>=0.0.2->unstructured==0.25.0) (8.4.2)
+Requirement already satisfied: olefile in ./envs/unstructured/lib/python3.11/site-packages (from python-oxmsg<1.0.0,>=0.0.2->unstructured==0.25.0) (0.47)
+Requirement already satisfied: idna<4,>=2.5 in ./envs/unstructured/lib/python3.11/site-packages (from requests<3.0.0,>=2.32.5->unstructured==0.25.0) (3.18)
+Requirement already satisfied: urllib3<3,>=1.26 in ./envs/unstructured/lib/python3.11/site-packages (from requests<3.0.0,>=2.32.5->unstructured==0.25.0) (2.7.0)
+Requirement already satisfied: certifi>=2023.5.7 in ./envs/unstructured/lib/python3.11/site-packages (from requests<3.0.0,>=2.32.5->unstructured==0.25.0) (2026.6.17)
+Requirement already satisfied: spacy-legacy<3.1.0,>=3.0.11 in ./envs/unstructured/lib/python3.11/site-packages (from spacy<4.0.0,>=3.7.0->unstructured==0.25.0) (3.0.12)
+Requirement already satisfied: spacy-loggers<2.0.0,>=1.0.0 in ./envs/unstructured/lib/python3.11/site-packages (from spacy<4.0.0,>=3.7.0->unstructured==0.25.0) (1.0.5)
+Requirement already satisfied: murmurhash<1.1.0,>=0.28.0 in ./envs/unstructured/lib/python3.11/site-packages (from spacy<4.0.0,>=3.7.0->unstructured==0.25.0) (1.0.15)
+Requirement already satisfied: cymem<2.1.0,>=2.0.2 in ./envs/unstructured/lib/python3.11/site-packages (from spacy<4.0.0,>=3.7.0->unstructured==0.25.0) (2.0.13)
+Requirement already satisfied: preshed<3.1.0,>=3.0.2 in ./envs/unstructured/lib/python3.11/site-packages (from spacy<4.0.0,>=3.7.0->unstructured==0.25.0) (3.0.13)
+Requirement already satisfied: thinc<8.4.0,>=8.3.12 in ./envs/unstructured/lib/python3.11/site-packages (from spacy<4.0.0,>=3.7.0->unstructured==0.25.0) (8.3.13)
+Requirement already satisfied: wasabi<1.2.0,>=0.9.1 in ./envs/unstructured/lib/python3.11/site-packages (from spacy<4.0.0,>=3.7.0->unstructured==0.25.0) (1.1.3)
+Requirement already satisfied: srsly<3.0.0,>=2.5.3 in ./envs/unstructured/lib/python3.11/site-packages (from spacy<4.0.0,>=3.7.0->unstructured==0.25.0) (2.5.3)
+Requirement already satisfied: catalogue<2.1.0,>=2.0.6 in ./envs/unstructured/lib/python3.11/site-packages (from spacy<4.0.0,>=3.7.0->unstructured==0.25.0) (2.0.10)
+Requirement already satisfied: weasel<2.0.0,>=1.0.0 in ./envs/unstructured/lib/python3.11/site-packages (from spacy<4.0.0,>=3.7.0->unstructured==0.25.0) (1.0.0)
+Requirement already satisfied: confection<2.0.0,>=1.3.2 in ./envs/unstructured/lib/python3.11/site-packages (from spacy<4.0.0,>=3.7.0->unstructured==0.25.0) (1.3.3)
+Requirement already satisfied: typer<1.0.0,>=0.3.0 in ./envs/unstructured/lib/python3.11/site-packages (from spacy<4.0.0,>=3.7.0->unstructured==0.25.0) (0.26.8)
+Requirement already satisfied: pydantic<3.0.0,>=2.0.0 in ./envs/unstructured/lib/python3.11/site-packages (from spacy<4.0.0,>=3.7.0->unstructured==0.25.0) (2.13.4)
+Requirement already satisfied: jinja2 in ./envs/unstructured/lib/python3.11/site-packages (from spacy<4.0.0,>=3.7.0->unstructured==0.25.0) (3.1.6)
+Requirement already satisfied: setuptools in ./envs/unstructured/lib/python3.11/site-packages (from spacy<4.0.0,>=3.7.0->unstructured==0.25.0) (79.0.1)
+Requirement already satisfied: packaging>=20.0 in ./envs/unstructured/lib/python3.11/site-packages (from spacy<4.0.0,>=3.7.0->unstructured==0.25.0) (26.2)
+Requirement already satisfied: aiofiles>=25.1.0 in ./envs/unstructured/lib/python3.11/site-packages (from unstructured-client<1.0.0,>=0.25.9->unstructured==0.25.0) (25.1.0)
+Requirement already satisfied: httpcore>=1.0.9 in ./envs/unstructured/lib/python3.11/site-packages (from unstructured-client<1.0.0,>=0.25.9->unstructured==0.25.0) (1.0.9)
+Requirement already satisfied: httpx>=0.28.1 in ./envs/unstructured/lib/python3.11/site-packages (from unstructured-client<1.0.0,>=0.25.9->unstructured==0.25.0) (0.28.1)
+Requirement already satisfied: pypdf>=6.9.2 in ./envs/unstructured/lib/python3.11/site-packages (from unstructured-client<1.0.0,>=0.25.9->unstructured==0.25.0) (6.14.2)
+Requirement already satisfied: pypdfium2>=5.6.0 in ./envs/unstructured/lib/python3.11/site-packages (from unstructured-client<1.0.0,>=0.25.9->unstructured==0.25.0) (5.11.0)
+Requirement already satisfied: requests-toolbelt>=1.0.0 in ./envs/unstructured/lib/python3.11/site-packages (from unstructured-client<1.0.0,>=0.25.9->unstructured==0.25.0) (1.0.0)
+Requirement already satisfied: h11>=0.16 in ./envs/unstructured/lib/python3.11/site-packages (from httpcore>=1.0.9->unstructured-client<1.0.0,>=0.25.9->unstructured==0.25.0) (0.16.0)
+Requirement already satisfied: anyio in ./envs/unstructured/lib/python3.11/site-packages (from httpx>=0.28.1->unstructured-client<1.0.0,>=0.25.9->unstructured==0.25.0) (4.14.2)
+Requirement already satisfied: annotated-types>=0.6.0 in ./envs/unstructured/lib/python3.11/site-packages (from pydantic<3.0.0,>=2.0.0->spacy<4.0.0,>=3.7.0->unstructured==0.25.0) (0.7.0)
+Requirement already satisfied: pydantic-core==2.46.4 in ./envs/unstructured/lib/python3.11/site-packages (from pydantic<3.0.0,>=2.0.0->spacy<4.0.0,>=3.7.0->unstructured==0.25.0) (2.46.4)
+Requirement already satisfied: typing-inspection>=0.4.2 in ./envs/unstructured/lib/python3.11/site-packages (from pydantic<3.0.0,>=2.0.0->spacy<4.0.0,>=3.7.0->unstructured==0.25.0) (0.4.2)
+Requirement already satisfied: blis<1.4.0,>=1.3.0 in ./envs/unstructured/lib/python3.11/site-packages (from thinc<8.4.0,>=8.3.12->spacy<4.0.0,>=3.7.0->unstructured==0.25.0) (1.3.3)
+Requirement already satisfied: shellingham>=1.3.0 in ./envs/unstructured/lib/python3.11/site-packages (from typer<1.0.0,>=0.3.0->spacy<4.0.0,>=3.7.0->unstructured==0.25.0) (1.5.4)
+Requirement already satisfied: rich>=13.8.0 in ./envs/unstructured/lib/python3.11/site-packages (from typer<1.0.0,>=0.3.0->spacy<4.0.0,>=3.7.0->unstructured==0.25.0) (15.0.0)
+Requirement already satisfied: annotated-doc>=0.0.2 in ./envs/unstructured/lib/python3.11/site-packages (from typer<1.0.0,>=0.3.0->spacy<4.0.0,>=3.7.0->unstructured==0.25.0) (0.0.4)
+Requirement already satisfied: cloudpathlib>=0.7.0 in ./envs/unstructured/lib/python3.11/site-packages (from weasel<2.0.0,>=1.0.0->spacy<4.0.0,>=3.7.0->unstructured==0.25.0) (0.24.0)
+Requirement already satisfied: smart-open>=5.2.1 in ./envs/unstructured/lib/python3.11/site-packages (from weasel<2.0.0,>=1.0.0->spacy<4.0.0,>=3.7.0->unstructured==0.25.0) (8.0.0)
+Requirement already satisfied: MarkupSafe>=2.0 in ./envs/unstructured/lib/python3.11/site-packages (from jinja2->spacy<4.0.0,>=3.7.0->unstructured==0.25.0) (3.0.3)
+Requirement already satisfied: markdown-it-py>=2.2.0 in ./envs/unstructured/lib/python3.11/site-packages (from rich>=13.8.0->typer<1.0.0,>=0.3.0->spacy<4.0.0,>=3.7.0->unstructured==0.25.0) (4.2.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in ./envs/unstructured/lib/python3.11/site-packages (from rich>=13.8.0->typer<1.0.0,>=0.3.0->spacy<4.0.0,>=3.7.0->unstructured==0.25.0) (2.20.0)
+Requirement already satisfied: mdurl~=0.1 in ./envs/unstructured/lib/python3.11/site-packages (from markdown-it-py>=2.2.0->rich>=13.8.0->typer<1.0.0,>=0.3.0->spacy<4.0.0,>=3.7.0->unstructured==0.25.0) (0.1.2)
+Building wheels for collected packages: unstructured
+  Building wheel for unstructured (pyproject.toml): started
+  Building wheel for unstructured (pyproject.toml): finished with status 'done'
+  Created wheel for unstructured: filename=unstructured-0.25.0-py3-none-any.whl size=1607267 sha256=85aaefdb77847219dc8350d8d56fdd5da2c0ef18cfb1b3468fcc4453ecf4cbd8
+  Stored in directory: /private/var/folders/vj/_w3ccnk96p3dxghn29rf_vz80000gn/T/pip-ephem-wheel-cache-yga_movw/wheels/43/34/15/25467d764dc760b86fbd983201efe54736aa4d6bf01349d76d
+Successfully built unstructured
+Installing collected packages: unstructured
+  Attempting uninstall: unstructured
+    Found existing installation: unstructured 0.25.0
+    Uninstalling unstructured-0.25.0:
+      Successfully uninstalled unstructured-0.25.0
+Successfully installed unstructured-0.25.0

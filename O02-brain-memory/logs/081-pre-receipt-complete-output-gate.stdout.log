@@ -1,0 +1,16 @@
+{
+  "activity_accounting": {
+    "external_business_writes": 0,
+    "loopback_command_envelopes": 0,
+    "lower_level_http_request_count": "UNKNOWN_NOT_PACKET_CAPTURED",
+    "predicted_process_records_after_current_validator": 81,
+    "process_records_before_current_validator": 80,
+    "public_network_command_envelopes": 26
+  },
+  "errors": [
+    "unresolved report wikilinks: ['Run Receipt - 2026-07-14 - O02 Brain Memory OSS Lab']"
+  ],
+  "output": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/artifacts/pre-receipt-validation.json",
+  "phase": "pre",
+  "status": "FAIL"
+}

@@ -1,0 +1,4 @@
+{"event":"propose","from_state":null,"lineage_id":"lineage-alpha-v1","memory_id":"1fa71223-e6df-4e5b-8f14-d67c95c046c4","to_state":"candidate"}
+{"event":"promote","from_state":"candidate","lineage_id":"lineage-alpha-v1","memory_id":"1fa71223-e6df-4e5b-8f14-d67c95c046c4","to_state":"promoted"}
+{"event":"revoke","from_state":"promoted","lineage_id":"lineage-alpha-v1","memory_id":"1fa71223-e6df-4e5b-8f14-d67c95c046c4","to_state":"revoked"}
+{"event":"propose_and_promote","from_state":null,"lineage_id":"lineage-gamma-v1","memory_id":"07c9a3ec-bc48-484d-96ba-beba59ab2e2c","to_state":"promoted"}

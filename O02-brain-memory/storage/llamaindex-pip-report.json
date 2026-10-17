@@ -1,0 +1,517 @@
+{
+  "version": "1",
+  "pip_version": "24.0",
+  "install": [
+    {
+      "download_info": {
+        "url": "file:///Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/repos/llama_index/llama-index-core",
+        "dir_info": {}
+      },
+      "is_direct": true,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "llama-index-core",
+        "version": "0.14.23",
+        "summary": "Interface between LLMs and your data",
+        "description": "# LlamaIndex Core\n\nThe core python package to the LlamaIndex library. Core classes and abstractions\nrepresent the foundational building blocks for LLM applications, most notably,\nRAG. Such building blocks include abstractions for LLMs, Vector Stores, Embeddings,\nStorage, Callables and several others.\n\nWe've designed the core library so that it can be easily extended through subclasses.\nBuilding LLM applications with LlamaIndex thus involves building with LlamaIndex\ncore as well as with the LlamaIndex [integrations](https://github.com/run-llama/llama_index/tree/main/llama-index-integrations) needed for your application.\n",
+        "description_content_type": "text/markdown",
+        "keywords": [
+          "LLM",
+          "NLP",
+          "RAG",
+          "data",
+          "devtools",
+          "index",
+          "retrieval"
+        ],
+        "author_email": "Jerry Liu <jerry@llamaindex.ai>",
+        "maintainer_email": "Andrei Fajardo <andrei@runllama.ai>, Haotian Zhang <ht@runllama.ai>, Jerry Liu <jerry@llamaindex.ai>, Logan Markewich <logan@llamaindex.ai>, Simon Suo <simon@llamaindex.ai>, Sourabh Desai <sourabh@llamaindex.ai>",
+        "classifier": [
+          "Topic :: Scientific/Engineering :: Artificial Intelligence",
+          "Topic :: Software Development :: Libraries :: Application Frameworks",
+          "Topic :: Software Development :: Libraries :: Python Modules"
+        ],
+        "requires_dist": [
+          "aiohttp<4,>=3.8.6",
+          "aiosqlite",
+          "banks<3,>=2.3.0",
+          "dataclasses-json",
+          "deprecated>=1.2.9.3",
+          "dirtyjson<2,>=1.0.8",
+          "eval-type-backport<0.3,>=0.2.0; python_version < '3.10'",
+          "filetype<2,>=1.2.0",
+          "fsspec>=2023.5.0",
+          "httpx",
+          "llama-index-workflows<3,>=2.14.0",
+          "nest-asyncio<2,>=1.5.8",
+          "networkx>=3.0",
+          "nltk>=3.9.3",
+          "numpy",
+          "pillow>=9.0.0",
+          "platformdirs",
+          "pydantic>=2.8.0",
+          "pyyaml>=6.0.1",
+          "requests>=2.31.0",
+          "setuptools>=80.9.0",
+          "sqlalchemy[asyncio]>=1.4.49",
+          "tenacity!=8.4.0,<10.0.0,>=8.2.0",
+          "tiktoken>=0.7.0",
+          "tinytag>=2.2.0",
+          "tqdm<5,>=4.66.1",
+          "typing-extensions>=4.5.0",
+          "typing-inspect>=0.8.0",
+          "wrapt"
+        ],
+        "requires_python": "<4.0,>=3.10",
+        "project_url": [
+          "Homepage, https://llamaindex.ai",
+          "Repository, https://github.com/run-llama/llama_index",
+          "Documentation, https://docs.llamaindex.ai/en/stable/"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "file:///Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/repos/llama_index/llama-index-integrations/vector_stores/llama-index-vector-stores-qdrant",
+        "dir_info": {}
+      },
+      "is_direct": true,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "llama-index-vector-stores-qdrant",
+        "version": "0.10.2",
+        "summary": "llama-index vector_stores qdrant integration",
+        "description": "# LlamaIndex Vector_Stores Integration: Qdrant\n",
+        "description_content_type": "text/markdown",
+        "author_email": "Your Name <you@example.com>",
+        "requires_dist": [
+          "grpcio<2,>=1.60.0",
+          "llama-index-core<0.15,>=0.13.0",
+          "qdrant-client>=1.16.0"
+        ],
+        "requires_python": "<3.14,>=3.10",
+        "provides_extra": [
+          "fastembed"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/c1/8f/18053a3a2ca03d0c2a1b8cc7271e705007a16aa5dae84bac00935c5b1a7f/grpcio-1.82.1-cp311-cp311-macosx_11_0_universal2.whl",
+        "archive_info": {
+          "hash": "sha256=cf855b1af246720f567b0ce5d0724d45dfa4188eecc3296a2a69257b11b9e94b",
+          "hashes": {
+            "sha256": "cf855b1af246720f567b0ce5d0724d45dfa4188eecc3296a2a69257b11b9e94b"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "grpcio",
+        "version": "1.82.1",
+        "dynamic": [
+          "classifier",
+          "license-file",
+          "provides-extra",
+          "requires-dist",
+          "requires-python"
+        ],
+        "summary": "HTTP/2-based RPC framework",
+        "description": "gRPC Python\n===========\n\nPackage for gRPC Python.\n\n\nInstallation\n------------\n\ngRPC Python is available for Linux, macOS, and Windows.\n\nInstalling From PyPI\n~~~~~~~~~~~~~~~~~~~~\n\nIf you are installing locally...\n\n::\n\n  $ pip install grpcio\n\nElse system wide (on Ubuntu)...\n\n::\n\n  $ sudo pip install grpcio\n\nIf you're on Windows make sure that you installed the :code:`pip.exe` component\nwhen you installed Python (if not go back and install it!) then invoke:\n\n::\n\n  $ pip.exe install grpcio\n\nWindows users may need to invoke :code:`pip.exe` from a command line ran as\nadministrator.\n\nn.b. On Windows and on Mac OS X one *must* have a recent release of :code:`pip`\nto retrieve the proper wheel from PyPI. Be sure to upgrade to the latest\nversion!\n\nInstalling From Source\n~~~~~~~~~~~~~~~~~~~~~~\n\nBuilding from source requires that you have the Python headers (usually a\npackage named :code:`python-dev`).\n\n::\n\n  $ export REPO_ROOT=grpc  # REPO_ROOT can be any directory of your choice\n  $ git clone -b RELEASE_TAG_HERE https://github.com/grpc/grpc $REPO_ROOT\n  $ cd $REPO_ROOT\n  $ git submodule update --init\n\n  # To include systemd socket-activation feature in the build,\n  # first install the `libsystemd-dev` package, then :\n  $ export GRPC_PYTHON_BUILD_WITH_SYSTEMD=1\n\n  # For the next two commands do `sudo pip install` if you get permission-denied errors\n  $ pip install -r requirements.txt\n  $ GRPC_PYTHON_BUILD_WITH_CYTHON=1 pip install .\n\nYou cannot currently install Python from source on Windows. Things might work\nout for you in MSYS2 (follow the Linux instructions), but it isn't officially\nsupported at the moment.\n\nTroubleshooting\n~~~~~~~~~~~~~~~\n\nHelp, I ...\n\n* **... see the following error on some platforms**\n\n  ::\n\n    /tmp/pip-build-U8pSsr/cython/Cython/Plex/Scanners.c:4:20: fatal error: Python.h: No such file or directory\n    #include \"Python.h\"\n                    ^\n    compilation terminated.\n\n  You can fix it by installing `python-dev` package. i.e\n\n  ::\n\n    sudo apt-get install python-dev\n\n\nVersioning\n~~~~~~~~~~\n\ngRPC Python is developed in a monorepo shared with implementations of gRPC in\nother programming languages. While the minor versions are released in\nlock-step with other languages in the repo (e.g. 1.63.0 is guaranteed to exist\nfor all languages), patch versions may be specific to only a single\nlanguage. For example, if 1.63.1 is a C++-specific patch, 1.63.1 may not be\nuploaded to PyPi. As a result, it is __not__ a good assumption that the latest\npatch for a given minor version on Github is also the latest patch for that\nsame minor version on PyPi.\n\n",
+        "description_content_type": "text/x-rst",
+        "author_email": "The gRPC Authors <grpc-io@googlegroups.com>",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14"
+        ],
+        "requires_dist": [
+          "typing-extensions~=4.12",
+          "grpcio-tools>=1.82.1; extra == \"protobuf\""
+        ],
+        "requires_python": ">=3.10",
+        "project_url": [
+          "Homepage, https://grpc.io",
+          "Source Code, https://github.com/grpc/grpc",
+          "Bug Tracker, https://github.com/grpc/grpc/issues",
+          "Documentation, https://grpc.github.io/grpc/python"
+        ],
+        "provides_extra": [
+          "protobuf"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/d6/10/c437bd2ac41ef30d3019063e6ce537dc111e9214473b337ee88f7fa6359a/qdrant_client-1.18.0-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=093aa8cf8a420ee3ad2a68b007e1378d7992b2600e0b53c193fc172674f659cd",
+          "hashes": {
+            "sha256": "093aa8cf8a420ee3ad2a68b007e1378d7992b2600e0b53c193fc172674f659cd"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "qdrant-client",
+        "version": "1.18.0",
+        "summary": "Client library for the Qdrant vector search engine",
+        "description": "\n\n<p align=\"center\">\n  <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://github.com/qdrant/qdrant/raw/master/docs/logo-dark.svg\">\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://github.com/qdrant/qdrant/raw/master/docs/logo-light.svg\">\n      <img height=\"100\" alt=\"Qdrant\" src=\"https://github.com/qdrant/qdrant/raw/master/docs/logo.svg\">\n  </picture>\n</p>\n\n<p align=\"center\">\n    <b>Python Client library for the <a href=\"https://github.com/qdrant/qdrant\">Qdrant</a> vector search engine.</b>\n</p>\n\n\n<p align=center>\n    <a href=\"https://pypi.org/project/qdrant-client/\"><img src=\"https://badge.fury.io/py/qdrant-client.svg\" alt=\"PyPI version\" height=\"18\"></a>\n    <a href=\"https://api.qdrant.tech/\"><img src=\"https://img.shields.io/badge/Docs-OpenAPI%203.0-success\" alt=\"OpenAPI Docs\"></a>\n    <a href=\"https://github.com/qdrant/qdrant-client/blob/master/LICENSE\"><img src=\"https://img.shields.io/badge/License-Apache%202.0-success\" alt=\"Apache 2.0 License\"></a>\n    <a href=\"https://qdrant.to/discord\"><img src=\"https://img.shields.io/badge/Discord-Qdrant-5865F2.svg?logo=discord\" alt=\"Discord\"></a>\n    <a href=\"https://qdrant.to/roadmap\"><img src=\"https://img.shields.io/badge/Roadmap-2025-bc1439.svg\" alt=\"Roadmap 2025\"></a>\n</p>\n\n# Python Qdrant Client\n\nClient library and SDK for the [Qdrant](https://github.com/qdrant/qdrant) vector search engine.\n\nLibrary contains type definitions for all Qdrant API and allows to make both Sync and Async requests.\n\nClient allows calls for all [Qdrant API methods](https://api.qdrant.tech/) directly.\nIt also provides some additional helper methods for frequently required operations, e.g. initial collection uploading.\n\nSee [QuickStart](https://qdrant.tech/documentation/quick-start/#create-collection) for more details!\n\n## Installation\n\n```\npip install qdrant-client\n```\n\n## Features\n\n- Type hints for all API methods\n- Local mode - use same API without running server\n- REST and gRPC support\n- Minimal dependencies\n- Extensive Test Coverage\n\n## Local mode\n\n<p align=\"center\">\n  <!--- https://github.com/qdrant/qdrant-client/raw/master -->\n  <img max-height=\"180\" src=\"https://github.com/qdrant/qdrant-client/raw/master/docs/images/try-develop-deploy.png\" alt=\"Qdrant\">\n</p>\n\nPython client allows you to run same code in local mode without running Qdrant server.\n\nSimply initialize client like this:\n\n```python\nfrom qdrant_client import QdrantClient\n\nclient = QdrantClient(\":memory:\")\n# or\nclient = QdrantClient(path=\"path/to/db\")  # Persists changes to disk\n```\n\nLocal mode is useful for development, prototyping and testing.\n\n- You can use it to run tests in your CI/CD pipeline.\n- Run it in Colab or Jupyter Notebook, no extra dependencies required. See an [example](https://colab.research.google.com/drive/1Bz8RSVHwnNDaNtDwotfPj0w7AYzsdXZ-?usp=sharing)\n- When you need to scale, simply switch to server mode.\n\n## Connect to Qdrant server\n\nTo connect to Qdrant server, simply specify host and port:\n\n```python\nfrom qdrant_client import QdrantClient\n\nclient = QdrantClient(host=\"localhost\", port=6333)\n# or\nclient = QdrantClient(url=\"http://localhost:6333\")\n```\n\nYou can run Qdrant server locally with docker:\n\n```bash\ndocker run -p 6333:6333 qdrant/qdrant:latest\n```\n\nSee more launch options in [Qdrant repository](https://github.com/qdrant/qdrant#usage).\n\n\n## Connect to Qdrant cloud\n\nYou can register and use [Qdrant Cloud](https://cloud.qdrant.io/) to get a free tier account with 1GB RAM.\n\nOnce you have your cluster and API key, you can connect to it like this:\n\n```python\nfrom qdrant_client import QdrantClient\n\nqdrant_client = QdrantClient(\n    url=\"https://xxxxxx-xxxxx-xxxxx-xxxx-xxxxxxxxx.us-east.aws.cloud.qdrant.io:6333\",\n    api_key=\"<your-api-key>\",\n)\n```\n\n## Inference API\n\nQdrant Client has Inference API that allows to seamlessly create embeddings and use them in Qdrant.\nInference API can be used locally with FastEmbed or remotely with models available in Qdrant Cloud.\n\n### Local Inference with FastEmbed\n\n```\npip install qdrant-client[fastembed]\n```\n\nFastEmbed is a library for creating fast vector embeddings on CPU. It is based on ONNX Runtime and allows to run inference both on CPU and GPU.\n\nQdrant Client can use FastEmbed to create embeddings and upload them to Qdrant. This allows to simplify API and make it more intuitive.\n\n```python\nfrom qdrant_client import QdrantClient, models\n\n# running qdrant in local mode suitable for experiments\nclient = QdrantClient(\":memory:\")  # or QdrantClient(path=\"path/to/db\") for local mode and persistent storage\n\nmodel_name = \"sentence-transformers/all-MiniLM-L6-v2\"\npayload = [\n    {\"document\": \"Qdrant has Langchain integrations\", \"source\": \"Langchain-docs\", },\n    {\"document\": \"Qdrant also has Llama Index integrations\", \"source\": \"LlamaIndex-docs\"},\n]\ndocs = [models.Document(text=data[\"document\"], model=model_name) for data in payload]\nids = [42, 2]\n\nclient.create_collection(\n    \"demo_collection\",\n    vectors_config=models.VectorParams(\n        size=client.get_embedding_size(model_name), distance=models.Distance.COSINE)\n)\n\nclient.upload_collection(\n    collection_name=\"demo_collection\",\n    vectors=docs,\n    ids=ids,\n    payload=payload,\n)\n\nsearch_result = client.query_points(\n    collection_name=\"demo_collection\",\n    query=models.Document(text=\"This is a query document\", model=model_name)\n).points\nprint(search_result)\n```\n\nFastEmbed can also utilise GPU for faster embeddings. To enable GPU support, install\n\n```bash\npip install 'qdrant-client[fastembed-gpu]'\n```\n\nIn order to set GPU, extend documents from the previous example with `options`.\n```python\nmodels.Document(text=\"To be computed on GPU\", model=model_name, options={\"cuda\": True})\n```\n\n> Note: `fastembed-gpu` and `fastembed` are mutually exclusive. You can only install one of them.\n>\n> If you previously installed `fastembed`, you might need to start from a fresh environment to install `fastembed-gpu`.\n\n### Remote inference with Qdrant Cloud\n\nQdrant Cloud provides a set of predefined models that can be used for inference without a need to install any additional libraries or host models locally. (Currently available only on paid plans.)\n\nInference API is the same as in the local mode, but the client has to be instantiated with `cloud_inference=True`:\n\n```python\nfrom qdrant_client import QdrantClient\nclient = QdrantClient(\n    url=\"https://xxxxxx-xxxxx-xxxxx-xxxx-xxxxxxxxx.us-east.aws.cloud.qdrant.io:6333\",\n    api_key=\"<your-api-key>\",\n    cloud_inference=True,  # Enable remote inference\n)\n```\n\n> Note: remote inference requires images to be provided as base64 encoded strings or urls\n\n## Examples\n\n\nCreate a new collection\n```python\nfrom qdrant_client.models import Distance, VectorParams\n\nclient.create_collection(\n    collection_name=\"my_collection\",\n    vectors_config=VectorParams(size=100, distance=Distance.COSINE),\n)\n```\n\nInsert vectors into a collection\n\n```python\nimport numpy as np\n\nfrom qdrant_client.models import PointStruct\n\nvectors = np.random.rand(100, 100)\n# NOTE: consider splitting the data into chunks to avoid hitting the server's payload size limit\n# or use `upload_collection` or `upload_points` methods which handle this for you\n# WARNING: uploading points one-by-one is not recommended due to requests overhead\nclient.upsert(\n    collection_name=\"my_collection\",\n    points=[\n        PointStruct(\n            id=idx,\n            vector=vector.tolist(),\n            payload={\"color\": \"red\", \"rand_number\": idx % 10}\n        )\n        for idx, vector in enumerate(vectors)\n    ]\n)\n```\n\nSearch for similar vectors\n\n```python\nquery_vector = np.random.rand(100)\nhits = client.query_points(\n    collection_name=\"my_collection\",\n    query=query_vector,\n    limit=5  # Return 5 closest points\n)\n```\n\nSearch for similar vectors with filtering condition\n\n```python\nfrom qdrant_client.models import Filter, FieldCondition, Range\n\nhits = client.query_points(\n    collection_name=\"my_collection\",\n    query=query_vector,\n    query_filter=Filter(\n        must=[  # These conditions are required for search results\n            FieldCondition(\n                key='rand_number',  # Condition based on values of `rand_number` field.\n                range=Range(\n                    gte=3  # Select only those results where `rand_number` >= 3\n                )\n            )\n        ]\n    ),\n    limit=5  # Return 5 closest points\n)\n```\n\nSee more examples in our [Documentation](https://qdrant.tech/documentation/)!\n\n### gRPC\n\nTo enable (typically, much faster) collection uploading with gRPC, use the following initialization:\n\n```python\nfrom qdrant_client import QdrantClient\n\nclient = QdrantClient(host=\"localhost\", grpc_port=6334, prefer_grpc=True)\n```\n\n\n## Async client\n\nStarting from version 1.6.1, all python client methods are available in async version.\n\nTo use it, just import `AsyncQdrantClient` instead of `QdrantClient`:\n\n```python\nimport asyncio\n\nimport numpy as np\n\nfrom qdrant_client import AsyncQdrantClient, models\n\n\nasync def main():\n    # Your async code using QdrantClient might be put here\n    client = AsyncQdrantClient(url=\"http://localhost:6333\")\n\n    await client.create_collection(\n        collection_name=\"my_collection\",\n        vectors_config=models.VectorParams(size=10, distance=models.Distance.COSINE),\n    )\n\n    await client.upsert(\n        collection_name=\"my_collection\",\n        points=[\n            models.PointStruct(\n                id=i,\n                vector=np.random.rand(10).tolist(),\n            )\n            for i in range(100)\n        ],\n    )\n\n    res = await client.query_points(\n        collection_name=\"my_collection\",\n        query=np.random.rand(10).tolist(),  # type: ignore\n        limit=10,\n    )\n\n    print(res)\n\nasyncio.run(main())\n```\n\nBoth, gRPC and REST API are supported in async mode.\nMore examples can be found [here](./tests/test_async_qdrant_client.py).\n\n### Development\n\nThis project uses git hooks to run code formatters.\n\nSet up hooks with `pre-commit install` before making contributions.\n\n",
+        "description_content_type": "text/markdown",
+        "keywords": [
+          "vector",
+          "search",
+          "neural",
+          "matching",
+          "client"
+        ],
+        "author": "Andrey Vasnetsov",
+        "author_email": "andrey@qdrant.tech",
+        "license": "Apache-2.0",
+        "classifier": [
+          "License :: OSI Approved :: Apache Software License",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14"
+        ],
+        "requires_dist": [
+          "fastembed (>=0.8,<0.9) ; extra == \"fastembed\"",
+          "fastembed-gpu (>=0.8,<0.9) ; extra == \"fastembed-gpu\"",
+          "grpcio (>=1.41.0)",
+          "httpx[http2] (>=0.20.0)",
+          "numpy (>=1.21) ; python_version == \"3.11\"",
+          "numpy (>=1.21,<2.3.0) ; python_version == \"3.10\"",
+          "numpy (>=1.26) ; python_version == \"3.12\"",
+          "numpy (>=2.1.0) ; python_version == \"3.13\"",
+          "numpy (>=2.3.0) ; python_version >= \"3.14\"",
+          "portalocker (>=2.7.0,<4.0)",
+          "protobuf (>=3.20.0)",
+          "pydantic (>=1.10.8,!=2.0.*,!=2.1.*,!=2.2.0)",
+          "urllib3 (>=1.26.14,<3)"
+        ],
+        "requires_python": ">=3.10",
+        "project_url": [
+          "Homepage, https://github.com/qdrant/qdrant-client",
+          "Repository, https://github.com/qdrant/qdrant-client"
+        ],
+        "provides_extra": [
+          "fastembed",
+          "fastembed-gpu"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/4b/a6/38c8e2f318bf67d338f4d629e93b0b4b9af331f455f0390ea8ce4a099b26/portalocker-3.2.0-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=3cdc5f565312224bc570c49337bd21428bba0ef363bbcf58b9ef4a9f11779968",
+          "hashes": {
+            "sha256": "3cdc5f565312224bc570c49337bd21428bba0ef363bbcf58b9ef4a9f11779968"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "portalocker",
+        "version": "3.2.0",
+        "dynamic": [
+          "license-file"
+        ],
+        "platform": [
+          "any"
+        ],
+        "summary": "Wraps the portalocker recipe for easy usage",
+        "description": "############################################\nportalocker - Cross-platform locking library\n############################################\n\n.. image:: https://github.com/WoLpH/portalocker/actions/workflows/python-package.yml/badge.svg?branch=master\n    :alt: Linux Test Status\n    :target: https://github.com/WoLpH/portalocker/actions/\n\n.. image:: https://ci.appveyor.com/api/projects/status/mgqry98hgpy4prhh?svg=true\n    :alt: Windows Tests Status\n    :target: https://ci.appveyor.com/project/WoLpH/portalocker\n\n.. image:: https://coveralls.io/repos/WoLpH/portalocker/badge.svg?branch=master\n    :alt: Coverage Status\n    :target: https://coveralls.io/r/WoLpH/portalocker?branch=master\n\nOverview\n--------\n\nPortalocker is a library to provide an easy API to file locking.\n\nAn important detail to note is that on Linux and Unix systems the locks are\nadvisory by default. By specifying the `-o mand` option to the mount command it\nis possible to enable mandatory file locking on Linux. This is generally not\nrecommended however. For more information about the subject:\n\n - https://en.wikipedia.org/wiki/File_locking\n - http://stackoverflow.com/questions/39292051/portalocker-does-not-seem-to-lock\n - https://stackoverflow.com/questions/12062466/mandatory-file-lock-on-linux\n\nThe module is currently maintained by Rick van Hattem <Wolph@wol.ph>.\nThe project resides at https://github.com/WoLpH/portalocker . Bugs and feature\nrequests can be submitted there. Patches are also very welcome.\n\nSecurity contact information\n------------------------------------------------------------------------------\n\nTo report a security vulnerability, please use the\n`Tidelift security contact <https://tidelift.com/security>`_.\nTidelift will coordinate the fix and disclosure.\n\nRedis Locks\n-----------\n\nThis library now features a lock based on Redis which allows for locks across\nmultiple threads, processes and even distributed locks across multiple\ncomputers.\n\nIt is an extremely reliable Redis lock that is based on pubsub.\n\nAs opposed to most Redis locking systems based on key/value pairs,\nthis locking method is based on the pubsub system. The big advantage is\nthat if the connection gets killed due to network issues, crashing\nprocesses or otherwise, it will still immediately unlock instead of\nwaiting for a lock timeout.\n\nFirst make sure you have everything installed correctly:\n\n::\n\n    pip install \"portalocker[redis]\"\n\nUsage is really easy:\n\n::\n\n    import portalocker\n\n    lock = portalocker.RedisLock('some_lock_channel_name')\n\n    with lock:\n        print('do something here')\n\nThe API is essentially identical to the other ``Lock`` classes so in addition\nto the ``with`` statement you can also use ``lock.acquire(...)``.\n\nPython 2\n--------\n\nPython 2 was supported in versions before Portalocker 2.0. If you are still\nusing\nPython 2,\nyou can run this to install:\n\n::\n\n    pip install \"portalocker<2\"\n\nTips\n----\n\nOn some networked filesystems it might be needed to force a `os.fsync()` before\nclosing the file so it's actually written before another client reads the file.\nEffectively this comes down to:\n\n::\n\n   with portalocker.Lock('some_file', 'rb+', timeout=60) as fh:\n       # do what you need to do\n       ...\n\n       # flush and sync to filesystem\n       fh.flush()\n       os.fsync(fh.fileno())\n\nLinks\n-----\n\n* Documentation\n    - http://portalocker.readthedocs.org/en/latest/\n* Source\n    - https://github.com/WoLpH/portalocker\n* Bug reports\n    - https://github.com/WoLpH/portalocker/issues\n* Package homepage\n    - https://pypi.python.org/pypi/portalocker\n* My blog\n    - http://w.wol.ph/\n\nExamples\n--------\n\nTo make sure your cache generation scripts don't race, use the `Lock` class:\n\n>>> import portalocker\n>>> with portalocker.Lock('somefile', timeout=1) as fh:\n...     print('writing some stuff to my cache...', file=fh)\n\nTo customize the opening and locking a manual approach is also possible:\n\n>>> import portalocker\n>>> file = open('somefile', 'r+')\n>>> portalocker.lock(file, portalocker.LockFlags.EXCLUSIVE)\n>>> file.seek(12)\n>>> file.write('foo')\n>>> file.close()\n\nExplicitly unlocking is not needed in most cases but omitting it has been known\nto cause issues:\nhttps://github.com/AzureAD/microsoft-authentication-extensions-for-python/issues/42#issuecomment-601108266\n\nIf needed, it can be done through:\n\n>>> portalocker.unlock(file)\n\nDo note that your data might still be in a buffer so it is possible that your\ndata is not available until you `flush()` or `close()`.\n\nTo create a cross platform bounded semaphore across multiple processes you can\nuse the `BoundedSemaphore` class which functions somewhat similar to\n`threading.BoundedSemaphore`:\n\n>>> import portalocker\n>>> n = 2\n>>> timeout = 0.1\n\n>>> semaphore_a = portalocker.BoundedSemaphore(n, timeout=timeout)\n>>> semaphore_b = portalocker.BoundedSemaphore(n, timeout=timeout)\n>>> semaphore_c = portalocker.BoundedSemaphore(n, timeout=timeout)\n\n>>> semaphore_a.acquire()\n<portalocker.utils.Lock object at ...>\n>>> semaphore_b.acquire()\n<portalocker.utils.Lock object at ...>\n>>> semaphore_c.acquire()\nTraceback (most recent call last):\n  ...\nportalocker.exceptions.AlreadyLocked\n\n\nMore examples can be found in the\n`tests <http://portalocker.readthedocs.io/en/latest/_modules/tests/tests.html>`_.\n\n\nVersioning\n----------\n\nThis library follows `Semantic Versioning <http://semver.org/>`_.\n\n\nChangelog\n---------\n\nEvery release has a ``git tag`` with a commit message for the tag\nexplaining what was added and/or changed. The list of tags/releases\nincluding the commit messages can be found here:\nhttps://github.com/WoLpH/portalocker/releases\n\nLicense\n-------\n\nSee the `LICENSE <https://github.com/WoLpH/portalocker/blob/develop/LICENSE>`_ file.\n\n",
+        "description_content_type": "text/x-rst",
+        "keywords": [
+          "locking",
+          "locks",
+          "with",
+          "statement",
+          "windows",
+          "linux",
+          "unix"
+        ],
+        "author_email": "Rick van Hattem <wolph@wol.ph>",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Development Status :: 6 - Mature",
+          "Intended Audience :: Developers",
+          "Natural Language :: English",
+          "Operating System :: MacOS :: MacOS X",
+          "Operating System :: MacOS",
+          "Operating System :: Microsoft :: MS-DOS",
+          "Operating System :: Microsoft :: Windows",
+          "Operating System :: Microsoft",
+          "Operating System :: POSIX :: BSD :: FreeBSD",
+          "Operating System :: POSIX :: BSD",
+          "Operating System :: POSIX :: Linux",
+          "Operating System :: POSIX :: SunOS/Solaris",
+          "Operating System :: POSIX",
+          "Operating System :: Unix",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: IronPython",
+          "Programming Language :: Python :: Implementation :: PyPy",
+          "Programming Language :: Python :: Implementation",
+          "Programming Language :: Python",
+          "Topic :: Education :: Testing",
+          "Topic :: Office/Business",
+          "Topic :: Other/Nonlisted Topic",
+          "Topic :: Software Development :: Libraries :: Python Modules",
+          "Topic :: Software Development :: Libraries",
+          "Topic :: System :: Monitoring",
+          "Typing :: Typed"
+        ],
+        "requires_dist": [
+          "pywin32>=226; platform_system == \"Windows\"",
+          "portalocker[tests]; extra == \"docs\"",
+          "coverage-conditional-plugin>=0.9.0; extra == \"tests\"",
+          "portalocker[redis]; extra == \"tests\"",
+          "pytest-cov>=2.8.1; extra == \"tests\"",
+          "pytest-mypy>=0.8.0; extra == \"tests\"",
+          "pytest-rerunfailures>=15.0; extra == \"tests\"",
+          "pytest-timeout>=2.1.0; extra == \"tests\"",
+          "pytest>=5.4.1; extra == \"tests\"",
+          "sphinx>=6.0.0; extra == \"tests\"",
+          "types-pywin32>=310.0.0.20250429; extra == \"tests\"",
+          "types-redis; extra == \"tests\"",
+          "redis; extra == \"redis\""
+        ],
+        "requires_python": ">=3.9",
+        "project_url": [
+          "bugs, https://github.com/wolph/portalocker/issues",
+          "documentation, https://portalocker.readthedocs.io/en/latest/",
+          "repository, https://github.com/wolph/portalocker/"
+        ],
+        "provides_extra": [
+          "docs",
+          "tests",
+          "redis"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/10/03/8aeeb7458d22546bf64b5250ca1daeb5ff757d900e8e4a7476c6f0db843e/protobuf-7.35.1-cp310-abi3-macosx_10_9_universal2.whl",
+        "archive_info": {
+          "hash": "sha256=24f857477359a85c0c235261b8ba905fd51b2562f4a64ca1df5473f29850cbf6",
+          "hashes": {
+            "sha256": "24f857477359a85c0c235261b8ba905fd51b2562f4a64ca1df5473f29850cbf6"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "protobuf",
+        "version": "7.35.1",
+        "description": "UNKNOWN\n",
+        "home_page": "https://developers.google.com/protocol-buffers/",
+        "author": "protobuf@googlegroups.com",
+        "author_email": "protobuf@googlegroups.com",
+        "license": "3-Clause BSD License",
+        "classifier": [
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14"
+        ],
+        "requires_python": ">=3.10"
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/69/b2/119f6e6dcbd96f9069ce9a2665e0146588dc9f88f29549711853645e736a/h2-4.3.0-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=c438f029a25f7945c69e0ccf0fb951dc3f73a5f6412981daee861431b70e2bdd",
+          "hashes": {
+            "sha256": "c438f029a25f7945c69e0ccf0fb951dc3f73a5f6412981daee861431b70e2bdd"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "h2",
+        "version": "4.3.0",
+        "dynamic": [
+          "license-file"
+        ],
+        "summary": "Pure-Python HTTP/2 protocol implementation",
+        "description": "=========================\nh2: HTTP/2 Protocol Stack\n=========================\n\n.. image:: https://github.com/python-hyper/h2/workflows/CI/badge.svg\n    :target: https://github.com/python-hyper/h2/actions\n    :alt: Build Status\n.. image:: https://codecov.io/gh/python-hyper/h2/branch/master/graph/badge.svg\n    :target: https://codecov.io/gh/python-hyper/h2\n    :alt: Code Coverage\n.. image:: https://readthedocs.org/projects/h2/badge/?version=latest\n    :target: https://h2.readthedocs.io/en/latest/\n    :alt: Documentation Status\n.. image:: https://img.shields.io/badge/chat-join_now-brightgreen.svg\n    :target: https://gitter.im/python-hyper/community\n    :alt: Chat community\n\n.. image:: https://raw.github.com/python-hyper/documentation/master/source/logo/hyper-black-bg-white.png\n\nThis repository contains a pure-Python implementation of a HTTP/2 protocol\nstack. It's written from the ground up to be embeddable in whatever program you\nchoose to use, ensuring that you can speak HTTP/2 regardless of your\nprogramming paradigm.\n\nYou use it like this:\n\n.. code-block:: python\n\n    import h2.connection\n    import h2.config\n\n    config = h2.config.H2Configuration()\n    conn = h2.connection.H2Connection(config=config)\n    conn.send_headers(stream_id=stream_id, headers=headers)\n    conn.send_data(stream_id, data)\n    socket.sendall(conn.data_to_send())\n    events = conn.receive_data(socket_data)\n\nThis repository does not provide a parsing layer, a network layer, or any rules\nabout concurrency. Instead, it's a purely in-memory solution, defined in terms\nof data actions and HTTP/2 frames. This is one building block of a full Python\nHTTP implementation.\n\nTo install it, just run:\n\n.. code-block:: console\n\n    $ python -m pip install h2\n\nDocumentation\n=============\n\nDocumentation is available at https://h2.readthedocs.io .\n\nContributing\n============\n\n``h2`` welcomes contributions from anyone! Unlike many other projects we\nare happy to accept cosmetic contributions and small contributions, in addition\nto large feature requests and changes.\n\nBefore you contribute (either by opening an issue or filing a pull request),\nplease `read the contribution guidelines`_.\n\n.. _read the contribution guidelines: https://python-hyper.org/en/latest/contributing.html\n\nLicense\n=======\n\n``h2`` is made available under the MIT License. For more details, see the\n``LICENSE`` file in the repository.\n\nAuthors\n=======\n\n``h2`` was authored by Cory Benfield and is maintained\nby the members of `python-hyper <https://github.com/orgs/python-hyper/people>`_.\n",
+        "description_content_type": "text/x-rst",
+        "author_email": "Cory Benfield <cory@lukasa.co.uk>",
+        "maintainer_email": "Thomas Kriechbaumer <thomas@kriechbaumer.name>",
+        "license": "The MIT License (MIT)\n\nCopyright (c) 2015-2020 Cory Benfield and contributors\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: MIT License",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy"
+        ],
+        "requires_dist": [
+          "hyperframe<7,>=6.1",
+          "hpack<5,>=4.1"
+        ],
+        "requires_python": ">=3.9",
+        "project_url": [
+          "Homepage, https://github.com/python-hyper/h2/",
+          "Bug Reports, https://github.com/python-hyper/h2/issues",
+          "Source, https://github.com/python-hyper/h2/",
+          "Documentation, https://python-hyper.org/"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/71/b4/4a9fcfb2aef6ba44d9073ecd301443aa00b3dac95de5619f2a7de7ec8a91/hpack-4.2.0-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=858ac0b02280fa582b5080d68db0899c62a80375e0e5413a74970c5e518b6986",
+          "hashes": {
+            "sha256": "858ac0b02280fa582b5080d68db0899c62a80375e0e5413a74970c5e518b6986"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "hpack",
+        "version": "4.2.0",
+        "dynamic": [
+          "license-file"
+        ],
+        "summary": "Pure-Python HPACK header encoding",
+        "description": "========================================\nhpack: HTTP/2 Header Encoding for Python\n========================================\n\n.. image:: https://github.com/python-hyper/hpack/workflows/CI/badge.svg\n    :target: https://github.com/python-hyper/hpack/actions\n    :alt: Build Status\n.. image:: https://codecov.io/gh/python-hyper/hpack/branch/master/graph/badge.svg\n    :target: https://codecov.io/gh/python-hyper/hpack\n    :alt: Code Coverage\n.. image:: https://readthedocs.org/projects/hpack/badge/?version=latest\n    :target: https://hpack.readthedocs.io/en/latest/\n    :alt: Documentation Status\n.. image:: https://img.shields.io/badge/chat-join_now-brightgreen.svg\n    :target: https://gitter.im/python-hyper/community\n    :alt: Chat community\n\n.. image:: https://raw.github.com/python-hyper/documentation/master/source/logo/hyper-black-bg-white.png\n\nThis module contains a pure-Python HTTP/2 header encoding (HPACK) logic for use\nin Python programs that implement HTTP/2.\n\nDocumentation\n=============\n\nDocumentation is available at https://hpack.readthedocs.io .\n\nQuickstart:\n\n.. code-block:: python\n\n    from hpack import Encoder, Decoder\n\n    headers = [\n        (':method', 'GET'),\n        (':path', '/jimiscool/'),\n        ('X-Some-Header', 'some_value'),\n    ]\n\n    e = Encoder()\n    encoded_bytes = e.encode(headers)\n\n    d = Decoder()\n    decoded_headers = d.decode(encoded_bytes)\n\n\nContributing\n============\n\n``hpack`` welcomes contributions from anyone! Unlike many other projects we are\nhappy to accept cosmetic contributions and small contributions, in addition to\nlarge feature requests and changes.\n\nBefore you contribute (either by opening an issue or filing a pull request),\nplease `read the contribution guidelines`_.\n\n.. _read the contribution guidelines: http://hyper.readthedocs.org/en/development/contributing.html\n\nLicense\n=======\n\n``hpack`` is made available under the MIT License. For more details, see the\n``LICENSE`` file in the repository.\n\nAuthors\n=======\n\n``hpack`` is maintained by Cory Benfield, with contributions from others. For\nmore details about the contributors, please see ``CONTRIBUTORS.rst``.\n",
+        "description_content_type": "text/x-rst",
+        "author_email": "Cory Benfield <cory@lukasa.co.uk>",
+        "maintainer_email": "Thomas Kriechbaumer <thomas@kriechbaumer.name>",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Programming Language :: Python :: Implementation :: CPython"
+        ],
+        "requires_python": ">=3.10",
+        "project_url": [
+          "Homepage, https://github.com/python-hyper/hpack/",
+          "Bug Reports, https://github.com/python-hyper/hpack/issues",
+          "Source, https://github.com/python-hyper/hpack/",
+          "Documentation, https://python-hyper.org/"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/48/30/47d0bf6072f7252e6521f3447ccfa40b421b6824517f82854703d0f5a98b/hyperframe-6.1.0-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=b03380493a519fce58ea5af42e4a42317bf9bd425596f7a0835ffce80f1a42e5",
+          "hashes": {
+            "sha256": "b03380493a519fce58ea5af42e4a42317bf9bd425596f7a0835ffce80f1a42e5"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.2",
+        "name": "hyperframe",
+        "version": "6.1.0",
+        "summary": "Pure-Python HTTP/2 framing",
+        "description": "======================================\nhyperframe: Pure-Python HTTP/2 framing\n======================================\n\n.. image:: https://github.com/python-hyper/hyperframe/workflows/CI/badge.svg\n    :target: https://github.com/python-hyper/hyperframe/actions\n    :alt: Build Status\n.. image:: https://codecov.io/gh/python-hyper/hyperframe/branch/master/graph/badge.svg\n    :target: https://codecov.io/gh/python-hyper/hyperframe\n    :alt: Code Coverage\n.. image:: https://readthedocs.org/projects/hyperframe/badge/?version=latest\n    :target: https://hyperframe.readthedocs.io/en/latest/\n    :alt: Documentation Status\n.. image:: https://img.shields.io/badge/chat-join_now-brightgreen.svg\n    :target: https://gitter.im/python-hyper/community\n    :alt: Chat community\n\nThis library contains the HTTP/2 framing code used in the `hyper`_ project. It\nprovides a pure-Python codebase that is capable of decoding a binary stream\ninto HTTP/2 frames.\n\nThis library is used directly by `hyper`_ and a number of other projects to\nprovide HTTP/2 frame decoding logic.\n\nContributing\n============\n\nhyperframe welcomes contributions from anyone! Unlike many other projects we\nare happy to accept cosmetic contributions and small contributions, in addition\nto large feature requests and changes.\n\nBefore you contribute (either by opening an issue or filing a pull request),\nplease `read the contribution guidelines`_.\n\n.. _read the contribution guidelines: http://hyper.readthedocs.org/en/development/contributing.html\n\nLicense\n=======\n\nhyperframe is made available under the MIT License. For more details, see the\n``LICENSE`` file in the repository.\n\nAuthors\n=======\n\nhyperframe is maintained by Cory Benfield, with contributions from others. For\nmore details about the contributors, please see ``CONTRIBUTORS.rst``.\n\n.. _hyper: http://python-hyper.org/\n",
+        "description_content_type": "text/x-rst",
+        "author_email": "Cory Benfield <cory@lukasa.co.uk>",
+        "maintainer_email": "Thomas Kriechbaumer <thomas@kriechbaumer.name>",
+        "license": "The MIT License (MIT)\n\nCopyright (c) 2014 Cory Benfield\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: MIT License",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy"
+        ],
+        "requires_python": ">=3.9",
+        "project_url": [
+          "Homepage, https://github.com/python-hyper/hyperframe/",
+          "Bug Reports, https://github.com/python-hyper/hyperframe/issues",
+          "Source, https://github.com/python-hyper/hyperframe/",
+          "Documentation, https://python-hyper.org/"
+        ]
+      }
+    }
+  ],
+  "environment": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.11.15",
+    "os_name": "posix",
+    "platform_machine": "arm64",
+    "platform_release": "25.5.0",
+    "platform_system": "Darwin",
+    "platform_version": "Darwin Kernel Version 25.5.0: Tue Jun  9 22:26:22 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_T8132",
+    "python_full_version": "3.11.15",
+    "platform_python_implementation": "CPython",
+    "python_version": "3.11",
+    "sys_platform": "darwin"
+  }
+}

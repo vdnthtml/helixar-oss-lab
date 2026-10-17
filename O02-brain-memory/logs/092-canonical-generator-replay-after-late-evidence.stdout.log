@@ -1,0 +1,9 @@
+{
+  "candidate_count": 8,
+  "data_dir": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O02-brain-memory",
+  "mandatory_context_drift_count": 3,
+  "network_command_envelopes": 26,
+  "report": "/Users/vedantswami/Projects/Dystopia/Dystopia/02_Projects/Helixar World-Class Benchmark Program/Architecture/O02 Brain, Memory, Retrieval and Storage OSS Lab Report.md",
+  "smoke_rows": 20,
+  "source_csv_unchanged": true
+}

@@ -1,0 +1,10 @@
+git=/usr/bin/git
+curl=/usr/bin/curl
+python3=/Users/vedantswami/.hermes/hermes-agent/venv/bin/python3
+uv=go=node=/Users/vedantswami/.hermes/node/bin/node
+npm=/Users/vedantswami/.hermes/node/bin/npm
+docker=R=java=/usr/bin/java
+ProductName:		macOS
+ProductVersion:		26.5.2
+BuildVersion:		25F84
+arm64

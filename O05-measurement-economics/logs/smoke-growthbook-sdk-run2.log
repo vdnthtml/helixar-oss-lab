@@ -1,0 +1,92 @@
+{
+  "candidate": "GrowthBook JS SDK",
+  "packageVersion": "1.6.5",
+  "fixture": "deterministic synthetic .invalid users",
+  "experimentKey": "o05-assignment-exposure-v1",
+  "assignmentCount": 1000,
+  "exposureCount": 500,
+  "assignmentCounts": {
+    "0": 501,
+    "1": 499
+  },
+  "exposureCounts": {
+    "0": 255,
+    "1": 245
+  },
+  "holdoutCounts": {
+    "0": 875,
+    "1": 125
+  },
+  "assignmentSrm": {
+    "observed": {
+      "0": 501,
+      "1": 499
+    },
+    "total": 1000,
+    "weights": [
+      0.5,
+      0.5
+    ],
+    "chiSquare": 0.004,
+    "pValueDf1": 0.9495708317840454,
+    "invalidAtP001": false
+  },
+  "holdoutSrm": {
+    "observed": {
+      "0": 875,
+      "1": 125
+    },
+    "total": 1000,
+    "weights": [
+      0.9,
+      0.1
+    ],
+    "chiSquare": 6.944444444444445,
+    "pValueDf1": 0.008408074310123359,
+    "invalidAtP001": false
+  },
+  "deliberatelyBiasedExposureSrm": {
+    "observed": {
+      "0": 255,
+      "1": 56
+    },
+    "total": 311,
+    "weights": [
+      0.5,
+      0.5
+    ],
+    "chiSquare": 127.33440514469453,
+    "pValueDf1": 0,
+    "invalidAtP001": true
+  },
+  "assertions": {
+    "deterministicReplay": true,
+    "assignmentWithoutExposurePreserved": true,
+    "noOrphanExposures": true,
+    "assignmentExposureMatch": true,
+    "healthyAssignmentNotSrm": true,
+    "holdoutAllocationNotSrm": true,
+    "biasedExposureTriggersSrm": true,
+    "invalidDomainOnly": true
+  },
+  "replayDigest": "b074dc0667961924156ccd44739285a2be5d28d9371132632eec89274db1eb92",
+  "pass": true
+}
+        0.05 real         0.06 user         0.01 sys
+            62078976  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                4110  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                 363  involuntary context switches
+           699173284  instructions retired
+           264003718  cycles elapsed
+            27987496  peak memory footprint

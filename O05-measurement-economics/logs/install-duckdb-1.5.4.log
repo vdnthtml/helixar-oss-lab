@@ -1,0 +1,6 @@
+Collecting duckdb==1.5.4
+  Downloading duckdb-1.5.4-cp311-cp311-macosx_11_0_arm64.whl.metadata (4.2 kB)
+Downloading duckdb-1.5.4-cp311-cp311-macosx_11_0_arm64.whl (15.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 15.5/15.5 MB 28.6 MB/s eta 0:00:00
+Installing collected packages: duckdb
+Successfully installed duckdb-1.5.4

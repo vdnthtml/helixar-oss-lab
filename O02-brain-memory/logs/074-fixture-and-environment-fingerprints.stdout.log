@@ -1,0 +1,51 @@
+{
+  "environment_freeze_sha256": {
+    "graphiti": "25664e3fc5aeca8e0b6ee3799cbc6abfbebcfc2a6500b4449953a740b4f5417a",
+    "llamaindex": "40998cf98c3daf435b6445cc28c04c27d7655c082f835949887aa527fa06e11d",
+    "mem0": "2207adbf4ca42bb66b6d85f3de8da97d6ec3893545d844e379dd5ea043159f7b",
+    "unstructured": "5a958efc9bcbd2cb04827fc9c2e6008b66b2890e070480353e7e00811077a19b"
+  },
+  "fixture_count": 8,
+  "fixtures": [
+    {
+      "bytes": 13516,
+      "path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/fixtures/mem0_fixture.py",
+      "sha256": "06d75376b3d6ae30f53773a2dd179f50fedefad4e58e0bf8feb2853b5290d805"
+    },
+    {
+      "bytes": 6243,
+      "path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/fixtures/mem0_smoke.py",
+      "sha256": "cc90bc8e28e8779ef424fcc7554097773063d7bb6306c2fda92d2419b2a22c1b"
+    },
+    {
+      "bytes": 4014,
+      "path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/fixtures/smoke_mem0.py",
+      "sha256": "7bc9a6a314f352fe8f16d446ec130cbac865af4c8953d08e65df0ac7aacef694"
+    },
+    {
+      "bytes": 4172,
+      "path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/fixtures/llamaindex_smoke.py",
+      "sha256": "5411d5c516b856c6c75fc1cbf1b819e56c6a6b5fc9573adc97da79b7e0128b29"
+    },
+    {
+      "bytes": 9568,
+      "path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/fixtures/llamaindex_qdrant_fixture.py",
+      "sha256": "26a508877cedd5592e23d7cf3ec962193697ea945b8cd2a40a56609e0646ac3a"
+    },
+    {
+      "bytes": 2733,
+      "path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/fixtures/unstructured_smoke.py",
+      "sha256": "37e6007e6a6a64d5293145bc5e0195c74992ed52b45e29187873e30ed98f74d6"
+    },
+    {
+      "bytes": 4447,
+      "path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/fixtures/unstructured_fixture.py",
+      "sha256": "035fc8095a424df33dd8afefdfecb5bfc4042dcde50bc2782414cec39310ffb1"
+    },
+    {
+      "bytes": 4538,
+      "path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/fixtures/graphiti_kuzu_fixture.py",
+      "sha256": "155483381b8cbf08ee7326d92bf903fa393a19c0c1c540052bfab0f37575445e"
+    }
+  ]
+}

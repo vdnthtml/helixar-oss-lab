@@ -1,0 +1,26 @@
+[
+  {
+    "bytes": 6376,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/source-docs/cube/README.md",
+    "path": "README.md",
+    "sha256": "258690c15f348d85f1d7b6d7b9ed77514b9009927dbe92e5bb0b3aa4396f0054",
+    "status": "READ"
+  },
+  {
+    "bytes": 267,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/source-docs/cube/SECURITY.md",
+    "path": "SECURITY.md",
+    "sha256": "daa63b9da4b5f09f9333e1955ac9011f518dc53f4fe9e65cf4fcfcd4aa2e7990",
+    "status": "READ"
+  },
+  {
+    "bytes": 2111,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/source-docs/cube/package.json",
+    "path": "package.json",
+    "sha256": "1cd93573c1ed92de7e73efb11cb5a549c88f2ec7001be73a92c2d749f294a229",
+    "status": "READ"
+  }
+]

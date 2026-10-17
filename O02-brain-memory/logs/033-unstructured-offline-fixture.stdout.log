@@ -1,0 +1,27 @@
+{
+  "candidate": "Unstructured",
+  "deterministic_ids": [
+    "a326f33b9d5dc07c7c1e4cba2b782679",
+    "19ee7339e534759c3471c29acbf50d16",
+    "bcf6c790c21669cc24f7f2d7aa2c1420",
+    "c78ede72699b942d54c389a21bd86600"
+  ],
+  "element_count": 4,
+  "export_path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/exports/unstructured-elements.json",
+  "export_sha256": "90d6b3eb4e18cf00c5de44e2dd59444361e2e23299a731811a9f0183f06ca3cf",
+  "external_business_writes": 0,
+  "hosted_provider_calls": 0,
+  "lineage_parent_ids": [
+    null,
+    "a326f33b9d5dc07c7c1e4cba2b782679",
+    "19ee7339e534759c3471c29acbf50d16",
+    "19ee7339e534759c3471c29acbf50d16"
+  ],
+  "round_trip_equal": true,
+  "run_dir": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/storage/unstructured/run-mbk9eozz",
+  "telemetry_env": {
+    "DO_NOT_TRACK": "1",
+    "SCARF_NO_ANALYTICS": "1",
+    "UNSTRUCTURED_TELEMETRY_ENABLED": "0"
+  }
+}

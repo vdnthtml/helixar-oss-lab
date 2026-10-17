@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O03-web-market-voice/freeze_corpus.py", line 60, in <module>
+    raise FileNotFoundError(p)
+FileNotFoundError: /Users/vedantswami/Projects/Dystopia/Dystopia/00_System/Current State/Dystopia Current Snapshot.md

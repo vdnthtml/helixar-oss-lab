@@ -1,0 +1,3 @@
+Deleting cookie: analytics_id Matched pattern: /^analytics_id$/ Path: undefined Domain: undefined
+Deleting cookie: analytics_id Matched pattern: /^analytics_id$/ Path: undefined Domain: undefined
+{"status":"PASS","source":"repos/klaro/src/consent-manager.js","syntheticOrigin":"lab.invalid","defaultDenied":true,"requiredServicePreserved":true,"explicitAcceptPersisted":true,"withdrawalSuppressedCookie":true,"resetDeletedConsentRecord":true,"callbackEvents":[["necessary",true],["analytics",false],["necessary",true],["analytics",true],["necessary",true],["analytics",false],["necessary",true],["analytics",false]],"networkRequests":0}

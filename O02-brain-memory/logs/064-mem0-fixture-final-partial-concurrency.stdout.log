@@ -1,0 +1,55 @@
+{
+  "approved_retrieval_order": [
+    {
+      "governance_state": "approved",
+      "id": "c259e527-3b7d-47ba-a4fb-ff5fb160dc35",
+      "memory": "beta finance policy",
+      "score": 1.0,
+      "source_id": "fixture://beta-v1"
+    }
+  ],
+  "candidate": "Mem0",
+  "checks": {
+    "bit_exact_scores": false,
+    "concurrent_writes": {
+      "errors": [],
+      "passed": true,
+      "persisted_rows": 8,
+      "post_concurrency_retrieval_errors": [],
+      "post_concurrency_retrieval_stable": true,
+      "requested": 8,
+      "successful_api_returns": 8,
+      "unique_returned_ids": true
+    },
+    "delete_and_tombstone_history": true,
+    "deterministic_order_exact": true,
+    "deterministic_retrieval_repetitions": 5,
+    "export_reload": true,
+    "max_score_drift": 1.7947999975120865e-08,
+    "promotion_filter": true,
+    "revocation_audit_history_retained": true,
+    "revocation_excluded_from_current_retrieval": true,
+    "score_tolerance": 1e-06,
+    "source_lineage_round_trip": true
+  },
+  "export_path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/exports/mem0-fixture-export.json",
+  "external_egress_attempts": [],
+  "governance_boundary": "Promotion and revocation are enforced by an external metadata state convention; Mem0 does not become global truth automatically.",
+  "public_api": [
+    "Memory.from_config",
+    "add",
+    "search",
+    "update",
+    "delete",
+    "history",
+    "get_all"
+  ],
+  "real_persistence": [
+    "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/storage/mem0-fixture/qdrant",
+    "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/storage/mem0-fixture/history.db"
+  ],
+  "status": "PASS",
+  "telemetry_env": {
+    "MEM0_TELEMETRY": "False"
+  }
+}

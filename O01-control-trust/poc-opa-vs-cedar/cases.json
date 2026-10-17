@@ -1,0 +1,70 @@
+{
+  "cases": [
+    {
+      "id": "allow_exact_scope",
+      "expected": "ALLOW",
+      "subject_tenant": "tenant-a.invalid",
+      "action": "propose",
+      "resource_tenant": "tenant-a.invalid",
+      "resource_target_hash": "sha256:synthetic.invalid",
+      "approval_valid": true,
+      "approval_revoked": false,
+      "approval_target_hash": "sha256:synthetic.invalid"
+    },
+    {
+      "id": "deny_cross_tenant",
+      "expected": "DENY",
+      "subject_tenant": "tenant-b.invalid",
+      "action": "propose",
+      "resource_tenant": "tenant-a.invalid",
+      "resource_target_hash": "sha256:synthetic.invalid",
+      "approval_valid": true,
+      "approval_revoked": false,
+      "approval_target_hash": "sha256:synthetic.invalid"
+    },
+    {
+      "id": "deny_hash_mismatch",
+      "expected": "DENY",
+      "subject_tenant": "tenant-a.invalid",
+      "action": "propose",
+      "resource_tenant": "tenant-a.invalid",
+      "resource_target_hash": "sha256:changed.invalid",
+      "approval_valid": true,
+      "approval_revoked": false,
+      "approval_target_hash": "sha256:synthetic.invalid"
+    },
+    {
+      "id": "deny_invalid_approval",
+      "expected": "DENY",
+      "subject_tenant": "tenant-a.invalid",
+      "action": "propose",
+      "resource_tenant": "tenant-a.invalid",
+      "resource_target_hash": "sha256:synthetic.invalid",
+      "approval_valid": false,
+      "approval_revoked": false,
+      "approval_target_hash": "sha256:synthetic.invalid"
+    },
+    {
+      "id": "deny_revoked_approval",
+      "expected": "DENY",
+      "subject_tenant": "tenant-a.invalid",
+      "action": "propose",
+      "resource_tenant": "tenant-a.invalid",
+      "resource_target_hash": "sha256:synthetic.invalid",
+      "approval_valid": true,
+      "approval_revoked": true,
+      "approval_target_hash": "sha256:synthetic.invalid"
+    },
+    {
+      "id": "deny_wrong_action",
+      "expected": "DENY",
+      "subject_tenant": "tenant-a.invalid",
+      "action": "execute",
+      "resource_tenant": "tenant-a.invalid",
+      "resource_target_hash": "sha256:synthetic.invalid",
+      "approval_valid": true,
+      "approval_revoked": false,
+      "approval_target_hash": "sha256:synthetic.invalid"
+    }
+  ]
+}

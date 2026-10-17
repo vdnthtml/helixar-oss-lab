@@ -1,0 +1,495 @@
+[
+  {
+    "name": "lighthouse",
+    "repository": "https://github.com/GoogleChrome/lighthouse.git",
+    "commit": "3608d82ba7ee4912e5ba9af9eeb178168ec08b62",
+    "tree": "1a9b84d1003448b1c296720b491cb8920eb1bda4",
+    "commit_date": "2026-07-09T19:52:51Z",
+    "head_tag": "",
+    "archive_sha256": "91f22be5e33ec4b8231c1f337d9a0fad56f397ce91fc63c1231770a782a55925",
+    "disk_kb": 299904,
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "bytes": 11358,
+        "first_300": "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION 1. Definitions. \"License\" shall mean the terms and conditions for"
+      },
+      {
+        "path": "lighthouse-logger/LICENSE",
+        "sha256": "7ec9661a8afafab1eee3523d6f1a193eff76314a5ab10b4ce96aefd87621b0c3",
+        "bytes": 11342,
+        "first_300": "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION 1. Definitions. \"License\" shall mean the terms and conditions for"
+      },
+      {
+        "path": "third-party/axe/LICENSE",
+        "sha256": "af175b9d96ee93c21a036152e1b905b0b95304d4ae8c2c921c7609100ba8df7e",
+        "bytes": 15921,
+        "first_300": "Mozilla Public License, version 2.0 1. Definitions 1.1. \"Contributor\" means each individual or legal entity that creates, contributes to the creation of, or owns Covered Software. 1.2. \"Contributor Version\" means the combination of the Contributions of others (if any) used by a"
+      },
+      {
+        "path": "third-party/download-content-shell/LICENSE",
+        "sha256": "9873d81def9cebb9598b4a2d0a1ad062b17781c35c25cc04b75a0f62fc8667fd",
+        "bytes": 1558,
+        "first_300": "// Copyright 2014 The Chromium Authors. All rights reserved. // // Redistribution and use in source and binary forms, with or without // modification, are permitted provided that the following conditions are // met: // // * Redistributions of source code must retain the above copyright // notice,"
+      },
+      {
+        "path": "third-party/esbuild-plugins-polyfills/LICENSE",
+        "sha256": "c93da7153ce459ce89e88b016f749f1346923698f1d7ee4ad4262c3fb1485fbf",
+        "bytes": 112,
+        "first_300": "MIT https://github.com/remorses/esbuild-plugins/blob/d757c3bf5dff37a754d254168d4a3d88611e8175/package.json#L37"
+      }
+    ],
+    "manifests": [
+      "docs/recipes/package.json",
+      "lighthouse-logger/package.json",
+      "package.json",
+      "yarn.lock"
+    ],
+    "security_policy_files": []
+  },
+  {
+    "name": "crawlee",
+    "repository": "https://github.com/apify/crawlee.git",
+    "commit": "42b89146a372b639eaaf50fbda9ff16b026b3344",
+    "tree": "9d2d7689acc622a8e9a698c3a3e23cbbc73d2bed",
+    "commit_date": "2026-07-14T13:23:09+02:00",
+    "head_tag": "",
+    "archive_sha256": "e518cfea247e8b7426405c6950f217e5b3e346bdd90e5b74f283516874f8dafc",
+    "disk_kb": 231936,
+    "license_files": [
+      {
+        "path": "LICENSE.md",
+        "sha256": "37c9b417332af22e146d381766f284649483fb6ece17ca566584bf6adcf89135",
+        "bytes": 11355,
+        "first_300": "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION 1. Definitions. \"License\" shall mean the terms and conditions for u"
+      }
+    ],
+    "manifests": [
+      "docs/package.json",
+      "docs/yarn.lock",
+      "package.json",
+      "packages/basic-crawler/package.json",
+      "packages/browser-crawler/package.json",
+      "packages/browser-pool/package.json",
+      "packages/cheerio-crawler/package.json",
+      "packages/cli/package.json",
+      "packages/core/package.json",
+      "packages/crawlee/package.json",
+      "packages/http-crawler/package.json",
+      "packages/impit-client/package.json",
+      "packages/jsdom-crawler/package.json",
+      "packages/linkedom-crawler/package.json",
+      "packages/memory-storage/package.json",
+      "packages/playwright-crawler/package.json",
+      "packages/puppeteer-crawler/package.json",
+      "packages/stagehand-crawler/package.json",
+      "packages/templates/package.json",
+      "packages/types/package.json",
+      "packages/utils/package.json",
+      "website/package.json",
+      "website/roa-loader/package.json",
+      "website/yarn.lock",
+      "yarn.lock"
+    ],
+    "security_policy_files": []
+  },
+  {
+    "name": "unlighthouse",
+    "repository": "https://github.com/harlan-zw/unlighthouse.git",
+    "commit": "063daaef3f15b00ca3049fd7d4ee9c22ec6bc882",
+    "tree": "6a1948a6748e5bfb1cbbc740b3554a7a35e5aac4",
+    "commit_date": "2026-06-29T13:11:20+10:00",
+    "head_tag": "v0.18.0",
+    "archive_sha256": "5820ff7d32a21deadf70cc3f314e6587b55044c215f77d7fdcfd615c400d116a",
+    "disk_kb": 6712,
+    "license_files": [
+      {
+        "path": "LICENSE.md",
+        "sha256": "67a21fc139cb5e3c3559d3abd653b42ea8455f8dc95b84d3779cb2df6b6ad742",
+        "bytes": 1090,
+        "first_300": "The MIT License (MIT) Copyright (c) 2016-present - Harlan Wilton Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights t"
+      }
+    ],
+    "manifests": [
+      "crux-api/package.json",
+      "package.json",
+      "packages/cli/package.json",
+      "packages/client/package.json",
+      "packages/core/package.json",
+      "packages/server/package.json",
+      "packages/unlighthouse-ci/package.json",
+      "packages/unlighthouse/package.json",
+      "pnpm-lock.yaml"
+    ],
+    "security_policy_files": []
+  },
+  {
+    "name": "siteone",
+    "repository": "https://github.com/janreges/siteone-crawler.git",
+    "commit": "b1f333e226f40935be83ee3977500b2f49cff563",
+    "tree": "923766f86aa7329754e181deca9645e4d0bb37a3",
+    "commit_date": "2026-06-29T13:14:58+02:00",
+    "head_tag": "v2.6.1",
+    "archive_sha256": "4e1ed43db77b0484a9a9951b08214d5373c390bfd4d29339281c6e7668f88383",
+    "disk_kb": 20924,
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "05c547dbb0d82224a3306a74aae9108453bfa55fce736e1e310df3c8c525092b",
+        "bytes": 1072,
+        "first_300": "MIT License Copyright (c) 2023-2026 J\u00e1n Rege\u0161 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify"
+      }
+    ],
+    "manifests": [
+      "Cargo.lock",
+      "Cargo.toml"
+    ],
+    "security_policy_files": []
+  },
+  {
+    "name": "changedetection",
+    "repository": "https://github.com/dgtlmoon/changedetection.io.git",
+    "commit": "5eb2638ffca7c0c6aba41effba3c6b092c5d9d5f",
+    "tree": "bc530b71ffaf645febb3b81f6926d2ce3e262239",
+    "commit_date": "2026-07-14T14:48:36+02:00",
+    "head_tag": "",
+    "archive_sha256": "e6fe87dbededd8e9935fff1daef0701c67842cf312963bc15f23615e5e9cf7a7",
+    "disk_kb": 22480,
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "47a348e041897a91041f8c4054fe2ceacc400f079f8e08c27a7a28b31ec2e625",
+        "bytes": 11353,
+        "first_300": "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION 1. Definitions. \"License\" shall mean the terms and conditions for u"
+      },
+      {
+        "path": "changedetectionio/static/images/notice.svg",
+        "sha256": "c15f27b194a1c3d647f685400bc45116a892d05227fcee52850f9c9934817d62",
+        "bytes": 2424,
+        "first_300": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?> <!-- Created with Inkscape (http://www.inkscape.org/) --> <svg width=\"20.108334mm\" height=\"21.43125mm\" viewBox=\"0 0 20.108334 21.43125\" version=\"1.1\" id=\"svg5\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns=\"http://www.w3"
+      }
+    ],
+    "manifests": [
+      "docs/package.json",
+      "requirements.txt"
+    ],
+    "security_policy_files": []
+  },
+  {
+    "name": "readability",
+    "repository": "https://github.com/mozilla/readability.git",
+    "commit": "ab4027a8b37669745016869a37a504727992b2ba",
+    "tree": "9366b0abb582516d27496141824565a2fa0af089",
+    "commit_date": "2026-07-09T12:32:19+01:00",
+    "head_tag": "",
+    "archive_sha256": "e14481b353f18ec17d73f78f695463a6581ab37afda77efeef89f6409c0ce65f",
+    "disk_kb": 34372,
+    "license_files": [
+      {
+        "path": "LICENSE.md",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "bytes": 11358,
+        "first_300": "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION 1. Definitions. \"License\" shall mean the terms and conditions for"
+      },
+      {
+        "path": "NOTICE",
+        "sha256": "21d526d361caf2b1ca578820ef1113982da5c094878a26bdd7ad555f84946f54",
+        "bytes": 90,
+        "first_300": "Readability Copyright (c) 2010 Arc90 Inc Copyright (c) 2010-2026 Mozilla and Contributors"
+      }
+    ],
+    "manifests": [
+      "package-lock.json",
+      "package.json"
+    ],
+    "security_policy_files": [
+      "SECURITY.md"
+    ]
+  },
+  {
+    "name": "openrefine",
+    "repository": "https://github.com/OpenRefine/OpenRefine.git",
+    "commit": "8158dc956a1f1e4d7c7ca3a0e699f23e5216ad39",
+    "tree": "47f0268b6628965fd1dbd0f494e3b46ac3719d0f",
+    "commit_date": "2026-07-03T16:57:11-04:00",
+    "head_tag": "",
+    "archive_sha256": "0213308f6b246d8609818ba63b2485c8a6474e0316bd00f58fa4a3e6682aef7c",
+    "disk_kb": 50404,
+    "license_files": [
+      {
+        "path": "LICENSE.txt",
+        "sha256": "24ab0f348a7f5a8f9f5ae3d74083b9330c88477b71682ef7befabfb923c9832b",
+        "bytes": 1519,
+        "first_300": "Copyright 2010, Google Inc. All rights reserved. Copyright 2010, OpenRefine contributors. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: 1. Redistributions of source code must retain the above copyright"
+      }
+    ],
+    "manifests": [
+      "benchmark/pom.xml",
+      "extensions/database/pom.xml",
+      "extensions/jython/pom.xml",
+      "extensions/pc-axis/pom.xml",
+      "extensions/pom.xml",
+      "extensions/wikibase/pom.xml",
+      "main/pom.xml",
+      "main/webapp/package-lock.json",
+      "main/webapp/package.json",
+      "modules/core/pom.xml",
+      "modules/grel/pom.xml",
+      "packaging/pom.xml",
+      "pom.xml",
+      "server/pom.xml"
+    ],
+    "security_policy_files": [
+      "SECURITY.md"
+    ]
+  },
+  {
+    "name": "splink",
+    "repository": "https://github.com/moj-analytical-services/splink.git",
+    "commit": "4774c889141ddff0b7a80fd3a1dbeaf6699419c0",
+    "tree": "9267fed2901d65bb933e5970ba140181fe01476d",
+    "commit_date": "2026-07-07T11:23:25+01:00",
+    "head_tag": "",
+    "archive_sha256": "6a8f306662f456d92155e35b9465e3d8ad943908bc21476713b4c1326aa87088",
+    "disk_kb": 56088,
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "b985d2c0fca6ff3309d399099abb7f636e6f9b90512de2b8a5178bf7c7acffdb",
+        "bytes": 1076,
+        "first_300": "MIT License Copyright (c) 2020 Ministry of Justice Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, m"
+      }
+    ],
+    "manifests": [
+      "docs/demos/pyproject.toml",
+      "pyproject.toml"
+    ],
+    "security_policy_files": []
+  },
+  {
+    "name": "dedupe",
+    "repository": "https://github.com/dedupeio/dedupe.git",
+    "commit": "3f61e79102910bd355e920a2df7e44c14c9cb247",
+    "tree": "31e145a4b6cddd63c98efb1234ee366bb0c63d13",
+    "commit_date": "2025-07-28T20:18:20-04:00",
+    "head_tag": "",
+    "archive_sha256": "fddb3ac93ee5a39d30110e72f0cc1e1cdbe1f583ac2748090573276194f1fb8c",
+    "disk_kb": 1292,
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "b56e9035c9831249ff8684b87f5875be815fbdfe5527430beeb9a8baaec6a82b",
+        "bytes": 1118,
+        "first_300": "The MIT License (MIT) Copyright (c) 2014 Forest Gregg, Derek Eder, DataMade and Contributors Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including wit"
+      }
+    ],
+    "manifests": [
+      "docs/requirements.txt",
+      "pyproject.toml",
+      "requirements.txt"
+    ],
+    "security_policy_files": []
+  },
+  {
+    "name": "taguette",
+    "repository": "https://github.com/remram44/taguette.git",
+    "commit": "8415bbcb57d951b340e795122f32eed94de90271",
+    "tree": "5f2facfa6a7c168a63b81b36d8fb4b4762933afb",
+    "commit_date": "2026-02-05T11:54:51-05:00",
+    "head_tag": "",
+    "archive_sha256": "cc114aff9f849527ad8d15a6abcd9ac3e06bbeeded4e5da53a3ed83ecf8652fa",
+    "disk_kb": 7164,
+    "license_files": [
+      {
+        "path": "LICENSE.txt",
+        "sha256": "f711d94f71c945eadc0a5f857e20d2419b76f0ea532dcae3d9ed8e9ad534a594",
+        "bytes": 1523,
+        "first_300": "Copyright (C) 2018, Remi Rampin and Taguette contributors All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: 1. Redistributions of source code must retain the above copyright notice, th"
+      },
+      {
+        "path": "scripts/dist/LICENSE.txt",
+        "sha256": "11618744500fd7970f999585c090fe6c851fe2369af8968bb38841f44c154682",
+        "bytes": 1734,
+        "first_300": "This installer includes Calibre, the free and open source ebook manager, available under the terms of the GNU GPL v3 license. More info: https://manual.calibre-ebook.com/faq.html#how-is-calibre-licensed ----- Copyright (C) 2018, Remi Rampin and Taguette contributors All rights reserved. Redistrib"
+      }
+    ],
+    "manifests": [
+      "poetry.lock",
+      "pyproject.toml"
+    ],
+    "security_policy_files": []
+  },
+  {
+    "name": "doccano",
+    "repository": "https://github.com/doccano/doccano.git",
+    "commit": "ab6b765ea326d07b2b806a4280cd097565e62321",
+    "tree": "e1566b7787a9968e2980d5c14ac5ac9bd8a3be7b",
+    "commit_date": "2026-01-17T09:58:26+09:00",
+    "head_tag": "",
+    "archive_sha256": "7f7d6115a540b5a036917ab5c253690ce975c49e206160e655e2a768c86b5e9e",
+    "disk_kb": 50256,
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "1dbc0e0e05af8cc591de6536a5ba2775d653438d55612a0578edc0322cc91864",
+        "bytes": 1072,
+        "first_300": "MIT License Copyright (c) 2018 Hiroki Nakayama Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modif"
+      }
+    ],
+    "manifests": [
+      "backend/poetry.lock",
+      "backend/pyproject.toml",
+      "docs/requirements.txt",
+      "frontend/package.json",
+      "frontend/yarn.lock"
+    ],
+    "security_policy_files": []
+  },
+  {
+    "name": "argilla",
+    "repository": "https://github.com/argilla-io/argilla.git",
+    "commit": "5338519accb13ae422f8bf9c0642651c249c49af",
+    "tree": "9f6687d51c7651f2f250ee4aed7f9673e7e70393",
+    "commit_date": "2025-08-05T16:32:11+02:00",
+    "head_tag": "",
+    "archive_sha256": "93cafcae049e4028fdd1772ab5226c1fb5dc15e806cb302fceb7cc0658fbb0d3",
+    "disk_kb": 631048,
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "bytes": 11357,
+        "first_300": "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION 1. Definitions. \"License\" shall mean the terms and conditions for u"
+      },
+      {
+        "path": "argilla-frontend/LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "bytes": 11357,
+        "first_300": "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION 1. Definitions. \"License\" shall mean the terms and conditions for u"
+      },
+      {
+        "path": "argilla-server/LICENSE",
+        "sha256": "331623d739be550c43f887b96d84b1f0fb7b9e67d328388384f1e7e16aec02bc",
+        "bytes": 11347,
+        "first_300": "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION 1. Definitions. \"License\" shall mean the terms and conditions for u"
+      },
+      {
+        "path": "argilla-v1/LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "bytes": 11357,
+        "first_300": "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION 1. Definitions. \"License\" shall mean the terms and conditions for u"
+      },
+      {
+        "path": "argilla/LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "bytes": 11357,
+        "first_300": "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION 1. Definitions. \"License\" shall mean the terms and conditions for u"
+      }
+    ],
+    "manifests": [
+      "argilla-frontend/package-lock.json",
+      "argilla-frontend/package.json",
+      "argilla-server/pyproject.toml",
+      "argilla-v1/pyproject.toml",
+      "argilla/pyproject.toml",
+      "docs/_source/requirements.txt"
+    ],
+    "security_policy_files": []
+  },
+  {
+    "name": "formbricks",
+    "repository": "https://github.com/formbricks/formbricks.git",
+    "commit": "b5807874351a5a3d1e41b7d4ed63eeed90ca7f9e",
+    "tree": "52be14a2d2351bbb80391c58116ea31bb2f287b6",
+    "commit_date": "2026-07-14T11:31:45Z",
+    "head_tag": "",
+    "archive_sha256": "c183952346784e7e7367f7775a8dc66f2f57a559f3060a1db25259bf03b992c9",
+    "disk_kb": 213080,
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "4df0924663a08fbc0d591f6ae39069dcabd913af382b87011055569dea177770",
+        "bytes": 35104,
+        "first_300": "Copyright (c) 2024 Formbricks GmbH Portions of this software are licensed as follows: - All content that resides under the \"apps/web/modules/ee\" directory of this repository, if these directories exist, is licensed under the license defined in \"apps/web/modules/ee/LICENSE\". - All content that resi"
+      },
+      {
+        "path": "docs/self-hosting/advanced/license.mdx",
+        "sha256": "bb5d980dc30b6288961e688d82a1eafb47e205a079b1c5725f83f6be45fbdc41",
+        "bytes": 8419,
+        "first_300": "--- title: \"License\" description: \"License for Formbricks\" icon: \"file-certificate\" --- The Formbricks core source code is licensed under AGPLv3 and available on GitHub. Additionally, we offer features for bigger organisations & enterprises under a separate, paid Enterprise License. This assures th"
+      }
+    ],
+    "manifests": [
+      "apps/storybook/package.json",
+      "apps/web/package.json",
+      "docker/package.json",
+      "package.json",
+      "packages/ai/package.json",
+      "packages/cache/package.json",
+      "packages/config-eslint/package.json",
+      "packages/config-prettier/package.json",
+      "packages/config-typescript/package.json",
+      "packages/database/package.json",
+      "packages/email/package.json",
+      "packages/i18n-utils/package.json",
+      "packages/jobs/package.json",
+      "packages/js-core/package.json",
+      "packages/logger/package.json",
+      "packages/storage/package.json",
+      "packages/survey-ui/package.json",
+      "packages/surveys/package.json",
+      "packages/types/package.json",
+      "packages/vite-plugins/package.json",
+      "pnpm-lock.yaml"
+    ],
+    "security_policy_files": [
+      "SECURITY.md"
+    ]
+  },
+  {
+    "name": "whisper",
+    "repository": "https://github.com/openai/whisper.git",
+    "commit": "04f449b8a437f1bbd3dba5c9f826aca972e7709a",
+    "tree": "aa9c8dffd631fa42ace669c397e3c5bbea2a793c",
+    "commit_date": "2026-04-15T09:32:15-07:00",
+    "head_tag": "",
+    "archive_sha256": "00884aeea0f1ad14a84eff74aa028f240f5c4928f2074dc4e1070ad99f2036e7",
+    "disk_kb": 17800,
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "b5d65a59060e68c4ff940e1eddfa6f94b2d68fdf58ed7f4dd57721c997e35e9d",
+        "bytes": 1063,
+        "first_300": "MIT License Copyright (c) 2022 OpenAI Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge,"
+      }
+    ],
+    "manifests": [
+      "pyproject.toml",
+      "requirements.txt"
+    ],
+    "security_policy_files": []
+  },
+  {
+    "name": "bertopic",
+    "repository": "https://github.com/MaartenGr/BERTopic.git",
+    "commit": "f9697602d57fc6acb8ac304026ac3c9aecd8a031",
+    "tree": "46631565fab716e99574ffbe3b936e3b51208684",
+    "commit_date": "2026-05-13T10:54:06+02:00",
+    "head_tag": "",
+    "archive_sha256": "7284eea095e2ee5892a35ae374d4552c8381ebe05d841fb8996195178a0a2677",
+    "disk_kb": 22904,
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "d4f326a7d8073fecfd26e8d2f7d6027e5bd9eda689d275dda9cd72c7f2ed017c",
+        "bytes": 1081,
+        "first_300": "MIT License Copyright (c) 2024, Maarten P. Grootendorst Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, co"
+      }
+    ],
+    "manifests": [
+      "pyproject.toml"
+    ],
+    "security_policy_files": []
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "bytes": 3480,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/source-docs/duckdb/README.md",
+    "path": "README.md",
+    "sha256": "907b44f4727089c4475a5f9342e76ed2cdb39cac5619feb4ed9c5c065f5cc559",
+    "status": "READ"
+  },
+  {
+    "bytes": 1833,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/source-docs/duckdb/SECURITY.md",
+    "path": "SECURITY.md",
+    "sha256": "0b7dbc5bd419a424159a7d87ad59cebb47b434b355bcff9f8b21061502f8ba57",
+    "status": "READ"
+  }
+]

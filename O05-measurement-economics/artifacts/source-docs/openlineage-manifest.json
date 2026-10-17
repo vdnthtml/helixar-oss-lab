@@ -1,0 +1,26 @@
+[
+  {
+    "bytes": 6796,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/source-docs/openlineage/README.md",
+    "path": "README.md",
+    "sha256": "bd6015b371e8118d7d1799627487fe6ec69db35054ad31b3b9406f79ae4022ba",
+    "status": "READ"
+  },
+  {
+    "bytes": 4617,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/source-docs/openlineage/client/python/pyproject.toml",
+    "path": "client/python/pyproject.toml",
+    "sha256": "de0db654d46adacbc2536882b1b77ed63cf1db8fd5ac3d056275b825db9d6b6a",
+    "status": "READ"
+  },
+  {
+    "bytes": 719,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/source-docs/openlineage/pyproject.toml",
+    "path": "pyproject.toml",
+    "sha256": "368e9ae76f7a167513493454263c3ae8a66b8ea54553bdbffd13183d14b4d579",
+    "status": "READ"
+  }
+]

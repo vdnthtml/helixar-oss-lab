@@ -1,0 +1,9 @@
+✓ Typechecking
+  Building 4 file(s) - ./github/syncs/fetchIssues.js
+  Building 4 file(s) - ./github/actions/createIssue.js
+  Building 4 file(s) - ./github/on-events/pre-connection-deletion.js
+  Building 4 file(s) - ./mock-api/actions/upsertSyntheticContact.js
+  Building 4 file(s)
+✓ Building 4 file(s)
+✓ Generating artifacts
+✓ Compiled

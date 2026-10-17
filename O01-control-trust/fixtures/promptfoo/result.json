@@ -1,0 +1,269 @@
+{
+  "evalId": "eval-5PX-2026-07-14T17:34:03",
+  "results": {
+    "version": 3,
+    "timestamp": "2026-07-14T17:34:03.179Z",
+    "prompts": [
+      {
+        "id": "135393f9a84df81b39b5e88655b8f523964540c3df3b619ca1b22356c5b9c02b",
+        "raw": "proposal={{proposal}} tenant={{tenant}}",
+        "label": "proposal={{proposal}} tenant={{tenant}}",
+        "provider": "echo",
+        "metrics": {
+          "score": 1,
+          "testPassCount": 1,
+          "testFailCount": 0,
+          "testErrorCount": 0,
+          "assertPassCount": 2,
+          "assertFailCount": 0,
+          "totalLatencyMs": 1,
+          "tokenUsage": {
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "total": 0,
+            "numRequests": 1,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            },
+            "assertions": {
+              "total": 0,
+              "prompt": 0,
+              "completion": 0,
+              "cached": 0,
+              "numRequests": 0,
+              "completionDetails": {
+                "reasoning": 0,
+                "acceptedPrediction": 0,
+                "rejectedPrediction": 0,
+                "cacheReadInputTokens": 0,
+                "cacheCreationInputTokens": 0
+              }
+            }
+          },
+          "namedScores": {},
+          "namedScoresCount": {},
+          "namedScoreWeights": {},
+          "cost": 0
+        }
+      }
+    ],
+    "results": [
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "equals",
+                "value": "proposal=proposal.invalid tenant=tenant-a.invalid"
+              }
+            },
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "not-contains",
+                "value": "customer.example"
+              }
+            }
+          ]
+        },
+        "id": "37d77f6d-4d83-4593-8099-056b6d311be0",
+        "latencyMs": 1,
+        "namedScores": {},
+        "prompt": {
+          "raw": "proposal=proposal.invalid tenant=tenant-a.invalid",
+          "label": "proposal={{proposal}} tenant={{tenant}}",
+          "config": {}
+        },
+        "promptId": "135393f9a84df81b39b5e88655b8f523964540c3df3b619ca1b22356c5b9c02b",
+        "promptIdx": 0,
+        "provider": {
+          "id": "echo",
+          "label": ""
+        },
+        "response": {
+          "output": "proposal=proposal.invalid tenant=tenant-a.invalid",
+          "raw": "proposal=proposal.invalid tenant=tenant-a.invalid",
+          "cost": 0,
+          "cached": false,
+          "tokenUsage": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "numRequests": 1
+          },
+          "isRefusal": false,
+          "metadata": {}
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "proposal": "proposal.invalid",
+            "tenant": "tenant-a.invalid"
+          },
+          "assert": [
+            {
+              "type": "equals",
+              "value": "proposal=proposal.invalid tenant=tenant-a.invalid"
+            },
+            {
+              "type": "not-contains",
+              "value": "customer.example"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 0,
+        "tokenUsage": {
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "total": 0,
+          "numRequests": 1,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 0
+          },
+          "assertions": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 1,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            }
+          }
+        },
+        "vars": {
+          "proposal": "proposal.invalid",
+          "tenant": "tenant-a.invalid"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      }
+    ],
+    "stats": {
+      "successes": 1,
+      "failures": 0,
+      "errors": 0,
+      "tokenUsage": {
+        "prompt": 0,
+        "completion": 0,
+        "cached": 0,
+        "total": 0,
+        "numRequests": 1,
+        "completionDetails": {
+          "reasoning": 0,
+          "acceptedPrediction": 0,
+          "rejectedPrediction": 0,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0
+        },
+        "assertions": {
+          "total": 0,
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "numRequests": 0,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 0
+          }
+        }
+      },
+      "durationMs": 15,
+      "evaluationDurationMs": 15
+    }
+  },
+  "config": {
+    "tags": {},
+    "description": "O01 deterministic offline echo evaluation",
+    "prompts": [
+      "proposal={{proposal}} tenant={{tenant}}"
+    ],
+    "providers": [
+      "echo"
+    ],
+    "tests": [
+      {
+        "vars": {
+          "proposal": "proposal.invalid",
+          "tenant": "tenant-a.invalid"
+        },
+        "assert": [
+          {
+            "type": "equals",
+            "value": "proposal=proposal.invalid tenant=tenant-a.invalid"
+          },
+          {
+            "type": "not-contains",
+            "value": "customer.example"
+          }
+        ]
+      }
+    ],
+    "env": {},
+    "outputPath": [
+      "result.json"
+    ],
+    "extensions": [],
+    "metadata": {},
+    "evaluateOptions": {}
+  },
+  "shareableUrl": null,
+  "metadata": {
+    "promptfooVersion": "0.121.19",
+    "nodeVersion": "v22.22.3",
+    "platform": "darwin",
+    "arch": "arm64",
+    "exportedAt": "2026-07-14T17:34:03.238Z",
+    "evaluationCreatedAt": "2026-07-14T17:34:03.179Z"
+  },
+  "vars": [
+    "proposal",
+    "tenant"
+  ],
+  "runtimeOptions": {
+    "eventSource": "cli",
+    "showProgressBar": true,
+    "repeat": 1,
+    "maxConcurrency": 4,
+    "cache": false
+  }
+}

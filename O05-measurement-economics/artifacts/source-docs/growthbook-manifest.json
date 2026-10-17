@@ -1,0 +1,34 @@
+[
+  {
+    "bytes": 4022,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/source-docs/growthbook/README.md",
+    "path": "README.md",
+    "sha256": "1685ad045a8547bbcea80bba238fd099dee2e21ad05acfeb1dc05fa1879661c1",
+    "status": "READ"
+  },
+  {
+    "bytes": 2043,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/source-docs/growthbook/SECURITY.md",
+    "path": "SECURITY.md",
+    "sha256": "a2b931c164183e754612509aa6d7ff8424232ddcd38876cc0a5a0f515ced5ab5",
+    "status": "READ"
+  },
+  {
+    "bytes": 4642,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/source-docs/growthbook/docs/README.md",
+    "path": "docs/README.md",
+    "sha256": "4f59ff6837346977e082b8156a40a306b9dc867882b82aaca3ca3b072bf6b84f",
+    "status": "READ"
+  },
+  {
+    "bytes": 6483,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/source-docs/growthbook/package.json",
+    "path": "package.json",
+    "sha256": "6750892ba0fe70fe27317f55844b11d298e09e9a29d655133ee8b8a02e30e929",
+    "status": "READ"
+  }
+]

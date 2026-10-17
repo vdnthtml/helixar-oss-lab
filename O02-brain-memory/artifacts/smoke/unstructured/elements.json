@@ -1,0 +1,70 @@
+[
+    {
+        "element_id": "79757e6f-d195-42e9-916f-559ff45536c9",
+        "metadata": {
+            "category_depth": 0,
+            "filename": "fixture-o02.html",
+            "filetype": "text/html",
+            "languages": [
+                "eng"
+            ]
+        },
+        "text": "O02 Demand Memory",
+        "type": "Title"
+    },
+    {
+        "element_id": "6db157db-450f-4fb6-a1b8-621e5a9c45de",
+        "metadata": {
+            "filename": "fixture-o02.html",
+            "filetype": "text/html",
+            "languages": [
+                "eng"
+            ],
+            "parent_id": "79757e6f-d195-42e9-916f-559ff45536c9"
+        },
+        "text": "Helixar captures evidence-backed demand signals with explicit provenance.",
+        "type": "NarrativeText"
+    },
+    {
+        "element_id": "d63da141-261f-4185-9cb0-7343bf77d903",
+        "metadata": {
+            "category_depth": 1,
+            "filename": "fixture-o02.html",
+            "filetype": "text/html",
+            "languages": [
+                "eng"
+            ],
+            "parent_id": "79757e6f-d195-42e9-916f-559ff45536c9"
+        },
+        "text": "Lineage",
+        "type": "Title"
+    },
+    {
+        "element_id": "991d7032-d5c9-476e-a32d-2b8bc0d44bfa",
+        "metadata": {
+            "category_depth": 1,
+            "filename": "fixture-o02.html",
+            "filetype": "text/html",
+            "languages": [
+                "eng"
+            ],
+            "parent_id": "d63da141-261f-4185-9cb0-7343bf77d903"
+        },
+        "text": "source URI",
+        "type": "ListItem"
+    },
+    {
+        "element_id": "fa21d08d-7b1b-4b12-bb6f-83d72a880d22",
+        "metadata": {
+            "category_depth": 1,
+            "filename": "fixture-o02.html",
+            "filetype": "text/html",
+            "languages": [
+                "eng"
+            ],
+            "parent_id": "d63da141-261f-4185-9cb0-7343bf77d903"
+        },
+        "text": "capture timestamp",
+        "type": "ListItem"
+    }
+]

@@ -1,0 +1,43 @@
+{
+  "candidate": "Unstructured",
+  "elements": [
+    {
+      "element_id": "8205f7facafe87c9585c49bf02ef3685",
+      "file_directory": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/storage/unstructured-fixture",
+      "filename": "fixture-policy.txt",
+      "filetype": "text/plain",
+      "languages": [
+        "eng"
+      ],
+      "text": "Synthetic Policy Packet",
+      "type": "Title"
+    },
+    {
+      "element_id": "306ead90358184d83f5782bd2f40011f",
+      "file_directory": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/storage/unstructured-fixture",
+      "filename": "fixture-policy.txt",
+      "filetype": "text/plain",
+      "languages": [
+        "eng"
+      ],
+      "text": "Alpha launch policy is approved for the isolated fixture.",
+      "type": "NarrativeText"
+    },
+    {
+      "element_id": "31b9a4f414a802d0c18db8804b1e98c0",
+      "file_directory": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/storage/unstructured-fixture",
+      "filename": "fixture-policy.txt",
+      "filetype": "text/plain",
+      "languages": [
+        "eng"
+      ],
+      "text": "Beta finance policy remains a separate evidence record.",
+      "type": "NarrativeText"
+    }
+  ],
+  "source": {
+    "path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/storage/unstructured-fixture/fixture-policy.txt",
+    "sha256": "45c1baf313a188e792b45ca52b28a581e3c2b2f32bdb8e7e0da259fc64ab41d2",
+    "synthetic_identity": "fixture-policy@o02.invalid"
+  }
+}

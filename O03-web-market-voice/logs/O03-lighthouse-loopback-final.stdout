@@ -1,0 +1,19 @@
+{
+  "candidate": "Lighthouse",
+  "version": "13.4.0",
+  "fetch_time": "2026-07-14T18:00:21.762Z",
+  "duration_seconds": 11.544,
+  "assertions": {
+    "requested_url_loopback": true,
+    "final_url_loopback": true,
+    "three_categories_present": true,
+    "audits_nonempty": true
+  },
+  "category_scores": {
+    "accessibility": 1,
+    "best-practices": 0.96,
+    "seo": 1
+  },
+  "pass": true,
+  "determinism_boundary": "Structural assertions only; performance/browser metrics are variable by project documentation."
+}

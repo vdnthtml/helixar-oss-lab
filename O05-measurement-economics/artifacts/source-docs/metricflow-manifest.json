@@ -1,0 +1,26 @@
+[
+  {
+    "bytes": 5263,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/source-docs/metricflow/README.md",
+    "path": "README.md",
+    "sha256": "0bc03f8c21f80e98e0965f777f475fbc292206a1043f1a6fde4efec055986f13",
+    "status": "READ"
+  },
+  {
+    "bytes": 2934,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/source-docs/metricflow/dbt-metricflow/pyproject.toml",
+    "path": "dbt-metricflow/pyproject.toml",
+    "sha256": "ee1ee19236ec7f6266f62f9f1edbb78f40a053b2827450e6119a09a958370f38",
+    "status": "READ"
+  },
+  {
+    "bytes": 5086,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/source-docs/metricflow/pyproject.toml",
+    "path": "pyproject.toml",
+    "sha256": "d3589def3e3a0e6cec02124a76d2c85c1678f6ce8c63e54b1a31eec7d306f750",
+    "status": "READ"
+  }
+]

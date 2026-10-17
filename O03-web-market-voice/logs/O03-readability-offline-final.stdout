@@ -1,0 +1,20 @@
+{
+  "candidate": "Mozilla Readability",
+  "version": "0.6.0-source-commit-ab4027a8b37669745016869a37a504727992b2ba",
+  "output_sha256": "cbd8233cedeb1f539a28c754ff8f7f9dcd56b9dee37c28ce5936b4f0fb295fd0",
+  "assertions": {
+    "exact_repeat_equal": true,
+    "title_expected": true,
+    "synthetic_sentence_present": true,
+    "external_link_text_absent": true
+  },
+  "extracted": {
+    "title": "O03 Synthetic Authority Fixture",
+    "byline": null,
+    "dir": null,
+    "lang": "en",
+    "textContent": "Deterministic synthetic market evidence Acme Signal reports a synthetic launch on 2026-07-14. This statement exists only for a lawful localhost fixture. Evidence The fixture contains no customer data, credentials, analytics, remote scripts, or external resources.",
+    "length": 301
+  },
+  "pass": true
+}

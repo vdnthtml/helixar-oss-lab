@@ -1,0 +1,394 @@
+[
+  {
+    "candidate": "temporal",
+    "repository": "https://github.com/temporalio/temporal",
+    "commit": "388cebb5bd14c331ffe2e5d84d0660cc1cd12ede",
+    "default_branch_ref": "origin/main",
+    "license_paths": [
+      "LICENSE",
+      "common/persistence/sql/sqlplugin/sqlite/LICENSE",
+      "common/persistence/visibility/store/query/LICENSE",
+      "common/testing/protoassert/LICENSE",
+      "schema/sqlite/LICENSE",
+      "temporaltest/LICENSE"
+    ],
+    "inspected_paths": [
+      "README.md",
+      "go.mod",
+      "LICENSE",
+      "common/persistence/sql/sqlplugin/sqlite/LICENSE",
+      "common/persistence/visibility/store/query/LICENSE",
+      "common/testing/protoassert/LICENSE",
+      "schema/sqlite/LICENSE",
+      "temporaltest/LICENSE"
+    ],
+    "smoke_checkout": false
+  },
+  {
+    "candidate": "langgraph",
+    "repository": "https://github.com/langchain-ai/langgraph",
+    "commit": "b96f6170e7eddd8f9aa31375fd8c54213e478a9a",
+    "default_branch_ref": "origin/main",
+    "license_paths": [
+      "LICENSE",
+      "libs/checkpoint-postgres/LICENSE",
+      "libs/checkpoint-sqlite/LICENSE",
+      "libs/checkpoint/LICENSE",
+      "libs/cli/LICENSE",
+      "libs/cli/js-examples/LICENSE",
+      "libs/langgraph/LICENSE",
+      "libs/prebuilt/LICENSE",
+      "libs/sdk-py/LICENSE"
+    ],
+    "inspected_paths": [
+      "README.md",
+      "LICENSE",
+      "libs/checkpoint-postgres/LICENSE",
+      "libs/checkpoint-sqlite/LICENSE",
+      "libs/checkpoint/LICENSE",
+      "libs/cli/LICENSE",
+      "libs/cli/js-examples/LICENSE",
+      "libs/langgraph/LICENSE",
+      "libs/prebuilt/LICENSE",
+      "libs/sdk-py/LICENSE"
+    ],
+    "smoke_checkout": true
+  },
+  {
+    "candidate": "trigger-dev",
+    "repository": "https://github.com/triggerdotdev/trigger.dev",
+    "commit": "c936c79e395bfc844ea9599cad0b7ea9050f2b34",
+    "default_branch_ref": "origin/main",
+    "license_paths": [
+      "LICENSE",
+      "internal-packages/otlp-importer/LICENSE",
+      "packages/build/LICENSE",
+      "packages/cli-v3/LICENSE",
+      "packages/core/LICENSE",
+      "packages/python/LICENSE",
+      "packages/trigger-sdk/LICENSE"
+    ],
+    "inspected_paths": [
+      "README.md",
+      "package.json",
+      "LICENSE",
+      "internal-packages/otlp-importer/LICENSE",
+      "packages/build/LICENSE",
+      "packages/cli-v3/LICENSE",
+      "packages/core/LICENSE",
+      "packages/python/LICENSE",
+      "packages/trigger-sdk/LICENSE"
+    ],
+    "smoke_checkout": false
+  },
+  {
+    "candidate": "prefect",
+    "repository": "https://github.com/PrefectHQ/prefect",
+    "commit": "81d5e54752dfedf2043eed6beb335edbded6ba90",
+    "default_branch_ref": "origin/main",
+    "license_paths": [
+      "LICENSE",
+      "src/integrations/prefect-aws/LICENSE",
+      "src/integrations/prefect-azure/LICENSE",
+      "src/integrations/prefect-bitbucket/LICENSE",
+      "src/integrations/prefect-dask/LICENSE",
+      "src/integrations/prefect-databricks/LICENSE",
+      "src/integrations/prefect-dbt/LICENSE",
+      "src/integrations/prefect-docker/LICENSE",
+      "src/integrations/prefect-email/LICENSE",
+      "src/integrations/prefect-gcp/LICENSE",
+      "src/integrations/prefect-github/LICENSE",
+      "src/integrations/prefect-gitlab/LICENSE",
+      "src/integrations/prefect-kubernetes/LICENSE",
+      "src/integrations/prefect-ray/LICENSE",
+      "src/integrations/prefect-redis/LICENSE",
+      "src/integrations/prefect-shell/LICENSE",
+      "src/integrations/prefect-slack/LICENSE",
+      "src/integrations/prefect-snowflake/LICENSE",
+      "src/integrations/prefect-sqlalchemy/LICENSE"
+    ],
+    "inspected_paths": [
+      "README.md",
+      "pyproject.toml",
+      "LICENSE",
+      "src/integrations/prefect-aws/LICENSE",
+      "src/integrations/prefect-azure/LICENSE",
+      "src/integrations/prefect-bitbucket/LICENSE",
+      "src/integrations/prefect-dask/LICENSE",
+      "src/integrations/prefect-databricks/LICENSE",
+      "src/integrations/prefect-dbt/LICENSE",
+      "src/integrations/prefect-docker/LICENSE",
+      "src/integrations/prefect-email/LICENSE",
+      "src/integrations/prefect-gcp/LICENSE"
+    ],
+    "smoke_checkout": false
+  },
+  {
+    "candidate": "opa",
+    "repository": "https://github.com/open-policy-agent/opa",
+    "commit": "55e859d73fd9233d6593311b6c3837c9a93e25dd",
+    "default_branch_ref": "origin/main",
+    "license_paths": [
+      "LICENSE",
+      "internal/edittree/bitvector/license.txt",
+      "internal/methodlesstemplate/LICENSE",
+      "internal/semver/LICENSE"
+    ],
+    "inspected_paths": [
+      "README.md",
+      "go.mod",
+      "LICENSE",
+      "internal/edittree/bitvector/license.txt",
+      "internal/methodlesstemplate/LICENSE",
+      "internal/semver/LICENSE"
+    ],
+    "smoke_checkout": true
+  },
+  {
+    "candidate": "cedar",
+    "repository": "https://github.com/cedar-policy/cedar",
+    "commit": "e75a13b731928f70e80e75a859fb97fc47987737",
+    "default_branch_ref": "origin/main",
+    "license_paths": [
+      "LICENSE"
+    ],
+    "inspected_paths": [
+      "README.md",
+      "Cargo.toml",
+      "LICENSE"
+    ],
+    "smoke_checkout": false
+  },
+  {
+    "candidate": "openfga",
+    "repository": "https://github.com/openfga/openfga",
+    "commit": "46b1d53b99af0e8b310fe90c3c1b1682b1a15eb9",
+    "default_branch_ref": "origin/main",
+    "license_paths": [
+      "LICENSE"
+    ],
+    "inspected_paths": [
+      "README.md",
+      "go.mod",
+      "LICENSE"
+    ],
+    "smoke_checkout": false
+  },
+  {
+    "candidate": "opentelemetry",
+    "repository": "https://github.com/open-telemetry/opentelemetry-specification",
+    "commit": "d9f58bb8021f196a4bc57f35c1d07c2d5f908023",
+    "default_branch_ref": "origin/main",
+    "license_paths": [
+      "LICENSE"
+    ],
+    "inspected_paths": [
+      "README.md",
+      "package.json",
+      "LICENSE"
+    ],
+    "smoke_checkout": true
+  },
+  {
+    "candidate": "openinference",
+    "repository": "https://github.com/Arize-ai/openinference",
+    "commit": "6d6bbf760676c0d459e4d71ed5f69886205e101a",
+    "default_branch_ref": "origin/main",
+    "license_paths": [
+      "LICENSE",
+      "js/packages/openinference-instrumentation-beeai/LICENSE",
+      "python/instrumentation/openinference-instrumentation-agentspec/LICENSE",
+      "python/instrumentation/openinference-instrumentation-agno/LICENSE",
+      "python/instrumentation/openinference-instrumentation-anthropic/LICENSE",
+      "python/instrumentation/openinference-instrumentation-autogen-agentchat/LICENSE",
+      "python/instrumentation/openinference-instrumentation-autogen/LICENSE",
+      "python/instrumentation/openinference-instrumentation-bedrock/LICENSE",
+      "python/instrumentation/openinference-instrumentation-claude-agent-sdk/LICENSE",
+      "python/instrumentation/openinference-instrumentation-crewai/LICENSE",
+      "python/instrumentation/openinference-instrumentation-dspy/LICENSE",
+      "python/instrumentation/openinference-instrumentation-google-adk/LICENSE",
+      "python/instrumentation/openinference-instrumentation-google-genai/LICENSE",
+      "python/instrumentation/openinference-instrumentation-groq/LICENSE",
+      "python/instrumentation/openinference-instrumentation-guardrails/LICENSE",
+      "python/instrumentation/openinference-instrumentation-haystack/LICENSE",
+      "python/instrumentation/openinference-instrumentation-instructor/LICENSE",
+      "python/instrumentation/openinference-instrumentation-langchain/LICENSE",
+      "python/instrumentation/openinference-instrumentation-litellm/LICENSE",
+      "python/instrumentation/openinference-instrumentation-llama-index/LICENSE",
+      "python/instrumentation/openinference-instrumentation-mcp/LICENSE",
+      "python/instrumentation/openinference-instrumentation-mistralai/LICENSE",
+      "python/instrumentation/openinference-instrumentation-openai-agents/LICENSE",
+      "python/instrumentation/openinference-instrumentation-openai/LICENSE",
+      "python/instrumentation/openinference-instrumentation-openlit/LICENSE",
+      "python/instrumentation/openinference-instrumentation-openllmetry/LICENSE",
+      "python/instrumentation/openinference-instrumentation-pipecat/LICENSE",
+      "python/instrumentation/openinference-instrumentation-pydantic-ai/LICENSE",
+      "python/instrumentation/openinference-instrumentation-smolagents/LICENSE",
+      "python/instrumentation/openinference-instrumentation-strands-agents/LICENSE",
+      "python/instrumentation/openinference-instrumentation-vertexai/LICENSE",
+      "python/openinference-instrumentation/LICENSE",
+      "python/openinference-semantic-conventions/LICENSE"
+    ],
+    "inspected_paths": [
+      "README.md",
+      "LICENSE",
+      "js/packages/openinference-instrumentation-beeai/LICENSE",
+      "python/instrumentation/openinference-instrumentation-agentspec/LICENSE",
+      "python/instrumentation/openinference-instrumentation-agno/LICENSE",
+      "python/instrumentation/openinference-instrumentation-anthropic/LICENSE",
+      "python/instrumentation/openinference-instrumentation-autogen-agentchat/LICENSE",
+      "python/instrumentation/openinference-instrumentation-autogen/LICENSE",
+      "python/instrumentation/openinference-instrumentation-bedrock/LICENSE",
+      "python/instrumentation/openinference-instrumentation-claude-agent-sdk/LICENSE",
+      "python/instrumentation/openinference-instrumentation-crewai/LICENSE"
+    ],
+    "smoke_checkout": false
+  },
+  {
+    "candidate": "promptfoo",
+    "repository": "https://github.com/promptfoo/promptfoo",
+    "commit": "1ede17aaed940e6dff04f71d24e4ecc011809dae",
+    "default_branch_ref": "origin/main",
+    "license_paths": [
+      "LICENSE",
+      "src/redteam/providers/crescendo/LICENSE"
+    ],
+    "inspected_paths": [
+      "README.md",
+      "package.json",
+      "LICENSE",
+      "src/redteam/providers/crescendo/LICENSE"
+    ],
+    "smoke_checkout": true
+  },
+  {
+    "candidate": "inspect-ai",
+    "repository": "https://github.com/UKGovernmentBEIS/inspect_ai",
+    "commit": "227072526c662194beb5b1a10c86d5086a1be3d9",
+    "default_branch_ref": "origin/main",
+    "license_paths": [
+      "LICENSE"
+    ],
+    "inspected_paths": [
+      "README.md",
+      "pyproject.toml",
+      "LICENSE"
+    ],
+    "smoke_checkout": false
+  },
+  {
+    "candidate": "langfuse",
+    "repository": "https://github.com/langfuse/langfuse",
+    "commit": "b445e2ff64141a5eab928122405c24f0576f8106",
+    "default_branch_ref": "origin/main",
+    "license_paths": [
+      ".agents/skills/skill-creator/license.txt",
+      "LICENSE",
+      "ee/LICENSE"
+    ],
+    "inspected_paths": [
+      "README.md",
+      "package.json",
+      ".agents/skills/skill-creator/license.txt",
+      "LICENSE",
+      "ee/LICENSE"
+    ],
+    "smoke_checkout": false
+  },
+  {
+    "candidate": "phoenix",
+    "repository": "https://github.com/Arize-ai/phoenix",
+    "commit": "510c1e9b3ffd00dac124673364d83596a55c3fdc",
+    "default_branch_ref": "origin/main",
+    "license_paths": [
+      "LICENSE",
+      "js/packages/phoenix-cli/LICENSE",
+      "js/packages/phoenix-config/LICENSE",
+      "js/packages/phoenix-evals/LICENSE",
+      "js/packages/phoenix-mcp/LICENSE",
+      "packages/phoenix-client/LICENSE",
+      "packages/phoenix-evals/LICENSE",
+      "packages/phoenix-otel/LICENSE",
+      "src/phoenix/server/agents/capabilities/skills/LICENSE",
+      "src/phoenix/vendor/json_canonicalization_scheme/LICENSE"
+    ],
+    "inspected_paths": [
+      "README.md",
+      "pyproject.toml",
+      "LICENSE",
+      "js/packages/phoenix-cli/LICENSE",
+      "js/packages/phoenix-config/LICENSE",
+      "js/packages/phoenix-evals/LICENSE",
+      "js/packages/phoenix-mcp/LICENSE",
+      "packages/phoenix-client/LICENSE",
+      "packages/phoenix-evals/LICENSE",
+      "packages/phoenix-otel/LICENSE",
+      "src/phoenix/server/agents/capabilities/skills/LICENSE",
+      "src/phoenix/vendor/json_canonicalization_scheme/LICENSE"
+    ],
+    "smoke_checkout": false
+  },
+  {
+    "candidate": "giskard",
+    "repository": "https://github.com/Giskard-AI/giskard-oss",
+    "commit": "1213b7eeea2ee4a34d0cc8b9e87b5742e5167d53",
+    "default_branch_ref": "origin/main",
+    "license_paths": [
+      "LICENSE"
+    ],
+    "inspected_paths": [
+      "README.md",
+      "pyproject.toml",
+      "LICENSE"
+    ],
+    "smoke_checkout": false
+  },
+  {
+    "candidate": "pyrit",
+    "repository": "https://github.com/microsoft/PyRIT",
+    "commit": "ec6a9390c81ee454a8a73a379858ecf94e77235b",
+    "default_branch_ref": "origin/main",
+    "license_paths": [
+      "LICENSE"
+    ],
+    "inspected_paths": [
+      "README.md",
+      "pyproject.toml",
+      "LICENSE"
+    ],
+    "smoke_checkout": false
+  },
+  {
+    "candidate": "garak",
+    "repository": "https://github.com/NVIDIA/garak",
+    "commit": "e2e3ca1ba037435aa96d0a0e37d7847a1ff430d5",
+    "default_branch_ref": "origin/main",
+    "license_paths": [
+      "LICENSE",
+      "garak/data/harmbench/LICENSE",
+      "tests/_assets/fileformats/exec_files/LICENSE"
+    ],
+    "inspected_paths": [
+      "README.md",
+      "pyproject.toml",
+      "LICENSE",
+      "garak/data/harmbench/LICENSE",
+      "tests/_assets/fileformats/exec_files/LICENSE"
+    ],
+    "smoke_checkout": false
+  },
+  {
+    "candidate": "presidio",
+    "repository": "https://github.com/data-privacy-stack/presidio",
+    "commit": "6337265a560dc2eba84b5f46f8c73ab2e402524e",
+    "default_branch_ref": "origin/main",
+    "license_paths": [
+      "LICENSE"
+    ],
+    "inspected_paths": [
+      "pyproject.toml",
+      "LICENSE"
+    ],
+    "smoke_checkout": true
+  }
+]

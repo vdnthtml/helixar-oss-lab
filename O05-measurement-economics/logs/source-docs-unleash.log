@@ -1,0 +1,18 @@
+[
+  {
+    "path": "README.md",
+    "status": "READ",
+    "sha256": "745709b1c46202d27b51d047e7d6f23dcec13228c795df0d3729910166f13ab2",
+    "bytes": 15102,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/source-docs/unleash/README.md",
+    "error": ""
+  },
+  {
+    "path": "package.json",
+    "status": "READ",
+    "sha256": "5c085b2e3549e2d408ca869a605de8697ab51fe37917748a03b004e21998c449",
+    "bytes": 7390,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/source-docs/unleash/package.json",
+    "error": ""
+  }
+]

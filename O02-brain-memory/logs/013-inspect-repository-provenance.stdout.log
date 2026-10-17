@@ -1,0 +1,12 @@
+{
+  "candidates": 8,
+  "manifest": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/candidate-source-manifest.json"
+}
+Letta|b76da9092518cbaa2d09042e52fdcbde69243e18|7067c69e4ba1f579cfe879d9bf71a4a0d61ca3db|2026-07-03T11:53:39-07:00|[{'path': 'LICENSE', 'sha256': '984c6db99fc6609803108dfc196762118662cd94b82a456dd9217583f18f3612', 'bytes': 10759, 'first_line': '                                 Apache License'}]
+Mem0|ccbe5861a138c7583e01bb3a3aa6168e52526a23|812317e78c83a9acee947ade1869ce158337ad49|2026-07-14T20:06:05+05:30|[{'path': 'LICENSE', 'sha256': '0bbcbe931c353293a2fafce08326181dfeea0e568c566afd4ce8337a70f5e219', 'bytes': 11349, 'first_line': '                                 Apache License'}]
+Graphiti|526dcad7a300f3c5c506ff96a68bcdc7ca9f97ed|f3c6b396c841cfd1bdda3672967c04fc07495133|2026-07-09T07:08:38Z|[{'path': 'LICENSE', 'sha256': '2825300b20d7b951209835a4a331f29e24725a39d65168e4b831df53aa372650', 'bytes': 11325, 'first_line': '                                 Apache License'}]
+LlamaIndex|67514f63410c6d4c2344e7ca14b3ea7214d0bb84|8f421c804a8bc4aaf228e9be8c28879517f66a1d|2026-07-08T12:53:59+02:00|[{'path': 'LICENSE', 'sha256': '24f40b5190fdacabc24ddbb5f76364d15e4f030925220ea300d8a2dd4993c8cb', 'bytes': 1065, 'first_line': 'The MIT License'}]
+Unstructured|c38745b32f5302a38f61245214d77fafff59368f|548b0104d9e7fea0eb1e7932974c4f12c94ae8f3|2026-07-13T18:43:02Z|[{'path': 'LICENSE.md', 'sha256': '4b190a3ffeb6b8800a6fd99bd5e1fb147e0a9f66984f4f5f8232a926de4fc939', 'bytes': 11360, 'first_line': '                                 Apache License'}]
+PostgreSQL+pgvector|a6420355c5d1c08f4c5fbd5112fc17e4cf3b5eb5|52b7f4807f58d7ae61990ba5c95f26755e66d65a|2026-07-10T22:17:27-07:00|[{'path': 'LICENSE', 'sha256': '6bba9ebeb73e27477463b05e5ef1bf303bccbddb3db9bbc95905d351604d6a87', 'bytes': 1104, 'first_line': 'Portions Copyright (c) 1996-2026, PostgreSQL Global Development Group'}]
+Qdrant|44ad62f8cd69642be5afa6441612525e24a0d063|c6b12563a75f1c5ee866e763be8ad93ebc51e5a8|2026-06-03T17:09:21+02:00|[{'path': 'LICENSE', 'sha256': 'c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4', 'bytes': 11357, 'first_line': '                                 Apache License'}]
+MinIO|7aac2a2c5b7c882e68c1ce017d8256be2feea27f|376b09b793c57170a905208e64590164d8ab7a3b|2026-02-12T12:18:48-08:00|[{'path': 'LICENSE', 'sha256': '0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0', 'bytes': 34523, 'first_line': '                    GNU AFFERO GENERAL PUBLIC LICENSE'}]

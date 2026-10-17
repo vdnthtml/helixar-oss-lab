@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O03-web-market-voice/freeze_corpus.py", line 81, in <module>
+    for c in metadata["candidates"]:
+             ~~~~~~~~^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str

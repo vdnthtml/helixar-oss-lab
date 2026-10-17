@@ -1,0 +1,17 @@
+{
+  "backend": "Kuzu local adapter",
+  "candidate": "Graphiti",
+  "checks": {
+    "cross_group_query_exclusion": true,
+    "entity_save_get": true,
+    "governance_metadata_update": true,
+    "hard_delete": true,
+    "json_export_reload": true,
+    "source_lineage_round_trip": true
+  },
+  "export_path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/exports/graphiti-kuzu-export.json",
+  "external_egress_attempts": [],
+  "proof_boundary": "Graph storage CRUD only; Kuzu adapter is deprecated and no episode extraction, temporal-edge search, Neo4j/FalkorDB, LLM, concurrency, backup, or production operations were proven.",
+  "status": "PASS_BOUNDED_CRUD_ONLY",
+  "telemetry_enabled": false
+}

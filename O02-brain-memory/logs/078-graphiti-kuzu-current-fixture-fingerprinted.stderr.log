@@ -1,0 +1,2 @@
+/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/fixtures/graphiti_kuzu_fixture.py:48: DeprecationWarning: The Kuzu backend is deprecated and will be removed in a future release — the upstream Kuzu project is no longer maintained. Migrate to Neo4j or FalkorDB.
+  driver = KuzuDriver(db=str(STATE / "graph.kuzu"))

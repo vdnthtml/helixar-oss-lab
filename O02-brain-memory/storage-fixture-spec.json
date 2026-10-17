@@ -1,0 +1,125 @@
+{
+  "fixture_id": "O02-STOR-FX-01",
+  "name": "governed-memory-plus-content-addressed-source-object",
+  "strategic_tag": "SHARED PLATFORM",
+  "status": "RECOMMENDED_NOT_RUN",
+  "not_run_reason": "Live preflight found no Docker/Podman, PostgreSQL toolchain, Go, Rust, MinIO, or mc; MinIO AGPL permission and PostgreSQL server provenance remain unresolved",
+  "stack": {
+    "authority_store": "PostgreSQL with pgvector",
+    "object_port_fixture_provider": "MinIO",
+    "excluded_from_first_fixture": "Qdrant",
+    "production_object_provider": "BLOCKED_DECISION"
+  },
+  "candidate_dispositions": [
+    {
+      "candidate": "PostgreSQL+pgvector",
+      "repository": "https://github.com/pgvector/pgvector.git",
+      "commit": "a6420355c5d1c08f4c5fbd5112fc17e4cf3b5eb5",
+      "tree_hash": "52b7f4807f58d7ae61990ba5c95f26755e66d65a",
+      "license_spdx": "PostgreSQL",
+      "license_sha256": "6bba9ebeb73e27477463b05e5ef1bf303bccbddb3db9bbc95905d351604d6a87",
+      "decision": "ADAPT",
+      "source_inspected": true,
+      "install_attempted": false,
+      "service_started": false,
+      "deterministic_fixture_passed": false,
+      "integration_fit_proven": false,
+      "production_suitability": "UNKNOWN",
+      "blocker": "PostgreSQL server release/commit/license provenance not yet pinned"
+    },
+    {
+      "candidate": "Qdrant",
+      "repository": "https://github.com/qdrant/qdrant.git",
+      "commit": "44ad62f8cd69642be5afa6441612525e24a0d063",
+      "tree_hash": "c6b12563a75f1c5ee866e763be8ad93ebc51e5a8",
+      "license_spdx": "Apache-2.0",
+      "license_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "decision": "POC_MORE",
+      "source_inspected": true,
+      "install_attempted": false,
+      "service_started": false,
+      "deterministic_fixture_passed": false,
+      "integration_fit_proven": false,
+      "production_suitability": "UNKNOWN",
+      "unsafe_defaults": [
+        "service.host=0.0.0.0",
+        "service.enable_cors=true",
+        "service.api_key unset",
+        "service.enable_snapshot_url_recovery=true",
+        "telemetry_disabled=false"
+      ]
+    },
+    {
+      "candidate": "MinIO",
+      "repository": "https://github.com/minio/minio.git",
+      "commit": "7aac2a2c5b7c882e68c1ce017d8256be2feea27f",
+      "tree_hash": "376b09b793c57170a905208e64590164d8ab7a3b",
+      "license_spdx": "AGPL-3.0-or-later",
+      "license_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "decision": "REJECT_OPERATIONS",
+      "source_inspected": true,
+      "install_attempted": false,
+      "service_started": false,
+      "deterministic_fixture_passed": false,
+      "integration_fit_proven": false,
+      "production_suitability": "BLOCKED",
+      "blockers": [
+        "inspected community repository says no longer maintained",
+        "community distribution is source-only",
+        "legacy binaries are unmaintained",
+        "AGPL review required",
+        "source build requires Go 1.24 or later",
+        "default API/console binding is not loopback-scoped",
+        "release update checks are a separate egress path",
+        "versioned DELETE may create only a delete marker"
+      ],
+      "callhome_default": "off"
+    }
+  ],
+  "synthetic_scope": {
+    "tenants": ["tenant-a.invalid", "tenant-b.invalid"],
+    "source_objects": 4,
+    "max_object_bytes": 1024,
+    "embedding_provider": "deterministic local constants",
+    "credentials": false,
+    "customer_data": false,
+    "business_writes": 0
+  },
+  "authority_invariants": [
+    "proposal is not current truth",
+    "only explicit approval creates a current projection",
+    "revocation removes current projection but preserves allowed audit history",
+    "same idempotency key plus same digest replays one identity",
+    "same idempotency key plus different digest fails closed",
+    "tenant scope is mandatory in every retrieval",
+    "object tags do not contain authority state"
+  ],
+  "runtime_requirements": [
+    "pin PostgreSQL server provenance separately",
+    "all listeners bind to 127.0.0.1 dedicated ports",
+    "first runtime attempt runs under OS-level public-network denial",
+    "MinIO callhome is explicitly disabled",
+    "MinIO release update checks are explicitly disabled",
+    "MinIO API and console addresses are explicitly loopback-bound and the console is disabled when unused",
+    "synthetic non-default MinIO credentials are supplied",
+    "all processes and listeners are stopped after the fixture"
+  ],
+  "acceptance": [
+    "proposals absent from current retrieval before approval",
+    "revoked and deleted memories absent from current retrieval",
+    "zero cross-tenant IDs",
+    "conflicting idempotency digest rejected",
+    "ten repeated exact queries have identical order and scores",
+    "export and fresh reload preserve object digests and retrieval order",
+    "failure reconciliation never exposes a partially committed current memory",
+    "public network and external business writes remain zero during runtime"
+  ],
+  "human_decisions": [
+    "MinIO AGPL permission for ephemeral fixture",
+    "production S3-compatible provider",
+    "exact PostgreSQL release",
+    "tenant isolation mechanism",
+    "Qdrant benchmark trigger thresholds",
+    "hard-delete versus audit-retention policy"
+  ]
+}

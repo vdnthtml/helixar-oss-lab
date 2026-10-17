@@ -1,0 +1,1158 @@
+
+=== 2026-07-14T17:25:32.669486+00:00 git clone --depth 1 --filter=blob:none --no-checkout https://github.com/openfga/openfga.git /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/sources/openfga ===
+Cloning into '/Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/sources/openfga'...
+
+=== 2026-07-14T17:25:33.896390+00:00 git rev-parse HEAD ===
+46b1d53b99af0e8b310fe90c3c1b1682b1a15eb9
+
+=== 2026-07-14T17:25:33.989563+00:00 git symbolic-ref --short refs/remotes/origin/HEAD ===
+origin/main
+
+=== 2026-07-14T17:25:34.084131+00:00 git ls-tree -r --name-only HEAD ===
+.coderabbit.yaml
+.config-schema.json
+.dockerignore
+.fossa.yml
+.github/.mlc_config.json
+.github/CODEOWNERS
+.github/ISSUE_TEMPLATE/config.yml
+.github/ISSUE_TEMPLATE/feature_request.yml
+.github/ISSUE_TEMPLATE/report_a_bug.yml
+.github/SECURITY-INSIGHTS.yml
+.github/dependabot.yaml
+.github/instructions/changelog-review.instructions.md
+.github/instructions/dockerfile-goreleaser-sync.instructions.md
+.github/workflows/claude-code-review.yaml
+.github/workflows/codeql.yml
+.github/workflows/create-helm-release-pr.yaml
+.github/workflows/create-release-tag.yaml
+.github/workflows/enforce-changelog-entry.yaml
+.github/workflows/main.yaml
+.github/workflows/markdown-links.yaml
+.github/workflows/pull_request.yaml
+.github/workflows/release-nightly.yaml
+.github/workflows/release.yaml
+.github/workflows/scorecard.yml
+.gitignore
+.golangci.yaml
+.goreleaser-nightly.yaml
+.goreleaser.yaml
+.semgrepignore
+.snyk
+.vscode/launch.json
+AGENTS.md
+CHANGELOG.md
+CLAUDE.md
+CONTRIBUTING.md
+Dockerfile
+Dockerfile.goreleaser
+LICENSE
+Makefile
+README.md
+RELEASES.md
+assets/assets.go
+assets/migrations/mysql/001_initialize_schema.sql
+assets/migrations/mysql/002_add_authorization_model_version.sql
+assets/migrations/mysql/003_add_reverse_lookup_index.sql
+assets/migrations/mysql/004_add_authorization_model_serialized_protobuf.sql
+assets/migrations/mysql/005_add_conditions_to_tuples.sql
+assets/migrations/mysql/006_extend_object_id.sql
+assets/migrations/mysql/007_collate_object_id.sql
+assets/migrations/mysql/008_collate_identifiers.sql
+assets/migrations/mysql/collation_migrations.md
+assets/migrations/postgres/001_initialize_schema.sql
+assets/migrations/postgres/002_add_authorization_model_version.sql
+assets/migrations/postgres/003_add_reverse_lookup_index.sql
+assets/migrations/postgres/004_add_authorization_model_serialized_protobuf.sql
+assets/migrations/postgres/005_add_conditions_to_tuples.sql
+assets/migrations/postgres/006_add_collate_index.sql
+assets/migrations/sqlite/005_initialize_schema.sql
+assets/migrations/sqlite/006_add_store_ulid_index.sql
+assets/playground/index.html
+assets/tests/abac_tests.yaml
+assets/tests/consolidated_1_1_tests.yaml
+cmd/migrate/flags.go
+cmd/migrate/migrate.go
+cmd/migrate/migrate_test.go
+cmd/openfga/main.go
+cmd/openfga/main_test.go
+cmd/root.go
+cmd/run/cleanups.go
+cmd/run/cleanups_test.go
+cmd/run/flags.go
+cmd/run/run.go
+cmd/run/run_test.go
+cmd/util/util.go
+cmd/validatemodels/flags.go
+cmd/validatemodels/testmain_test.go
+cmd/validatemodels/validate_models.go
+cmd/validatemodels/validate_models_test.go
+cmd/version.go
+codecov.yml
+docker-compose.override.yaml
+docker-compose.yaml
+docs/architecture/architecture.excalidraw
+docs/architecture/architecture.md
+docs/architecture/deployment.svg
+docs/architecture/internals.svg
+docs/authzen/README.md
+docs/authzen/implementation.md
+docs/authzen/pdp-capabilities-registry.md
+docs/caching.md
+docs/check/README.md
+docs/check/fga_model_highlighted.svg
+docs/check/fga_tree.svg
+docs/dependencies-policy.md
+docs/http/README.md
+docs/http/openfga.http
+docs/list_objects/example/1.svg
+docs/list_objects/example/2_a.svg
+docs/list_objects/example/2_c.svg
+docs/list_objects/example/2_d.svg
+docs/list_objects/example/3_a.svg
+docs/list_objects/example/example.md
+docs/list_objects/example/model.svg
+docs/list_objects/example_with_intersection_or_exclusion/1.svg
+docs/list_objects/example_with_intersection_or_exclusion/1_pruned.svg
+docs/list_objects/example_with_intersection_or_exclusion/2a.svg
+docs/list_objects/example_with_intersection_or_exclusion/example.md
+docs/list_objects/example_with_intersection_or_exclusion/model.svg
+docs/security-self-assessment.md
+go.mod
+go.sum
+internal/authn/authn.go
+internal/authn/oidc/oidc.go
+internal/authn/oidc/oidc_test.go
+internal/authn/presharedkey/presharedkey.go
+internal/authn/presharedkey/presharedkey_test.go
+internal/authz/authz.go
+internal/authz/authz_test.go
+internal/authz/server_interface.go
+internal/build/build.go
+internal/cachecontroller/cache_controller.go
+internal/cachecontroller/cache_controller_test.go
+internal/check/bottom_up.go
+internal/check/bottom_up_test.go
+internal/check/check.go
+internal/check/check_test.go
+internal/check/default.go
+internal/check/default_test.go
+internal/check/filters.go
+internal/check/interface.go
+internal/check/mock_resolver.go
+internal/check/recursive.go
+internal/check/recursive_test.go
+internal/check/request.go
+internal/check/request_test.go
+internal/check/response.go
+internal/check/strategies.go
+internal/check/weight2.go
+internal/check/weight2_test.go
+internal/checkutil/checkutil.go
+internal/checkutil/checkutil_test.go
+internal/concurrency/concurrency.go
+internal/concurrency/concurrency_test.go
+internal/concurrency/panic.go
+internal/condition/condition.go
+internal/condition/condition_test.go
+internal/condition/errors.go
+internal/condition/eval/eval.go
+internal/condition/eval/eval_test.go
+internal/condition/metrics/metrics.go
+internal/condition/types/converters.go
+internal/condition/types/encoding.go
+internal/condition/types/encoding_test.go
+internal/condition/types/generic.go
+internal/condition/types/ipaddress.go
+internal/condition/types/ipaddress_test.go
+internal/condition/types/primitives.go
+internal/condition/types/types.go
+internal/condition/types/types_test.go
+internal/containers/atomic_map.go
+internal/containers/atomic_map_test.go
+internal/containers/bag.go
+internal/containers/bag_test.go
+internal/containers/doc.go
+internal/containers/mpmc/doc.go
+internal/containers/mpmc/queue.go
+internal/containers/mpmc/queue_test.go
+internal/containers/mpsc/accumulator.go
+internal/containers/mpsc/accumulator_test.go
+internal/containers/mpsc/doc.go
+internal/errors/errors.go
+internal/graph/builder.go
+internal/graph/builder_test.go
+internal/graph/cached_resolver.go
+internal/graph/cached_resolver_test.go
+internal/graph/check.go
+internal/graph/check_test.go
+internal/graph/default_resolver.go
+internal/graph/default_resolver_test.go
+internal/graph/dispatch_throttling_check_resolver.go
+internal/graph/dispatch_throttling_check_resolver_test.go
+internal/graph/graph.go
+internal/graph/graph_test.go
+internal/graph/interface.go
+internal/graph/mock_check_resolver.go
+internal/graph/object_providers.go
+internal/graph/object_providers_test.go
+internal/graph/recursive_resolver.go
+internal/graph/recursive_resolver_test.go
+internal/graph/resolve_check_request.go
+internal/graph/resolve_check_request_test.go
+internal/graph/resolve_check_response.go
+internal/graph/resolve_check_response_test.go
+internal/graph/shadow_resolver.go
+internal/graph/shadow_resolver_test.go
+internal/graph/weight_two_resolver.go
+internal/graph/weight_two_resolver_test.go
+internal/iterator/channel.go
+internal/iterator/channel_test.go
+internal/iterator/concat.go
+internal/iterator/concat_test.go
+internal/iterator/error.go
+internal/iterator/error_test.go
+internal/iterator/fan_in.go
+internal/iterator/fan_in_test.go
+internal/iterator/filter.go
+internal/iterator/filter_test.go
+internal/iterator/merge.go
+internal/iterator/merge_test.go
+internal/iterator/message.go
+internal/iterator/skip.go
+internal/iterator/skip_test.go
+internal/iterator/stream.go
+internal/iterator/stream_test.go
+internal/iterator/validate.go
+internal/iterator/validate_test.go
+internal/listobjects/pipeline/config.go
+internal/listobjects/pipeline/config_test.go
+internal/listobjects/pipeline/doc.go
+internal/listobjects/pipeline/edge.go
+internal/listobjects/pipeline/internal/track/doc.go
+internal/listobjects/pipeline/internal/track/reporting.go
+internal/listobjects/pipeline/internal/track/reporting_test.go
+internal/listobjects/pipeline/internal/worker/basic.go
+internal/listobjects/pipeline/internal/worker/core.go
+internal/listobjects/pipeline/internal/worker/core_test.go
+internal/listobjects/pipeline/internal/worker/cycle.go
+internal/listobjects/pipeline/internal/worker/difference.go
+internal/listobjects/pipeline/internal/worker/doc.go
+internal/listobjects/pipeline/internal/worker/intersection.go
+internal/listobjects/pipeline/internal/worker/medium.go
+internal/listobjects/pipeline/internal/worker/medium_test.go
+internal/listobjects/pipeline/internal/worker/receiver.go
+internal/listobjects/pipeline/internal/worker/receiver_test.go
+internal/listobjects/pipeline/internal/worker/terminal.go
+internal/listobjects/pipeline/internal/worker/util.go
+internal/listobjects/pipeline/internal/worker/util_test.go
+internal/listobjects/pipeline/internal/worker/wildcard.go
+internal/listobjects/pipeline/internal/worker/worker_test.go
+internal/listobjects/pipeline/pipeline.go
+internal/listobjects/pipeline/pipeline_test.go
+internal/listobjects/pipeline/store.go
+internal/listobjects/pipeline/store_test.go
+internal/middleware/authn/authn.go
+internal/mocks/mock_authz_server.go
+internal/mocks/mock_cache.go
+internal/mocks/mock_cachecontroller.go
+internal/mocks/mock_encoder.go
+internal/mocks/mock_error_iterator.go
+internal/mocks/mock_iterator.go
+internal/mocks/mock_logger.go
+internal/mocks/mock_oidc_server.go
+internal/mocks/mock_pgx_tx.go
+internal/mocks/mock_planner.go
+internal/mocks/mock_slow_storage.go
+internal/mocks/mock_storage.go
+internal/mocks/mock_throttler.go
+internal/mocks/mock_token_serializer.go
+internal/mocks/mock_tracing_server.go
+internal/modelgraph/model.go
+internal/modelgraph/model_test.go
+internal/modelgraph/resolver.go
+internal/modelgraph/resolver_test.go
+internal/planner/benchmark_planner_test.go
+internal/planner/config.go
+internal/planner/interface.go
+internal/planner/plan.go
+internal/planner/planner.go
+internal/planner/planner_test.go
+internal/planner/thompson.go
+internal/planner/thompson_test.go
+internal/seq/reader.go
+internal/seq/utils.go
+internal/shared/shared.go
+internal/shared/shared_test.go
+internal/stack/stack.go
+internal/stack/stack_test.go
+internal/telemetry/context.go
+internal/telemetry/context_test.go
+internal/telemetry/tracing.go
+internal/telemetry/tracing_test.go
+internal/test/check/check.go
+internal/test/listobjects/listobjects.go
+internal/test/listusers/listusers.go
+internal/throttler/threshold/controller.go
+internal/throttler/threshold/controller_test.go
+internal/throttler/throttler.go
+internal/throttler/throttler_test.go
+internal/utils/apimethod/apimethod.go
+internal/utils/bucket.go
+internal/utils/bucket_test.go
+internal/utils/filter.go
+internal/utils/filter_test.go
+internal/utils/reduce.go
+internal/utils/reduce_test.go
+internal/utils/sanitize.go
+internal/utils/sanitize_test.go
+internal/validation/doc.go
+internal/validation/validate.go
+internal/validation/validate_test.go
+internal/validation/validation.go
+internal/validation/validation_test.go
+openfga-logo.png
+pkg/authclaims/authclaims.go
+pkg/authclaims/authclaims_test.go
+pkg/dispatch/throttler.go
+pkg/dispatch/throttler_test.go
+pkg/encoder/base64.go
+pkg/encoder/base64_test.go
+pkg/encoder/doc.go
+pkg/encoder/encoder.go
+pkg/encoder/token_encoder.go
+pkg/encoder/token_serializer.go
+pkg/encoder/token_serializer_test.go
+pkg/encrypter/doc.go
+pkg/encrypter/encrypter.go
+pkg/encrypter/gcm_encrypter.go
+pkg/encrypter/gcm_encrypter_test.go
+pkg/featureflags/client.go
+pkg/featureflags/client_test.go
+pkg/gateway/doc.go
+pkg/gateway/transport.go
+pkg/gateway/transport_test.go
+pkg/logger/doc.go
+pkg/logger/logger.go
+pkg/logger/logger_test.go
+pkg/middleware/http/doc.go
+pkg/middleware/http/handler.go
+pkg/middleware/http/handler_test.go
+pkg/middleware/logging/doc.go
+pkg/middleware/logging/logging.go
+pkg/middleware/logging/logging_test.go
+pkg/middleware/recovery/recovery.go
+pkg/middleware/recovery/recovery_test.go
+pkg/middleware/requestid/doc.go
+pkg/middleware/requestid/requestid.go
+pkg/middleware/requestid/requestid_test.go
+pkg/middleware/storeid/doc.go
+pkg/middleware/storeid/storeid.go
+pkg/middleware/storeid/storeid_test.go
+pkg/middleware/timeout.go
+pkg/middleware/timeout_test.go
+pkg/middleware/validator/doc.go
+pkg/middleware/validator/validator.go
+pkg/middleware/validator/validator_test.go
+pkg/server/assertions.go
+pkg/server/authorization_models.go
+pkg/server/authzen.go
+pkg/server/authzen_configuration.go
+pkg/server/authzen_configuration_test.go
+pkg/server/authzen_test.go
+pkg/server/authzen_utils_test.go
+pkg/server/batch_check.go
+pkg/server/batch_check_test.go
+pkg/server/check.go
+pkg/server/check_test.go
+pkg/server/commands/batch_check_command.go
+pkg/server/commands/batch_check_command_test.go
+pkg/server/commands/check.go
+pkg/server/commands/check_command.go
+pkg/server/commands/check_command_test.go
+pkg/server/commands/check_test.go
+pkg/server/commands/commands.go
+pkg/server/commands/create_store.go
+pkg/server/commands/create_store_test.go
+pkg/server/commands/delete_store.go
+pkg/server/commands/delete_store_test.go
+pkg/server/commands/errors.go
+pkg/server/commands/expand.go
+pkg/server/commands/expand_test.go
+pkg/server/commands/get_store.go
+pkg/server/commands/get_store_test.go
+pkg/server/commands/list_objects.go
+pkg/server/commands/list_objects_shadow.go
+pkg/server/commands/list_objects_shadow_test.go
+pkg/server/commands/list_objects_test.go
+pkg/server/commands/list_stores.go
+pkg/server/commands/list_stores_test.go
+pkg/server/commands/listusers/list_users.go
+pkg/server/commands/listusers/list_users_rpc.go
+pkg/server/commands/listusers/list_users_rpc_test.go
+pkg/server/commands/listusers/validate.go
+pkg/server/commands/read.go
+pkg/server/commands/read_assertions.go
+pkg/server/commands/read_assertions_test.go
+pkg/server/commands/read_authzmodel.go
+pkg/server/commands/read_authzmodel_test.go
+pkg/server/commands/read_authzmodels.go
+pkg/server/commands/read_authzmodels_test.go
+pkg/server/commands/read_changes.go
+pkg/server/commands/read_changes_test.go
+pkg/server/commands/read_test.go
+pkg/server/commands/reverseexpand/reverse_expand.go
+pkg/server/commands/reverseexpand/reverse_expand_test.go
+pkg/server/commands/reverseexpand/reverse_expand_weighted.go
+pkg/server/commands/reverseexpand/reverse_expand_weighted_test.go
+pkg/server/commands/v2breaking/v2breaking.go
+pkg/server/commands/write.go
+pkg/server/commands/write_assertions.go
+pkg/server/commands/write_assertions_test.go
+pkg/server/commands/write_authzmodel.go
+pkg/server/commands/write_authzmodel_test.go
+pkg/server/commands/write_test.go
+pkg/server/config/cache_settings.go
+pkg/server/config/cache_settings_test.go
+pkg/server/config/config.go
+pkg/server/config/config_test.go
+pkg/server/errors/encoded_errors.go
+pkg/server/errors/encoded_errors_test.go
+pkg/server/errors/errors.go
+pkg/server/errors/errors_test.go
+pkg/server/expand.go
+pkg/server/expand_test.go
+pkg/server/health/health.go
+pkg/server/list_objects.go
+pkg/server/list_users.go
+pkg/server/list_users_test.go
+pkg/server/read.go
+pkg/server/read_changes.go
+pkg/server/read_changes_test.go
+pkg/server/server.go
+pkg/server/server_authz_test.go
+pkg/server/server_test.go
+pkg/server/stores.go
+pkg/server/test/benchmarks/check.go
+pkg/server/test/benchmarks/list_objects.go
+pkg/server/test/benchmarks/list_users.go
+pkg/server/test/benchmarks/read_changes.go
+pkg/server/test/list_objects.go
+pkg/server/test/reverse_expand.go
+pkg/server/test/server.go
+pkg/server/testmain_test.go
+pkg/server/write.go
+pkg/storage/cache.go
+pkg/storage/cache/keys/build.go
+pkg/storage/cache/keys/build_test.go
+pkg/storage/cache/keys/doc.go
+pkg/storage/cache/keys/hash.go
+pkg/storage/cache/keys/hash_test.go
+pkg/storage/cache/keys/pool.go
+pkg/storage/cache/keys/pool_test.go
+pkg/storage/cache/keys/types.go
+pkg/storage/cache/keys/xtypes.go
+pkg/storage/cache/keys/xtypes_test.go
+pkg/storage/cache_test.go
+pkg/storage/doc.go
+pkg/storage/errors.go
+pkg/storage/keys.go
+pkg/storage/keys_test.go
+pkg/storage/memory/doc.go
+pkg/storage/memory/memory.go
+pkg/storage/memory/memory_test.go
+pkg/storage/metrics.go
+pkg/storage/metrics_test.go
+pkg/storage/migrate/migrate.go
+pkg/storage/migrate/migrate_test.go
+pkg/storage/migrate/testmain_test.go
+pkg/storage/mysql/doc.go
+pkg/storage/mysql/mysql.go
+pkg/storage/mysql/mysql_test.go
+pkg/storage/mysql/testmain_test.go
+pkg/storage/postgres/doc.go
+pkg/storage/postgres/pgxpool_iter_query.go
+pkg/storage/postgres/pgxpool_iter_query_test.go
+pkg/storage/postgres/postgres.go
+pkg/storage/postgres/postgres_test.go
+pkg/storage/postgres/testmain_test.go
+pkg/storage/record.go
+pkg/storage/record_test.go
+pkg/storage/sortedset.go
+pkg/storage/sortedset_test.go
+pkg/storage/sqlcommon/doc.go
+pkg/storage/sqlcommon/encoding.go
+pkg/storage/sqlcommon/sqlcommon.go
+pkg/storage/sqlcommon/sqlcommon_test.go
+pkg/storage/sqlite/doc.go
+pkg/storage/sqlite/sqlite.go
+pkg/storage/sqlite/sqlite_test.go
+pkg/storage/sqlite/tuple_iterator.go
+pkg/storage/storage.go
+pkg/storage/storage_test.go
+pkg/storage/storagewrappers/bounded_datastore.go
+pkg/storage/storagewrappers/bounded_datastore_test.go
+pkg/storage/storagewrappers/cached_datastore.go
+pkg/storage/storagewrappers/cached_datastore_test.go
+pkg/storage/storagewrappers/cached_iterators.go
+pkg/storage/storagewrappers/cached_iterators_test.go
+pkg/storage/storagewrappers/cached_reader.go
+pkg/storage/storagewrappers/cached_reader_test.go
+pkg/storage/storagewrappers/combinedtuplereader.go
+pkg/storage/storagewrappers/combinedtuplereader_test.go
+pkg/storage/storagewrappers/context.go
+pkg/storage/storagewrappers/doc.go
+pkg/storage/storagewrappers/iterator_cache.go
+pkg/storage/storagewrappers/iterator_cache_benchmark_test.go
+pkg/storage/storagewrappers/iterator_cache_test.go
+pkg/storage/storagewrappers/model_caching.go
+pkg/storage/storagewrappers/model_caching_test.go
+pkg/storage/storagewrappers/request.go
+pkg/storage/storagewrappers/request_test.go
+pkg/storage/storagewrappers/sharediterator/shared_iterator_datastore.go
+pkg/storage/storagewrappers/sharediterator/shared_iterator_datastore_test.go
+pkg/storage/test/assertions.go
+pkg/storage/test/authz_models.go
+pkg/storage/test/collation.go
+pkg/storage/test/map_cache.go
+pkg/storage/test/storage.go
+pkg/storage/test/stores.go
+pkg/storage/test/tuples.go
+pkg/storage/tuple_iterators.go
+pkg/storage/tuple_iterators_test.go
+pkg/storage/tuple_mappers.go
+pkg/storage/tuple_mappers_test.go
+pkg/testfixtures/storage/mysql.go
+pkg/testfixtures/storage/postgres.go
+pkg/testfixtures/storage/readiness.go
+pkg/testfixtures/storage/sqlite.go
+pkg/testfixtures/storage/storage.go
+pkg/testutils/dockerclient.go
+pkg/testutils/dockerclient_test.go
+pkg/testutils/testutils.go
+pkg/tuple/tuple.go
+pkg/tuple/tuple_errors.go
+pkg/tuple/tuple_test.go
+pkg/typesystem/doc.go
+pkg/typesystem/error.go
+pkg/typesystem/resolver.go
+pkg/typesystem/resolver_test.go
+pkg/typesystem/typesystem.go
+pkg/typesystem/typesystem_create_test.go
+pkg/typesystem/typesystem_test.go
+pkg/typesystem/weighted_graph.go
+pkg/typesystem/weighted_graph_test.go
+plans/CI_SPEEDUP_PLAN.md
+scripts/README.md
+scripts/create-release-pr.sh
+telemetry/grafana/dashboards/openfga.json
+telemetry/grafana/provisioning/dashboards/dashboards.yml
+telemetry/grafana/provisioning/datasources/datasources.yml
+telemetry/otel-collector-config.yaml
+telemetry/prometheus/prometheus.yml
+tests/authzen/authzen_test.go
+tests/authzen/evaluation_test.go
+tests/authzen/evaluations_test.go
+tests/authzen/metadata_test.go
+tests/authzen/search_test.go
+tests/authzen/store_id_validation_test.go
+tests/check/check.go
+tests/check/check_complexity4.go
+tests/check/check_test.go
+tests/check/check_ttu.go
+tests/check/check_userset.go
+tests/check/complexity_three.go
+tests/check/condition_any_test.go
+tests/check/testmain_test.go
+tests/functional_test.go
+tests/listobjects/listobjects.go
+tests/listobjects/listobjects_test.go
+tests/listobjects/matrix.go
+tests/listobjects/matrix_directs.go
+tests/listobjects/matrix_ttus.go
+tests/listobjects/matrix_usersets.go
+tests/listobjects/testmain_test.go
+tests/listusers/listusers.go
+tests/listusers/listusers_test.go
+tests/listusers/testmain_test.go
+tests/tests.go
+
+=== 2026-07-14T17:25:34.180853+00:00 git show HEAD:README.md ===
+<div align="center">
+
+![OpenFGA Logo](./openfga-logo.png)
+# OpenFGA
+
+[![Join our community](https://img.shields.io/badge/slack-cncf_%23openfga-40abb8.svg?logo=slack)](https://openfga.dev/community)
+[![DeepWiki](https://img.shields.io/badge/DeepWiki-openfga%2Fopenfga-blue.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAyCAYAAAAnWDnqAAAAAXNSR0IArs4c6QAAA05JREFUaEPtmUtyEzEQhtWTQyQLHNak2AB7ZnyXZMEjXMGeK/AIi+QuHrMnbChYY7MIh8g01fJoopFb0uhhEqqcbWTp06/uv1saEDv4O3n3dV60RfP947Mm9/SQc0ICFQgzfc4CYZoTPAswgSJCCUJUnAAoRHOAUOcATwbmVLWdGoH//PB8mnKqScAhsD0kYP3j/Yt5LPQe2KvcXmGvRHcDnpxfL2zOYJ1mFwrryWTz0advv1Ut4CJgf5uhDuDj5eUcAUoahrdY/56ebRWeraTjMt/00Sh3UDtjgHtQNHwcRGOC98BJEAEymycmYcWwOprTgcB6VZ5JK5TAJ+fXGLBm3FDAmn6oPPjR4rKCAoJCal2eAiQp2x0vxTPB3ALO2CRkwmDy5WohzBDwSEFKRwPbknEggCPB/imwrycgxX2NzoMCHhPkDwqYMr9tRcP5qNrMZHkVnOjRMWwLCcr8ohBVb1OMjxLwGCvjTikrsBOiA6fNyCrm8V1rP93iVPpwaE+gO0SsWmPiXB+jikdf6SizrT5qKasx5j8ABbHpFTx+vFXp9EnYQmLx02h1QTTrl6eDqxLnGjporxl3NL3agEvXdT0WmEost648sQOYAeJS9Q7bfUVoMGnjo4AZdUMQku50McDcMWcBPvr0SzbTAFDfvJqwLzgxwATnCgnp4wDl6Aa+Ax283gghmj+vj7feE2KBBRMW3FzOpLOADl0Isb5587h/U4gGvkt5v60Z1VLG8BhYjbzRwyQZemwAd6cCR5/XFWLYZRIMpX39AR0tjaGGiGzLVyhse5C9RKC6ai42ppWPKiBagOvaYk8lO7DajerabOZP46Lby5wKjw1HCRx7p9sVMOWGzb/vA1hwiWc6jm3MvQDTogQkiqIhJV0nBQBTU+3okKCFDy9WwferkHjtxib7t3xIUQtHxnIwtx4mpg26/HfwVNVDb4oI9RHmx5WGelRVlrtiw43zboCLaxv46AZeB3IlTkwouebTr1y2NjSpHz68WNFjHvupy3q8TFn3Hos2IAk4Ju5dCo8B3wP7VPr/FGaKiG+T+v+TQqIrOqMTL1VdWV1DdmcbO8KXBz6esmYWYKPwDL5b5FA1a0hwapHiom0r/cKaoqr+27/XcrS5UwSMbQAAAABJRU5ErkJggg==)](https://deepwiki.com/openfga/openfga)
+[![Go Reference](https://pkg.go.dev/badge/github.com/openfga/openfga.svg)](https://pkg.go.dev/github.com/openfga/openfga)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/openfga/openfga?sort=semver&color=green)
+[![Docker Pulls](https://img.shields.io/docker/pulls/openfga/openfga)](https://hub.docker.com/r/openfga/openfga/tags)
+[![Codecov](https://img.shields.io/codecov/c/github/openfga/openfga)](https://app.codecov.io/gh/openfga/openfga)
+[![Go Report](https://goreportcard.com/badge/github.com/openfga/openfga)](https://goreportcard.com/report/github.com/openfga/openfga)
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/6374/badge)](https://bestpractices.coreinfrastructure.org/projects/6374)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fopenfga%2Fopenfga.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fopenfga%2Fopenfga?ref=badge_shield)
+[![Artifact HUB](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/openfga)](https://artifacthub.io/packages/helm/openfga/openfga)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/openfga/openfga/badge)](https://securityscorecards.dev/viewer/?uri=github.com/openfga/openfga)
+[![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://slsa.dev)
+
+</div>
+
+---
+
+**OpenFGA** is a high-performance, flexible authorization/permission engine inspired by [Google Zanzibar](https://research.google/pubs/pub48190/).
+It helps developers easily model and enforce fine-grained access control in their applications.
+
+## Highlights
+
+- ⚡ High-performance, developer-friendly APIs (HTTP & gRPC)
+- 🔌 Flexible storage backends (In-Memory, PostgreSQL, MySQL, SQLite beta)
+- 🧰 SDKs for [Java](https://central.sonatype.com/artifact/dev.openfga/openfga-sdk), [Node.js](https://www.npmjs.com/package/@openfga/sdk), [Go](https://github.com/openfga/go-sdk), [Python](https://github.com/openfga/python-sdk), [.NET](https://www.nuget.org/packages/OpenFga.Sdk)
+- 🌐  Several additional SDKs and tools [contributed by the community](https://github.com/openfga/community#community-projects)
+- 🧪 [CLI](https://github.com/openfga/cli) for interacting with an OpenFGA server and [testing authorization models](https://openfga.dev/docs/modeling/testing)
+- 🌿 [Terraform Provider](https://github.com/openfga/terraform-provider-openfga) for configuring OpenFGA servers as code
+- 🎮 [Playground](https://openfga.dev/docs/getting-started/setup-openfga/playground) for modeling and testing
+- 🛠 Can also be embedded as a [Go library](https://pkg.go.dev/github.com/openfga/openfga/pkg/server#example-NewServerWithOpts)
+- 🤝 Adopted by [Auth0](https://fga.dev), [Grafana Labs](https://grafana.com/), [Canonical](https://canonical.com/), [Docker](https://docker.com),  [Agicap](https://agicap.com), [Read.AI](https://read.ai) and [others](https://github.com/openfga/community/blob/main/ADOPTERS.md)
+
+---
+
+## Table of Contents
+- [Quickstart](#quickstart)
+- [Installation](#installation)
+    - [Docker](#docker)
+    - [Docker Compose](#docker-compose)
+    - [Homebrew](#homebrew)
+    - [Precompiled Binaries](#precompiled-binaries)
+    - [Build from Source](#build-from-source)
+    - [Verify Installation](#verify-installation)
+- [Playground](#playground)
+- [Next Steps](#next-steps)
+- [Limitations](#limitations)
+- [Production Readiness](#production-readiness)
+- [Contributing & Community](#contributing--community)
+
+---
+
+## Quickstart
+
+> [!IMPORTANT]  
+> The following steps are meant for quick local setup and evaluation.  
+> When using the default **in-memory storage engine**, data is ephemeral and will be discarded once the service stops.
+>
+> For [details on configuring](https://openfga.dev/docs/getting-started/setup-openfga/configure-openfga) storage 
+> backends, tuning performance, and deploying OpenFGA securely in production-ready environments, refer to the 
+> documentation: [Running in Production](https://openfga.dev/docs/getting-started/running-in-production).
+
+
+Run OpenFGA with in-memory storage (⚠️ **not for production**):
+
+```shell
+docker run -p 8080:8080 -p 3000:3000 openfga/openfga run
+```
+
+Once running, create a store:
+
+```shell
+curl -X POST 'localhost:8080/stores' \
+  --header 'Content-Type: application/json' \
+  --data-raw '{"name": "openfga-demo"}'
+```
+
+## Installation
+
+### Docker
+
+OpenFGA is available on [Docker Hub](https://hub.docker.com/r/openfga/openfga), so you can quickly start it using the
+in-memory datastore by running the following commands:
+
+```shell
+docker pull openfga/openfga
+docker run -p 8080:8080 -p 3000:3000 openfga/openfga run
+```
+
+> [!NOTE]
+> When the HTTP server is enabled, it will attempt to establish an internal client connection to the gRPC server via unix domain socket.
+> When it is not possible to establish a UDS, the client connection automatically falls back to using a TCP socket.
+>
+> If running the Docker image using the `--read-only` option, the `--tmpfs` option must also be set in order to enabled use of the unix domain socket.
+> For example `--tmpfs /tmp`
+
+### Docker Compose
+
+[`docker-compose.yaml`](./docker-compose.yaml) provides an example of how to launch OpenFGA with Postgres using `docker compose`.
+
+```shell
+curl -LO https://openfga.dev/docker-compose.yaml
+docker compose up
+```
+
+### Homebrew
+
+If you are a [Homebrew](https://brew.sh/) user, you can install [OpenFGA](https://formulae.brew.sh/formula/openfga) with the following command:
+
+```shell
+brew install openfga
+```
+
+### Precompiled Binaries
+
+Download your platform's [latest release](https://github.com/openfga/openfga/releases/latest) and extract it.
+Then run the binary with the command:
+
+```shell
+./openfga run
+```
+
+### Build from Source
+
+> [!NOTE]  
+> Make sure you have the latest version of Go installed. See the [Go downloads](https://go.dev/dl/) page.
+
+#### `go install`
+
+```shell
+export PATH=$PATH:$(go env GOBIN) # make sure $GOBIN is on your $PATH
+go install github.com/openfga/openfga/cmd/openfga
+openfga run
+```
+
+#### `go build`
+
+```shell
+git clone https://github.com/openfga/openfga.git && cd openfga
+go build -o ./openfga ./cmd/openfga
+./openfga run
+```
+
+### Verify Installation
+
+Now that you have [installed](#installation) OpenFGA, you can test your installation by [creating an OpenFGA Store](https://openfga.dev/docs/getting-started/create-store).
+
+```shell
+curl -X POST 'localhost:8080/stores' \
+  --header 'Content-Type: application/json' \
+  --data-raw '{"name": "openfga-demo"}'
+```
+
+If everything is running correctly, you should get a response with information about the newly created store, for example:
+
+```json
+{
+  "id": "01G3EMTKQRKJ93PFVDA1SJHWD2",
+  "name": "openfga-demo",
+  "created_at": "2022-05-19T17:11:12.888680Z",
+  "updated_at": "2022-05-19T17:11:12.888680Z"
+}
+```
+
+## Playground
+
+The Playground lets you model, visualize, and test authorization setups.
+By default, it’s available at: [http://localhost:3000/playground](http://localhost:3000/playground)
+
+> [!NOTE]  
+> The Playground is intended for **local development only**.  
+> It can currently only be configured to connect to an OpenFGA server running on `localhost`.
+
+Disable it with:
+
+```shell
+./openfga run --playground-enabled=false
+```
+
+Change port:
+
+```shell
+./openfga run --playground-enabled --playground-port 3001
+```
+
+> [!TIP]
+> The `OPENFGA_HTTP_ADDR` environment variable can be used to configure the address at which the Playground expects the OpenFGA server to be.
+>
+> For example:
+>
+> ```shell
+> docker run -e OPENFGA_PLAYGROUND_ENABLED=true \
+> -e OPENFGA_HTTP_ADDR=0.0.0.0:4000 \
+> -p 4000:4000 -p 3000:3000 openfga/openfga run
+> ```
+>
+> This starts OpenFGA on port 4000 and configures the Playground accordingly.
+
+## Next Steps
+
+Take a look at examples of how to:
+
+- [Write an Authorization Model](https://openfga.dev/api/service#/Authorization%20Models/WriteAuthorizationModel)
+- [Write Relationship Tuples](https://openfga.dev/api/service#/Relationship%20Tuples/Write)
+- [Perform Authorization Checks](https://openfga.dev/api/service#/Relationship%20Queries/Check)
+- [Add Authentication to your OpenFGA server](https://openfga.dev/docs/getting-started/setup-openfga/docker#configuring-authentication)
+
+📚 Explore the [Documentation](https://openfga.dev/) and [API Reference](https://openfga.dev/api/service).
+
+## Limitations
+
+### MySQL Storage engine
+
+The MySQL storage engine has stricter length limits on tuple properties than other backends. See [docs](https://openfga.dev/docs/getting-started/setup-openfga/docker#configuring-data-storage).
+
+💡 OpenFGA’s MySQL adapter was contributed by @twintag — thank you!
+
+## Production Readiness
+
+- ✅ Used in production by [Auth0 FGA](https://auth0.com/fine-grained-authorization) since December 2021
+- ⚠️ Memory storage adapter is **for development only**
+- 🗄 Supported storage: PostgreSQL 14+, MySQL 8, SQLite (beta)
+- 📘 See [Running in Production](https://openfga.dev/docs/best-practices/running-in-production)
+
+The OpenFGA team treats **production-impacting issues with highest priority**.
+
+See organizations using OpenFGA in production: [ADOPTERS.md](https://github.com/openfga/community/blob/main/ADOPTERS.md).
+If your organization is using OpenFGA, please consider adding it to the list.
+
+## Contributing & Community
+
+We welcome contributions and community participation.
+
+- 🤝 See [CONTRIBUTING](https://github.com/openfga/.github/blob/main/CONTRIBUTING.md)
+- 🗓 [Monthly Community Meetings](https://github.com/openfga/community/blob/main/community-meetings.md)
+- 💬 Join us on [Slack](https://openfga.dev/docs/community)
+
+=== 2026-07-14T17:25:35.113145+00:00 git show HEAD:go.mod ===
+module github.com/openfga/openfga
+
+go 1.25.7
+
+toolchain go1.26.4
+
+require (
+	github.com/IBM/pgxpoolprometheus v1.1.3
+	github.com/Masterminds/squirrel v1.5.4
+	github.com/MicahParks/keyfunc/v2 v2.1.0
+	github.com/Yiling-J/theine-go v0.6.2
+	github.com/cenkalti/backoff/v4 v4.3.0
+	github.com/cespare/xxhash/v2 v2.3.0
+	github.com/containerd/errdefs v1.0.0
+	github.com/emirpasic/gods v1.18.1
+	github.com/go-logr/logr v1.4.3
+	github.com/go-sql-driver/mysql v1.10.0
+	github.com/golang-jwt/jwt/v5 v5.3.1
+	github.com/google/cel-go v0.28.1
+	github.com/google/go-cmp v0.7.0
+	github.com/google/uuid v1.6.0
+	github.com/grpc-ecosystem/go-grpc-middleware v1.4.0
+	github.com/grpc-ecosystem/go-grpc-middleware/providers/prometheus v1.1.0
+	github.com/grpc-ecosystem/go-grpc-middleware/v2 v2.3.3
+	github.com/grpc-ecosystem/grpc-gateway/v2 v2.29.0
+	github.com/hashicorp/go-retryablehttp v0.7.8
+	github.com/jackc/pgpassfile v1.0.0
+	github.com/jackc/pgx/v5 v5.10.0
+	github.com/moby/moby/api v1.54.2
+	github.com/moby/moby/client v0.4.1
+	github.com/natefinch/wrap v0.2.0
+	github.com/oklog/ulid/v2 v2.1.1
+	github.com/openfga/api/proto v0.0.0-20260319214821-f153694bfc20
+	github.com/openfga/language/pkg/go v0.2.1
+	github.com/pressly/goose/v3 v3.27.1
+	github.com/prometheus/client_golang v1.23.2
+	github.com/rs/cors v1.11.1
+	github.com/sourcegraph/conc v0.3.0
+	github.com/spf13/cobra v1.10.2
+	github.com/spf13/pflag v1.0.10
+	github.com/spf13/viper v1.20.1
+	github.com/stretchr/testify v1.11.1
+	github.com/tidwall/gjson v1.19.0
+	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.69.0
+	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.69.0
+	go.opentelemetry.io/otel v1.44.0
+	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.44.0
+	go.opentelemetry.io/otel/sdk v1.44.0
+	go.opentelemetry.io/otel/trace v1.44.0
+	go.opentelemetry.io/proto/otlp v1.10.0
+	go.uber.org/goleak v1.3.0
+	go.uber.org/mock v0.6.0
+	go.uber.org/zap v1.28.0
+	golang.org/x/sync v0.21.0
+	gonum.org/v1/gonum v0.17.0
+	google.golang.org/grpc v1.81.1
+	google.golang.org/protobuf v1.36.11
+	modernc.org/sqlite v1.52.0
+	sigs.k8s.io/controller-runtime v0.23.3
+	sigs.k8s.io/yaml v1.6.0
+)
+
+require (
+	cel.dev/expr v0.25.1 // indirect
+	cloud.google.com/go/compute/metadata v0.9.0 // indirect
+	filippo.io/edwards25519 v1.2.0 // indirect
+	github.com/Microsoft/go-winio v0.6.2 // indirect
+	github.com/antlr4-go/antlr/v4 v4.13.1 // indirect
+	github.com/beorn7/perks v1.0.1 // indirect
+	github.com/cenkalti/backoff/v5 v5.0.3 // indirect
+	github.com/containerd/errdefs/pkg v0.3.0 // indirect
+	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
+	github.com/distribution/reference v0.6.0 // indirect
+	github.com/docker/go-connections v0.7.0 // indirect
+	github.com/docker/go-units v0.5.0 // indirect
+	github.com/dustin/go-humanize v1.0.1 // indirect
+	github.com/emicklei/go-restful/v3 v3.12.2 // indirect
+	github.com/envoyproxy/protoc-gen-validate v1.3.3 // indirect
+	github.com/felixge/httpsnoop v1.0.4 // indirect
+	github.com/fsnotify/fsnotify v1.9.0 // indirect
+	github.com/fxamacker/cbor/v2 v2.9.0 // indirect
+	github.com/go-logr/stdr v1.2.2 // indirect
+	github.com/go-openapi/jsonpointer v0.21.0 // indirect
+	github.com/go-openapi/jsonreference v0.20.2 // indirect
+	github.com/go-openapi/swag v0.23.0 // indirect
+	github.com/go-viper/mapstructure/v2 v2.4.0 // indirect
+	github.com/google/gnostic-models v0.7.0 // indirect
+	github.com/hashicorp/errwrap v1.1.0 // indirect
+	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
+	github.com/hashicorp/go-multierror v1.1.1 // indirect
+	github.com/inconshreveable/mousetrap v1.1.0 // indirect
+	github.com/jackc/pgservicefile v0.0.0-20240606120523-5a60cdf6a761 // indirect
+	github.com/jackc/puddle/v2 v2.2.2 // indirect
+	github.com/josharian/intern v1.0.0 // indirect
+	github.com/json-iterator/go v1.1.12 // indirect
+	github.com/klauspost/cpuid/v2 v2.0.9 // indirect
+	github.com/kylelemons/godebug v1.1.0 // indirect
+	github.com/lann/builder v0.0.0-20180802200727-47ae307949d0 // indirect
+	github.com/lann/ps v0.0.0-20150810152359-62de8c46ede0 // indirect
+	github.com/mailru/easyjson v0.7.7 // indirect
+	github.com/mattn/go-isatty v0.0.21 // indirect
+	github.com/mfridman/interpolate v0.0.2 // indirect
+	github.com/moby/docker-image-spec v1.3.1 // indirect
+	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
+	github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee // indirect
+	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
+	github.com/ncruces/go-strftime v1.0.0 // indirect
+	github.com/opencontainers/go-digest v1.0.0 // indirect
+	github.com/opencontainers/image-spec v1.1.1 // indirect
+	github.com/pelletier/go-toml/v2 v2.2.4 // indirect
+	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
+	github.com/prometheus/client_model v0.6.2 // indirect
+	github.com/prometheus/common v0.66.1 // indirect
+	github.com/prometheus/procfs v0.20.1 // indirect
+	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
+	github.com/sagikazarmark/locafero v0.9.0 // indirect
+	github.com/sethvargo/go-retry v0.3.0 // indirect
+	github.com/spf13/afero v1.15.0 // indirect
+	github.com/spf13/cast v1.10.0 // indirect
+	github.com/subosito/gotenv v1.6.0 // indirect
+	github.com/tidwall/match v1.1.1 // indirect
+	github.com/tidwall/pretty v1.2.0 // indirect
+	github.com/x448/float16 v0.8.4 // indirect
+	github.com/zeebo/xxh3 v1.0.2 // indirect
+	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
+	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.44.0 // indirect
+	go.opentelemetry.io/otel/metric v1.44.0 // indirect
+	go.uber.org/multierr v1.11.0 // indirect
+	go.yaml.in/yaml/v2 v2.4.3 // indirect
+	go.yaml.in/yaml/v3 v3.0.4 // indirect
+	golang.org/x/exp v0.0.0-20260410095643-746e56fc9e2f // indirect
+	golang.org/x/net v0.55.0 // indirect
+	golang.org/x/oauth2 v0.36.0 // indirect
+	golang.org/x/sys v0.45.0 // indirect
+	golang.org/x/term v0.43.0 // indirect
+	golang.org/x/text v0.37.0 // indirect
+	golang.org/x/time v0.11.0 // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20260526163538-3dc84a4a5aaa // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20260526163538-3dc84a4a5aaa // indirect
+	gopkg.in/evanphx/json-patch.v4 v4.13.0 // indirect
+	gopkg.in/inf.v0 v0.9.1 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
+	k8s.io/api v0.35.0 // indirect
+	k8s.io/apimachinery v0.35.0 // indirect
+	k8s.io/client-go v0.35.0 // indirect
+	k8s.io/klog/v2 v2.130.1 // indirect
+	k8s.io/kube-openapi v0.0.0-20250910181357-589584f1c912 // indirect
+	k8s.io/utils v0.0.0-20251002143259-bc988d571ff4 // indirect
+	modernc.org/libc v1.72.3 // indirect
+	modernc.org/mathutil v1.7.1 // indirect
+	modernc.org/memory v1.11.0 // indirect
+	sigs.k8s.io/json v0.0.0-20250730193827-2d320260d730 // indirect
+	sigs.k8s.io/randfill v1.0.0 // indirect
+	sigs.k8s.io/structured-merge-diff/v6 v6.3.2-0.20260122202528-d9cc6641c482 // indirect
+)
+
+=== 2026-07-14T17:25:35.915916+00:00 git show HEAD:LICENSE ===
+
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+

@@ -1,0 +1,11 @@
+Failed to load spaCy lemma model: spaCy is not installed. Install it with: pip install mem0ai[nlp]
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+Failed to load spaCy full model: spaCy is not installed. Install it with: pip install mem0ai[nlp]
+Traceback (most recent call last):
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/fixtures/mem0_fixture.py", line 288, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/fixtures/mem0_fixture.py", line 179, in main
+    assert all(projection == projections[0] for projection in projections[1:])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

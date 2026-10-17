@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "bind": "127.0.0.1",
+  "port": 53176,
+  "healthCheck": "PASS",
+  "syntheticTokens": 2,
+  "realTokens": 0,
+  "tenantIsolation": "PASS",
+  "crossTenantDenied": "PASS",
+  "export": "PASS",
+  "deletion": "PASS",
+  "suppression": "PASS",
+  "loopbackRequests": 10,
+  "externalRequests": 0
+}

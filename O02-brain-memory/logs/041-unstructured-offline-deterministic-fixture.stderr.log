@@ -1,0 +1,84 @@
+Traceback (most recent call last):
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/fixtures/unstructured_fixture.py", line 119, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/fixtures/unstructured_fixture.py", line 65, in main
+    first = project(partition_text(filename=str(source), languages=["eng"]))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/envs/unstructured/lib/python3.11/site-packages/unstructured/partition/common/metadata.py", line 197, in wrapper
+    elements = func(*args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/envs/unstructured/lib/python3.11/site-packages/unstructured/chunking/dispatch.py", line 88, in wrapper
+    elements = func(*args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/envs/unstructured/lib/python3.11/site-packages/unstructured/partition/text.py", line 104, in partition_text
+    element = element_from_text(ctext)
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/envs/unstructured/lib/python3.11/site-packages/unstructured/partition/text.py", line 149, in element_from_text
+    elif is_possible_narrative_text(text):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/envs/unstructured/lib/python3.11/site-packages/unstructured/partition/text_type.py", line 74, in is_possible_narrative_text
+    if exceeds_cap_ratio(text, threshold=cap_threshold):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/envs/unstructured/lib/python3.11/site-packages/unstructured/partition/text_type.py", line 282, in exceeds_cap_ratio
+    if sentence_count(text, 3) > 1:
+       ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/envs/unstructured/lib/python3.11/site-packages/unstructured/partition/text_type.py", line 219, in sentence_count
+    sentences = sent_tokenize(text)
+                ^^^^^^^^^^^^^^^^^^^
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/envs/unstructured/lib/python3.11/site-packages/unstructured/nlp/tokenize.py", line 173, in sent_tokenize
+    return list(_tokenize_for_cache(text))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/envs/unstructured/lib/python3.11/site-packages/unstructured/nlp/tokenize.py", line 192, in _tokenize_for_cache
+    return tuple(sent.text for sent in _process(text).sents)
+                                       ^^^^^^^^^^^^^^
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/envs/unstructured/lib/python3.11/site-packages/unstructured/nlp/tokenize.py", line 155, in _process
+    nlp = _get_nlp()
+          ^^^^^^^^^^
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/envs/unstructured/lib/python3.11/site-packages/unstructured/nlp/tokenize.py", line 148, in _get_nlp
+    return _load_spacy_model()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/envs/unstructured/lib/python3.11/site-packages/unstructured/nlp/tokenize.py", line 134, in _load_spacy_model
+    _install_spacy_model()
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/envs/unstructured/lib/python3.11/site-packages/unstructured/nlp/tokenize.py", line 62, in _install_spacy_model
+    _download_with_timeout(_SPACY_MODEL_URL, whl_path)
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/envs/unstructured/lib/python3.11/site-packages/unstructured/nlp/tokenize.py", line 42, in _download_with_timeout
+    with urllib.request.urlopen(url, timeout=_DOWNLOAD_TIMEOUT_SECONDS) as resp:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vedantswami/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vedantswami/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/urllib/request.py", line 519, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vedantswami/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/urllib/request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vedantswami/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/Users/vedantswami/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/urllib/request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vedantswami/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/urllib/request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/Users/vedantswami/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/http/client.py", line 1323, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Users/vedantswami/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/http/client.py", line 1369, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Users/vedantswami/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/http/client.py", line 1318, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Users/vedantswami/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/http/client.py", line 1078, in _send_output
+    self.send(msg)
+  File "/Users/vedantswami/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/http/client.py", line 1016, in send
+    self.connect()
+  File "/Users/vedantswami/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/http/client.py", line 1488, in connect
+    super().connect()
+  File "/Users/vedantswami/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/http/client.py", line 982, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vedantswami/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/socket.py", line 848, in create_connection
+    sock.connect(sa)
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/fixtures/unstructured_fixture.py", line 60, in guarded_connect
+    raise RuntimeError(f"external egress denied by fixture: {address!r}")
+RuntimeError: external egress denied by fixture: ('20.207.73.82', 443)

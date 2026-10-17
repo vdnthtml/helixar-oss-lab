@@ -1,0 +1,42 @@
+[
+  {
+    "path": "LICENSE",
+    "status": "READ",
+    "sha256": "81d7d48304e7c0f1f14a778d6c4e4c89c36aebea06a9bbf4a33f19d5ffc04734",
+    "bytes": 1716,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/growthbook/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "packages/back-end/src/enterprise/LICENSE",
+    "status": "READ",
+    "sha256": "0219d5ab8d23a18ca145b7ba38456bbabd38e0d7e5378eeee6b72de5b87dc843",
+    "bytes": 2333,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/growthbook/packages/back-end/src/enterprise/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "packages/front-end/enterprise/LICENSE",
+    "status": "READ",
+    "sha256": "0219d5ab8d23a18ca145b7ba38456bbabd38e0d7e5378eeee6b72de5b87dc843",
+    "bytes": 2333,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/growthbook/packages/front-end/enterprise/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "packages/shared/src/enterprise/LICENSE",
+    "status": "READ",
+    "sha256": "0219d5ab8d23a18ca145b7ba38456bbabd38e0d7e5378eeee6b72de5b87dc843",
+    "bytes": 2333,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/growthbook/packages/shared/src/enterprise/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "packages/stats/LICENSE",
+    "status": "READ",
+    "sha256": "5134e02bca5e041a2a0b3a602668ec2cf3fc8ce0a794505d78ec71cd164d5de4",
+    "bytes": 1074,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/growthbook/packages/stats/LICENSE",
+    "error": ""
+  }
+]

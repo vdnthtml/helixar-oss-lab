@@ -1,0 +1,33 @@
+{
+  "all_unchanged": false,
+  "changed": [
+    {
+      "current_bytes": 10700,
+      "current_sha256": "35918b664fd31f2487396bdddc1faa5e132d694801abddf3d8aa19ce29daa126",
+      "exists": true,
+      "expected_bytes": 10637,
+      "expected_sha256": "5ab0b779d7f37000d842ebb27e88bc3ad6dfe180a49d0435142b87f24fcd3873",
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Current State/Dystopia Current Snapshot.md",
+      "unchanged": false
+    },
+    {
+      "current_bytes": 5381,
+      "current_sha256": "c9b4b6af717f01208c87428574a0fa657860d199132bca7d3a57a3e9ef3f44a9",
+      "exists": true,
+      "expected_bytes": 4099,
+      "expected_sha256": "dde8c9c85e463ed15249c0ffeaceef371dc40c9d7cb1e555c93578f78f463f6d",
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/04_Logs/Daily/Daily Log - 2026-07-14.md",
+      "unchanged": false
+    },
+    {
+      "current_bytes": 10306,
+      "current_sha256": "8cb5beb063982cd612822d242a828b3d3ffa9c9573230e4da05a1f7b72d106ff",
+      "exists": true,
+      "expected_bytes": 10147,
+      "expected_sha256": "36557820ecd031a3a87729386c45e9ed58f241782795afcc79cc25d08cb5b5ad",
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/02_Projects/Helixar World-Class Benchmark Program/00 Helixar World-Class Benchmark Program - Control Center.md",
+      "unchanged": false
+    }
+  ],
+  "files_checked": 30
+}

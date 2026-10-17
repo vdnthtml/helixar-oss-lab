@@ -1,0 +1,1 @@
+{"index_store/data": {"fixture-index-v1": {"__type__": "vector_store", "__data__": "{\"index_id\": \"fixture-index-v1\", \"summary\": null, \"nodes_dict\": {\"node-alpha\": \"node-alpha\", \"node-beta\": \"node-beta\"}, \"doc_id_dict\": {}, \"embeddings_dict\": {}}"}}}

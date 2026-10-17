@@ -1,0 +1,10 @@
+sys.path = [
+    '/Users/vedantswami/Projects/helixar-oss-labs/O03-web-market-voice',
+    '/Users/vedantswami/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python311.zip',
+    '/Users/vedantswami/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11',
+    '/Users/vedantswami/.local/share/uv/python/cpython-3.11-macos-aarch64-none/lib/python3.11/lib-dynload',
+    '/Users/vedantswami/Projects/helixar-oss-labs/O03-web-market-voice/candidates/splink/venv/lib/python3.11/site-packages',
+]
+USER_BASE: '/Users/vedantswami/.local' (exists)
+USER_SITE: '/Users/vedantswami/.local/lib/python3.11/site-packages' (doesn't exist)
+ENABLE_USER_SITE: False

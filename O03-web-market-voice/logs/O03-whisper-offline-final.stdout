@@ -1,0 +1,114 @@
+{
+  "candidate": "Whisper",
+  "version": "20250625",
+  "device": "cpu",
+  "torch_version": "2.13.0",
+  "model_load_seconds": 0.312,
+  "assertions": {
+    "exact_repeat_equal": true,
+    "core_quote_terms_present": true,
+    "segment_timecodes_present": true,
+    "word_timecodes_present": true,
+    "model_hash_matches_source_constant": true
+  },
+  "pass": true,
+  "lineage": {
+    "fixture_sha256": "5115d13d68699c411fa088653223078c2a22d0a82dde5ea1257dd295f867213a",
+    "model_sha256": "d3dd57d32accea0b295c96e26691aa14d8822fac7d9d27d5dc00b4ca2826dd03",
+    "model_name": "tiny.en",
+    "source_commit": "04f1c866f824447d77ad82c9d6a16c7f1423c69c",
+    "exact_transcript_output": "Acme signal found three synthetic buyers. The pain is slow research. No customer data is present.",
+    "segments": [
+      {
+        "id": 0,
+        "start": 0.0,
+        "end": 6.5,
+        "text": "Acme signal found three synthetic buyers. The pain is slow research. No customer data is present.",
+        "words": [
+          {
+            "word": " Acme",
+            "start": 0.0,
+            "end": 0.54
+          },
+          {
+            "word": " signal",
+            "start": 0.54,
+            "end": 0.9
+          },
+          {
+            "word": " found",
+            "start": 0.9,
+            "end": 1.24
+          },
+          {
+            "word": " three",
+            "start": 1.24,
+            "end": 1.66
+          },
+          {
+            "word": " synthetic",
+            "start": 1.66,
+            "end": 2.08
+          },
+          {
+            "word": " buyers.",
+            "start": 2.08,
+            "end": 2.68
+          },
+          {
+            "word": " The",
+            "start": 3.04,
+            "end": 3.24
+          },
+          {
+            "word": " pain",
+            "start": 3.24,
+            "end": 3.42
+          },
+          {
+            "word": " is",
+            "start": 3.42,
+            "end": 3.64
+          },
+          {
+            "word": " slow",
+            "start": 3.64,
+            "end": 3.84
+          },
+          {
+            "word": " research.",
+            "start": 3.84,
+            "end": 4.4
+          },
+          {
+            "word": " No",
+            "start": 4.84,
+            "end": 5.02
+          },
+          {
+            "word": " customer",
+            "start": 5.02,
+            "end": 5.42
+          },
+          {
+            "word": " data",
+            "start": 5.42,
+            "end": 5.9
+          },
+          {
+            "word": " is",
+            "start": 5.9,
+            "end": 6.14
+          },
+          {
+            "word": " present.",
+            "start": 6.14,
+            "end": 6.5
+          }
+        ]
+      }
+    ],
+    "operator_status": "machine_candidate_requires_human_review"
+  },
+  "consent_boundary": "No consent ledger or deletion workflow in library; caller must govern audio and derived transcript lifecycle."
+}

@@ -1,0 +1,298 @@
+[
+  {
+    "path": "LICENSE",
+    "status": "READ",
+    "sha256": "075c33400ffcb0c586dd106a029d3e733e9da3693f8fcb9cebfc651c8a2f14e3",
+    "bytes": 1072,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "benchmark/aoc24/LICENSE",
+    "status": "READ",
+    "sha256": "5d740ef4e6d9a2ad4349f7fb30899911f8c26f9a857a16a418f5026e6933eaa9",
+    "bytes": 1071,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/benchmark/aoc24/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "data/geoparquet/LICENSE",
+    "status": "READ",
+    "sha256": "07eed5581418f5ac0c2e82ffbd6f3f22d39b9a529ff3697ed43b71f17f81b0e0",
+    "bytes": 11355,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/data/geoparquet/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "data/parquet-testing/LICENSE.txt",
+    "status": "READ",
+    "sha256": "600cc67cc4cb2f5ea317dcfc687ad1c74dc4bec8782bbe9db0afd83513b935b7",
+    "bytes": 11359,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/data/parquet-testing/LICENSE.txt",
+    "error": ""
+  },
+  {
+    "path": "extension/icu/third_party/icu/LICENSE",
+    "status": "READ",
+    "sha256": "f0e4446e54a2cee165d69e007f4787183d497c709664e79d6955691bfeb3f837",
+    "bytes": 21000,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/extension/icu/third_party/icu/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "extension/tpch/dbgen/LICENSE",
+    "status": "READ",
+    "sha256": "9707215566ccff424af5d763992690038d34320f1d9b596d237665975ee50476",
+    "bytes": 17729,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/extension/tpch/dbgen/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "src/include/duckdb/storage/compression/alp/algorithm/LICENSE",
+    "status": "READ",
+    "sha256": "905b4e0855ce0a277d19bb7c00d61e3d46598eb62446a95fd8c8c6cccad53d86",
+    "bytes": 1105,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/src/include/duckdb/storage/compression/alp/algorithm/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "src/include/duckdb/storage/compression/alprd/algorithm/LICENSE",
+    "status": "READ",
+    "sha256": "905b4e0855ce0a277d19bb7c00d61e3d46598eb62446a95fd8c8c6cccad53d86",
+    "bytes": 1105,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/src/include/duckdb/storage/compression/alprd/algorithm/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "third_party/brotli/LICENSE",
+    "status": "READ",
+    "sha256": "3d180008e36922a4e8daec11c34c7af264fed5962d07924aea928c38e8663c94",
+    "bytes": 1084,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/third_party/brotli/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "third_party/concurrentqueue/LICENSE",
+    "status": "READ",
+    "sha256": "eaf0df40f77e929cd83cd4485de2bdf806c7908db84a52007a700588f6566331",
+    "bytes": 3246,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/third_party/concurrentqueue/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "third_party/fast_float/LICENSE",
+    "status": "READ",
+    "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+    "bytes": 1023,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/third_party/fast_float/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "third_party/fastpforlib/LICENSE",
+    "status": "READ",
+    "sha256": "9ff562631a04b8cb1030c53fdf461bd749c9af0655d86e4f17eb270e935a7fe2",
+    "bytes": 10272,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/third_party/fastpforlib/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "third_party/fmt/LICENSE",
+    "status": "READ",
+    "sha256": "825c9324e70f8c839c8ba910543dd4a7daee243b86ef960594c11381a19980b8",
+    "bytes": 1408,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/third_party/fmt/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "third_party/fsst/LICENSE",
+    "status": "READ",
+    "sha256": "20e9c14ff437a73a6e2b105f1b5aaf9ef24a84d962741c0ab01d04b4910294ab",
+    "bytes": 1087,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/third_party/fsst/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "third_party/httplib/LICENSE",
+    "status": "READ",
+    "sha256": "4b45cbe16d7b71b89ae6127e26e0d90a029198ca5e958ad8e3d0b8bbed364d8b",
+    "bytes": 1075,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/third_party/httplib/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "third_party/hyperloglog/LICENSE",
+    "status": "READ",
+    "sha256": "3a3fcdbaecbeb1e7dea97843961100c637766e59de4674fed809760283b716e1",
+    "bytes": 1055,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/third_party/hyperloglog/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "third_party/jaro_winkler/LICENSE",
+    "status": "READ",
+    "sha256": "077815ffd10f0677d060e9d5c0059592d28c41d1e9985c848435e0ea17ea06c3",
+    "bytes": 1055,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/third_party/jaro_winkler/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "third_party/jemalloc/LICENSE",
+    "status": "READ",
+    "sha256": "94aa2caa98c25d942f58b956c71dba6a99ff98fc3a31cbc669fe2a4cd0268b53",
+    "bytes": 1709,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/third_party/jemalloc/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "third_party/lz4/LICENSE",
+    "status": "READ",
+    "sha256": "99b8d2d8011d1ce548c5aaf3270c6bee014507fa821c4f9a7e300a9e11015db7",
+    "bytes": 1310,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/third_party/lz4/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "third_party/mbedtls/LICENSE",
+    "status": "READ",
+    "sha256": "9b405ef4c89342f5eae1dd828882f931747f71001cfba7d114801039b52ad09b",
+    "bytes": 29852,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/third_party/mbedtls/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "third_party/miniz/LICENSE",
+    "status": "READ",
+    "sha256": "0115478d567121238cf6cc1c0c361926cf07a49d9e4c9e66da97fac6a01646b3",
+    "bytes": 1184,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/third_party/miniz/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "third_party/parquet/LICENSE",
+    "status": "READ",
+    "sha256": "70b6a7d630fae9f49643f9b16bee42a2feda68301f9c14470e7fb5ad0599bb9f",
+    "bytes": 11625,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/third_party/parquet/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "third_party/pcg/LICENSE",
+    "status": "READ",
+    "sha256": "3febf788fd814bf1f350db169bdc51b28ff7e7596ff1f09cc0181e4fde42b480",
+    "bytes": 1092,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/third_party/pcg/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "third_party/pdqsort/LICENSE",
+    "status": "READ",
+    "sha256": "323fc18e35fcf058d69d684022ef844f206cb8fefb2bac1298fa1767e0b9ae38",
+    "bytes": 874,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/third_party/pdqsort/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "third_party/re2/LICENSE",
+    "status": "READ",
+    "sha256": "6040cda75d90b1738292a631d89934c411ef7ffd543c4d6a1b7edfc8edf29449",
+    "bytes": 1558,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/third_party/re2/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "third_party/ska_sort/LICENSE",
+    "status": "READ",
+    "sha256": "3c3a838f6ac2201bb8255b374fad34e3e1de07940c3acdc09e661e118fb75078",
+    "bytes": 147,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/third_party/ska_sort/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "third_party/skiplist/LICENSE",
+    "status": "READ",
+    "sha256": "3b9cac57dbb2d7ec76298cb0d33afe12f891e1d0dbb38ff17993a14f3480ee7c",
+    "bytes": 1071,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/third_party/skiplist/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "third_party/snappy/LICENSE",
+    "status": "READ",
+    "sha256": "55172044f7e241207117448a4d9d6ba1d0925c8ad66b5d4c08c70adfa9cc3de6",
+    "bytes": 2645,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/third_party/snappy/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "third_party/tdigest/LICENSE",
+    "status": "READ",
+    "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+    "bytes": 11356,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/third_party/tdigest/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "third_party/thrift/thrift/LICENSE",
+    "status": "READ",
+    "sha256": "23df881cec3192d1f4474633c14eb2ec30a45b84f8daeb82b9de5d2bd3ac8218",
+    "bytes": 12610,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/third_party/thrift/thrift/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "third_party/utf8proc/LICENSE",
+    "status": "READ",
+    "sha256": "fbc720fcc90fb44396985646f67e4d19be03e0c0539f7138ed9dc6efba49dc49",
+    "bytes": 5125,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/third_party/utf8proc/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "third_party/vergesort/LICENSE",
+    "status": "READ",
+    "sha256": "12dd392860ea2a3633bce5f33d7eebd4308a7e3386b4372260e5e72be7a64033",
+    "bytes": 1097,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/third_party/vergesort/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "third_party/yyjson/LICENSE",
+    "status": "READ",
+    "sha256": "734d7fb3eb56f0a04e6b7ab0c5d3634624a8bfaa2acc87a2c03a029b20868cf8",
+    "bytes": 1083,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/third_party/yyjson/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "third_party/zstd/LICENSE",
+    "status": "READ",
+    "sha256": "8b7bc50ec3ecee27224e17d4d316a939fa2ddda9c88e0ddc2f059ce432edbfb9",
+    "bytes": 1529,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/third_party/zstd/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "tools/juliapkg/LICENSE",
+    "status": "READ",
+    "sha256": "4d65ba92eaa7596e2c5d97037abe9705d3e75073c9f37c336ed2f7ed0650f9b4",
+    "bytes": 1072,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/tools/juliapkg/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "tools/shell/linenoise/LICENSE",
+    "status": "READ",
+    "sha256": "efe1692aa5b869edaa0ac88f95eb0276c1125304ffc636a299db3ebbab47f62b",
+    "bytes": 1408,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/tools/shell/linenoise/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "tools/swift/duckdb-swift/LICENSE",
+    "status": "READ",
+    "sha256": "4d65ba92eaa7596e2c5d97037abe9705d3e75073c9f37c336ed2f7ed0650f9b4",
+    "bytes": 1072,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/duckdb/tools/swift/duckdb-swift/LICENSE",
+    "error": ""
+  }
+]

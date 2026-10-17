@@ -1,0 +1,23 @@
+{
+  "candidate": "unstructured",
+  "categories": [
+    "Title",
+    "NarrativeText",
+    "Title",
+    "ListItem",
+    "ListItem"
+  ],
+  "element_count": 5,
+  "elements_json_sha256": "2c0416e1d52832552e0ba9cbdf643c608c6b8253656917f752cb2edb39aee859",
+  "offline": true,
+  "package_version": "0.25.0",
+  "status": "PASS",
+  "telemetry": "off by default; DO_NOT_TRACK=1 and SCARF_NO_ANALYTICS=1 set",
+  "tests": {
+    "element_typing": true,
+    "html_partition": true,
+    "json_export": true,
+    "source_filename_provenance": true,
+    "stable_unique_ids": true
+  }
+}

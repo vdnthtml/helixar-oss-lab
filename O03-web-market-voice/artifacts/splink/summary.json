@@ -1,0 +1,21 @@
+{
+  "candidate": "Splink",
+  "version": "5.0.0.dev4-source-commit-4774c889141ddff0b7a80fd3a1dbeaf6699419c0",
+  "pairs": [
+    {
+      "record_id_l": "r1",
+      "record_id_r": "r2",
+      "match_weight": 1.0448542358,
+      "match_probability": 0.6735395189
+    }
+  ],
+  "output_sha256": "1e209f56b9ae9b9e7e9375b788fed024893681ca087a1edd92db7dcabece2d38",
+  "assertions": {
+    "repeat_equal": true,
+    "only_blocked_pair_returned": true,
+    "candidate_probability_above_half": true,
+    "input_records_unchanged": true
+  },
+  "pass": true,
+  "authority_boundary": "Candidate pair only; no source record merge or external write."
+}

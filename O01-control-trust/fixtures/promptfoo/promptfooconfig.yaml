@@ -1,0 +1,14 @@
+description: O01 deterministic offline echo evaluation
+prompts:
+  - "proposal={{proposal}} tenant={{tenant}}"
+providers:
+  - echo
+tests:
+  - vars:
+      proposal: proposal.invalid
+      tenant: tenant-a.invalid
+    assert:
+      - type: equals
+        value: "proposal=proposal.invalid tenant=tenant-a.invalid"
+      - type: not-contains
+        value: "customer.example"

@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-07-14T18:13:30.116136+00:00",
+  "candidate_count": 15,
+  "smoke_pass_count": 4,
+  "classification_counts": {
+    "ADOPT": 1,
+    "POC_MORE": 10,
+    "ADAPT": 3,
+    "PARTNER": 1
+  },
+  "process_count_before_generation": 70,
+  "network_fetch_count": 25,
+  "lab_bytes": 3265596525,
+  "large_files_over_2gb": [],
+  "outputs": {
+    "/Users/vedantswami/Projects/Dystopia/Dystopia/02_Projects/Helixar World-Class Benchmark Program/Architecture/10 O03 Web Market and Voice OSS Adoption Report.md": "fb30e56c348a7a856990a291037c90b84dca7cd675f3b8882d413741b9356cf0",
+    "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O03-web-market-voice/candidate-inventory.csv": "2349904032b2b5e05d6e8e1612ce4f4516b04e02a754f24f3623e6603128b1ee",
+    "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O03-web-market-voice/license-and-security.csv": "e0960358c2c5ec722dc3847171907a2c046146ad0796de58362846051cc6c3e1",
+    "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O03-web-market-voice/deployment-smoke-results.csv": "fea596e1f03179272cdbad550079c04d111414965bd8d08d9019cd5ac3d058ac",
+    "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O03-web-market-voice/resource-profile.csv": "d8b07d5e20522ba3f1b7a6282db7a93f531158c358519526fb4b2b0949e4271a",
+    "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O03-web-market-voice/contract-fit.csv": "0dab1410722d6a52626a5aee8d1c2db59d02adc8678ae12418508f36b39c5f5d",
+    "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O03-web-market-voice/cleanup-manifest.csv": "227c6a3147b94c1417cbdd392dd4603cfb11f69f845ef98f3bdc71913c4c4732",
+    "/Users/vedantswami/Projects/Dystopia/Dystopia/04_Logs/Runs/2026-07-14 - O03 Web Market and Voice OSS Lab Run Receipt.md": "22a12cee4c143ce0c250b637ae23eed6db78418829adbbe118c7688947e087d2"
+  }
+}

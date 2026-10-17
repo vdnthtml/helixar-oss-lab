@@ -1,0 +1,7 @@
+case_id,expected,opa_decision,cedar_decision,matched,opa_ms,cedar_ms
+allow_exact_scope,ALLOW,ALLOW,ALLOW,True,74.381,25.261
+deny_cross_tenant,DENY,DENY,DENY,True,10.255,4.858
+deny_hash_mismatch,DENY,DENY,DENY,True,20.796,4.702
+deny_invalid_approval,DENY,DENY,DENY,True,11.217,4.505
+deny_revoked_approval,DENY,DENY,DENY,True,10.681,4.637
+deny_wrong_action,DENY,DENY,DENY,True,10.575,4.698

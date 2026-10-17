@@ -1,0 +1,21 @@
+hermes-agent 0.16.0 requires croniter, which is not installed.
+hermes-agent 0.16.0 requires fastapi, which is not installed.
+hermes-agent 0.16.0 requires fire, which is not installed.
+hermes-agent 0.16.0 requires httpx, which is not installed.
+hermes-agent 0.16.0 requires markdown, which is not installed.
+hermes-agent 0.16.0 requires openai, which is not installed.
+hermes-agent 0.16.0 requires packaging, which is not installed.
+hermes-agent 0.16.0 requires pathspec, which is not installed.
+hermes-agent 0.16.0 requires pillow, which is not installed.
+hermes-agent 0.16.0 requires prompt-toolkit, which is not installed.
+hermes-agent 0.16.0 requires psutil, which is not installed.
+hermes-agent 0.16.0 requires ptyprocess, which is not installed.
+hermes-agent 0.16.0 requires pydantic, which is not installed.
+hermes-agent 0.16.0 requires pyjwt, which is not installed.
+hermes-agent 0.16.0 requires python-dotenv, which is not installed.
+hermes-agent 0.16.0 requires pyyaml, which is not installed.
+hermes-agent 0.16.0 requires rich, which is not installed.
+hermes-agent 0.16.0 requires ruamel-yaml, which is not installed.
+hermes-agent 0.16.0 requires tenacity, which is not installed.
+hermes-agent 0.16.0 requires uvicorn, which is not installed.
+hermes-agent 0.16.0 has requirement requests==2.33.0, but you have requests 2.34.2.

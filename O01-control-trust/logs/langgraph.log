@@ -1,0 +1,1208 @@
+
+=== 2026-07-14T17:24:59.799964+00:00 git clone --depth 1 --filter=blob:none --no-checkout https://github.com/langchain-ai/langgraph.git /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/sources/langgraph ===
+Cloning into '/Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/sources/langgraph'...
+
+=== 2026-07-14T17:25:00.986930+00:00 git rev-parse HEAD ===
+b96f6170e7eddd8f9aa31375fd8c54213e478a9a
+
+=== 2026-07-14T17:25:01.038788+00:00 git symbolic-ref --short refs/remotes/origin/HEAD ===
+origin/main
+
+=== 2026-07-14T17:25:01.090818+00:00 git ls-tree -r --name-only HEAD ===
+.github/ISSUE_TEMPLATE/bug-report.yml
+.github/ISSUE_TEMPLATE/config.yml
+.github/ISSUE_TEMPLATE/privileged.yml
+.github/PULL_REQUEST_TEMPLATE.md
+.github/THREAT_MODEL.md
+.github/actions/uv_setup/action.yml
+.github/dependabot.yml
+.github/images/logo-dark.svg
+.github/images/logo-light.svg
+.github/scripts/check_sdk_methods.py
+.github/scripts/run_langgraph_cli_test.py
+.github/workflows/_integration_test.yml
+.github/workflows/_lint.yml
+.github/workflows/_sdk_integration_test.yml
+.github/workflows/_test.yml
+.github/workflows/_test_langgraph.yml
+.github/workflows/_test_release.yml
+.github/workflows/baseline.yml
+.github/workflows/bench.yml
+.github/workflows/ci.yml
+.github/workflows/deploy-redirects.yml
+.github/workflows/pr_lint.yml
+.github/workflows/release.yml
+.github/workflows/reopen_on_assignment.yml
+.github/workflows/require_issue_link.yml
+.github/workflows/tag-external-issues.yml
+.github/workflows/tag-external-prs.yml
+.github/workflows/uv_lock_ugprade.yml
+.gitignore
+.markdownlint.json
+AGENTS.md
+CLAUDE.md
+LICENSE
+Makefile
+README.md
+docs/.gitignore
+docs/generate_redirects.py
+docs/llms.txt
+docs/redirects.json
+examples/README.md
+examples/chatbot-simulation-evaluation/agent-simulation-evaluation.ipynb
+examples/chatbot-simulation-evaluation/langsmith-agent-simulation-evaluation.ipynb
+examples/chatbot-simulation-evaluation/simulation_utils.py
+examples/chatbots/information-gather-prompting.ipynb
+examples/code_assistant/langgraph_code_assistant.ipynb
+examples/code_assistant/langgraph_code_assistant_mistral.ipynb
+examples/customer-support/customer-support.ipynb
+examples/delta-channel-dump/README.md
+examples/delta-channel-dump/dump.py
+examples/extraction/retries.ipynb
+examples/human_in_the_loop/wait-user-input.ipynb
+examples/lats/lats.ipynb
+examples/llm-compiler/LLMCompiler.ipynb
+examples/multi_agent/hierarchical_agent_teams.ipynb
+examples/multi_agent/multi-agent-collaboration.ipynb
+examples/plan-and-execute/plan-and-execute.ipynb
+examples/rag/langgraph_adaptive_rag.ipynb
+examples/rag/langgraph_adaptive_rag_cohere.ipynb
+examples/rag/langgraph_adaptive_rag_local.ipynb
+examples/rag/langgraph_agentic_rag.ipynb
+examples/rag/langgraph_crag.ipynb
+examples/rag/langgraph_crag_local.ipynb
+examples/rag/langgraph_self_rag.ipynb
+examples/rag/langgraph_self_rag_local.ipynb
+examples/rag/langgraph_self_rag_pinecone_movies.ipynb
+examples/react-agent-from-scratch.ipynb
+examples/react-agent-structured-output.ipynb
+examples/reflection/reflection.ipynb
+examples/reflexion/reflexion.ipynb
+examples/rewoo/rewoo.ipynb
+examples/run-id-langsmith.ipynb
+examples/self-discover/self-discover.ipynb
+examples/subgraph.ipynb
+examples/tool-calling.ipynb
+examples/tutorials/sql-agent.ipynb
+examples/tutorials/tnt-llm/tnt-llm.ipynb
+examples/usaco/usaco.ipynb
+examples/web-navigation/web_voyager.ipynb
+libs/checkpoint-conformance/Makefile
+libs/checkpoint-conformance/README.md
+libs/checkpoint-conformance/langgraph/checkpoint/conformance/__init__.py
+libs/checkpoint-conformance/langgraph/checkpoint/conformance/capabilities.py
+libs/checkpoint-conformance/langgraph/checkpoint/conformance/initializer.py
+libs/checkpoint-conformance/langgraph/checkpoint/conformance/report.py
+libs/checkpoint-conformance/langgraph/checkpoint/conformance/spec/__init__.py
+libs/checkpoint-conformance/langgraph/checkpoint/conformance/spec/_delta_fixtures.py
+libs/checkpoint-conformance/langgraph/checkpoint/conformance/spec/test_copy_thread.py
+libs/checkpoint-conformance/langgraph/checkpoint/conformance/spec/test_delete_for_runs.py
+libs/checkpoint-conformance/langgraph/checkpoint/conformance/spec/test_delete_thread.py
+libs/checkpoint-conformance/langgraph/checkpoint/conformance/spec/test_delta_channel_history.py
+libs/checkpoint-conformance/langgraph/checkpoint/conformance/spec/test_get_tuple.py
+libs/checkpoint-conformance/langgraph/checkpoint/conformance/spec/test_list.py
+libs/checkpoint-conformance/langgraph/checkpoint/conformance/spec/test_prune.py
+libs/checkpoint-conformance/langgraph/checkpoint/conformance/spec/test_put.py
+libs/checkpoint-conformance/langgraph/checkpoint/conformance/spec/test_put_writes.py
+libs/checkpoint-conformance/langgraph/checkpoint/conformance/test_utils.py
+libs/checkpoint-conformance/langgraph/checkpoint/conformance/validate.py
+libs/checkpoint-conformance/pyproject.toml
+libs/checkpoint-conformance/tests/test_validate_memory.py
+libs/checkpoint-conformance/uv.lock
+libs/checkpoint-postgres/LICENSE
+libs/checkpoint-postgres/Makefile
+libs/checkpoint-postgres/README.md
+libs/checkpoint-postgres/langgraph/checkpoint/postgres/__init__.py
+libs/checkpoint-postgres/langgraph/checkpoint/postgres/_ainternal.py
+libs/checkpoint-postgres/langgraph/checkpoint/postgres/_internal.py
+libs/checkpoint-postgres/langgraph/checkpoint/postgres/aio.py
+libs/checkpoint-postgres/langgraph/checkpoint/postgres/base.py
+libs/checkpoint-postgres/langgraph/checkpoint/postgres/py.typed
+libs/checkpoint-postgres/langgraph/checkpoint/postgres/shallow.py
+libs/checkpoint-postgres/langgraph/store/postgres/__init__.py
+libs/checkpoint-postgres/langgraph/store/postgres/aio.py
+libs/checkpoint-postgres/langgraph/store/postgres/base.py
+libs/checkpoint-postgres/langgraph/store/postgres/py.typed
+libs/checkpoint-postgres/pyproject.toml
+libs/checkpoint-postgres/tests/__init__.py
+libs/checkpoint-postgres/tests/compose-postgres.yml
+libs/checkpoint-postgres/tests/conftest.py
+libs/checkpoint-postgres/tests/embed_test_utils.py
+libs/checkpoint-postgres/tests/test_async.py
+libs/checkpoint-postgres/tests/test_async_store.py
+libs/checkpoint-postgres/tests/test_store.py
+libs/checkpoint-postgres/tests/test_sync.py
+libs/checkpoint-postgres/uv.lock
+libs/checkpoint-sqlite/LICENSE
+libs/checkpoint-sqlite/Makefile
+libs/checkpoint-sqlite/README.md
+libs/checkpoint-sqlite/langgraph/cache/sqlite/__init__.py
+libs/checkpoint-sqlite/langgraph/checkpoint/sqlite/__init__.py
+libs/checkpoint-sqlite/langgraph/checkpoint/sqlite/_delta.py
+libs/checkpoint-sqlite/langgraph/checkpoint/sqlite/aio.py
+libs/checkpoint-sqlite/langgraph/checkpoint/sqlite/py.typed
+libs/checkpoint-sqlite/langgraph/checkpoint/sqlite/utils.py
+libs/checkpoint-sqlite/langgraph/store/sqlite/__init__.py
+libs/checkpoint-sqlite/langgraph/store/sqlite/aio.py
+libs/checkpoint-sqlite/langgraph/store/sqlite/base.py
+libs/checkpoint-sqlite/pyproject.toml
+libs/checkpoint-sqlite/tests/__init__.py
+libs/checkpoint-sqlite/tests/test_aiosqlite.py
+libs/checkpoint-sqlite/tests/test_async_store.py
+libs/checkpoint-sqlite/tests/test_conformance_delta.py
+libs/checkpoint-sqlite/tests/test_delta_channel_migration.py
+libs/checkpoint-sqlite/tests/test_get_delta_channel_history.py
+libs/checkpoint-sqlite/tests/test_sqlite.py
+libs/checkpoint-sqlite/tests/test_store.py
+libs/checkpoint-sqlite/tests/test_ttl.py
+libs/checkpoint-sqlite/uv.lock
+libs/checkpoint/LICENSE
+libs/checkpoint/Makefile
+libs/checkpoint/README.md
+libs/checkpoint/langgraph/cache/base/__init__.py
+libs/checkpoint/langgraph/cache/base/py.typed
+libs/checkpoint/langgraph/cache/memory/__init__.py
+libs/checkpoint/langgraph/cache/redis/__init__.py
+libs/checkpoint/langgraph/checkpoint/base/__init__.py
+libs/checkpoint/langgraph/checkpoint/base/id.py
+libs/checkpoint/langgraph/checkpoint/base/py.typed
+libs/checkpoint/langgraph/checkpoint/memory/__init__.py
+libs/checkpoint/langgraph/checkpoint/memory/py.typed
+libs/checkpoint/langgraph/checkpoint/serde/__init__.py
+libs/checkpoint/langgraph/checkpoint/serde/_msgpack.py
+libs/checkpoint/langgraph/checkpoint/serde/base.py
+libs/checkpoint/langgraph/checkpoint/serde/encrypted.py
+libs/checkpoint/langgraph/checkpoint/serde/event_hooks.py
+libs/checkpoint/langgraph/checkpoint/serde/jsonplus.py
+libs/checkpoint/langgraph/checkpoint/serde/py.typed
+libs/checkpoint/langgraph/checkpoint/serde/types.py
+libs/checkpoint/langgraph/store/base/__init__.py
+libs/checkpoint/langgraph/store/base/batch.py
+libs/checkpoint/langgraph/store/base/embed.py
+libs/checkpoint/langgraph/store/base/py.typed
+libs/checkpoint/langgraph/store/memory/__init__.py
+libs/checkpoint/langgraph/store/memory/py.typed
+libs/checkpoint/pyproject.toml
+libs/checkpoint/tests/__init__.py
+libs/checkpoint/tests/embed_test_utils.py
+libs/checkpoint/tests/test_conformance_delta.py
+libs/checkpoint/tests/test_encrypted.py
+libs/checkpoint/tests/test_jsonplus.py
+libs/checkpoint/tests/test_memory.py
+libs/checkpoint/tests/test_redis_cache.py
+libs/checkpoint/tests/test_store.py
+libs/checkpoint/uv.lock
+libs/cli/.gitignore
+libs/cli/LICENSE
+libs/cli/Makefile
+libs/cli/README.md
+libs/cli/examples/.env.example
+libs/cli/examples/.gitignore
+libs/cli/examples/Makefile
+libs/cli/examples/graph_prerelease_reqs/agent.py
+libs/cli/examples/graph_prerelease_reqs/deps/additional_deps/pyproject.toml
+libs/cli/examples/graph_prerelease_reqs/deps/zuper_deps/pyproject.toml
+libs/cli/examples/graph_prerelease_reqs/langgraph.json
+libs/cli/examples/graph_prerelease_reqs/pyproject.toml
+libs/cli/examples/graph_prerelease_reqs_fail/agent.py
+libs/cli/examples/graph_prerelease_reqs_fail/langgraph.json
+libs/cli/examples/graph_prerelease_reqs_fail/pyproject.toml
+libs/cli/examples/graphs/agent.py
+libs/cli/examples/graphs/langgraph.json
+libs/cli/examples/graphs/storm.py
+libs/cli/examples/graphs_reqs_a/__init__.py
+libs/cli/examples/graphs_reqs_a/graphs_submod/__init__.py
+libs/cli/examples/graphs_reqs_a/graphs_submod/agent.py
+libs/cli/examples/graphs_reqs_a/graphs_submod/subprompt.txt
+libs/cli/examples/graphs_reqs_a/hello.py
+libs/cli/examples/graphs_reqs_a/langgraph.json
+libs/cli/examples/graphs_reqs_a/prompt.txt
+libs/cli/examples/graphs_reqs_a/requirements.txt
+libs/cli/examples/graphs_reqs_b/graphs_submod/agent.py
+libs/cli/examples/graphs_reqs_b/graphs_submod/subprompt.txt
+libs/cli/examples/graphs_reqs_b/hello.py
+libs/cli/examples/graphs_reqs_b/langgraph.json
+libs/cli/examples/graphs_reqs_b/prompt.txt
+libs/cli/examples/graphs_reqs_b/requirements.txt
+libs/cli/examples/graphs_reqs_b/utils/__init__.py
+libs/cli/examples/graphs_reqs_b/utils/greeter.py
+libs/cli/examples/langgraph.json
+libs/cli/examples/my_app.py
+libs/cli/examples/pipconf.txt
+libs/cli/examples/poetry.lock
+libs/cli/examples/pyproject.toml
+libs/cli/generate_schema.py
+libs/cli/js-examples/.dockerignore
+libs/cli/js-examples/.editorconfig
+libs/cli/js-examples/.env.example
+libs/cli/js-examples/.eslintrc.cjs
+libs/cli/js-examples/.gitignore
+libs/cli/js-examples/LICENSE
+libs/cli/js-examples/README.md
+libs/cli/js-examples/jest.config.js
+libs/cli/js-examples/langgraph.json
+libs/cli/js-examples/package.json
+libs/cli/js-examples/src/agent/graph.ts
+libs/cli/js-examples/src/agent/state.ts
+libs/cli/js-examples/static/studio.png
+libs/cli/js-examples/tests/agent.test.ts
+libs/cli/js-examples/tests/graph.int.test.ts
+libs/cli/js-examples/tsconfig.json
+libs/cli/js-examples/yarn.lock
+libs/cli/js-monorepo-example/.eslintrc.cjs
+libs/cli/js-monorepo-example/apps/agent/langgraph.json
+libs/cli/js-monorepo-example/apps/agent/package.json
+libs/cli/js-monorepo-example/apps/agent/src/graph.ts
+libs/cli/js-monorepo-example/apps/agent/src/state.ts
+libs/cli/js-monorepo-example/apps/agent/tsconfig.json
+libs/cli/js-monorepo-example/libs/shared/package.json
+libs/cli/js-monorepo-example/libs/shared/src/index.ts
+libs/cli/js-monorepo-example/libs/shared/tsconfig.json
+libs/cli/js-monorepo-example/package.json
+libs/cli/js-monorepo-example/tsconfig.json
+libs/cli/js-monorepo-example/turbo.json
+libs/cli/js-monorepo-example/yarn.lock
+libs/cli/langgraph_cli/__init__.py
+libs/cli/langgraph_cli/__main__.py
+libs/cli/langgraph_cli/_ignore.py
+libs/cli/langgraph_cli/analytics.py
+libs/cli/langgraph_cli/archive.py
+libs/cli/langgraph_cli/cli.py
+libs/cli/langgraph_cli/config.py
+libs/cli/langgraph_cli/constants.py
+libs/cli/langgraph_cli/dependency_tracking.py
+libs/cli/langgraph_cli/deploy.py
+libs/cli/langgraph_cli/docker.py
+libs/cli/langgraph_cli/exec.py
+libs/cli/langgraph_cli/host_backend.py
+libs/cli/langgraph_cli/progress.py
+libs/cli/langgraph_cli/py.typed
+libs/cli/langgraph_cli/schemas.py
+libs/cli/langgraph_cli/templates.py
+libs/cli/langgraph_cli/util.py
+libs/cli/langgraph_cli/uv_lock.py
+libs/cli/langgraph_cli/version.py
+libs/cli/pyproject.toml
+libs/cli/python-monorepo-example/apps/agent/.env.example
+libs/cli/python-monorepo-example/apps/agent/langgraph.json
+libs/cli/python-monorepo-example/apps/agent/pyproject.toml
+libs/cli/python-monorepo-example/apps/agent/src/agent/__init__.py
+libs/cli/python-monorepo-example/apps/agent/src/agent/graph.py
+libs/cli/python-monorepo-example/apps/agent/src/agent/state.py
+libs/cli/python-monorepo-example/libs/common/__init__.py
+libs/cli/python-monorepo-example/libs/common/helpers.py
+libs/cli/python-monorepo-example/libs/shared/pyproject.toml
+libs/cli/python-monorepo-example/libs/shared/src/shared/__init__.py
+libs/cli/python-monorepo-example/libs/shared/src/shared/utils.py
+libs/cli/python-monorepo-example/pyproject.toml
+libs/cli/schemas/schema.json
+libs/cli/schemas/schema.v0.json
+libs/cli/schemas/version.schema.json
+libs/cli/tests/__init__.py
+libs/cli/tests/integration_tests/__init__.py
+libs/cli/tests/integration_tests/test_cli.py
+libs/cli/tests/unit_tests/__init__.py
+libs/cli/tests/unit_tests/agent.py
+libs/cli/tests/unit_tests/cli/__init__.py
+libs/cli/tests/unit_tests/cli/langgraph.json
+libs/cli/tests/unit_tests/cli/pyproject.toml
+libs/cli/tests/unit_tests/cli/test_cli.py
+libs/cli/tests/unit_tests/cli/test_templates.py
+libs/cli/tests/unit_tests/conftest.py
+libs/cli/tests/unit_tests/graphs/agent.py
+libs/cli/tests/unit_tests/helpers.py
+libs/cli/tests/unit_tests/multiplatform/js.mts
+libs/cli/tests/unit_tests/multiplatform/python.py
+libs/cli/tests/unit_tests/pipconfig.txt
+libs/cli/tests/unit_tests/test_archive.py
+libs/cli/tests/unit_tests/test_config.json
+libs/cli/tests/unit_tests/test_config.py
+libs/cli/tests/unit_tests/test_dependency_tracking.py
+libs/cli/tests/unit_tests/test_deploy_helpers.py
+libs/cli/tests/unit_tests/test_docker.py
+libs/cli/tests/unit_tests/test_host_backend.py
+libs/cli/tests/unit_tests/test_logs_helpers.py
+libs/cli/tests/unit_tests/test_util.py
+libs/cli/uv-examples/monorepo/apps/agent/.env.example
+libs/cli/uv-examples/monorepo/apps/agent/langgraph.json
+libs/cli/uv-examples/monorepo/apps/agent/pyproject.toml
+libs/cli/uv-examples/monorepo/apps/agent/src/agent/__init__.py
+libs/cli/uv-examples/monorepo/apps/agent/src/agent/graph.py
+libs/cli/uv-examples/monorepo/libs/shared/pyproject.toml
+libs/cli/uv-examples/monorepo/libs/shared/src/shared/__init__.py
+libs/cli/uv-examples/monorepo/libs/shared/src/shared/utils.py
+libs/cli/uv-examples/monorepo/pyproject.toml
+libs/cli/uv-examples/monorepo/uv.lock
+libs/cli/uv-examples/simple/.env.example
+libs/cli/uv-examples/simple/langgraph.json
+libs/cli/uv-examples/simple/pyproject.toml
+libs/cli/uv-examples/simple/src/agent/__init__.py
+libs/cli/uv-examples/simple/src/agent/graph.py
+libs/cli/uv-examples/simple/uv.lock
+libs/cli/uv.lock
+libs/langgraph/.gitignore
+libs/langgraph/LICENSE
+libs/langgraph/Makefile
+libs/langgraph/README.md
+libs/langgraph/bench/__init__.py
+libs/langgraph/bench/__main__.py
+libs/langgraph/bench/fanout_to_subgraph.py
+libs/langgraph/bench/pydantic_state.py
+libs/langgraph/bench/react_agent.py
+libs/langgraph/bench/sequential.py
+libs/langgraph/bench/serde_allowlist.py
+libs/langgraph/bench/wide_dict.py
+libs/langgraph/bench/wide_state.py
+libs/langgraph/langgraph/_internal/__init__.py
+libs/langgraph/langgraph/_internal/_cache.py
+libs/langgraph/langgraph/_internal/_config.py
+libs/langgraph/langgraph/_internal/_constants.py
+libs/langgraph/langgraph/_internal/_fields.py
+libs/langgraph/langgraph/_internal/_future.py
+libs/langgraph/langgraph/_internal/_pydantic.py
+libs/langgraph/langgraph/_internal/_queue.py
+libs/langgraph/langgraph/_internal/_replay.py
+libs/langgraph/langgraph/_internal/_retry.py
+libs/langgraph/langgraph/_internal/_runnable.py
+libs/langgraph/langgraph/_internal/_scratchpad.py
+libs/langgraph/langgraph/_internal/_serde.py
+libs/langgraph/langgraph/_internal/_timeout.py
+libs/langgraph/langgraph/_internal/_typing.py
+libs/langgraph/langgraph/callbacks.py
+libs/langgraph/langgraph/channels/__init__.py
+libs/langgraph/langgraph/channels/any_value.py
+libs/langgraph/langgraph/channels/base.py
+libs/langgraph/langgraph/channels/binop.py
+libs/langgraph/langgraph/channels/delta.py
+libs/langgraph/langgraph/channels/ephemeral_value.py
+libs/langgraph/langgraph/channels/last_value.py
+libs/langgraph/langgraph/channels/named_barrier_value.py
+libs/langgraph/langgraph/channels/topic.py
+libs/langgraph/langgraph/channels/untracked_value.py
+libs/langgraph/langgraph/config.py
+libs/langgraph/langgraph/constants.py
+libs/langgraph/langgraph/errors.py
+libs/langgraph/langgraph/func/__init__.py
+libs/langgraph/langgraph/graph/__init__.py
+libs/langgraph/langgraph/graph/_branch.py
+libs/langgraph/langgraph/graph/_node.py
+libs/langgraph/langgraph/graph/message.py
+libs/langgraph/langgraph/graph/state.py
+libs/langgraph/langgraph/graph/ui.py
+libs/langgraph/langgraph/managed/__init__.py
+libs/langgraph/langgraph/managed/base.py
+libs/langgraph/langgraph/managed/is_last_step.py
+libs/langgraph/langgraph/pregel/__init__.py
+libs/langgraph/langgraph/pregel/_algo.py
+libs/langgraph/langgraph/pregel/_call.py
+libs/langgraph/langgraph/pregel/_checkpoint.py
+libs/langgraph/langgraph/pregel/_config.py
+libs/langgraph/langgraph/pregel/_draw.py
+libs/langgraph/langgraph/pregel/_executor.py
+libs/langgraph/langgraph/pregel/_io.py
+libs/langgraph/langgraph/pregel/_log.py
+libs/langgraph/langgraph/pregel/_loop.py
+libs/langgraph/langgraph/pregel/_messages.py
+libs/langgraph/langgraph/pregel/_read.py
+libs/langgraph/langgraph/pregel/_remote_run_stream.py
+libs/langgraph/langgraph/pregel/_retry.py
+libs/langgraph/langgraph/pregel/_runner.py
+libs/langgraph/langgraph/pregel/_tools.py
+libs/langgraph/langgraph/pregel/_utils.py
+libs/langgraph/langgraph/pregel/_validate.py
+libs/langgraph/langgraph/pregel/_write.py
+libs/langgraph/langgraph/pregel/debug.py
+libs/langgraph/langgraph/pregel/main.py
+libs/langgraph/langgraph/pregel/protocol.py
+libs/langgraph/langgraph/pregel/remote.py
+libs/langgraph/langgraph/pregel/types.py
+libs/langgraph/langgraph/py.typed
+libs/langgraph/langgraph/runtime.py
+libs/langgraph/langgraph/stream/__init__.py
+libs/langgraph/langgraph/stream/_convert.py
+libs/langgraph/langgraph/stream/_mux.py
+libs/langgraph/langgraph/stream/_types.py
+libs/langgraph/langgraph/stream/run_stream.py
+libs/langgraph/langgraph/stream/stream_channel.py
+libs/langgraph/langgraph/stream/transformers.py
+libs/langgraph/langgraph/types.py
+libs/langgraph/langgraph/typing.py
+libs/langgraph/langgraph/utils/__init__.py
+libs/langgraph/langgraph/utils/config.py
+libs/langgraph/langgraph/utils/runnable.py
+libs/langgraph/langgraph/version.py
+libs/langgraph/langgraph/warnings.py
+libs/langgraph/pyproject.toml
+libs/langgraph/tests/__init__.py
+libs/langgraph/tests/__snapshots__/test_large_cases.ambr
+libs/langgraph/tests/__snapshots__/test_pregel.ambr
+libs/langgraph/tests/__snapshots__/test_pregel_async.ambr
+libs/langgraph/tests/agents.py
+libs/langgraph/tests/any_int.py
+libs/langgraph/tests/any_str.py
+libs/langgraph/tests/compose-postgres.yml
+libs/langgraph/tests/compose-redis.yml
+libs/langgraph/tests/conftest.py
+libs/langgraph/tests/conftest_checkpointer.py
+libs/langgraph/tests/conftest_store.py
+libs/langgraph/tests/example_app/example_graph.py
+libs/langgraph/tests/example_app/langgraph.json
+libs/langgraph/tests/example_app/requirements.txt
+libs/langgraph/tests/fake_chat.py
+libs/langgraph/tests/fake_tracer.py
+libs/langgraph/tests/memory_assert.py
+libs/langgraph/tests/messages.py
+libs/langgraph/tests/test_algo.py
+libs/langgraph/tests/test_channels.py
+libs/langgraph/tests/test_checkpoint_migration.py
+libs/langgraph/tests/test_config_async.py
+libs/langgraph/tests/test_delta_channel_benchmark.py
+libs/langgraph/tests/test_delta_channel_exit_mode.py
+libs/langgraph/tests/test_delta_channel_id_stability.py
+libs/langgraph/tests/test_delta_channel_migration.py
+libs/langgraph/tests/test_delta_channel_supersteps_bound.py
+libs/langgraph/tests/test_delta_channel_update_state.py
+libs/langgraph/tests/test_deprecation.py
+libs/langgraph/tests/test_graph_callbacks.py
+libs/langgraph/tests/test_interleave_arrival_order.py
+libs/langgraph/tests/test_interrupt_migration.py
+libs/langgraph/tests/test_interruption.py
+libs/langgraph/tests/test_large_cases.py
+libs/langgraph/tests/test_large_cases_async.py
+libs/langgraph/tests/test_managed_values.py
+libs/langgraph/tests/test_messages_state.py
+libs/langgraph/tests/test_parent_command.py
+libs/langgraph/tests/test_parent_command_async.py
+libs/langgraph/tests/test_pregel.py
+libs/langgraph/tests/test_pregel_async.py
+libs/langgraph/tests/test_pregel_debug.py
+libs/langgraph/tests/test_pregel_stream_events_v3.py
+libs/langgraph/tests/test_pydantic.py
+libs/langgraph/tests/test_remote_graph.py
+libs/langgraph/tests/test_remote_graph_v3.py
+libs/langgraph/tests/test_retry.py
+libs/langgraph/tests/test_runnable.py
+libs/langgraph/tests/test_runtime.py
+libs/langgraph/tests/test_serde_allowlist.py
+libs/langgraph/tests/test_state.py
+libs/langgraph/tests/test_stream_before_builtins.py
+libs/langgraph/tests/test_stream_data_transformers.py
+libs/langgraph/tests/test_stream_events_v3.py
+libs/langgraph/tests/test_stream_events_v3_e2e.py
+libs/langgraph/tests/test_stream_events_v3_kwarg_forwarding.py
+libs/langgraph/tests/test_stream_lifecycle_transformer.py
+libs/langgraph/tests/test_stream_messages_transformer.py
+libs/langgraph/tests/test_stream_subgraph_transformer.py
+libs/langgraph/tests/test_subgraph_persistence.py
+libs/langgraph/tests/test_subgraph_persistence_async.py
+libs/langgraph/tests/test_time_travel.py
+libs/langgraph/tests/test_time_travel_async.py
+libs/langgraph/tests/test_tool_stream_handler.py
+libs/langgraph/tests/test_tracing_interops.py
+libs/langgraph/tests/test_type_checking.py
+libs/langgraph/tests/test_utils.py
+libs/langgraph/uv.lock
+libs/prebuilt/.claude/settings.local.json
+libs/prebuilt/LICENSE
+libs/prebuilt/Makefile
+libs/prebuilt/README.md
+libs/prebuilt/langgraph/prebuilt/__init__.py
+libs/prebuilt/langgraph/prebuilt/_tool_call_stream.py
+libs/prebuilt/langgraph/prebuilt/_tool_call_transformer.py
+libs/prebuilt/langgraph/prebuilt/chat_agent_executor.py
+libs/prebuilt/langgraph/prebuilt/interrupt.py
+libs/prebuilt/langgraph/prebuilt/py.typed
+libs/prebuilt/langgraph/prebuilt/tool_node.py
+libs/prebuilt/langgraph/prebuilt/tool_validator.py
+libs/prebuilt/pyproject.toml
+libs/prebuilt/tests/__init__.py
+libs/prebuilt/tests/__snapshots__/test_react_agent_graph.ambr
+libs/prebuilt/tests/any_str.py
+libs/prebuilt/tests/compose-postgres.yml
+libs/prebuilt/tests/compose-redis.yml
+libs/prebuilt/tests/conftest.py
+libs/prebuilt/tests/conftest_checkpointer.py
+libs/prebuilt/tests/conftest_store.py
+libs/prebuilt/tests/memory_assert.py
+libs/prebuilt/tests/messages.py
+libs/prebuilt/tests/model.py
+libs/prebuilt/tests/test_deprecation.py
+libs/prebuilt/tests/test_injected_state_not_required.py
+libs/prebuilt/tests/test_on_tool_call.py
+libs/prebuilt/tests/test_react_agent.py
+libs/prebuilt/tests/test_react_agent_graph.py
+libs/prebuilt/tests/test_tool_call_transformer.py
+libs/prebuilt/tests/test_tool_node.py
+libs/prebuilt/tests/test_tool_node_interceptor_unregistered.py
+libs/prebuilt/tests/test_tool_node_validation_error_filtering.py
+libs/prebuilt/tests/test_validation_node.py
+libs/prebuilt/uv.lock
+libs/sdk-js/README.md
+libs/sdk-py/CHANGELOG.md
+libs/sdk-py/LICENSE
+libs/sdk-py/MIGRATION.md
+libs/sdk-py/Makefile
+libs/sdk-py/README.md
+libs/sdk-py/integration/Dockerfile
+libs/sdk-py/integration/docker-compose.yml
+libs/sdk-py/integration/graph/__init__.py
+libs/sdk-py/integration/graph/deep_agent.py
+libs/sdk-py/integration/graph/factory_graph.py
+libs/sdk-py/integration/graph/streaming_graph.py
+libs/sdk-py/integration/graph/tools_agent.py
+libs/sdk-py/integration/langgraph.json
+libs/sdk-py/integration/scripts/_common.py
+libs/sdk-py/integration/scripts/test_cancel.py
+libs/sdk-py/integration/scripts/test_concurrent.py
+libs/sdk-py/integration/scripts/test_extensions.py
+libs/sdk-py/integration/scripts/test_helpers.py
+libs/sdk-py/integration/scripts/test_lifecycle.py
+libs/sdk-py/integration/scripts/test_messages.py
+libs/sdk-py/integration/scripts/test_reconnect.py
+libs/sdk-py/integration/scripts/test_subgraphs.py
+libs/sdk-py/integration/scripts/test_tools.py
+libs/sdk-py/integration/scripts/test_update_state.py
+libs/sdk-py/integration/scripts/test_values.py
+libs/sdk-py/integration/scripts/test_websocket.py
+libs/sdk-py/langgraph_sdk/__init__.py
+libs/sdk-py/langgraph_sdk/_async/__init__.py
+libs/sdk-py/langgraph_sdk/_async/assistants.py
+libs/sdk-py/langgraph_sdk/_async/client.py
+libs/sdk-py/langgraph_sdk/_async/cron.py
+libs/sdk-py/langgraph_sdk/_async/http.py
+libs/sdk-py/langgraph_sdk/_async/runs.py
+libs/sdk-py/langgraph_sdk/_async/store.py
+libs/sdk-py/langgraph_sdk/_async/stream.py
+libs/sdk-py/langgraph_sdk/_async/threads.py
+libs/sdk-py/langgraph_sdk/_shared/__init__.py
+libs/sdk-py/langgraph_sdk/_shared/types.py
+libs/sdk-py/langgraph_sdk/_shared/utilities.py
+libs/sdk-py/langgraph_sdk/_sync/__init__.py
+libs/sdk-py/langgraph_sdk/_sync/assistants.py
+libs/sdk-py/langgraph_sdk/_sync/client.py
+libs/sdk-py/langgraph_sdk/_sync/cron.py
+libs/sdk-py/langgraph_sdk/_sync/http.py
+libs/sdk-py/langgraph_sdk/_sync/runs.py
+libs/sdk-py/langgraph_sdk/_sync/store.py
+libs/sdk-py/langgraph_sdk/_sync/stream.py
+libs/sdk-py/langgraph_sdk/_sync/threads.py
+libs/sdk-py/langgraph_sdk/auth/__init__.py
+libs/sdk-py/langgraph_sdk/auth/exceptions.py
+libs/sdk-py/langgraph_sdk/auth/types.py
+libs/sdk-py/langgraph_sdk/cache.py
+libs/sdk-py/langgraph_sdk/client.py
+libs/sdk-py/langgraph_sdk/encryption/__init__.py
+libs/sdk-py/langgraph_sdk/encryption/types.py
+libs/sdk-py/langgraph_sdk/errors.py
+libs/sdk-py/langgraph_sdk/py.typed
+libs/sdk-py/langgraph_sdk/runtime.py
+libs/sdk-py/langgraph_sdk/schema.py
+libs/sdk-py/langgraph_sdk/sse.py
+libs/sdk-py/langgraph_sdk/stream/__init__.py
+libs/sdk-py/langgraph_sdk/stream/controller.py
+libs/sdk-py/langgraph_sdk/stream/decoders.py
+libs/sdk-py/langgraph_sdk/stream/multi_cursor_buffer.py
+libs/sdk-py/langgraph_sdk/stream/subscription.py
+libs/sdk-py/langgraph_sdk/stream/sync_controller.py
+libs/sdk-py/langgraph_sdk/stream/transport/__init__.py
+libs/sdk-py/langgraph_sdk/stream/transport/base.py
+libs/sdk-py/langgraph_sdk/stream/transport/http.py
+libs/sdk-py/langgraph_sdk/stream/transport/sync_http.py
+libs/sdk-py/langgraph_sdk/stream/transport/sync_ws.py
+libs/sdk-py/langgraph_sdk/stream/transport/ws.py
+libs/sdk-py/pyproject.toml
+libs/sdk-py/tests/fixtures/response.txt
+libs/sdk-py/tests/integration/__init__.py
+libs/sdk-py/tests/integration/conftest.py
+libs/sdk-py/tests/integration/test_assistants.py
+libs/sdk-py/tests/integration/test_cancel.py
+libs/sdk-py/tests/integration/test_concurrent.py
+libs/sdk-py/tests/integration/test_crons.py
+libs/sdk-py/tests/integration/test_extensions.py
+libs/sdk-py/tests/integration/test_factory_graph.py
+libs/sdk-py/tests/integration/test_helpers.py
+libs/sdk-py/tests/integration/test_lifecycle.py
+libs/sdk-py/tests/integration/test_messages.py
+libs/sdk-py/tests/integration/test_reconnect.py
+libs/sdk-py/tests/integration/test_remote_graph_v3.py
+libs/sdk-py/tests/integration/test_runs.py
+libs/sdk-py/tests/integration/test_store.py
+libs/sdk-py/tests/integration/test_subgraphs.py
+libs/sdk-py/tests/integration/test_threads_crud.py
+libs/sdk-py/tests/integration/test_tools.py
+libs/sdk-py/tests/integration/test_update_state.py
+libs/sdk-py/tests/integration/test_values.py
+libs/sdk-py/tests/integration/test_websocket.py
+libs/sdk-py/tests/streaming/__init__.py
+libs/sdk-py/tests/streaming/_events.py
+libs/sdk-py/tests/streaming/_fake_server.py
+libs/sdk-py/tests/streaming/_sync_fake_server.py
+libs/sdk-py/tests/streaming/assert_transport_replays.py
+libs/sdk-py/tests/streaming/test_controller.py
+libs/sdk-py/tests/streaming/test_decoders.py
+libs/sdk-py/tests/streaming/test_extensions_projection.py
+libs/sdk-py/tests/streaming/test_lifecycle_watcher.py
+libs/sdk-py/tests/streaming/test_messages_projection.py
+libs/sdk-py/tests/streaming/test_multi_cursor_buffer.py
+libs/sdk-py/tests/streaming/test_output.py
+libs/sdk-py/tests/streaming/test_replay_conformance.py
+libs/sdk-py/tests/streaming/test_scoped_handles.py
+libs/sdk-py/tests/streaming/test_shared_stream.py
+libs/sdk-py/tests/streaming/test_subscription.py
+libs/sdk-py/tests/streaming/test_sync_extensions_projection.py
+libs/sdk-py/tests/streaming/test_sync_projections.py
+libs/sdk-py/tests/streaming/test_sync_scoped_handles.py
+libs/sdk-py/tests/streaming/test_sync_shared_stream.py
+libs/sdk-py/tests/streaming/test_sync_thread_stream.py
+libs/sdk-py/tests/streaming/test_sync_transport_http.py
+libs/sdk-py/tests/streaming/test_sync_transport_ws.py
+libs/sdk-py/tests/streaming/test_thread_stream.py
+libs/sdk-py/tests/streaming/test_tool_calls_projection.py
+libs/sdk-py/tests/streaming/test_transport_http.py
+libs/sdk-py/tests/streaming/test_transport_path_encoding.py
+libs/sdk-py/tests/streaming/test_transport_ws.py
+libs/sdk-py/tests/streaming/test_values_projection.py
+libs/sdk-py/tests/test_api_parity.py
+libs/sdk-py/tests/test_assistants_client.py
+libs/sdk-py/tests/test_cache.py
+libs/sdk-py/tests/test_client_exports.py
+libs/sdk-py/tests/test_client_stream.py
+libs/sdk-py/tests/test_crons_client.py
+libs/sdk-py/tests/test_encryption.py
+libs/sdk-py/tests/test_errors.py
+libs/sdk-py/tests/test_langsmith_tracing.py
+libs/sdk-py/tests/test_path_encoding.py
+libs/sdk-py/tests/test_serde.py
+libs/sdk-py/tests/test_serde_schema.py
+libs/sdk-py/tests/test_skip_auto_load_api_key.py
+libs/sdk-py/tests/test_threads_client.py
+libs/sdk-py/uv.lock
+
+=== 2026-07-14T17:25:01.144192+00:00 git show HEAD:README.md ===
+<div align="center">
+  <a href="https://www.langchain.com/langgraph">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset=".github/images/logo-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset=".github/images/logo-light.svg">
+      <img alt="LangGraph Logo" src=".github/images/logo-dark.svg" width="50%">
+    </picture>
+  </a>
+</div>
+
+<div align="center">
+  <h3>Low-level orchestration framework for building stateful agents.</h3>
+</div>
+
+<div align="center">
+  <a href="https://opensource.org/licenses/MIT" target="_blank"><img src="https://img.shields.io/pypi/l/langgraph" alt="PyPI - License"></a>
+  <a href="https://pypistats.org/packages/langgraph" target="_blank"><img src="https://img.shields.io/pepy/dt/langgraph" alt="PyPI - Downloads"></a>
+  <a href="https://pypi.org/project/langgraph/" target="_blank"><img src="https://img.shields.io/pypi/v/langgraph.svg?label=%20" alt="Version"></a>
+  <a href="https://x.com/langchain_oss" target="_blank"><img src="https://img.shields.io/twitter/url/https/twitter.com/langchain_oss.svg?style=social&label=Follow%20%40LangChain" alt="Twitter / X"></a>
+</div>
+
+<br>
+
+Trusted by companies shaping the future of agents – including Klarna, Replit, Elastic, and more – LangGraph is a low-level orchestration framework for building, managing, and deploying long-running, stateful agents.
+
+```bash
+pip install -U langgraph
+```
+
+> [!TIP]
+> If you're looking to quickly build agents, check out **[Deep Agents](https://docs.langchain.com/oss/python/deepagents/overview)** — a higher-level package built on LangGraph for agents that can plan, use subagents, and leverage file systems for complex tasks.
+
+For an equivalent JS/TS library, check out [LangGraph.js](https://github.com/langchain-ai/langgraphjs) and the [JS docs](https://docs.langchain.com/oss/javascript/langgraph/overview).
+
+## Why use LangGraph?
+
+LangGraph provides low-level supporting infrastructure for *any* long-running, stateful workflow or agent:
+
+- **[Durable execution](https://docs.langchain.com/oss/python/langgraph/durable-execution)** — Build agents that persist through failures and can run for extended periods, automatically resuming from exactly where they left off.
+- **[Human-in-the-loop](https://docs.langchain.com/oss/python/langgraph/interrupts)** — Seamlessly incorporate human oversight by inspecting and modifying agent state at any point during execution.
+- **[Comprehensive memory](https://docs.langchain.com/oss/python/langgraph/memory)** — Create truly stateful agents with both short-term working memory for ongoing reasoning and long-term persistent memory across sessions.
+- **[Debugging with LangSmith](https://www.langchain.com/langsmith)** — Gain deep visibility into complex agent behavior with visualization tools that trace execution paths, capture state transitions, and provide detailed runtime metrics.
+- **[Production-ready deployment](https://docs.langchain.com/langsmith/deployments)** — Deploy sophisticated agent systems confidently with scalable infrastructure designed to handle the unique challenges of stateful, long-running workflows.
+
+> [!TIP]
+> For developing, debugging, and deploying AI agents and LLM applications, see [LangSmith](https://docs.langchain.com/langsmith/home).
+
+## LangGraph ecosystem
+
+While LangGraph can be used standalone, it also integrates seamlessly with any LangChain product, giving developers a full suite of tools for building agents.
+
+To improve your LLM application development, pair LangGraph with:
+
+- [Deep Agents](https://docs.langchain.com/oss/python/deepagents/overview) – Build agents that can plan, use subagents, and leverage file systems for complex tasks.
+- [LangChain](https://docs.langchain.com/oss/python/langchain/overview) – Provides integrations and composable components to streamline LLM application development.
+- [LangSmith](https://www.langchain.com/langsmith) – Helpful for agent evals and observability. Debug poor-performing LLM app runs, evaluate agent trajectories, gain visibility in production, and improve performance over time.
+- [LangSmith Deployment](https://docs.langchain.com/langsmith/deployments) – Deploy and scale agents effortlessly with a purpose-built deployment platform for long-running, stateful workflows. Discover, reuse, configure, and share agents across teams – and iterate quickly with visual prototyping in [LangSmith Studio](https://docs.langchain.com/langsmith/studio).
+
+---
+
+## Documentation
+
+- [docs.langchain.com](https://docs.langchain.com/oss/python/langgraph/overview) – Comprehensive documentation, including conceptual overviews and guides
+- [reference.langchain.com/python/langgraph](https://reference.langchain.com/python/langgraph) – API reference docs for LangGraph packages
+- [LangGraph Quickstart](https://docs.langchain.com/oss/python/langgraph/quickstart) – Get started building with LangGraph
+- [Chat LangChain](https://chat.langchain.com/) – Chat with the LangChain documentation and get answers to your questions
+
+**Discussions**: Visit the [LangChain Forum](https://forum.langchain.com) to connect with the community and share all of your technical questions, ideas, and feedback.
+
+## Additional resources
+
+- **[Guides](https://docs.langchain.com/oss/python/learn)** – Quick, actionable code snippets for topics such as streaming, adding memory & persistence, and design patterns (e.g. branching, subgraphs, etc.).
+- **[LangChain Academy](https://academy.langchain.com/courses/intro-to-langgraph)** – Learn the basics of LangGraph in our free, structured course.
+- **[Case studies](https://www.langchain.com/built-with-langgraph)** – Hear how industry leaders use LangGraph to ship AI applications at scale.
+- [Contributing Guide](https://docs.langchain.com/oss/python/contributing/overview) – Learn how to contribute to LangChain projects and find good first issues.
+- [Code of Conduct](https://github.com/langchain-ai/langchain/?tab=coc-ov-file) – Our community guidelines and standards for participation.
+
+---
+
+## Acknowledgements
+
+LangGraph is inspired by [Pregel](https://research.google/pubs/pub37252/) and [Apache Beam](https://beam.apache.org/). The public interface draws inspiration from [NetworkX](https://networkx.org/documentation/latest/). LangGraph is built by LangChain Inc, the creators of LangChain, but can be used without LangChain.
+
+=== 2026-07-14T17:25:01.899604+00:00 git show HEAD:LICENSE ===
+MIT License
+
+Copyright (c) 2024 LangChain, Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+=== 2026-07-14T17:25:02.670587+00:00 git show HEAD:libs/checkpoint-postgres/LICENSE ===
+MIT License
+
+Copyright (c) 2024 LangChain, Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+=== 2026-07-14T17:25:02.731582+00:00 git show HEAD:libs/checkpoint-sqlite/LICENSE ===
+MIT License
+
+Copyright (c) 2024 LangChain, Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+=== 2026-07-14T17:25:02.789864+00:00 git show HEAD:libs/checkpoint/LICENSE ===
+MIT License
+
+Copyright (c) 2024 LangChain, Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+=== 2026-07-14T17:25:02.851591+00:00 git show HEAD:libs/cli/LICENSE ===
+MIT License
+
+Copyright (c) 2024 LangChain, Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+=== 2026-07-14T17:25:02.908685+00:00 git show HEAD:libs/cli/js-examples/LICENSE ===
+MIT License
+
+Copyright (c) 2024 LangChain
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+=== 2026-07-14T17:25:03.668012+00:00 git show HEAD:libs/langgraph/LICENSE ===
+MIT License
+
+Copyright (c) 2024 LangChain, Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+=== 2026-07-14T17:25:03.730223+00:00 git show HEAD:libs/prebuilt/LICENSE ===
+MIT License
+
+Copyright (c) 2024 LangChain, Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+=== 2026-07-14T17:25:03.795475+00:00 git show HEAD:libs/sdk-py/LICENSE ===
+MIT License
+
+Copyright (c) 2024 LangChain, Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+=== 2026-07-14T17:25:03.859025+00:00 git checkout --detach HEAD ===
+HEAD is now at b96f617 fix(sdk-py): support clearing cron end_time via update(end_time=None) (#8334)
+
+=== 2026-07-14T17:29:22.398565+00:00 python3 -m venv .venv ===
+
+=== 2026-07-14T17:29:25.189500+00:00 .venv/bin/pip install --disable-pip-version-check -e /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/sources/langgraph/libs/checkpoint -e /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/sources/langgraph/libs/sdk-py -e /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/sources/langgraph/libs/prebuilt -e /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/sources/langgraph/libs/langgraph ===
+Obtaining file:///Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/sources/langgraph/libs/checkpoint
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Obtaining file:///Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/sources/langgraph/libs/sdk-py
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Obtaining file:///Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/sources/langgraph/libs/prebuilt
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Obtaining file:///Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/sources/langgraph/libs/langgraph
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Collecting langchain-core>=0.2.38 (from langgraph-checkpoint==4.1.1)
+  Downloading langchain_core-1.4.9-py3-none-any.whl.metadata (4.7 kB)
+Collecting ormsgpack>=1.12.0 (from langgraph-checkpoint==4.1.1)
+  Downloading ormsgpack-1.12.2-cp313-cp313-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl.metadata (3.2 kB)
+Collecting httpx>=0.25.2 (from langgraph-sdk==0.4.2)
+  Using cached httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+Collecting langchain-protocol>=0.0.15 (from langgraph-sdk==0.4.2)
+  Downloading langchain_protocol-0.0.18-py3-none-any.whl.metadata (2.4 kB)
+Collecting orjson>=3.11.5 (from langgraph-sdk==0.4.2)
+  Downloading orjson-3.11.9-cp313-cp313-macosx_15_0_arm64.whl.metadata (41 kB)
+Collecting websockets<17,>=14 (from langgraph-sdk==0.4.2)
+  Downloading websockets-16.1-cp313-cp313-macosx_11_0_arm64.whl.metadata (6.8 kB)
+Collecting pydantic>=2.7.4 (from langgraph==1.2.9)
+  Using cached pydantic-2.13.4-py3-none-any.whl.metadata (109 kB)
+Collecting xxhash>=3.5.0 (from langgraph==1.2.9)
+  Downloading xxhash-3.8.1-cp313-cp313-macosx_11_0_arm64.whl.metadata (15 kB)
+Collecting anyio (from httpx>=0.25.2->langgraph-sdk==0.4.2)
+  Downloading anyio-4.14.2-py3-none-any.whl.metadata (4.6 kB)
+Collecting certifi (from httpx>=0.25.2->langgraph-sdk==0.4.2)
+  Using cached certifi-2026.6.17-py3-none-any.whl.metadata (2.5 kB)
+Collecting httpcore==1.* (from httpx>=0.25.2->langgraph-sdk==0.4.2)
+  Using cached httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+Collecting idna (from httpx>=0.25.2->langgraph-sdk==0.4.2)
+  Using cached idna-3.18-py3-none-any.whl.metadata (6.1 kB)
+Collecting h11>=0.16 (from httpcore==1.*->httpx>=0.25.2->langgraph-sdk==0.4.2)
+  Using cached h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+Collecting jsonpatch<2.0.0,>=1.33.0 (from langchain-core>=0.2.38->langgraph-checkpoint==4.1.1)
+  Downloading jsonpatch-1.33-py2.py3-none-any.whl.metadata (3.0 kB)
+Collecting langsmith<1.0.0,>=0.3.45 (from langchain-core>=0.2.38->langgraph-checkpoint==4.1.1)
+  Downloading langsmith-0.10.3-py3-none-any.whl.metadata (22 kB)
+Collecting packaging>=23.2.0 (from langchain-core>=0.2.38->langgraph-checkpoint==4.1.1)
+  Using cached packaging-26.2-py3-none-any.whl.metadata (3.5 kB)
+Collecting pyyaml<7.0.0,>=5.3.0 (from langchain-core>=0.2.38->langgraph-checkpoint==4.1.1)
+  Using cached pyyaml-6.0.3-cp313-cp313-macosx_11_0_arm64.whl.metadata (2.4 kB)
+Collecting tenacity!=8.4.0,<10.0.0,>=8.1.0 (from langchain-core>=0.2.38->langgraph-checkpoint==4.1.1)
+  Downloading tenacity-9.1.4-py3-none-any.whl.metadata (1.2 kB)
+Collecting typing-extensions<5.0.0,>=4.7.0 (from langchain-core>=0.2.38->langgraph-checkpoint==4.1.1)
+  Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting uuid-utils<1.0,>=0.12.0 (from langchain-core>=0.2.38->langgraph-checkpoint==4.1.1)
+  Downloading uuid_utils-0.17.0-cp313-cp313-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl.metadata (6.4 kB)
+Collecting annotated-types>=0.6.0 (from pydantic>=2.7.4->langgraph==1.2.9)
+  Using cached annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.46.4 (from pydantic>=2.7.4->langgraph==1.2.9)
+  Using cached pydantic_core-2.46.4-cp313-cp313-macosx_11_0_arm64.whl.metadata (6.6 kB)
+Collecting typing-inspection>=0.4.2 (from pydantic>=2.7.4->langgraph==1.2.9)
+  Using cached typing_inspection-0.4.2-py3-none-any.whl.metadata (2.6 kB)
+Collecting jsonpointer>=1.9 (from jsonpatch<2.0.0,>=1.33.0->langchain-core>=0.2.38->langgraph-checkpoint==4.1.1)
+  Downloading jsonpointer-3.1.1-py3-none-any.whl.metadata (2.4 kB)
+Collecting distro>=1.7.0 (from langsmith<1.0.0,>=0.3.45->langchain-core>=0.2.38->langgraph-checkpoint==4.1.1)
+  Downloading distro-1.9.0-py3-none-any.whl.metadata (6.8 kB)
+Collecting requests-toolbelt>=1.0.0 (from langsmith<1.0.0,>=0.3.45->langchain-core>=0.2.38->langgraph-checkpoint==4.1.1)
+  Downloading requests_toolbelt-1.0.0-py2.py3-none-any.whl.metadata (14 kB)
+Collecting requests>=2.0.0 (from langsmith<1.0.0,>=0.3.45->langchain-core>=0.2.38->langgraph-checkpoint==4.1.1)
+  Using cached requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+Collecting sniffio>=1.1 (from langsmith<1.0.0,>=0.3.45->langchain-core>=0.2.38->langgraph-checkpoint==4.1.1)
+  Downloading sniffio-1.3.1-py3-none-any.whl.metadata (3.9 kB)
+Collecting zstandard>=0.23.0 (from langsmith<1.0.0,>=0.3.45->langchain-core>=0.2.38->langgraph-checkpoint==4.1.1)
+  Downloading zstandard-0.25.0-cp313-cp313-macosx_11_0_arm64.whl.metadata (3.3 kB)
+Collecting charset_normalizer<4,>=2 (from requests>=2.0.0->langsmith<1.0.0,>=0.3.45->langchain-core>=0.2.38->langgraph-checkpoint==4.1.1)
+  Using cached charset_normalizer-3.4.9-cp313-cp313-macosx_10_13_universal2.whl.metadata (41 kB)
+Collecting urllib3<3,>=1.26 (from requests>=2.0.0->langsmith<1.0.0,>=0.3.45->langchain-core>=0.2.38->langgraph-checkpoint==4.1.1)
+  Using cached urllib3-2.7.0-py3-none-any.whl.metadata (6.9 kB)
+Using cached httpx-0.28.1-py3-none-any.whl (73 kB)
+Using cached httpcore-1.0.9-py3-none-any.whl (78 kB)
+Downloading langchain_core-1.4.9-py3-none-any.whl (558 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 558.3/558.3 kB 5.6 MB/s eta 0:00:00
+Downloading langchain_protocol-0.0.18-py3-none-any.whl (7.2 kB)
+Downloading orjson-3.11.9-cp313-cp313-macosx_15_0_arm64.whl (128 kB)
+Downloading ormsgpack-1.12.2-cp313-cp313-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl (378 kB)
+Using cached pydantic-2.13.4-py3-none-any.whl (472 kB)
+Downloading pydantic_core-2.46.4-cp313-cp313-macosx_11_0_arm64.whl (2.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 15.9 MB/s eta 0:00:00
+Downloading websockets-16.1-cp313-cp313-macosx_11_0_arm64.whl (177 kB)
+Downloading xxhash-3.8.1-cp313-cp313-macosx_11_0_arm64.whl (32 kB)
+Using cached annotated_types-0.7.0-py3-none-any.whl (13 kB)
+Downloading jsonpatch-1.33-py2.py3-none-any.whl (12 kB)
+Downloading langsmith-0.10.3-py3-none-any.whl (654 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 654.0/654.0 kB 15.5 MB/s eta 0:00:00
+Downloading anyio-4.14.2-py3-none-any.whl (125 kB)
+Using cached idna-3.18-py3-none-any.whl (65 kB)
+Using cached packaging-26.2-py3-none-any.whl (100 kB)
+Downloading pyyaml-6.0.3-cp313-cp313-macosx_11_0_arm64.whl (173 kB)
+Downloading tenacity-9.1.4-py3-none-any.whl (28 kB)
+Using cached typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Using cached typing_inspection-0.4.2-py3-none-any.whl (14 kB)
+Downloading uuid_utils-0.17.0-cp313-cp313-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl (557 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 557.3/557.3 kB 20.5 MB/s eta 0:00:00
+Using cached certifi-2026.6.17-py3-none-any.whl (133 kB)
+Downloading distro-1.9.0-py3-none-any.whl (20 kB)
+Using cached h11-0.16.0-py3-none-any.whl (37 kB)
+Downloading jsonpointer-3.1.1-py3-none-any.whl (7.7 kB)
+Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+Downloading requests_toolbelt-1.0.0-py2.py3-none-any.whl (54 kB)
+Downloading sniffio-1.3.1-py3-none-any.whl (10 kB)
+Downloading zstandard-0.25.0-cp313-cp313-macosx_11_0_arm64.whl (640 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 640.4/640.4 kB 24.2 MB/s eta 0:00:00
+Downloading charset_normalizer-3.4.9-cp313-cp313-macosx_10_13_universal2.whl (317 kB)
+Downloading urllib3-2.7.0-py3-none-any.whl (131 kB)
+Building wheels for collected packages: langgraph-checkpoint, langgraph-sdk, langgraph-prebuilt, langgraph
+  Building editable for langgraph-checkpoint (pyproject.toml): started
+  Building editable for langgraph-checkpoint (pyproject.toml): finished with status 'done'
+  Created wheel for langgraph-checkpoint: filename=langgraph_checkpoint-4.1.1-py3-none-any.whl size=4696 sha256=29fc93f00a58d39293e7d65f3a605fbc39f3e6759b5ef384032540a5a5e8dd1d
+  Stored in directory: /private/var/folders/vj/_w3ccnk96p3dxghn29rf_vz80000gn/T/pip-ephem-wheel-cache-oe_9y1yy/wheels/60/d6/b3/56a757dd9dce360533050682aae510ba24335dd989f9428389
+  Building editable for langgraph-sdk (pyproject.toml): started
+  Building editable for langgraph-sdk (pyproject.toml): finished with status 'done'
+  Created wheel for langgraph-sdk: filename=langgraph_sdk-0.4.2-py3-none-any.whl size=4077 sha256=e918e7125cdafc33206606ccca8819cd09e4d391089b390439a824fb2bd9f4d3
+  Stored in directory: /private/var/folders/vj/_w3ccnk96p3dxghn29rf_vz80000gn/T/pip-ephem-wheel-cache-oe_9y1yy/wheels/34/80/5b/c5e34f1d723476ae0f8bba3069575760cf72221df2a5a07329
+  Building editable for langgraph-prebuilt (pyproject.toml): started
+  Building editable for langgraph-prebuilt (pyproject.toml): finished with status 'done'
+  Created wheel for langgraph-prebuilt: filename=langgraph_prebuilt-1.1.0-py3-none-any.whl size=4316 sha256=6654b88ecd7dc15b5b9b6fd7ef1310d7109623193d86c210edca108ae8ca19b6
+  Stored in directory: /private/var/folders/vj/_w3ccnk96p3dxghn29rf_vz80000gn/T/pip-ephem-wheel-cache-oe_9y1yy/wheels/bb/b6/ce/a2d1649e17841526057f4b33b1957256bc7dcaccbd3abf33c8
+  Building editable for langgraph (pyproject.toml): started
+  Building editable for langgraph (pyproject.toml): finished with status 'done'
+  Created wheel for langgraph: filename=langgraph-1.2.9-py3-none-any.whl size=3676 sha256=cf6190a290d1ab95dea617a52c140ceefd527e33b52756f7fc3f07ecf0d1ae7e
+  Stored in directory: /private/var/folders/vj/_w3ccnk96p3dxghn29rf_vz80000gn/T/pip-ephem-wheel-cache-oe_9y1yy/wheels/7e/c0/9f/45ae3256350cdef267cacb69a6649ac8248b2d765660cbe610
+Successfully built langgraph-checkpoint langgraph-sdk langgraph-prebuilt langgraph
+Installing collected packages: zstandard, xxhash, websockets, uuid-utils, urllib3, typing-extensions, tenacity, sniffio, pyyaml, packaging, ormsgpack, orjson, jsonpointer, idna, h11, distro, charset_normalizer, certifi, annotated-types, typing-inspection, requests, pydantic-core, langchain-protocol, jsonpatch, httpcore, anyio, requests-toolbelt, pydantic, httpx, langsmith, langchain-core, langgraph-sdk, langgraph-checkpoint, langgraph-prebuilt, langgraph
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+hermes-agent 0.16.0 requires croniter==6.0.0, which is not installed.
+hermes-agent 0.16.0 requires fastapi<1,>=0.104.0, which is not installed.
+hermes-agent 0.16.0 requires fire==0.7.1, which is not installed.
+hermes-agent 0.16.0 requires jinja2==3.1.6, which is not installed.
+hermes-agent 0.16.0 requires Markdown==3.10.2, which is not installed.
+hermes-agent 0.16.0 requires openai==2.24.0, which is not installed.
+hermes-agent 0.16.0 requires pathspec==1.1.1, which is not installed.
+hermes-agent 0.16.0 requires Pillow==12.2.0, which is not installed.
+hermes-agent 0.16.0 requires prompt_toolkit==3.0.52, which is not installed.
+hermes-agent 0.16.0 requires psutil==7.2.2, which is not installed.
+hermes-agent 0.16.0 requires ptyprocess<1,>=0.7.0; sys_platform != "win32", which is not installed.
+hermes-agent 0.16.0 requires PyJWT[crypto]==2.13.0, which is not installed.
+hermes-agent 0.16.0 requires python-dotenv==1.2.2, which is not installed.
+hermes-agent 0.16.0 requires rich==14.3.3, which is not installed.
+hermes-agent 0.16.0 requires ruamel.yaml==0.18.17, which is not installed.
+hermes-agent 0.16.0 requires uvicorn[standard]<1,>=0.24.0, which is not installed.
+hermes-agent 0.16.0 requires packaging==26.0, but you have packaging 26.2 which is incompatible.
+hermes-agent 0.16.0 requires requests==2.33.0, but you have requests 2.34.2 which is incompatible.
+Successfully installed annotated-types-0.7.0 anyio-4.14.2 certifi-2026.6.17 charset_normalizer-3.4.9 distro-1.9.0 h11-0.16.0 httpcore-1.0.9 httpx-0.28.1 idna-3.18 jsonpatch-1.33 jsonpointer-3.1.1 langchain-core-1.4.9 langchain-protocol-0.0.18 langgraph-1.2.9 langgraph-checkpoint-4.1.1 langgraph-prebuilt-1.1.0 langgraph-sdk-0.4.2 langsmith-0.10.3 orjson-3.11.9 ormsgpack-1.12.2 packaging-26.2 pydantic-2.13.4 pydantic-core-2.46.4 pyyaml-6.0.3 requests-2.34.2 requests-toolbelt-1.0.0 sniffio-1.3.1 tenacity-9.1.4 typing-extensions-4.16.0 typing-inspection-0.4.2 urllib3-2.7.0 uuid-utils-0.17.0 websockets-16.1 xxhash-3.8.1 zstandard-0.25.0
+
+=== 2026-07-14T17:32:35.202170+00:00 /usr/bin/time -l /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/envs/langgraph/.venv/bin/python /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/fixtures/langgraph_fixture.py ===
+PASS langgraph_interrupt_resume value=2 effects=1 pre_resume_effects=0
+        3.15 real         0.55 user         0.15 sys
+            80707584  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                9281  page reclaims
+                 539  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                1071  voluntary context switches
+                2981  involuntary context switches
+          4748734203  instructions retired
+          2579677252  cycles elapsed
+            64782888  peak memory footprint
+
+=== 2026-07-14T17:36:25.652983+00:00 sandbox-exec -p '(version 1)(allow default)(deny network*)' /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/envs/langgraph/.venv/bin/python /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/fixtures/langgraph_fixture.py ===
+PASS langgraph_interrupt_resume value=2 effects=1 pre_resume_effects=0
+
+=== 2026-07-14T17:37:44.771572+00:00 .venv/bin/pip check ===
+hermes-agent 0.16.0 requires croniter, which is not installed.
+hermes-agent 0.16.0 requires fastapi, which is not installed.
+hermes-agent 0.16.0 requires fire, which is not installed.
+hermes-agent 0.16.0 requires jinja2, which is not installed.
+hermes-agent 0.16.0 requires markdown, which is not installed.
+hermes-agent 0.16.0 requires openai, which is not installed.
+hermes-agent 0.16.0 requires pathspec, which is not installed.
+hermes-agent 0.16.0 requires pillow, which is not installed.
+hermes-agent 0.16.0 requires prompt-toolkit, which is not installed.
+hermes-agent 0.16.0 requires psutil, which is not installed.
+hermes-agent 0.16.0 requires ptyprocess, which is not installed.
+hermes-agent 0.16.0 requires pyjwt, which is not installed.
+hermes-agent 0.16.0 requires python-dotenv, which is not installed.
+hermes-agent 0.16.0 requires rich, which is not installed.
+hermes-agent 0.16.0 requires ruamel-yaml, which is not installed.
+hermes-agent 0.16.0 requires uvicorn, which is not installed.
+hermes-agent 0.16.0 has requirement packaging==26.0, but you have packaging 26.2.
+hermes-agent 0.16.0 has requirement requests==2.33.0, but you have requests 2.34.2.
+
+=== 2026-07-14T17:38:15.782935+00:00 env -u PYTHONPATH .venv/bin/pip check ===
+No broken requirements found.
+
+=== 2026-07-14T17:38:16.176311+00:00 env -u PYTHONPATH .venv/bin/python -c 'import importlib.metadata as m; print(m.version('"'"'langgraph'"'"'))' ===
+1.2.9

@@ -1,0 +1,331 @@
+[
+  {
+    "candidate": "Letta",
+    "path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/repos/letta",
+    "repository_url": "https://github.com/letta-ai/letta.git",
+    "commit": "b76da9092518cbaa2d09042e52fdcbde69243e18",
+    "tree_hash": "7067c69e4ba1f579cfe879d9bf71a4a0d61ca3db",
+    "commit_timestamp": "2026-07-03T11:53:39-07:00",
+    "commit_subject": "docs: update README to Letta Agent SDK, add AGENTS.md deprecation notice (#3393)",
+    "branch": "main",
+    "shallow": "true",
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "984c6db99fc6609803108dfc196762118662cd94b82a456dd9217583f18f3612",
+        "bytes": 10759,
+        "first_line": "                                 Apache License"
+      }
+    ],
+    "manifests": [
+      {
+        "path": "pyproject.toml",
+        "sha256": "ba86147a334a4900962b260d1912e263e011e8698377327b9f1a8fd943540c3e",
+        "bytes": 5409
+      },
+      {
+        "path": "README.md",
+        "sha256": "41722ff4c19be2ca7b7a36e1e9fdbfe09d5003f9c74defca74d7ee50b2ec8073",
+        "bytes": 4715
+      },
+      {
+        "path": "SECURITY.md",
+        "sha256": "f68a2264c73de0c9be88c0231ffa6bff700bae1d852a3fda5e2472015e167bbc",
+        "bytes": 418
+      }
+    ]
+  },
+  {
+    "candidate": "Letta current (letta-code)",
+    "path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/repos/letta-code",
+    "repository_url": "https://github.com/letta-ai/letta-code.git",
+    "commit": "7d3afd54b930d092d5f4547b3d874cb7efb15999",
+    "tree_hash": "3409a813616aa6a7f05aacd56f988981b59703f2",
+    "commit_timestamp": "2026-07-14T09:34:11-07:00",
+    "commit_subject": "fix: repair stale conversation working directories (#3318)",
+    "branch": "main",
+    "shallow": "true",
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "f755fe80260bbfde96447f9a352570378408e4e0decc6f4f916597991f7a6d7f",
+        "bytes": 11089,
+        "first_line": "                                 Apache License"
+      }
+    ],
+    "manifests": [
+      {
+        "path": "package.json",
+        "sha256": "ed0b71eb250796a05ede9a6e5cfccc05269a1c5a7b287cf88c09df52b75fb4d5",
+        "bytes": 4343
+      },
+      {
+        "path": "README.md",
+        "sha256": "e0c5537bd5e0f7a38e1fc56e2d42fce77b5e4004b7ce8eac5d62e4fe027ff149",
+        "bytes": 8396
+      }
+    ]
+  },
+  {
+    "candidate": "Mem0",
+    "path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/repos/mem0",
+    "repository_url": "https://github.com/mem0ai/mem0.git",
+    "commit": "ccbe5861a138c7583e01bb3a3aa6168e52526a23",
+    "tree_hash": "812317e78c83a9acee947ade1869ce158337ad49",
+    "commit_timestamp": "2026-07-14T20:06:05+05:30",
+    "commit_subject": "docs: remove criteria retrieval docs for non-existent feature (#6282)",
+    "branch": "main",
+    "shallow": "true",
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "0bbcbe931c353293a2fafce08326181dfeea0e568c566afd4ce8337a70f5e219",
+        "bytes": 11349,
+        "first_line": "                                 Apache License"
+      }
+    ],
+    "manifests": [
+      {
+        "path": "pyproject.toml",
+        "sha256": "6fcecafaf3c0bf487a41cbe0501d6c7b7e1b1c083a0cb4a97023bba19cd84f38",
+        "bytes": 3169
+      },
+      {
+        "path": "Makefile",
+        "sha256": "685f38bec9936fdb14a51575ad56c3fbf6ca098e0c5943b586e476f700341d59",
+        "bytes": 990
+      },
+      {
+        "path": "README.md",
+        "sha256": "7509347d34a767a2ef37ceb6cf6c714de9e8d84fe66ad5eea92bbae824a8fbeb",
+        "bytes": 11914
+      },
+      {
+        "path": "SECURITY.md",
+        "sha256": "3283e006fa06f0a3f96ee0002ab461e92b722e179d572941515f70f14eb0bfaf",
+        "bytes": 1909
+      }
+    ]
+  },
+  {
+    "candidate": "Graphiti",
+    "path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/repos/graphiti",
+    "repository_url": "https://github.com/getzep/graphiti.git",
+    "commit": "526dcad7a300f3c5c506ff96a68bcdc7ca9f97ed",
+    "tree_hash": "f3c6b396c841cfd1bdda3672967c04fc07495133",
+    "commit_timestamp": "2026-07-09T07:08:38Z",
+    "commit_subject": "@hedging8563 has signed the CLA in getzep/graphiti#1641",
+    "branch": "main",
+    "shallow": "true",
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "2825300b20d7b951209835a4a331f29e24725a39d65168e4b831df53aa372650",
+        "bytes": 11325,
+        "first_line": "                                 Apache License"
+      }
+    ],
+    "manifests": [
+      {
+        "path": "pyproject.toml",
+        "sha256": "e8157e9b9c84a01b86e4e02e6cdc586b6e42e61d3c1612d1bb5aeef2f8309b44",
+        "bytes": 2829
+      },
+      {
+        "path": "Makefile",
+        "sha256": "3ac509f5919a6cf46d368000a11930b15575aa83d94361b825be193d64ac3a8d",
+        "bytes": 552
+      },
+      {
+        "path": "README.md",
+        "sha256": "c40783b9a92edf0c6ee2fc425d990a959952cf11cd758d9e623fe4b0c012bea8",
+        "bytes": 28329
+      },
+      {
+        "path": "SECURITY.md",
+        "sha256": "6dfce9997dc780960820d04cf67e49790fc8f786ad5fd723519b9539377979f2",
+        "bytes": 402
+      }
+    ]
+  },
+  {
+    "candidate": "LlamaIndex",
+    "path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/repos/llama_index",
+    "repository_url": "https://github.com/run-llama/llama_index.git",
+    "commit": "67514f63410c6d4c2344e7ca14b3ea7214d0bb84",
+    "tree_hash": "8f421c804a8bc4aaf228e9be8c28879517f66a1d",
+    "commit_timestamp": "2026-07-08T12:53:59+02:00",
+    "commit_subject": "fix(google-genai): don't send default params in gemini genconfig (#22270)",
+    "branch": "main",
+    "shallow": "true",
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "24f40b5190fdacabc24ddbb5f76364d15e4f030925220ea300d8a2dd4993c8cb",
+        "bytes": 1065,
+        "first_line": "The MIT License"
+      }
+    ],
+    "manifests": [
+      {
+        "path": "pyproject.toml",
+        "sha256": "ec028915fcab1cfea786ec26b905b3699699e185a0514f977e6b8a570605b9f5",
+        "bytes": 4854
+      },
+      {
+        "path": "Makefile",
+        "sha256": "19a4e4590bc32d13242bf89b1bc2edf83aca6cc3e433e757b579f0d3f8cf4c3e",
+        "bytes": 1252
+      },
+      {
+        "path": "README.md",
+        "sha256": "94b550e4ed1d375619b5ae27e60d06f33ecbdac0ccc8e20ed985f2e2cc9546b6",
+        "bytes": 13365
+      },
+      {
+        "path": "SECURITY.md",
+        "sha256": "82f1df31c39f48a25ff7693d06c0fd75e726195bb7ad3c15f71beb08331ad5a4",
+        "bytes": 5045
+      }
+    ]
+  },
+  {
+    "candidate": "Unstructured",
+    "path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/repos/unstructured",
+    "repository_url": "https://github.com/Unstructured-IO/unstructured.git",
+    "commit": "c38745b32f5302a38f61245214d77fafff59368f",
+    "tree_hash": "548b0104d9e7fea0eb1e7932974c4f12c94ae8f3",
+    "commit_timestamp": "2026-07-13T18:43:02Z",
+    "commit_subject": "feat: partition arbitrary valid JSON and NDJSON files (#4391)",
+    "branch": "main",
+    "shallow": "true",
+    "license_files": [
+      {
+        "path": "LICENSE.md",
+        "sha256": "4b190a3ffeb6b8800a6fd99bd5e1fb147e0a9f66984f4f5f8232a926de4fc939",
+        "bytes": 11360,
+        "first_line": "                                 Apache License"
+      }
+    ],
+    "manifests": [
+      {
+        "path": "pyproject.toml",
+        "sha256": "11f021417f6cca5e375d8b7558758ac8ffc287f6d3f499b96e1b7dce354efc7a",
+        "bytes": 9646
+      },
+      {
+        "path": "Makefile",
+        "sha256": "26a4d453318acfd60e08e817f0e3b0440690b01b5e005b4799fb27108f2c52fe",
+        "bytes": 5848
+      },
+      {
+        "path": "README.md",
+        "sha256": "bca2634b7aa769fb5530f255a4bd358de7b56800500606bc4c41aca2288d2731",
+        "bytes": 19956
+      }
+    ]
+  },
+  {
+    "candidate": "PostgreSQL+pgvector",
+    "path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/repos/pgvector",
+    "repository_url": "https://github.com/pgvector/pgvector.git",
+    "commit": "a6420355c5d1c08f4c5fbd5112fc17e4cf3b5eb5",
+    "tree_hash": "52b7f4807f58d7ae61990ba5c95f26755e66d65a",
+    "commit_timestamp": "2026-07-10T22:17:27-07:00",
+    "commit_subject": "Updated FreeBSD package name in readme [skip ci]",
+    "branch": "master",
+    "shallow": "true",
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "6bba9ebeb73e27477463b05e5ef1bf303bccbddb3db9bbc95905d351604d6a87",
+        "bytes": 1104,
+        "first_line": "Portions Copyright (c) 1996-2026, PostgreSQL Global Development Group"
+      }
+    ],
+    "manifests": [
+      {
+        "path": "Makefile",
+        "sha256": "99149fdd3bb35957f05cf86564bbdcd1618e86357ce41d40e73269c3abe48bf3",
+        "bytes": 3163
+      },
+      {
+        "path": "README.md",
+        "sha256": "74cd8c4158df65bb80a3d6c9b49d20c979214e576d9c637854b0b3427f2a8d31",
+        "bytes": 42327
+      }
+    ]
+  },
+  {
+    "candidate": "Qdrant",
+    "path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/repos/qdrant",
+    "repository_url": "https://github.com/qdrant/qdrant.git",
+    "commit": "44ad62f8cd69642be5afa6441612525e24a0d063",
+    "tree_hash": "c6b12563a75f1c5ee866e763be8ad93ebc51e5a8",
+    "commit_timestamp": "2026-06-03T17:09:21+02:00",
+    "commit_subject": "Bump version to 1.18.2 (#9290)",
+    "branch": "master",
+    "shallow": "true",
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "bytes": 11357,
+        "first_line": "                                 Apache License"
+      }
+    ],
+    "manifests": [
+      {
+        "path": "Cargo.toml",
+        "sha256": "ab7a76d571877dafce44dbeee4c48339a2eeda55ff388739ea1a233ca7d925ee",
+        "bytes": 12245
+      },
+      {
+        "path": "README.md",
+        "sha256": "24b212009b110b7a4f995f81bbc032abf39dd2830c778228d417f960bd1e8ef7",
+        "bytes": 11505
+      }
+    ]
+  },
+  {
+    "candidate": "MinIO",
+    "path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/repos/minio",
+    "repository_url": "https://github.com/minio/minio.git",
+    "commit": "7aac2a2c5b7c882e68c1ce017d8256be2feea27f",
+    "tree_hash": "376b09b793c57170a905208e64590164d8ab7a3b",
+    "commit_timestamp": "2026-02-12T12:18:48-08:00",
+    "commit_subject": "update README.md format and clarify state of the project",
+    "branch": "master",
+    "shallow": "true",
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+        "bytes": 34523,
+        "first_line": "                    GNU AFFERO GENERAL PUBLIC LICENSE"
+      }
+    ],
+    "manifests": [
+      {
+        "path": "go.mod",
+        "sha256": "673f06144e90bc045f0a20050d2874c52e551be5bfbd70dff6e76b66da0db702",
+        "bytes": 12539
+      },
+      {
+        "path": "Makefile",
+        "sha256": "8b9d8d6ac3de0773c0a21e3284e28dff7bd81106ad4c5eff7ad974e35e1f397e",
+        "bytes": 11519
+      },
+      {
+        "path": "README.md",
+        "sha256": "aae99b6e35489bb26bfba4290ac567861d123230d1831562b6aee8c1363aead3",
+        "bytes": 8960
+      },
+      {
+        "path": "SECURITY.md",
+        "sha256": "edb6087764297fb3f4e48615de51484d6cf16511e4b2cef67119aae63b4c45f7",
+        "bytes": 2246
+      }
+    ]
+  }
+]

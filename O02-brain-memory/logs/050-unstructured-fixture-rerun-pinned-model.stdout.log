@@ -1,0 +1,19 @@
+{
+  "candidate": "Unstructured",
+  "checks": {
+    "concurrent_deterministic_partitions": 6,
+    "deterministic_partition_repetitions": 2,
+    "element_count": 3,
+    "export_reload": true,
+    "source_lineage_round_trip": true
+  },
+  "export_path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/exports/unstructured-fixture-export.json",
+  "external_egress_attempts": [],
+  "proof_boundary": "Text ingestion and lineage transformation only; memory promotion, revocation, retrieval, and truth governance remain external responsibilities.",
+  "public_api": [
+    "unstructured.partition.text.partition_text",
+    "Element.to_dict"
+  ],
+  "source_sha256": "45c1baf313a188e792b45ca52b28a581e3c2b2f32bdb8e7e0da259fc64ab41d2",
+  "status": "PASS"
+}

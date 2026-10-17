@@ -1,0 +1,10 @@
+Name: hermes-agent
+Version: 0.16.0
+Summary: The self-improving AI agent — creates skills from experience, improves them during use, and runs anywhere
+Home-page: 
+Author: Nous Research
+Author-email: 
+License: 
+Location: /Users/vedantswami/.hermes/hermes-agent
+Requires: croniter, fastapi, fire, httpx, jinja2, Markdown, openai, packaging, pathspec, Pillow, prompt_toolkit, psutil, ptyprocess, pydantic, PyJWT, python-dotenv, pyyaml, requests, rich, ruamel.yaml, tenacity, urllib3, uvicorn
+Required-by: 

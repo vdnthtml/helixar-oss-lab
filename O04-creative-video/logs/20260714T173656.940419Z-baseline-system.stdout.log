@@ -1,0 +1,20 @@
+Tue Jul 14 23:06:57 IST 2026
+ProductName:		macOS
+ProductVersion:		26.5.2
+BuildVersion:		25F84
+Darwin vedants-MacBook-Pro-4.local 25.5.0 Darwin Kernel Version 25.5.0: Tue Jun  9 22:26:22 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_T8132 arm64
+Apple M4
+17179869184
+10
+Filesystem      Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s5   460Gi   366Gi    69Gi    85%    4.4M  721M    1%   /System/Volumes/Data
+Python 3.13.0
+/opt/homebrew/bin/ffmpeg
+ffmpeg version 7.1.1 Copyright (c) 2000-2025 the FFmpeg developers
+built with Apple clang version 17.0.0 (clang-1700.0.13.3)
+configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/7.1.1_3 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags='-Wl,-ld_classic' --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libaribb24 --enable-libbluray --enable-libdav1d --enable-libharfbuzz --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librist --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox --enable-audiotoolbox --enable-neon
+libavutil      59. 39.100 / 59. 39.100
+libavcodec     61. 19.101 / 61. 19.101
+libavformat    61.  7.100 / 61.  7.100
+libavdevice    61.  3.100 / 61.  3.100
+libavfilter    10.  4.100 / 10.  4.100

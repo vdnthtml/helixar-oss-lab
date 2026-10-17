@@ -1,0 +1,49 @@
+Failed to load spaCy lemma model: spaCy is not installed. Install it with: pip install mem0ai[nlp]
+fastembed not installed - BM25 keyword search disabled. Install it with: pip install "mem0ai[extras]"
+Failed to load spaCy full model: spaCy is not installed. Install it with: pip install mem0ai[nlp]
+Traceback (most recent call last):
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/fixtures/mem0_fixture.py", line 245, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/fixtures/mem0_fixture.py", line 179, in main
+    concurrent_ids = list(pool.map(add_concurrent, range(8)))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vedantswami/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vedantswami/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/vedantswami/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/vedantswami/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/vedantswami/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/fixtures/mem0_fixture.py", line 171, in add_concurrent
+    return memory.add(
+           ^^^^^^^^^^^
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/envs/mem0/lib/python3.11/site-packages/mem0/memory/main.py", line 825, in add
+    vector_store_result = self._add_to_vector_store(messages, processed_metadata, effective_filters, infer, prompt=prompt)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/envs/mem0/lib/python3.11/site-packages/mem0/memory/main.py", line 859, in _add_to_vector_store
+    mem_id = self._create_memory(msg_content, {msg_content: msg_embeddings}, per_msg_meta)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/envs/mem0/lib/python3.11/site-packages/mem0/memory/main.py", line 1916, in _create_memory
+    self.vector_store.insert(
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/envs/mem0/lib/python3.11/site-packages/mem0/vector_stores/qdrant.py", line 246, in insert
+    self.client.upsert(collection_name=self.collection_name, points=points)
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/envs/mem0/lib/python3.11/site-packages/qdrant_client/qdrant_client.py", line 944, in upsert
+    return self._client.upsert(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/envs/mem0/lib/python3.11/site-packages/qdrant_client/local/qdrant_local.py", line 559, in upsert
+    collection.upsert(points, update_filter=update_filter, update_mode=update_mode)
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/envs/mem0/lib/python3.11/site-packages/qdrant_client/local/local_collection.py", line 2560, in upsert
+    self._upsert_point(point, update_filter=update_filter, update_mode=update_mode)
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/envs/mem0/lib/python3.11/site-packages/qdrant_client/local/local_collection.py", line 2550, in _upsert_point
+    self.storage.persist(point)
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/envs/mem0/lib/python3.11/site-packages/qdrant_client/local/persistence.py", line 128, in persist
+    self.storage.commit()
+sqlite3.OperationalError: not an error

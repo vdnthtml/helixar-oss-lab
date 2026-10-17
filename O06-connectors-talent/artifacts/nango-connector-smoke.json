@@ -1,0 +1,14 @@
+{
+  "action": "upsertSyntheticContact",
+  "compiledArtifact": "fixtures/nango-smoke/build/mock-api_actions_upsertSyntheticContact.cjs",
+  "credentialValuesUsed": 0,
+  "endpoint": {
+    "group": "O06 Synthetic",
+    "method": "POST",
+    "path": "/o06/contacts"
+  },
+  "providerConfigKey": "mock-api",
+  "realConnectorCalls": 0,
+  "status": "PASS",
+  "tokenIsolation": "NOT_PROVEN: compile fixture contained no tokens; Nango server/keystore was not started"
+}

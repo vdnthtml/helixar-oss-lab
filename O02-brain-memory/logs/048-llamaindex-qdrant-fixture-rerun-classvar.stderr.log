@@ -1,0 +1,4 @@
+/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/envs/llamaindex/lib/python3.11/site-packages/llama_index/vector_stores/qdrant/base.py:852: UserWarning: Payload indexes have no effect in the local Qdrant. Please use server Qdrant if you need payload indexes.
+  self._client.create_payload_index(
+/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/fixtures/llamaindex_qdrant_fixture.py:137: DeprecationWarning: Call to deprecated class method from_dict. (`from_dict()` is deprecated. Please use `MetadataFilters(filters=.., condition='and')` directly instead.)
+  approved_filters = MetadataFilters.from_dict({"governance_state": "approved"})

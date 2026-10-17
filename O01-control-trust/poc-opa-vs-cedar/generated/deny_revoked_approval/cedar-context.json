@@ -1,0 +1,5 @@
+{
+  "approvalValid": true,
+  "approvalRevoked": true,
+  "approvalTargetHash": "sha256:synthetic.invalid"
+}

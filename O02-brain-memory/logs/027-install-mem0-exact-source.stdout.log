@@ -1,0 +1,50 @@
+Processing ./repos/mem0
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: httpx>=0.28.0 in ./envs/mem0/lib/python3.11/site-packages (from mem0ai==2.0.12) (0.28.1)
+Requirement already satisfied: openai>=1.90.0 in ./envs/mem0/lib/python3.11/site-packages (from mem0ai==2.0.12) (2.45.0)
+Requirement already satisfied: posthog>=7.14.0 in ./envs/mem0/lib/python3.11/site-packages (from mem0ai==2.0.12) (7.22.2)
+Requirement already satisfied: protobuf<7.0.0,>=5.29.6 in ./envs/mem0/lib/python3.11/site-packages (from mem0ai==2.0.12) (6.33.6)
+Requirement already satisfied: pydantic>=2.7.3 in ./envs/mem0/lib/python3.11/site-packages (from mem0ai==2.0.12) (2.13.4)
+Requirement already satisfied: pytz>=2024.1 in ./envs/mem0/lib/python3.11/site-packages (from mem0ai==2.0.12) (2026.2)
+Requirement already satisfied: qdrant-client>=1.12.0 in ./envs/mem0/lib/python3.11/site-packages (from mem0ai==2.0.12) (1.18.0)
+Requirement already satisfied: sqlalchemy>=2.0.31 in ./envs/mem0/lib/python3.11/site-packages (from mem0ai==2.0.12) (2.0.51)
+Requirement already satisfied: anyio in ./envs/mem0/lib/python3.11/site-packages (from httpx>=0.28.0->mem0ai==2.0.12) (4.14.2)
+Requirement already satisfied: certifi in ./envs/mem0/lib/python3.11/site-packages (from httpx>=0.28.0->mem0ai==2.0.12) (2026.6.17)
+Requirement already satisfied: httpcore==1.* in ./envs/mem0/lib/python3.11/site-packages (from httpx>=0.28.0->mem0ai==2.0.12) (1.0.9)
+Requirement already satisfied: idna in ./envs/mem0/lib/python3.11/site-packages (from httpx>=0.28.0->mem0ai==2.0.12) (3.18)
+Requirement already satisfied: h11>=0.16 in ./envs/mem0/lib/python3.11/site-packages (from httpcore==1.*->httpx>=0.28.0->mem0ai==2.0.12) (0.16.0)
+Requirement already satisfied: distro<2,>=1.7.0 in ./envs/mem0/lib/python3.11/site-packages (from openai>=1.90.0->mem0ai==2.0.12) (1.9.0)
+Requirement already satisfied: jiter<1,>=0.10.0 in ./envs/mem0/lib/python3.11/site-packages (from openai>=1.90.0->mem0ai==2.0.12) (0.16.0)
+Requirement already satisfied: sniffio in ./envs/mem0/lib/python3.11/site-packages (from openai>=1.90.0->mem0ai==2.0.12) (1.3.1)
+Requirement already satisfied: tqdm>4 in ./envs/mem0/lib/python3.11/site-packages (from openai>=1.90.0->mem0ai==2.0.12) (4.68.4)
+Requirement already satisfied: typing-extensions<5,>=4.14 in ./envs/mem0/lib/python3.11/site-packages (from openai>=1.90.0->mem0ai==2.0.12) (4.16.0)
+Requirement already satisfied: requests<3.0,>=2.7 in ./envs/mem0/lib/python3.11/site-packages (from posthog>=7.14.0->mem0ai==2.0.12) (2.34.2)
+Requirement already satisfied: backoff>=1.10.0 in ./envs/mem0/lib/python3.11/site-packages (from posthog>=7.14.0->mem0ai==2.0.12) (2.2.1)
+Requirement already satisfied: annotated-types>=0.6.0 in ./envs/mem0/lib/python3.11/site-packages (from pydantic>=2.7.3->mem0ai==2.0.12) (0.7.0)
+Requirement already satisfied: pydantic-core==2.46.4 in ./envs/mem0/lib/python3.11/site-packages (from pydantic>=2.7.3->mem0ai==2.0.12) (2.46.4)
+Requirement already satisfied: typing-inspection>=0.4.2 in ./envs/mem0/lib/python3.11/site-packages (from pydantic>=2.7.3->mem0ai==2.0.12) (0.4.2)
+Requirement already satisfied: grpcio>=1.41.0 in ./envs/mem0/lib/python3.11/site-packages (from qdrant-client>=1.12.0->mem0ai==2.0.12) (1.82.1)
+Requirement already satisfied: numpy>=1.21 in ./envs/mem0/lib/python3.11/site-packages (from qdrant-client>=1.12.0->mem0ai==2.0.12) (2.4.6)
+Requirement already satisfied: portalocker<4.0,>=2.7.0 in ./envs/mem0/lib/python3.11/site-packages (from qdrant-client>=1.12.0->mem0ai==2.0.12) (3.2.0)
+Requirement already satisfied: urllib3<3,>=1.26.14 in ./envs/mem0/lib/python3.11/site-packages (from qdrant-client>=1.12.0->mem0ai==2.0.12) (2.7.0)
+Requirement already satisfied: h2<5,>=3 in ./envs/mem0/lib/python3.11/site-packages (from httpx[http2]>=0.20.0->qdrant-client>=1.12.0->mem0ai==2.0.12) (4.3.0)
+Requirement already satisfied: charset_normalizer<4,>=2 in ./envs/mem0/lib/python3.11/site-packages (from requests<3.0,>=2.7->posthog>=7.14.0->mem0ai==2.0.12) (3.4.9)
+Requirement already satisfied: hyperframe<7,>=6.1 in ./envs/mem0/lib/python3.11/site-packages (from h2<5,>=3->httpx[http2]>=0.20.0->qdrant-client>=1.12.0->mem0ai==2.0.12) (6.1.0)
+Requirement already satisfied: hpack<5,>=4.1 in ./envs/mem0/lib/python3.11/site-packages (from h2<5,>=3->httpx[http2]>=0.20.0->qdrant-client>=1.12.0->mem0ai==2.0.12) (4.2.0)
+Building wheels for collected packages: mem0ai
+  Building wheel for mem0ai (pyproject.toml): started
+  Building wheel for mem0ai (pyproject.toml): finished with status 'done'
+  Created wheel for mem0ai: filename=mem0ai-2.0.12-py3-none-any.whl size=333361 sha256=f086376882c3d25e5d6fd7a4578519f4d7e28d90367e6883d17e59719396b763
+  Stored in directory: /private/var/folders/vj/_w3ccnk96p3dxghn29rf_vz80000gn/T/pip-ephem-wheel-cache-0gig1dyo/wheels/3c/91/e8/c9e6f8da7b7c8a53b61ba62d8aa3163772cfb899b7b9cc7e1a
+Successfully built mem0ai
+Installing collected packages: mem0ai
+  Attempting uninstall: mem0ai
+    Found existing installation: mem0ai 2.0.12
+    Uninstalling mem0ai-2.0.12:
+      Successfully uninstalled mem0ai-2.0.12
+Successfully installed mem0ai-2.0.12

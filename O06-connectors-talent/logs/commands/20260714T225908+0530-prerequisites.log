@@ -1,0 +1,17 @@
+Darwin vedants-MacBook-Pro-4.local 25.5.0 Darwin Kernel Version 25.5.0: Tue Jun  9 22:26:22 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_T8132 arm64
+ProductName:		macOS
+ProductVersion:		26.5.2
+BuildVersion:		25F84
+arm64git version 2.50.1 (Apple Git-155)
+v24.13.0
+11.6.2
+/bin/bash: pnpm: command not found
+Python 3.13.0
+/bin/bash: go: command not found
+The operation couldn’t be completed. Unable to locate a Java Runtime.
+Please visit http://www.java.com for information on installing Java.
+
+/bin/bash: php: command not found
+/bin/bash: docker: command not found
+Filesystem      Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s5   460Gi   360Gi    75Gi    83%    4.2M  782M    1%   /System/Volumes/Data

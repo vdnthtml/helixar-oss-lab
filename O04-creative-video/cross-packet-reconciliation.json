@@ -1,0 +1,1021 @@
+{
+  "files": [
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R01 Sol-Fleet/open-source-inventory.csv",
+      "sha256": "b4b2f653846dc65084989f660df11d1271a6ebd0509a49e1389f2e00d054da4e",
+      "data_rows": 25,
+      "header": [
+        "1|asset_id",
+        "owner",
+        "repository",
+        "asset_scope",
+        "license",
+        "license_status",
+        "activity_as_of_2026_07_14",
+        "community_signal",
+        "reusable_primitive",
+        "helixar_decision",
+        "track_tag",
+        "risks_or_conditions",
+        "evidence_url"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R01 Sol-Fleet/evidence-ledger.csv",
+      "sha256": "09314912e340810e04cf655fadcd5a4e53fe080c59bde88dd9533f21601edc17",
+      "data_rows": 101,
+      "header": [
+        "1|evidence_id",
+        "entity",
+        "source_surface",
+        "title",
+        "url",
+        "publisher",
+        "published_or_updated",
+        "checked_at",
+        "claim_label",
+        "material_claim",
+        "evidence_question",
+        "source_quality",
+        "source_status",
+        "notes"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R02 Sol-Trust/open-source-inventory.csv",
+      "sha256": "854e5dad19eeea8764a76cdfe4acfb0de1b8884b702e3f61838fa7c015a4a36c",
+      "data_rows": 19,
+      "header": [
+        "1|project",
+        "repository",
+        "verified_on",
+        "ownership_or_status",
+        "license_observed",
+        "release_or_activity_observed",
+        "maintenance_class",
+        "primary_capability",
+        "protocol_or_artifact",
+        "reuse_decision",
+        "known_risk_or_gap",
+        "hermes_gate",
+        "exit_or_replacement"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R02 Sol-Trust/evidence-ledger.csv",
+      "sha256": "29a1826f86ed5d72ce4f60921fac8b85538e04ee83d19705d192d593d592e475",
+      "data_rows": 107,
+      "header": [
+        "1|evidence_id",
+        "entity",
+        "source_class",
+        "claim_label",
+        "title",
+        "url",
+        "checked_on",
+        "claim_supported",
+        "proof_independence",
+        "source_status",
+        "expires_on",
+        "notes"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R03 Terra-Authority/open-source-inventory.csv",
+      "sha256": "7532b9ecc617e8a17385a3331a496b6e95e654612ad54f0df87ac89c98e5de32",
+      "data_rows": 16,
+      "header": [
+        "1|asset_id",
+        "project_or_protocol",
+        "maintainer",
+        "url",
+        "relationship",
+        "license",
+        "version_or_release_observed",
+        "activity_observed_on",
+        "community_or_health",
+        "reusable_component",
+        "adoption_decision",
+        "risks_or_notes",
+        "confidence",
+        "expiry"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R03 Terra-Authority/evidence-ledger.csv",
+      "sha256": "f2185ee1633b881fd6a6d0e60ab6f4a00bd02e5d60795c4520e352063c51ade3",
+      "data_rows": 50,
+      "header": [
+        "1|evidence_id",
+        "company",
+        "claim_class",
+        "evidence_class",
+        "claim",
+        "source_url",
+        "source_title",
+        "published_or_observed_on",
+        "checked_on",
+        "status",
+        "repair_for",
+        "confidence",
+        "expiry",
+        "notes"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R04 Terra-Market/open-source-inventory.csv",
+      "sha256": "d8a8e9ff8bf8d1dcfd29311dde70f8cf55068d14a30245900f483681995ea317",
+      "data_rows": 16,
+      "header": [
+        "1|\"asset\"",
+        "kind",
+        "canonical_url",
+        "license_or_terms",
+        "verified_at",
+        "role_in_field",
+        "decision",
+        "exact_reuse_boundary",
+        "risks_and_conditions",
+        "strategic_tag"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R04 Terra-Market/evidence-ledger.csv",
+      "sha256": "7f31a904331d90792374c1842f5e10b08a13d4eb87084f56e2ec3f016523cfbc",
+      "data_rows": 87,
+      "header": [
+        "1|\"evidence_id\"",
+        "entity",
+        "claim",
+        "claim_label",
+        "surface",
+        "url",
+        "checked_at",
+        "result",
+        "support_and_limits",
+        "freshness_expiry",
+        "workbook_repair"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R05 Terra-Pain/open-source-inventory.csv",
+      "sha256": "7229cc41238220c092e40d52541c4192d41da5c05e0870002c64d54ccc173002",
+      "data_rows": 14,
+      "header": [
+        "1|asset",
+        "asset_type",
+        "canonical_url",
+        "status_checked_at",
+        "license_or_status",
+        "latest_release_observed",
+        "release_community_health",
+        "reusable_component",
+        "decision",
+        "integration_boundary",
+        "material_risks",
+        "evidence_label",
+        "source_url"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R05 Terra-Pain/evidence-ledger.csv",
+      "sha256": "e8e472bb1e20b3cb9f1a0b4b6e15fb38210a66a32251f902138c938bb930ef28",
+      "data_rows": 65,
+      "header": [
+        "1|evidence_id",
+        "entity",
+        "claim_dimension",
+        "evidence_label",
+        "claim",
+        "url",
+        "source_type",
+        "published_at",
+        "checked_at",
+        "independent",
+        "directness",
+        "confidence",
+        "fresh_until",
+        "repaired_from_url",
+        "notes"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R06 Luna-Creative/open-source-inventory.csv",
+      "sha256": "8b04a0bf4c7195be14a96bcde51706d181be389923c28bbeb1bf254b1c55f3a8",
+      "data_rows": 10,
+      "header": [
+        "1|inventory_id",
+        "name",
+        "kind",
+        "project_url",
+        "license_or_terms",
+        "license_verified_on",
+        "maintenance_signal",
+        "r06_use",
+        "decision",
+        "restriction_or_due_diligence"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R06 Luna-Creative/evidence-ledger.csv",
+      "sha256": "db7061458d5ee180ba689085a5d923111fa3ab288a62e854162c70be580d52e9",
+      "data_rows": 66,
+      "header": [
+        "1|evidence_id",
+        "entity",
+        "source_class",
+        "title",
+        "url",
+        "claim_label",
+        "claim_supported",
+        "claim_boundary",
+        "published_or_updated",
+        "retrieved_on",
+        "confidence",
+        "verification_status"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R07 Mars-GTM/open-source-inventory.csv",
+      "sha256": "99f2c80c9ba04d090b91bcd594dc783d59d1bf4f691999ac71e6d14030f9f9ac",
+      "data_rows": 12,
+      "header": [
+        "1|\"project\"",
+        "repository_or_site",
+        "category",
+        "license_observed",
+        "activity_observed_as_of",
+        "reusable_component",
+        "material_risk",
+        "r07_decision",
+        "hermes_instruction",
+        "strategic_tag",
+        "confidence"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R07 Mars-GTM/evidence-ledger.csv",
+      "sha256": "e2e35e097ad1f89a77438c77f07546156df3b07055c57e0f820d7ab7400565fb",
+      "data_rows": 74,
+      "header": [
+        "1|\"evidence_id\"",
+        "company_or_topic",
+        "source_class",
+        "claim_label",
+        "claim",
+        "source_url",
+        "published_or_observed_date",
+        "accessed_at",
+        "independence",
+        "confidence",
+        "status",
+        "expires_on",
+        "notes"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R08 Mars-Measurement/open-source-inventory.csv",
+      "sha256": "c1e5d146dc6fc686dc27a8c8bfabbbeb8063e6c041feb567ae77eb5209bb617b",
+      "data_rows": 18,
+      "header": [
+        "1|\"asset_id\"",
+        "owner",
+        "repository",
+        "asset_type",
+        "license_observed",
+        "activity_observed",
+        "community_or_issue_signal",
+        "reusable_primitive",
+        "reuse_decision",
+        "risk_or_gate",
+        "checked_at"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R08 Mars-Measurement/evidence-ledger.csv",
+      "sha256": "7e2466378e8b68600ed24a927a62e75a847fd37c6945dfd402b482a04974072a",
+      "data_rows": 88,
+      "header": [
+        "1|\"evidence_id\"",
+        "company",
+        "claim_label",
+        "claim",
+        "source_class",
+        "url",
+        "checked_at",
+        "url_status",
+        "supports",
+        "freshness_days",
+        "notes"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R09 Mars-Economics/open-source-inventory.csv",
+      "sha256": "35d98b7f9fe2390677c10d1d27061628539d4859fa6a63b8dff1473567d089ac",
+      "data_rows": 12,
+      "header": [
+        "1|\"name\"",
+        "category",
+        "url",
+        "artifact_or_protocol",
+        "current_status",
+        "license",
+        "release_cadence",
+        "issues_community_health",
+        "reusable_component",
+        "decision",
+        "risks_and_boundary",
+        "strategic_tag",
+        "evidence_ids",
+        "checked_date"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R09 Mars-Economics/evidence-ledger.csv",
+      "sha256": "0746f85c3094ab43e914ef89a62634226c8c7a25fe3801044d6de92c95c59b29",
+      "data_rows": 74,
+      "header": [
+        "1|\"evidence_id\"",
+        "subject",
+        "evidence_class",
+        "claim",
+        "claim_label",
+        "url_or_local_path",
+        "checked_date",
+        "source_date",
+        "access_status",
+        "confidence",
+        "expiry",
+        "notes"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R10 Mercury-Talent/open-source-inventory.csv",
+      "sha256": "3d6b51adf845868d5e87dfb7c6100790fd65dc7d60ba59e51e8fb19b91135679",
+      "data_rows": 12,
+      "header": [
+        "1|\"project\"",
+        "category",
+        "repository",
+        "license_status",
+        "activity_snapshot_2026_07_14",
+        "relevant_mechanic",
+        "adoption_decision",
+        "reuse_condition",
+        "risk_notes",
+        "strategic_tag"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R10 Mercury-Talent/evidence-ledger.csv",
+      "sha256": "d405ff2e3b528d14f11bffd65a42dd0f018d790c680fb73224b4159d6ba9957f",
+      "data_rows": 46,
+      "header": [
+        "1|\"evidence_id\"",
+        "company_or_topic",
+        "evidence_class",
+        "claim_label",
+        "claim",
+        "source_url",
+        "published_or_checked_at",
+        "confidence",
+        "freshness_review",
+        "notes"
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R01 Sol-Fleet/open-source-inventory.csv",
+      "row": 22,
+      "terms": [
+        "opentelemetry"
+      ],
+      "values": [
+        "22|R01-O021",
+        "OpenTelemetry",
+        "https://github.com/open-telemetry/opentelemetry-specification",
+        "telemetry specification",
+        "Apache-2.0",
+        "known standard; implementation recheck required",
+        "active",
+        "large cross-vendor standard",
+        "trace metric log resource context propagation and semantic conventions",
+        "ADOPT specification with pinned version and redaction defaults",
+        "SHARED PLATFORM",
+        "high-cardinality and sensitive GenAI content capture",
+        "https://opentelemetry.io/docs/specs/semconv/"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R01 Sol-Fleet/evidence-ledger.csv",
+      "row": 17,
+      "terms": [
+        "opentelemetry"
+      ],
+      "values": [
+        "17|R01-E016",
+        "Braintrust",
+        "open source",
+        "Braintrust Go SDK",
+        "https://github.com/braintrustdata/braintrust-sdk-go",
+        "Braintrust",
+        "2026 current",
+        "2026-07-14",
+        "OBSERVED",
+        "public SDK supports eval and trace functions and uses OpenTelemetry libraries",
+        "open source and protocol",
+        "A",
+        "current",
+        "license should be rechecked per SDK at implementation time"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R01 Sol-Fleet/evidence-ledger.csv",
+      "row": 87,
+      "terms": [
+        "opentelemetry"
+      ],
+      "values": [
+        "87|R01-E086",
+        "OpenTelemetry",
+        "official specification",
+        "Semantic Conventions 1.43.0",
+        "https://opentelemetry.io/docs/specs/semconv/",
+        "OpenTelemetry",
+        "2026 current",
+        "2026-07-14",
+        "OBSERVED",
+        "semantic conventions standardize traces metrics logs events and resources",
+        "observability",
+        "A",
+        "current",
+        "pin semantic-convention version"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R01 Sol-Fleet/evidence-ledger.csv",
+      "row": 88,
+      "terms": [
+        "opentelemetry"
+      ],
+      "values": [
+        "88|R01-E087",
+        "OpenTelemetry",
+        "official specification",
+        "GenAI attribute registry",
+        "https://opentelemetry.io/docs/specs/semconv/registry/attributes/gen-ai/",
+        "OpenTelemetry",
+        "2026 current",
+        "2026-07-14",
+        "OBSERVED",
+        "GenAI conventions include agent workflow tool retrieval model usage and evaluation attributes",
+        "agent observability",
+        "A",
+        "current",
+        "prompt tool arguments and retrieval queries may contain sensitive data and must default off/redacted"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R02 Sol-Trust/open-source-inventory.csv",
+      "row": 6,
+      "terms": [
+        "opentelemetry"
+      ],
+      "values": [
+        "6|\"Arize Phoenix\"",
+        "https://github.com/Arize-ai/phoenix",
+        "2026-07-14",
+        "Arize-maintained public source",
+        "Elastic License 2.0",
+        "v18.0.0 on 2026-07-14",
+        "active",
+        "Trace-native LLM observability evals datasets experiments annotations",
+        "OpenTelemetry OTLP and OpenInference",
+        "POC as viewer/store; adopt protocol mechanics",
+        "ELv2 is source-available not permissive; patent/embedding/license review; operational footprint",
+        "Legal approval; export/round-trip; tenancy/privacy/load/upgrade tests",
+        "Langfuse Helicone or native ClickHouse UI"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R02 Sol-Trust/open-source-inventory.csv",
+      "row": 17,
+      "terms": [
+        "opentelemetry"
+      ],
+      "values": [
+        "17|\"OpenTelemetry\"",
+        "https://github.com/open-telemetry/opentelemetry-specification",
+        "2026-07-14",
+        "CNCF open standard/project",
+        "Apache-2.0",
+        "Actively maintained specification",
+        "active/standard",
+        "Vendor-neutral traces metrics logs and context propagation",
+        "OTLP; W3C Trace Context; semantic conventions",
+        "ADOPT as telemetry transport",
+        "High-cardinality/sensitive attributes; SDK/version variance; telemetry backpressure",
+        "Attribute allowlist/redaction; sampling budget; non-blocking export; conformance tests",
+        "None at canonical boundary; vendor adapters must accept/export OTLP"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R02 Sol-Trust/evidence-ledger.csv",
+      "row": 93,
+      "terms": [
+        "opentelemetry"
+      ],
+      "values": [
+        "93|R02-E092",
+        "OpenTelemetry",
+        "protocol",
+        "OBSERVED",
+        "OpenTelemetry documentation",
+        "https://opentelemetry.io/docs/",
+        "2026-07-14",
+        "Vendor-neutral traces metrics and logs transport/semantic infrastructure is maintained",
+        "foundation project",
+        "reachable",
+        "2026-10-12",
+        "Adopt OTLP and W3C trace context"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R05 Terra-Pain/open-source-inventory.csv",
+      "row": 8,
+      "terms": [
+        "whisper"
+      ],
+      "values": [
+        "8|\"OpenAI Whisper\"",
+        "automatic speech recognition",
+        "https://github.com/openai/whisper",
+        "active reference; 2026-07-14",
+        "MIT",
+        "release cadence not re-verified in this pass",
+        "Widely used public model/codebase; community active",
+        "Replaceable local multilingual transcription adapter",
+        "EVALUATE",
+        "Output creates a derived artifact with model/version/confidence; original media hash retained; human review required",
+        "No native speaker-truth or guaranteed diarization; language/noise bias; compute; PII in audio",
+        "OBSERVED",
+        "https://github.com/openai/whisper"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R05 Terra-Pain/evidence-ledger.csv",
+      "row": 60,
+      "terms": [
+        "whisper"
+      ],
+      "values": [
+        "60|\"EV-OSS-07\"",
+        "OpenAI Whisper",
+        "open_source",
+        "OBSERVED",
+        "Whisper is an MIT-licensed multilingual speech-recognition model and codebase.",
+        "https://github.com/openai/whisper",
+        "GitHub repository",
+        "current",
+        "2026-07-14",
+        "yes",
+        "direct",
+        "high",
+        "2027-07-14",
+        "",
+        "Evaluate accuracy/privacy; it does not make transcripts or diarization ground truth."
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R06 Luna-Creative/open-source-inventory.csv",
+      "row": 3,
+      "terms": [
+        "c2pa"
+      ],
+      "values": [
+        "3|R06-O002",
+        "C2PA 2.2",
+        "standard",
+        "https://spec.c2pa.org/specifications/specifications/2.2/specs/C2PA_Specification.html",
+        "C2PA specification terms",
+        "2026-07-14",
+        "Versioned 2.2 specification",
+        "Compatibility target for media provenance and content credentials",
+        "pilot compatibility",
+        "Does not replace rights grants claim evidence approvals or Helixar edit lineage"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R06 Luna-Creative/open-source-inventory.csv",
+      "row": 4,
+      "terms": [
+        "opentimelineio"
+      ],
+      "values": [
+        "4|R06-O003",
+        "OpenTimelineIO",
+        "open-source library and interchange format",
+        "https://github.com/AcademySoftwareFoundation/OpenTimelineIO",
+        "Apache-2.0",
+        "2026-07-14",
+        "Active mature project under Academy Software Foundation",
+        "Provider-neutral timeline and edit-decision interchange",
+        "adopt schema concepts; evaluate library",
+        "It references media rather than storing it; adapter coverage and dependency review required"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R06 Luna-Creative/open-source-inventory.csv",
+      "row": 5,
+      "terms": [
+        "opentelemetry"
+      ],
+      "values": [
+        "5|R06-O004",
+        "OpenTelemetry Specification",
+        "open standard and ecosystem",
+        "https://github.com/open-telemetry/opentelemetry-specification",
+        "Apache-2.0",
+        "2026-07-14",
+        "Active versioned specification",
+        "Trace model calls workflow steps costs retries and failures",
+        "adopt interface",
+        "Telemetry cannot be the only decision receipt or domain audit record"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R06 Luna-Creative/open-source-inventory.csv",
+      "row": 6,
+      "terms": [
+        "vbench"
+      ],
+      "values": [
+        "6|R06-O005",
+        "VBench",
+        "open-source benchmark",
+        "https://github.com/Vchitect/VBench",
+        "Apache-2.0",
+        "2026-07-14",
+        "Public repository and research lineage",
+        "Offline technical video-generation evaluation by named dimensions",
+        "evaluate in offline adapter",
+        "Confirm compute dependencies security and custom-video dimension coverage; never relabel as response or conversion"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R06 Luna-Creative/open-source-inventory.csv",
+      "row": 7,
+      "terms": [
+        "videoscore"
+      ],
+      "values": [
+        "7|R06-O006",
+        "VideoScore",
+        "open-source benchmark",
+        "https://github.com/TIGER-AI-Lab/VideoScore",
+        "MIT",
+        "2026-07-14",
+        "Public repository paired with paper",
+        "Offline multi-aspect generated-video quality assessment",
+        "evaluate in offline adapter",
+        "Dataset generalization model weight terms compute and security review required; not a business-outcome score"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R06 Luna-Creative/open-source-inventory.csv",
+      "row": 8,
+      "terms": [
+        "hume"
+      ],
+      "values": [
+        "8|R06-O007",
+        "Hume Python SDK",
+        "open-source client SDK",
+        "https://github.com/HumeAI/hume-python-sdk",
+        "MIT",
+        "2026-07-14",
+        "Maintained official SDK",
+        "Optional client for a consented bounded expression-signal research adapter",
+        "defer until research gate",
+        "Hosted API remains proprietary; population validity policy jurisdiction and retention review required"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R06 Luna-Creative/open-source-inventory.csv",
+      "row": 9,
+      "terms": [
+        "twelve labs",
+        "twelvelabs"
+      ],
+      "values": [
+        "9|R06-O008",
+        "Twelve Labs Python SDK",
+        "public client SDK",
+        "https://github.com/twelvelabs-io/twelvelabs-python",
+        "UNKNOWN",
+        "2026-07-14",
+        "Maintained official SDK",
+        "Potential multimodal-index adapter client",
+        "do not vendor until license verified",
+        "Public repository visibility is not license permission; use hosted API only after legal security and procurement review"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R06 Luna-Creative/open-source-inventory.csv",
+      "row": 10,
+      "terms": [
+        "ffmpeg"
+      ],
+      "values": [
+        "10|R06-O009",
+        "FFmpeg",
+        "open-source media toolkit",
+        "https://ffmpeg.org/legal.html",
+        "LGPL-2.1-or-later by default; optional GPL components change obligations",
+        "2026-07-14",
+        "Long-lived widely used project",
+        "Deterministic local media probes transcodes thumbnails and fixture preparation",
+        "adopt behind execution wrapper",
+        "Record build configuration codecs and notices; do not assume every binary has the same license"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R06 Luna-Creative/evidence-ledger.csv",
+      "row": 41,
+      "terms": [
+        "twelve labs",
+        "twelvelabs"
+      ],
+      "values": [
+        "41|R06-E040",
+        "Twelve Labs",
+        "official-pricing",
+        "Twelve Labs Pricing",
+        "https://www.twelvelabs.io/pricing",
+        "verified-capability",
+        "Marengo search and Pegasus analysis pricing and free allowance are documented",
+        "Accuracy cost and latency on Helixar media are untested",
+        "UNKNOWN",
+        "2026-07-14",
+        "high",
+        "opened"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R06 Luna-Creative/evidence-ledger.csv",
+      "row": 42,
+      "terms": [
+        "twelve labs",
+        "twelvelabs"
+      ],
+      "values": [
+        "42|R06-E041",
+        "Twelve Labs",
+        "official-docs",
+        "Twelve Labs FAQ",
+        "https://docs.twelvelabs.io/docs/resources/frequently-asked-questions",
+        "verified-capability",
+        "Model-index and segmentation constraints are documented",
+        "Provider indexes remain derived caches rather than system of record",
+        "UNKNOWN",
+        "2026-07-14",
+        "high",
+        "opened"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R06 Luna-Creative/evidence-ledger.csv",
+      "row": 45,
+      "terms": [
+        "hume"
+      ],
+      "values": [
+        "45|R06-E044",
+        "Hume",
+        "official-guidance",
+        "Hume Use-Case Guidelines",
+        "https://dev.hume.ai/docs/resources/use-case-guidelines",
+        "verified-capability",
+        "Guidelines require context and population-specific testing",
+        "Compliance with guidance does not establish model validity for Helixar cohorts",
+        "UNKNOWN",
+        "2026-07-14",
+        "high",
+        "opened"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R06 Luna-Creative/evidence-ledger.csv",
+      "row": 46,
+      "terms": [
+        "hume"
+      ],
+      "values": [
+        "46|R06-E045",
+        "Hume",
+        "official-policy",
+        "Hume API Data Usage Policy",
+        "https://www.hume.ai/api-data-usage-policy",
+        "verified-capability",
+        "Hosted API data-usage policy is public",
+        "Contract jurisdiction retention and customer-specific terms still require review",
+        "UNKNOWN",
+        "2026-07-14",
+        "high",
+        "opened"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R06 Luna-Creative/evidence-ledger.csv",
+      "row": 59,
+      "terms": [
+        "videoscore"
+      ],
+      "values": [
+        "59|R06-E058",
+        "VideoScore",
+        "research-paper",
+        "VideoScore Paper",
+        "https://arxiv.org/abs/2406.15252",
+        "research-benchmark",
+        "Paper reports a 37.6k synthesized-video dataset and five quality aspects",
+        "Reported correlation is dataset-bound and not audience response or conversion",
+        "2024-06-21",
+        "2026-07-14",
+        "high",
+        "opened"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R06 Luna-Creative/evidence-ledger.csv",
+      "row": 60,
+      "terms": [
+        "videoscore"
+      ],
+      "values": [
+        "60|R06-E059",
+        "VideoScore",
+        "source-repository",
+        "VideoScore Repository",
+        "https://github.com/TIGER-AI-Lab/VideoScore",
+        "verified-capability",
+        "Reference code is public under MIT license",
+        "Dependency compute security and benchmark generalization require review",
+        "UNKNOWN",
+        "2026-07-14",
+        "high",
+        "opened"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R06 Luna-Creative/evidence-ledger.csv",
+      "row": 61,
+      "terms": [
+        "vbench"
+      ],
+      "values": [
+        "61|R06-E060",
+        "VBench",
+        "research-paper",
+        "VBench Paper",
+        "https://arxiv.org/abs/2311.17982",
+        "research-benchmark",
+        "Paper defines a multi-dimensional video-generation benchmark with human annotations",
+        "Dimensions assess generation performance not market response",
+        "2023-11-30",
+        "2026-07-14",
+        "high",
+        "opened"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R06 Luna-Creative/evidence-ledger.csv",
+      "row": 62,
+      "terms": [
+        "vbench"
+      ],
+      "values": [
+        "62|R06-E061",
+        "VBench",
+        "source-repository",
+        "VBench Repository",
+        "https://github.com/Vchitect/VBench",
+        "verified-capability",
+        "Reference code is public under Apache-2.0",
+        "Custom-video coverage differs by dimension and compute cost requires review",
+        "UNKNOWN",
+        "2026-07-14",
+        "high",
+        "opened"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R06 Luna-Creative/evidence-ledger.csv",
+      "row": 64,
+      "terms": [
+        "c2pa"
+      ],
+      "values": [
+        "64|R06-E063",
+        "C2PA",
+        "official-standard",
+        "C2PA Technical Specification 2.2",
+        "https://spec.c2pa.org/specifications/specifications/2.2/specs/C2PA_Specification.html",
+        "verified-capability",
+        "Specification defines content provenance and authenticity manifests",
+        "Content credentials do not replace Helixar rights approvals or causal lineage",
+        "2.2",
+        "2026-07-14",
+        "high",
+        "opened"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R06 Luna-Creative/evidence-ledger.csv",
+      "row": 65,
+      "terms": [
+        "opentimelineio"
+      ],
+      "values": [
+        "65|R06-E064",
+        "OpenTimelineIO",
+        "official-docs",
+        "OpenTimelineIO Documentation",
+        "https://opentimelineio.readthedocs.io/en/latest/",
+        "verified-capability",
+        "Open interchange model exists for editorial timeline information",
+        "Media is referenced rather than stored and adapter coverage varies",
+        "0.19.0.dev1",
+        "2026-07-14",
+        "high",
+        "opened"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R06 Luna-Creative/evidence-ledger.csv",
+      "row": 66,
+      "terms": [
+        "opentelemetry"
+      ],
+      "values": [
+        "66|R06-E065",
+        "OpenTelemetry",
+        "official-standard",
+        "OpenTelemetry Specification",
+        "https://opentelemetry.io/docs/specs/otel/",
+        "verified-capability",
+        "Versioned specification covers traces metrics and logs",
+        "Telemetry is observability and not a substitute for domain decisions or receipts",
+        "1.59.0",
+        "2026-07-14",
+        "high",
+        "opened"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R09 Mars-Economics/open-source-inventory.csv",
+      "row": 8,
+      "terms": [
+        "opentelemetry"
+      ],
+      "values": [
+        "8|\"OpenTelemetry semantic conventions\"",
+        "observability protocol",
+        "https://opentelemetry.io/docs/specs/semconv/",
+        "Telemetry semantic conventions including GenAI signals",
+        "active evolving specification",
+        "Apache-2.0 project; verify specific specification artifact",
+        "Active specification; GenAI conventions can change",
+        "Large public standards community; stability level must be checked per field",
+        "Model/provider; token; latency; error; request/run usage fields",
+        "ADOPT COMPATIBLE FIELD NAMES",
+        "Telemetry quantity is not provider invoice or accounting truth; version every mapping",
+        "SHARED PLATFORM",
+        "E-R09-064",
+        "2026-07-14"
+      ]
+    },
+    {
+      "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R09 Mars-Economics/evidence-ledger.csv",
+      "row": 65,
+      "terms": [
+        "opentelemetry"
+      ],
+      "values": [
+        "65|\"E-R09-064\"",
+        "OpenTelemetry",
+        "open specification",
+        "OpenTelemetry semantic conventions cover GenAI request, token, model, latency and related observability fields.",
+        "OBSERVED",
+        "https://opentelemetry.io/docs/specs/semconv/",
+        "2026-07-14",
+        "current specification",
+        "checked",
+        "high",
+        "2026-10-14",
+        "Usage evidence is not billed/accrued/paid truth."
+      ]
+    }
+  ]
+}

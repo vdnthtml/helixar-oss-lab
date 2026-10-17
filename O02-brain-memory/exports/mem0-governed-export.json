@@ -1,0 +1,14 @@
+[
+  {
+    "governance": {
+      "revision": 1,
+      "state": "promoted"
+    },
+    "lineage_id": "lineage-gamma-v1",
+    "memory": "gamma durable record",
+    "source": {
+      "digest": "sha256:fixture-gamma",
+      "uri": "https://source.invalid/gamma"
+    }
+  }
+]

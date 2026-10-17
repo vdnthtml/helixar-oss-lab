@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/Users/vedantswami/Projects/helixar-oss-labs/O03-web-market-voice/freeze_corpus.py", line 60, in <module>
+    raise FileNotFoundError(p)
+FileNotFoundError: /Users/vedantswami/Projects/Dystopia/Dystopia/02_Projects/Helixar World-Class Benchmark Program/00 Helixar World-Class Benchmark Program Control Center.md

@@ -1,0 +1,55 @@
+33932	repos/letta
+84352	repos/letta-code
+54680	repos/mem0
+29504	repos/graphiti
+831144	repos/llama_index
+291356	repos/unstructured
+1368	repos/pgvector
+38328	repos/qdrant
+64060	repos/minio
+197096	envs/mem0
+118756	envs/graphiti
+235788	envs/llamaindex
+377480	envs/unstructured
+1248	storage
+12	exports
+annotated-types==0.7.0
+anyio==4.14.2
+backoff==2.2.1
+certifi==2026.6.17
+charset-normalizer==3.4.9
+distro==1.9.0
+grpcio==1.82.1
+h11==0.16.0
+h2==4.3.0
+hermes-agent==0.16.0
+hpack==4.2.0
+httpcore==1.0.9
+httpx==0.28.1
+hyperframe==6.1.0
+idna==3.18
+iniconfig==2.3.0
+jiter==0.16.0
+mem0ai @ file:///Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/repos/mem0
+numpy==2.4.6
+openai==2.45.0
+packaging==26.2
+pluggy==1.6.0
+portalocker==3.2.0
+posthog==7.22.2
+protobuf==6.33.6
+pydantic==2.13.4
+pydantic_core==2.46.4
+Pygments==2.20.0
+pytest==9.1.1
+pytest-asyncio==1.4.0
+pytest-mock==3.15.1
+pytz==2026.2
+qdrant-client==1.18.0
+requests==2.34.2
+sniffio==1.3.1
+SQLAlchemy==2.0.51
+tqdm==4.68.4
+typing-inspection==0.4.2
+typing_extensions==4.16.0
+urllib3==2.7.0

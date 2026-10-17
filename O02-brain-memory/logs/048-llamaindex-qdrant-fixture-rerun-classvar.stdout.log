@@ -1,0 +1,35 @@
+{
+  "approved_retrieval_order": [
+    {
+      "governance_state": "approved",
+      "id": "22222222-2222-4222-8222-222222222222",
+      "score": 0.944911241531,
+      "source_id": "fixture://beta-v1",
+      "text": "beta finance policy approved"
+    }
+  ],
+  "candidate": "LlamaIndex + Qdrant local mode",
+  "checks": {
+    "delete": true,
+    "deterministic_retrieval_repetitions": 5,
+    "export_reload": true,
+    "external_audit_history_retained": 4,
+    "persisted_points_after_reload": 2,
+    "promotion_filter": true,
+    "revocation_excluded_from_current_retrieval": true,
+    "source_lineage_round_trip": true
+  },
+  "export_path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/exports/llamaindex-qdrant-export.json",
+  "external_egress_attempts": [],
+  "governance_boundary": "Promotion/revocation audit is an external ledger; retrieval is filtered by explicit metadata and neither library is global truth.",
+  "proof_boundary": "Embedded qdrant-client persistence only; no Qdrant server, auth, replication, backup, or production operations were proven.",
+  "public_api": [
+    "VectorStoreIndex",
+    "QdrantVectorStore",
+    "as_retriever",
+    "insert_nodes",
+    "delete_nodes"
+  ],
+  "status": "PASS",
+  "storage_path": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/storage/llamaindex-qdrant-fixture/qdrant"
+}

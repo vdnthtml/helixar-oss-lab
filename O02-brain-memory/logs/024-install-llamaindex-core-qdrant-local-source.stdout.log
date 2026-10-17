@@ -1,0 +1,111 @@
+Processing ./repos/llama_index/llama-index-core
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Processing ./repos/llama_index/llama-index-integrations/vector_stores/llama-index-vector-stores-qdrant
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: aiohttp<4,>=3.8.6 in ./envs/llamaindex/lib/python3.11/site-packages (from llama-index-core==0.14.23) (3.14.1)
+Requirement already satisfied: aiosqlite in ./envs/llamaindex/lib/python3.11/site-packages (from llama-index-core==0.14.23) (0.22.1)
+Requirement already satisfied: banks<3,>=2.3.0 in ./envs/llamaindex/lib/python3.11/site-packages (from llama-index-core==0.14.23) (2.4.5)
+Requirement already satisfied: dataclasses-json in ./envs/llamaindex/lib/python3.11/site-packages (from llama-index-core==0.14.23) (0.6.7)
+Requirement already satisfied: deprecated>=1.2.9.3 in ./envs/llamaindex/lib/python3.11/site-packages (from llama-index-core==0.14.23) (1.3.1)
+Requirement already satisfied: dirtyjson<2,>=1.0.8 in ./envs/llamaindex/lib/python3.11/site-packages (from llama-index-core==0.14.23) (1.0.8)
+Requirement already satisfied: filetype<2,>=1.2.0 in ./envs/llamaindex/lib/python3.11/site-packages (from llama-index-core==0.14.23) (1.2.0)
+Requirement already satisfied: fsspec>=2023.5.0 in ./envs/llamaindex/lib/python3.11/site-packages (from llama-index-core==0.14.23) (2026.6.0)
+Requirement already satisfied: httpx in ./envs/llamaindex/lib/python3.11/site-packages (from llama-index-core==0.14.23) (0.28.1)
+Requirement already satisfied: llama-index-workflows<3,>=2.14.0 in ./envs/llamaindex/lib/python3.11/site-packages (from llama-index-core==0.14.23) (2.22.2)
+Requirement already satisfied: nest-asyncio<2,>=1.5.8 in ./envs/llamaindex/lib/python3.11/site-packages (from llama-index-core==0.14.23) (1.6.0)
+Requirement already satisfied: networkx>=3.0 in ./envs/llamaindex/lib/python3.11/site-packages (from llama-index-core==0.14.23) (3.6.1)
+Requirement already satisfied: nltk>=3.9.3 in ./envs/llamaindex/lib/python3.11/site-packages (from llama-index-core==0.14.23) (3.10.0)
+Requirement already satisfied: numpy in ./envs/llamaindex/lib/python3.11/site-packages (from llama-index-core==0.14.23) (2.4.6)
+Requirement already satisfied: pillow>=9.0.0 in ./envs/llamaindex/lib/python3.11/site-packages (from llama-index-core==0.14.23) (12.3.0)
+Requirement already satisfied: platformdirs in ./envs/llamaindex/lib/python3.11/site-packages (from llama-index-core==0.14.23) (4.10.0)
+Requirement already satisfied: pydantic>=2.8.0 in ./envs/llamaindex/lib/python3.11/site-packages (from llama-index-core==0.14.23) (2.13.4)
+Requirement already satisfied: pyyaml>=6.0.1 in ./envs/llamaindex/lib/python3.11/site-packages (from llama-index-core==0.14.23) (6.0.3)
+Requirement already satisfied: requests>=2.31.0 in ./envs/llamaindex/lib/python3.11/site-packages (from llama-index-core==0.14.23) (2.34.2)
+Requirement already satisfied: setuptools>=80.9.0 in ./envs/llamaindex/lib/python3.11/site-packages (from llama-index-core==0.14.23) (83.0.0)
+Requirement already satisfied: sqlalchemy>=1.4.49 in ./envs/llamaindex/lib/python3.11/site-packages (from sqlalchemy[asyncio]>=1.4.49->llama-index-core==0.14.23) (2.0.51)
+Requirement already satisfied: tenacity!=8.4.0,<10.0.0,>=8.2.0 in ./envs/llamaindex/lib/python3.11/site-packages (from llama-index-core==0.14.23) (9.1.4)
+Requirement already satisfied: tiktoken>=0.7.0 in ./envs/llamaindex/lib/python3.11/site-packages (from llama-index-core==0.14.23) (0.13.0)
+Requirement already satisfied: tinytag>=2.2.0 in ./envs/llamaindex/lib/python3.11/site-packages (from llama-index-core==0.14.23) (2.2.1)
+Requirement already satisfied: tqdm<5,>=4.66.1 in ./envs/llamaindex/lib/python3.11/site-packages (from llama-index-core==0.14.23) (4.68.4)
+Requirement already satisfied: typing-extensions>=4.5.0 in ./envs/llamaindex/lib/python3.11/site-packages (from llama-index-core==0.14.23) (4.16.0)
+Requirement already satisfied: typing-inspect>=0.8.0 in ./envs/llamaindex/lib/python3.11/site-packages (from llama-index-core==0.14.23) (0.9.0)
+Requirement already satisfied: wrapt in ./envs/llamaindex/lib/python3.11/site-packages (from llama-index-core==0.14.23) (2.2.2)
+Collecting grpcio<2,>=1.60.0 (from llama-index-vector-stores-qdrant==0.10.2)
+  Using cached grpcio-1.82.1-cp311-cp311-macosx_11_0_universal2.whl.metadata (3.7 kB)
+Collecting qdrant-client>=1.16.0 (from llama-index-vector-stores-qdrant==0.10.2)
+  Using cached qdrant_client-1.18.0-py3-none-any.whl.metadata (11 kB)
+Requirement already satisfied: aiohappyeyeballs>=2.5.0 in ./envs/llamaindex/lib/python3.11/site-packages (from aiohttp<4,>=3.8.6->llama-index-core==0.14.23) (2.7.1)
+Requirement already satisfied: aiosignal>=1.4.0 in ./envs/llamaindex/lib/python3.11/site-packages (from aiohttp<4,>=3.8.6->llama-index-core==0.14.23) (1.4.0)
+Requirement already satisfied: attrs>=17.3.0 in ./envs/llamaindex/lib/python3.11/site-packages (from aiohttp<4,>=3.8.6->llama-index-core==0.14.23) (26.1.0)
+Requirement already satisfied: frozenlist>=1.1.1 in ./envs/llamaindex/lib/python3.11/site-packages (from aiohttp<4,>=3.8.6->llama-index-core==0.14.23) (1.8.0)
+Requirement already satisfied: multidict<7.0,>=4.5 in ./envs/llamaindex/lib/python3.11/site-packages (from aiohttp<4,>=3.8.6->llama-index-core==0.14.23) (6.7.1)
+Requirement already satisfied: propcache>=0.2.0 in ./envs/llamaindex/lib/python3.11/site-packages (from aiohttp<4,>=3.8.6->llama-index-core==0.14.23) (0.5.2)
+Requirement already satisfied: yarl<2.0,>=1.17.0 in ./envs/llamaindex/lib/python3.11/site-packages (from aiohttp<4,>=3.8.6->llama-index-core==0.14.23) (1.24.2)
+Requirement already satisfied: griffe in ./envs/llamaindex/lib/python3.11/site-packages (from banks<3,>=2.3.0->llama-index-core==0.14.23) (2.1.0)
+Requirement already satisfied: jinja2 in ./envs/llamaindex/lib/python3.11/site-packages (from banks<3,>=2.3.0->llama-index-core==0.14.23) (3.1.6)
+Requirement already satisfied: llama-index-instrumentation>=0.4.3 in ./envs/llamaindex/lib/python3.11/site-packages (from llama-index-workflows<3,>=2.14.0->llama-index-core==0.14.23) (0.5.0)
+Requirement already satisfied: defusedxml in ./envs/llamaindex/lib/python3.11/site-packages (from nltk>=3.9.3->llama-index-core==0.14.23) (0.7.1)
+Requirement already satisfied: click in ./envs/llamaindex/lib/python3.11/site-packages (from nltk>=3.9.3->llama-index-core==0.14.23) (8.4.2)
+Requirement already satisfied: joblib in ./envs/llamaindex/lib/python3.11/site-packages (from nltk>=3.9.3->llama-index-core==0.14.23) (1.5.3)
+Requirement already satisfied: regex>=2021.8.3 in ./envs/llamaindex/lib/python3.11/site-packages (from nltk>=3.9.3->llama-index-core==0.14.23) (2026.7.10)
+Requirement already satisfied: annotated-types>=0.6.0 in ./envs/llamaindex/lib/python3.11/site-packages (from pydantic>=2.8.0->llama-index-core==0.14.23) (0.7.0)
+Requirement already satisfied: pydantic-core==2.46.4 in ./envs/llamaindex/lib/python3.11/site-packages (from pydantic>=2.8.0->llama-index-core==0.14.23) (2.46.4)
+Requirement already satisfied: typing-inspection>=0.4.2 in ./envs/llamaindex/lib/python3.11/site-packages (from pydantic>=2.8.0->llama-index-core==0.14.23) (0.4.2)
+Collecting portalocker<4.0,>=2.7.0 (from qdrant-client>=1.16.0->llama-index-vector-stores-qdrant==0.10.2)
+  Using cached portalocker-3.2.0-py3-none-any.whl.metadata (8.7 kB)
+Collecting protobuf>=3.20.0 (from qdrant-client>=1.16.0->llama-index-vector-stores-qdrant==0.10.2)
+  Using cached protobuf-7.35.1-cp310-abi3-macosx_10_9_universal2.whl.metadata (595 bytes)
+Requirement already satisfied: urllib3<3,>=1.26.14 in ./envs/llamaindex/lib/python3.11/site-packages (from qdrant-client>=1.16.0->llama-index-vector-stores-qdrant==0.10.2) (2.7.0)
+Requirement already satisfied: anyio in ./envs/llamaindex/lib/python3.11/site-packages (from httpx->llama-index-core==0.14.23) (4.14.2)
+Requirement already satisfied: certifi in ./envs/llamaindex/lib/python3.11/site-packages (from httpx->llama-index-core==0.14.23) (2026.6.17)
+Requirement already satisfied: httpcore==1.* in ./envs/llamaindex/lib/python3.11/site-packages (from httpx->llama-index-core==0.14.23) (1.0.9)
+Requirement already satisfied: idna in ./envs/llamaindex/lib/python3.11/site-packages (from httpx->llama-index-core==0.14.23) (3.18)
+Requirement already satisfied: h11>=0.16 in ./envs/llamaindex/lib/python3.11/site-packages (from httpcore==1.*->httpx->llama-index-core==0.14.23) (0.16.0)
+Requirement already satisfied: charset_normalizer<4,>=2 in ./envs/llamaindex/lib/python3.11/site-packages (from requests>=2.31.0->llama-index-core==0.14.23) (3.4.9)
+Requirement already satisfied: greenlet>=1 in ./envs/llamaindex/lib/python3.11/site-packages (from sqlalchemy[asyncio]>=1.4.49->llama-index-core==0.14.23) (3.5.3)
+Requirement already satisfied: mypy-extensions>=0.3.0 in ./envs/llamaindex/lib/python3.11/site-packages (from typing-inspect>=0.8.0->llama-index-core==0.14.23) (1.1.0)
+Requirement already satisfied: marshmallow<4.0.0,>=3.18.0 in ./envs/llamaindex/lib/python3.11/site-packages (from dataclasses-json->llama-index-core==0.14.23) (3.26.2)
+Collecting h2<5,>=3 (from httpx[http2]>=0.20.0->qdrant-client>=1.16.0->llama-index-vector-stores-qdrant==0.10.2)
+  Using cached h2-4.3.0-py3-none-any.whl.metadata (5.1 kB)
+Requirement already satisfied: packaging>=17.0 in ./envs/llamaindex/lib/python3.11/site-packages (from marshmallow<4.0.0,>=3.18.0->dataclasses-json->llama-index-core==0.14.23) (26.2)
+Requirement already satisfied: griffecli==2.1.0 in ./envs/llamaindex/lib/python3.11/site-packages (from griffe->banks<3,>=2.3.0->llama-index-core==0.14.23) (2.1.0)
+Requirement already satisfied: griffelib==2.1.0 in ./envs/llamaindex/lib/python3.11/site-packages (from griffe->banks<3,>=2.3.0->llama-index-core==0.14.23) (2.1.0)
+Requirement already satisfied: colorama>=0.4 in ./envs/llamaindex/lib/python3.11/site-packages (from griffecli==2.1.0->griffe->banks<3,>=2.3.0->llama-index-core==0.14.23) (0.4.6)
+Requirement already satisfied: MarkupSafe>=2.0 in ./envs/llamaindex/lib/python3.11/site-packages (from jinja2->banks<3,>=2.3.0->llama-index-core==0.14.23) (3.0.3)
+Collecting hyperframe<7,>=6.1 (from h2<5,>=3->httpx[http2]>=0.20.0->qdrant-client>=1.16.0->llama-index-vector-stores-qdrant==0.10.2)
+  Using cached hyperframe-6.1.0-py3-none-any.whl.metadata (4.3 kB)
+Collecting hpack<5,>=4.1 (from h2<5,>=3->httpx[http2]>=0.20.0->qdrant-client>=1.16.0->llama-index-vector-stores-qdrant==0.10.2)
+  Using cached hpack-4.2.0-py3-none-any.whl.metadata (3.3 kB)
+Using cached grpcio-1.82.1-cp311-cp311-macosx_11_0_universal2.whl (12.0 MB)
+Using cached qdrant_client-1.18.0-py3-none-any.whl (398 kB)
+Using cached portalocker-3.2.0-py3-none-any.whl (22 kB)
+Using cached protobuf-7.35.1-cp310-abi3-macosx_10_9_universal2.whl (433 kB)
+Using cached h2-4.3.0-py3-none-any.whl (61 kB)
+Using cached hpack-4.2.0-py3-none-any.whl (34 kB)
+Using cached hyperframe-6.1.0-py3-none-any.whl (13 kB)
+Building wheels for collected packages: llama-index-core, llama-index-vector-stores-qdrant
+  Building wheel for llama-index-core (pyproject.toml): started
+  Building wheel for llama-index-core (pyproject.toml): finished with status 'done'
+  Created wheel for llama-index-core: filename=llama_index_core-0.14.23-py3-none-any.whl size=744617 sha256=dc20d264d6d611ba1b054d04e2997ab895176b41932c02c7bb4518ef264acd2f
+  Stored in directory: /Users/vedantswami/Library/Caches/pip/wheels/89/8e/e9/006026959bf99603355801fd366c255bcc097af249c193cb31
+  Building wheel for llama-index-vector-stores-qdrant (pyproject.toml): started
+  Building wheel for llama-index-vector-stores-qdrant (pyproject.toml): finished with status 'done'
+  Created wheel for llama-index-vector-stores-qdrant: filename=llama_index_vector_stores_qdrant-0.10.2-py3-none-any.whl size=14998 sha256=e9b3cab43cbbf72b3b4a3121094ebc4949b2e58310cf0b62c28d5c16b98acefa
+  Stored in directory: /Users/vedantswami/Library/Caches/pip/wheels/fb/0c/ed/836e802abe116b90fb2a6cc1bd6beca9b824d06c4d0561ed0f
+Successfully built llama-index-core llama-index-vector-stores-qdrant
+Installing collected packages: protobuf, portalocker, hyperframe, hpack, grpcio, h2, qdrant-client, llama-index-core, llama-index-vector-stores-qdrant
+  Attempting uninstall: llama-index-core
+    Found existing installation: llama-index-core 0.14.23
+    Uninstalling llama-index-core-0.14.23:
+      Successfully uninstalled llama-index-core-0.14.23
+Successfully installed grpcio-1.82.1 h2-4.3.0 hpack-4.2.0 hyperframe-6.1.0 llama-index-core-0.14.23 llama-index-vector-stores-qdrant-0.10.2 portalocker-3.2.0 protobuf-7.35.1 qdrant-client-1.18.0

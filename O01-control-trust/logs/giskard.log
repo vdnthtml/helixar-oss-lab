@@ -1,0 +1,896 @@
+
+=== 2026-07-14T17:26:28.173844+00:00 git clone --depth 1 --filter=blob:none --no-checkout https://github.com/Giskard-AI/giskard-oss.git /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/sources/giskard ===
+Cloning into '/Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/sources/giskard'...
+
+=== 2026-07-14T17:26:29.312592+00:00 git rev-parse HEAD ===
+1213b7eeea2ee4a34d0cc8b9e87b5742e5167d53
+
+=== 2026-07-14T17:26:29.379921+00:00 git symbolic-ref --short refs/remotes/origin/HEAD ===
+origin/main
+
+=== 2026-07-14T17:26:29.437777+00:00 git ls-tree -r --name-only HEAD ===
+.claude/CLAUDE.md
+.claude/settings.json
+.claude/skills/check/SKILL.md
+.claude/skills/fix-cve/SKILL.md
+.claude/skills/giskard-oss-quality-gate/SKILL.md
+.claude/skills/setup-env/SKILL.md
+.cursor/rules/documentation.mdc
+.cursor/rules/guidelines.mdc
+.cursor/rules/python.mdc
+.cursor/skills/giskard-checks-new-check/SKILL.md
+.cursor/skills/giskard-checks-new-check/reference.md
+.cursor/skills/giskard-oss-pr-ready/SKILL.md
+.git-blame-ignore-revs
+.github/.stale.yml
+.github/CODEOWNERS
+.github/FUNDING.yml
+.github/ISSUE_TEMPLATE/config.yml
+.github/ISSUE_TEMPLATE/feature_request.md
+.github/ISSUE_TEMPLATE/giskard_bug_template.yaml
+.github/ISSUE_TEMPLATE/question.md
+.github/PULL_REQUEST_TEMPLATE.md
+.github/dependabot.yml
+.github/labeler.yml
+.github/release-drafter.yml
+.github/workflows/ci.yml
+.github/workflows/integration-tests.yml
+.github/workflows/pr-labeler.yml
+.github/workflows/release.yml
+.github/workflows/reset-safe-for-build-label.yml
+.github/workflows/zizmor.yml
+.github/zizmor.yml
+.gitignore
+.pre-commit-config.yaml
+.secrets.baseline
+.worktreeinclude
+AGENTS.md
+AUTONOMOUS.md
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+ISSUES.md
+LICENSE
+Makefile
+README.md
+SECURITY.md
+THIRD_PARTY_NOTICES.md
+giskard_pypi_shim/__init__.py
+libs/giskard-agents/.cursor/rules/generator-adapter.mdc
+libs/giskard-agents/README.md
+libs/giskard-agents/pyproject.toml
+libs/giskard-agents/src/giskard/agents/__init__.py
+libs/giskard-agents/src/giskard/agents/chat.py
+libs/giskard-agents/src/giskard/agents/config.py
+libs/giskard-agents/src/giskard/agents/context.py
+libs/giskard-agents/src/giskard/agents/embeddings/__init__.py
+libs/giskard-agents/src/giskard/agents/embeddings/base.py
+libs/giskard-agents/src/giskard/agents/embeddings/litellm_embedding_model.py
+libs/giskard-agents/src/giskard/agents/errors/__init__.py
+libs/giskard-agents/src/giskard/agents/errors/serializable.py
+libs/giskard-agents/src/giskard/agents/errors/workflow_errors.py
+libs/giskard-agents/src/giskard/agents/generators/__init__.py
+libs/giskard-agents/src/giskard/agents/generators/_types.py
+libs/giskard-agents/src/giskard/agents/generators/base.py
+libs/giskard-agents/src/giskard/agents/generators/giskard_llm_generator.py
+libs/giskard-agents/src/giskard/agents/generators/litellm_generator.py
+libs/giskard-agents/src/giskard/agents/generators/middleware.py
+libs/giskard-agents/src/giskard/agents/pipeline.py
+libs/giskard-agents/src/giskard/agents/py.typed
+libs/giskard-agents/src/giskard/agents/templates/__init__.py
+libs/giskard-agents/src/giskard/agents/templates/environment.py
+libs/giskard-agents/src/giskard/agents/templates/message.py
+libs/giskard-agents/src/giskard/agents/templates/prompts_manager.py
+libs/giskard-agents/src/giskard/agents/tools/__init__.py
+libs/giskard-agents/src/giskard/agents/tools/_docstring_parser.py
+libs/giskard-agents/src/giskard/agents/tools/tool.py
+libs/giskard-agents/src/giskard/agents/workflow.py
+libs/giskard-agents/tests/conftest.py
+libs/giskard-agents/tests/data/prompts/invalid.j2
+libs/giskard-agents/tests/data/prompts/multi_message.j2
+libs/giskard-agents/tests/data/prompts/simple.j2
+libs/giskard-agents/tests/test_chat.py
+libs/giskard-agents/tests/test_embedding_model.py
+libs/giskard-agents/tests/test_generator.py
+libs/giskard-agents/tests/test_generator_backends.py
+libs/giskard-agents/tests/test_generator_retry.py
+libs/giskard-agents/tests/test_litellm_generator.py
+libs/giskard-agents/tests/test_serialization.py
+libs/giskard-agents/tests/test_smoke.py
+libs/giskard-agents/tests/test_template_namespaces.py
+libs/giskard-agents/tests/test_templates.py
+libs/giskard-agents/tests/test_tools.py
+libs/giskard-agents/tests/test_tools_context.py
+libs/giskard-agents/tests/test_workflow.py
+libs/giskard-agents/tests/test_workflow_error_handling.py
+libs/giskard-agents/tests/test_workflow_output_parsing.py
+libs/giskard-agents/tests/test_workflow_steps.py
+libs/giskard-checks/.cursor/rules/02-project.mdc
+libs/giskard-checks/.cursor/rules/03-development.mdc
+libs/giskard-checks/README.md
+libs/giskard-checks/pyproject.toml
+libs/giskard-checks/src/giskard/checks/__init__.py
+libs/giskard-checks/src/giskard/checks/_telemetry_props.py
+libs/giskard-checks/src/giskard/checks/builtin/__init__.py
+libs/giskard-checks/src/giskard/checks/builtin/comparison.py
+libs/giskard-checks/src/giskard/checks/builtin/composition.py
+libs/giskard-checks/src/giskard/checks/builtin/fn.py
+libs/giskard-checks/src/giskard/checks/builtin/json_valid.py
+libs/giskard-checks/src/giskard/checks/builtin/nlp_metrics.py
+libs/giskard-checks/src/giskard/checks/builtin/rego_policy.py
+libs/giskard-checks/src/giskard/checks/builtin/semantic_similarity.py
+libs/giskard-checks/src/giskard/checks/builtin/text_matching.py
+libs/giskard-checks/src/giskard/checks/core/__init__.py
+libs/giskard-checks/src/giskard/checks/core/check.py
+libs/giskard-checks/src/giskard/checks/core/exceptions.py
+libs/giskard-checks/src/giskard/checks/core/extraction.py
+libs/giskard-checks/src/giskard/checks/core/input_generator.py
+libs/giskard-checks/src/giskard/checks/core/interaction/__init__.py
+libs/giskard-checks/src/giskard/checks/core/interaction/base.py
+libs/giskard-checks/src/giskard/checks/core/interaction/interact.py
+libs/giskard-checks/src/giskard/checks/core/interaction/interaction.py
+libs/giskard-checks/src/giskard/checks/core/interaction/trace.py
+libs/giskard-checks/src/giskard/checks/core/mixin.py
+libs/giskard-checks/src/giskard/checks/core/protocols.py
+libs/giskard-checks/src/giskard/checks/core/result.py
+libs/giskard-checks/src/giskard/checks/core/scenario.py
+libs/giskard-checks/src/giskard/checks/core/testcase.py
+libs/giskard-checks/src/giskard/checks/core/types.py
+libs/giskard-checks/src/giskard/checks/export/__init__.py
+libs/giskard-checks/src/giskard/checks/export/hub.py
+libs/giskard-checks/src/giskard/checks/export/junit.py
+libs/giskard-checks/src/giskard/checks/generators/__init__.py
+libs/giskard-checks/src/giskard/checks/generators/base.py
+libs/giskard-checks/src/giskard/checks/generators/dataset.py
+libs/giskard-checks/src/giskard/checks/generators/user.py
+libs/giskard-checks/src/giskard/checks/judges/__init__.py
+libs/giskard-checks/src/giskard/checks/judges/answer_relevance.py
+libs/giskard-checks/src/giskard/checks/judges/base.py
+libs/giskard-checks/src/giskard/checks/judges/conformity.py
+libs/giskard-checks/src/giskard/checks/judges/contradiction.py
+libs/giskard-checks/src/giskard/checks/judges/groundedness.py
+libs/giskard-checks/src/giskard/checks/judges/judge.py
+libs/giskard-checks/src/giskard/checks/judges/toxicity.py
+libs/giskard-checks/src/giskard/checks/prompts/generators/dataset_input_mapping.j2
+libs/giskard-checks/src/giskard/checks/prompts/generators/user_simulator.j2
+libs/giskard-checks/src/giskard/checks/prompts/judges/answer_relevance.j2
+libs/giskard-checks/src/giskard/checks/prompts/judges/conformity.j2
+libs/giskard-checks/src/giskard/checks/prompts/judges/contradiction.j2
+libs/giskard-checks/src/giskard/checks/prompts/judges/groundedness.j2
+libs/giskard-checks/src/giskard/checks/prompts/judges/toxicity.j2
+libs/giskard-checks/src/giskard/checks/scenarios/__init__.py
+libs/giskard-checks/src/giskard/checks/scenarios/runner.py
+libs/giskard-checks/src/giskard/checks/scenarios/suite.py
+libs/giskard-checks/src/giskard/checks/settings.py
+libs/giskard-checks/src/giskard/checks/testing/__init__.py
+libs/giskard-checks/src/giskard/checks/testing/runner.py
+libs/giskard-checks/src/giskard/checks/testing/spy.py
+libs/giskard-checks/src/giskard/checks/utils/__init__.py
+libs/giskard-checks/src/giskard/checks/utils/generator.py
+libs/giskard-checks/src/giskard/checks/utils/inference.py
+libs/giskard-checks/src/giskard/checks/utils/injectable.py
+libs/giskard-checks/src/giskard/checks/utils/normalization.py
+libs/giskard-checks/src/giskard/checks/utils/optional_deps.py
+libs/giskard-checks/tests/__init__.py
+libs/giskard-checks/tests/builtin/__init__.py
+libs/giskard-checks/tests/builtin/test_answer_relevance.py
+libs/giskard-checks/tests/builtin/test_base.py
+libs/giskard-checks/tests/builtin/test_comparison.py
+libs/giskard-checks/tests/builtin/test_composition.py
+libs/giskard-checks/tests/builtin/test_conformity.py
+libs/giskard-checks/tests/builtin/test_contradiction.py
+libs/giskard-checks/tests/builtin/test_equals.py
+libs/giskard-checks/tests/builtin/test_fn.py
+libs/giskard-checks/tests/builtin/test_groundedness.py
+libs/giskard-checks/tests/builtin/test_json_valid.py
+libs/giskard-checks/tests/builtin/test_judge.py
+libs/giskard-checks/tests/builtin/test_nlp_metrics.py
+libs/giskard-checks/tests/builtin/test_regex_matching.py
+libs/giskard-checks/tests/builtin/test_rego_policy.py
+libs/giskard-checks/tests/builtin/test_semantic_similarity.py
+libs/giskard-checks/tests/builtin/test_string_matching.py
+libs/giskard-checks/tests/builtin/test_toxicity.py
+libs/giskard-checks/tests/conftest.py
+libs/giskard-checks/tests/core/test_extraction.py
+libs/giskard-checks/tests/core/test_input_generator.py
+libs/giskard-checks/tests/core/test_input_type_inference.py
+libs/giskard-checks/tests/core/test_jsonpath_enforcement.py
+libs/giskard-checks/tests/core/test_missing_serialization.py
+libs/giskard-checks/tests/core/test_mixin.py
+libs/giskard-checks/tests/core/test_result_recommendation.py
+libs/giskard-checks/tests/core/test_scenario.py
+libs/giskard-checks/tests/core/test_settings.py
+libs/giskard-checks/tests/core/test_suite.py
+libs/giskard-checks/tests/core/test_trace_type_inference.py
+libs/giskard-checks/tests/export/test_junit.py
+libs/giskard-checks/tests/generators/__init__.py
+libs/giskard-checks/tests/generators/conftest.py
+libs/giskard-checks/tests/generators/test_dataset.py
+libs/giskard-checks/tests/generators/test_llm_generator.py
+libs/giskard-checks/tests/generators/test_user.py
+libs/giskard-checks/tests/integration/conftest.py
+libs/giskard-checks/tests/integration/test_stateful.py
+libs/giskard-checks/tests/integration/test_stateless.py
+libs/giskard-checks/tests/scenarios/__init__.py
+libs/giskard-checks/tests/scenarios/test_testcase.py
+libs/giskard-checks/tests/test_public_import_surface.py
+libs/giskard-checks/tests/test_smoke.py
+libs/giskard-checks/tests/testing_utils.py
+libs/giskard-checks/tests/trace/test_interaction.py
+libs/giskard-checks/tests/utils/test_normalization.py
+libs/giskard-core/README.md
+libs/giskard-core/pyproject.toml
+libs/giskard-core/src/giskard/core/__init__.py
+libs/giskard-core/src/giskard/core/discriminated.py
+libs/giskard-core/src/giskard/core/errors.py
+libs/giskard-core/src/giskard/core/rate_limiter/__init__.py
+libs/giskard-core/src/giskard/core/rate_limiter/base.py
+libs/giskard-core/src/giskard/core/rate_limiter/min_interval.py
+libs/giskard-core/src/giskard/core/telemetry/__init__.py
+libs/giskard-core/src/giskard/core/telemetry/telemetry.py
+libs/giskard-core/src/giskard/core/utils.py
+libs/giskard-core/tests/__init__.py
+libs/giskard-core/tests/conftest.py
+libs/giskard-core/tests/test_discriminated.py
+libs/giskard-core/tests/test_errors.py
+libs/giskard-core/tests/test_rate_limiter.py
+libs/giskard-llm/.cursor/rules/01-architecture.mdc
+libs/giskard-llm/.cursor/rules/02-testing.mdc
+libs/giskard-llm/.cursor/rules/03-development.mdc
+libs/giskard-llm/.cursor/rules/04-provider-docs.mdc
+libs/giskard-llm/README.md
+libs/giskard-llm/docs/design.md
+libs/giskard-llm/pyproject.toml
+libs/giskard-llm/src/giskard/llm/__init__.py
+libs/giskard-llm/src/giskard/llm/chat.py
+libs/giskard-llm/src/giskard/llm/errors.py
+libs/giskard-llm/src/giskard/llm/providers/__init__.py
+libs/giskard-llm/src/giskard/llm/providers/anthropic.py
+libs/giskard-llm/src/giskard/llm/providers/azure_ai.py
+libs/giskard-llm/src/giskard/llm/providers/azure_openai.py
+libs/giskard-llm/src/giskard/llm/providers/base.py
+libs/giskard-llm/src/giskard/llm/providers/google.py
+libs/giskard-llm/src/giskard/llm/providers/openai.py
+libs/giskard-llm/src/giskard/llm/retry.py
+libs/giskard-llm/src/giskard/llm/routing.py
+libs/giskard-llm/src/giskard/llm/translators/anthropic.py
+libs/giskard-llm/src/giskard/llm/translators/google_chat.py
+libs/giskard-llm/src/giskard/llm/translators/google_response.py
+libs/giskard-llm/src/giskard/llm/translators/openai_chat.py
+libs/giskard-llm/src/giskard/llm/translators/openai_response.py
+libs/giskard-llm/src/giskard/llm/types/__init__.py
+libs/giskard-llm/src/giskard/llm/types/_base.py
+libs/giskard-llm/src/giskard/llm/types/_serialization.py
+libs/giskard-llm/src/giskard/llm/types/chat.py
+libs/giskard-llm/src/giskard/llm/types/chat_completion.py
+libs/giskard-llm/src/giskard/llm/types/chat_param.py
+libs/giskard-llm/src/giskard/llm/types/embedding.py
+libs/giskard-llm/src/giskard/llm/types/response.py
+libs/giskard-llm/src/giskard/llm/types/response_param.py
+libs/giskard-llm/src/giskard/llm/types/response_result.py
+libs/giskard-llm/src/giskard/llm/types/tool.py
+libs/giskard-llm/src/giskard/llm/types/tool_param.py
+libs/giskard-llm/src/giskard/llm/types/usage.py
+libs/giskard-llm/src/giskard/llm/utils/__init__.py
+libs/giskard-llm/src/giskard/llm/utils/arguments.py
+libs/giskard-llm/src/giskard/llm/utils/compact.py
+libs/giskard-llm/src/giskard/llm/utils/schema.py
+libs/giskard-llm/tests/__init__.py
+libs/giskard-llm/tests/conftest.py
+libs/giskard-llm/tests/functional/__init__.py
+libs/giskard-llm/tests/functional/conftest.py
+libs/giskard-llm/tests/functional/helpers.py
+libs/giskard-llm/tests/functional/test_behavior_config.py
+libs/giskard-llm/tests/functional/test_completion.py
+libs/giskard-llm/tests/functional/test_embedding.py
+libs/giskard-llm/tests/functional/test_multi_system.py
+libs/giskard-llm/tests/functional/test_response.py
+libs/giskard-llm/tests/test_errors.py
+libs/giskard-llm/tests/test_providers.py
+libs/giskard-llm/tests/test_retry.py
+libs/giskard-llm/tests/test_routing.py
+libs/giskard-llm/tests/test_smoke.py
+libs/giskard-llm/tests/test_types.py
+libs/giskard-llm/tests/translators/__init__.py
+libs/giskard-llm/tests/translators/sdk_payload_validation.py
+libs/giskard-llm/tests/translators/test_anthropic_chat.py
+libs/giskard-llm/tests/translators/test_anthropic_chat_return.py
+libs/giskard-llm/tests/translators/test_google_chat.py
+libs/giskard-llm/tests/translators/test_google_chat_return.py
+libs/giskard-llm/tests/translators/test_google_response.py
+libs/giskard-llm/tests/translators/test_google_response_return.py
+libs/giskard-llm/tests/translators/test_openai_chat.py
+libs/giskard-llm/tests/translators/test_openai_chat_return.py
+libs/giskard-llm/tests/translators/test_openai_response.py
+libs/giskard-llm/tests/translators/test_openai_response_return.py
+libs/giskard-llm/tests/translators/tool_turn_fixtures.py
+libs/giskard-scan/README.md
+libs/giskard-scan/THIRD_PARTY_NOTICES.md
+libs/giskard-scan/pyproject.toml
+libs/giskard-scan/src/giskard/scan/__init__.py
+libs/giskard-scan/src/giskard/scan/catalog.py
+libs/giskard-scan/src/giskard/scan/generators/__init__.py
+libs/giskard-scan/src/giskard/scan/generators/adversarial.py
+libs/giskard-scan/src/giskard/scan/generators/base.py
+libs/giskard-scan/src/giskard/scan/generators/crescendo.py
+libs/giskard-scan/src/giskard/scan/generators/data/prompt_injection.jsonl
+libs/giskard-scan/src/giskard/scan/generators/gcg.py
+libs/giskard-scan/src/giskard/scan/generators/goat.py
+libs/giskard-scan/src/giskard/scan/generators/huggingface.py
+libs/giskard-scan/src/giskard/scan/generators/knowledge_base/__init__.py
+libs/giskard-scan/src/giskard/scan/generators/knowledge_base/base.py
+libs/giskard-scan/src/giskard/scan/generators/knowledge_base/hallucination.py
+libs/giskard-scan/src/giskard/scan/generators/knowledge_base/multi_topic.py
+libs/giskard-scan/src/giskard/scan/generators/knowledge_base/out_of_scope.py
+libs/giskard-scan/src/giskard/scan/generators/knowledge_base/split_questions.py
+libs/giskard-scan/src/giskard/scan/generators/knowledge_base/sycophancy.py
+libs/giskard-scan/src/giskard/scan/generators/prompt_injection.py
+libs/giskard-scan/src/giskard/scan/prompts/generate_suite/generation_rules.j2
+libs/giskard-scan/src/giskard/scan/prompts/generate_suite/out_of_scope_candidate.j2
+libs/giskard-scan/src/giskard/scan/prompts/generate_suite/out_of_scope_validation.j2
+libs/giskard-scan/src/giskard/scan/prompts/generate_suite/quality_recommendation.j2
+libs/giskard-scan/src/giskard/scan/prompts/judges/crescendo_eval.j2
+libs/giskard-scan/src/giskard/scan/prompts/judges/goat_eval.j2
+libs/giskard-scan/src/giskard/scan/prompts/judges/harmbench_safety.j2
+libs/giskard-scan/src/giskard/scan/prompts/scenarios/adversarial.j2
+libs/giskard-scan/src/giskard/scan/prompts/scenarios/crescendo_attack.j2
+libs/giskard-scan/src/giskard/scan/prompts/scenarios/goat_attack.j2
+libs/giskard-scan/src/giskard/scan/prompts/scenarios/knowledge_base_multi_topic.j2
+libs/giskard-scan/src/giskard/scan/prompts/scenarios/knowledge_base_out_of_scope.j2
+libs/giskard-scan/src/giskard/scan/prompts/scenarios/knowledge_base_question.j2
+libs/giskard-scan/src/giskard/scan/prompts/scenarios/knowledge_base_split_question.j2
+libs/giskard-scan/src/giskard/scan/prompts/scenarios/knowledge_base_sycophancy.j2
+libs/giskard-scan/src/giskard/scan/prompts/scenarios/llm01_indirect_injection.j2
+libs/giskard-scan/src/giskard/scan/quality.py
+libs/giskard-scan/src/giskard/scan/registry.py
+libs/giskard-scan/src/giskard/scan/types.py
+libs/giskard-scan/src/giskard/scan/utils/__init__.py
+libs/giskard-scan/src/giskard/scan/utils/knowledge_base.py
+libs/giskard-scan/src/giskard/scan/utils/recommendation.py
+libs/giskard-scan/src/giskard/scan/vulnerability.py
+libs/giskard-scan/tests/__init__.py
+libs/giskard-scan/tests/conftest.py
+libs/giskard-scan/tests/generators/__init__.py
+libs/giskard-scan/tests/generators/test_adversarial.py
+libs/giskard-scan/tests/generators/test_base.py
+libs/giskard-scan/tests/generators/test_catalog.py
+libs/giskard-scan/tests/generators/test_crescendo.py
+libs/giskard-scan/tests/generators/test_gcg.py
+libs/giskard-scan/tests/generators/test_goat.py
+libs/giskard-scan/tests/generators/test_huggingface.py
+libs/giskard-scan/tests/generators/test_knowledge_base.py
+libs/giskard-scan/tests/generators/test_prompt_injection.py
+libs/giskard-scan/tests/generators/test_registry.py
+libs/giskard-scan/tests/generators/test_sycophancy.py
+libs/giskard-scan/tests/test_generators_base.py
+libs/giskard-scan/tests/test_generators_concrete.py
+libs/giskard-scan/tests/test_knowledge_base.py
+libs/giskard-scan/tests/test_public_api.py
+libs/giskard-scan/tests/test_public_import_surface.py
+libs/giskard-scan/tests/test_quality.py
+libs/giskard-scan/tests/test_vulnerability.py
+pyproject.toml
+pyrightconfig.json
+readme/RAGET_updated.gif
+readme/logo_dark.png
+readme/logo_light.png
+readme/scan_updated.gif
+readme/tools_updated.png
+renovate.json
+uv.lock
+
+=== 2026-07-14T17:26:29.500887+00:00 git show HEAD:README.md ===
+<p align="center">
+  <img alt="giskardlogo" src="readme/logo_light.png#gh-light-mode-only">
+  <img alt="giskardlogo" src="readme/logo_dark.png#gh-dark-mode-only">
+</p>
+<h1 align="center" weight='300' >Evals, Red Teaming and Test Generation for Agentic Systems</h1>
+<h3 align="center" weight='300' >Modular, Lightweight, Dynamic and Async-first </h3>
+<div align="center">
+
+[![GitHub release](https://img.shields.io/github/v/release/Giskard-AI/giskard)](https://github.com/Giskard-AI/giskard/releases)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://github.com/Giskard-AI/giskard/blob/main/LICENSE)
+[![Downloads](https://static.pepy.tech/badge/giskard/month)](https://pepy.tech/project/giskard)
+[![CI](https://github.com/Giskard-AI/giskard-oss/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Giskard-AI/giskard-oss/actions/workflows/ci.yml/badge.svg?branch=main)
+[![Giskard on Discord](https://img.shields.io/discord/939190303397666868?label=Discord)](https://gisk.ar/discord)
+
+<a rel="me" href="https://fosstodon.org/@Giskard"></a>
+
+</div>
+<h3 align="center">
+   <a href="https://docs.giskard.ai/oss"><b>Docs</b></a> &bull;
+  <a href="https://www.giskard.ai/?utm_source=github&utm_medium=github&utm_campaign=github_readme&utm_id=readmeblog"><b>Website</b></a> &bull;
+  <a href="https://gisk.ar/discord"><b>Community</b></a>
+ </h3>
+<br />
+
+> [!IMPORTANT]
+> **Giskard v3** is a fresh rewrite designed for dynamic, multi-turn testing of AI agents. This release drops heavy dependencies for better efficiency while introducing a more powerful AI vulnerability scanner and enhanced RAG evaluation capabilities. For now, the vulnerability scanner and RAG evaluation still rely on Giskard v2.
+> **Giskard v2 remains available but is no longer actively maintained.**
+> Follow progress → [Read the v3 Announcement](https://github.com/orgs/Giskard-AI/discussions/2250) · [Roadmap](https://github.com/Giskard-AI/giskard-oss/issues/2252)
+
+## Install
+
+```sh
+pip install giskard
+```
+
+Requires Python 3.12+.
+
+**Telemetry:** Libraries built on `giskard-core` (including `giskard-checks`) may send **optional, aggregated usage analytics** to help improve the product. No prompts, model outputs, or scenario text are included. See [what is collected and how to opt out](libs/giskard-core/README.md#telemetry).
+
+---
+
+Giskard is an open-source Python library for **testing and evaluating agentic systems**. The v3 architecture is a modular set of focused packages — each carrying only the dependencies it needs — built from scratch to wrap anything: an LLM, a black-box agent, or a multi-step pipeline.
+
+| Status         | Package          | Description                                                                                                                                                              |
+| -------------- | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ✅ Beta        | `giskard-checks` | Testing & evaluation — scenario API, built-in checks, LLM-as-judge                                                                                                       |
+| ✅ Beta        | `giskard-scan`   | Agent vulnerability scanner — red teaming, prompt injection, data leakage (successor of [v2 Scan](https://legacy-docs.giskard.ai/en/stable/open_source/scan/index.html)) |
+| 📋 Planned     | `giskard-rag`    | RAG evaluation & synthetic data generation (successor of [v2 RAGET](https://legacy-docs.giskard.ai/en/stable/open_source/testset_generation/index.html))                 |
+
+## Giskard Checks — create and apply evals for testing agents
+
+```sh
+pip install giskard-checks
+```
+
+**[Giskard Checks](https://docs.giskard.ai/oss/checks)** is a lightweight library for creating evaluations (evals) that test LLM-based systems — from simple assertions to LLM-as-judge assessments. Unlike traditional unit tests, evals are designed for **non-deterministic outputs** where the same input can produce different valid responses.
+
+Use Giskard Checks to:
+
+- **Catch regressions** — verify your system still behaves correctly after changes
+- **Validate RAG quality** — check if answers are grounded in retrieved context
+- **Enforce safety rules** — ensure outputs conform to your content policies
+- **Evaluate multi-turn agents** — test full conversations, not just single exchanges
+
+Built-in evals include string matching, comparisons, regex, semantic similarity, and LLM-as-judge checks (`Groundedness`, `Conformity`, `LLMJudge`).
+
+### Quickstart
+
+```python
+from openai import OpenAI
+from giskard.checks import Scenario, Groundedness
+
+client = OpenAI()
+
+def get_answer(inputs: str) -> str:
+    response = client.chat.completions.create(
+        model="gpt-5-mini",
+        messages=[{"role": "user", "content": inputs}],
+    )
+    return response.choices[0].message.content
+
+scenario = (
+    Scenario("test_dynamic_output")
+    .interact(
+        inputs="What is the capital of France?",
+        outputs=get_answer,
+    )
+    .check(
+        Groundedness(
+            name="answer is grounded",
+            context="France is a country in Western Europe. Its capital is Paris.",
+        )
+    )
+)
+
+result = await scenario.run()
+result.print_report()
+```
+
+> The `run()` method is async. In a script, wrap it with `asyncio.run()`. See the [full docs](https://docs.giskard.ai/oss/checks) for `Suites`, `LLMJudge`, multi-turn scenarios, and more.
+
+---
+
+## Giskard Scan — vulnerability scanner for AI agents
+
+```sh
+pip install giskard-scan
+```
+
+**Giskard Scan** is the red-teaming and vulnerability scanning layer for agentic systems. It generates adversarial test suites automatically from a plain-language description of your agent, covering prompt injection, harmful content, stereotypes, misinformation, and more.
+
+Use Giskard Scan to:
+
+- **Red-team your agent** — automatically generate adversarial inputs across OWASP LLM Top-10 threat categories
+- **Run prompt-injection probes** — built-in dataset of injection payloads ready to use
+- **Extend with custom generators** — pass your own `ScenarioGenerator` instances to `generate_suite`, or register them on `vulnerability_suite_generator_registry`
+
+### Quickstart
+
+```python
+import asyncio
+from giskard.scan import vulnerability_scan
+
+async def main():
+    await vulnerability_scan(
+        target=my_agent,
+        description="A customer support chatbot for an e-commerce platform.",
+        languages=["en"],
+    )
+
+asyncio.run(main())
+```
+
+## Looking for Giskard v2?
+
+Giskard v2 included **Scan** (automatic vulnerability detection) and **RAGET** (RAG evaluation test set generation) for both ML models and LLM applications. These features are not available in v3.
+
+```sh
+pip install "giskard[llm]>2,<3"
+```
+
+### [Scan](https://legacy-docs.giskard.ai/en/stable/open_source/scan/index.html) — automatically detect performance, bias & security issues
+
+Wrap your model and run the scan:
+
+```python
+import giskard
+import pandas as pd
+
+# Replace my_llm_chain with your actual LLM chain or model inference logic
+def model_predict(df: pd.DataFrame):
+    """The function takes a DataFrame and must return a list of outputs (one per row)."""
+    return [my_llm_chain.run({"query": question}) for question in df["question"]]
+
+giskard_model = giskard.Model(
+    model=model_predict,
+    model_type="text_generation",
+    name="My LLM Application",
+    description="A question answering assistant",
+    feature_names=["question"],
+)
+
+scan_results = giskard.scan(giskard_model)
+display(scan_results)
+```
+
+<p align="center">
+  <img src="readme/scan_updated.gif" alt="Scan Example" width="800">
+</p>
+
+### [RAGET](https://legacy-docs.giskard.ai/en/stable/open_source/testset_generation/index.html) — generate evaluation datasets for RAG applications
+
+Automatically generate questions, reference answers, and context from your knowledge base:
+
+```python
+import pandas as pd
+from giskard.rag import generate_testset, KnowledgeBase
+
+# Load your knowledge base documents
+df = pd.read_csv("path/to/your/knowledge_base.csv")
+knowledge_base = KnowledgeBase.from_pandas(df, columns=["column_1", "column_2"])
+
+testset = generate_testset(
+    knowledge_base,
+    num_questions=60,
+    language='en',
+    agent_description="A customer support chatbot for company X",
+)
+```
+
+<p align="center">
+  <img src="readme/RAGET_updated.gif" alt="RAGET Example" width="800">
+</p>
+
+[Full v2 docs](https://legacy-docs.giskard.ai)
+
+<h1 id="community">👋 Community</h1>
+
+We welcome contributions from the AI community! Read this [guide](./CONTRIBUTING.md) to get started, and join our thriving community on [Discord](https://gisk.ar/discord).
+
+Follow the progress and share feedback:
+[v3 Announcement](https://github.com/orgs/Giskard-AI/discussions/2250) · [Roadmap](https://github.com/Giskard-AI/giskard-oss/issues/2252)
+
+🌟 [Leave us a star](https://github.com/Giskard-AI/giskard), it helps the project to get discovered by others and keeps us motivated to build awesome open-source tools! 🌟
+
+❤️ If you find our work useful, please consider [sponsoring us](https://github.com/sponsors/Giskard-AI) on GitHub. With a monthly sponsoring, you can get a sponsor badge, display your company in this readme, and get your bug reports prioritized. We also offer one-time sponsoring if you want us to get involved in a consulting project, run a workshop, or give a talk at your company.
+
+=== 2026-07-14T17:26:30.273438+00:00 git show HEAD:pyproject.toml ===
+[project]
+name = "giskard"
+readme = "README.md"
+license = { text = "Apache Software License 2.0" }
+version = "3.0.0b1"
+description = "The testing framework dedicated to ML models, from tabular to LLMs"
+authors = [{ name = "Giskard AI", email = "hello@giskard.ai" }]
+
+# Pypi classifiers: https://pypi.org/classifiers/
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+
+dependencies = ["giskard-checks>=1.0.2b4,<2"]
+
+requires-python = ">=3.12"
+
+[project.optional-dependencies]
+# Native LLM providers
+openai = ["giskard-llm[openai]>=1.0.0b4,<2"]
+google = ["giskard-llm[google]>=1.0.0b4,<2"]
+anthropic = ["giskard-llm[anthropic]>=1.0.0b4,<2"]
+azure = ["giskard-llm[azure]>=1.0.0b4,<2"]
+
+# External LLM providers
+litellm = ["giskard-agents[litellm]>=1.0.2b4,<2"]
+
+# Optional checks dependencies
+regorus = ["giskard-checks[regorus]>=1.0.2b4,<2"]
+
+# Optional giskard libs
+scan = ["giskard-scan>=1.0.0b2,<2"]
+
+# Aggregated packages
+all-llms = ["giskard-llm[all]>=1.0.0b4,<2"] # Install all native LLM providers
+all-checks = ["giskard-checks[all]>=1.0.2b4,<2"] # Install all optional checks dependencies
+full = ["giskard[all-llms,all-checks,scan,litellm]"]
+
+[project.urls]
+"Homepage" = "https://giskard.ai"
+"Source Code" = "https://github.com/Giskard-AI/giskard"
+"Bug Tracker" = "https://github.com/Giskard-AI/giskard/issues"
+"Documentation" = "https://docs.giskard.ai/"
+"Discord" = "https://discord.gg/ABvfpbu69R"
+"Linkedin" = "https://www.linkedin.com/company/giskard-ai"
+"Mastodon" = "https://fosstodon.org/@Giskard"
+"Twitter" = "https://twitter.com/giskard_ai"
+
+[tool.uv.workspace]
+members = [
+    "libs/*",
+]
+
+[tool.uv.sources]
+giskard-core = { workspace = true }
+giskard-llm = { workspace = true }
+giskard-agents = { workspace = true }
+giskard-checks = { workspace = true }
+giskard-scan = { workspace = true }
+
+[build-system]
+requires = ["hatchling>=1.25.0"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["giskard_pypi_shim"]
+
+[tool.hatch.build.targets.sdist]
+only-include = ["giskard_pypi_shim", "README.md", "pyproject.toml", "LICENSE"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+markers = [
+    "functional: tests that require external API calls (deselect with '-m \"not functional\"')",
+    "openai: tests requiring the openai provider SDK",
+    "google: tests requiring the google-genai provider SDK",
+    "anthropic: tests requiring the anthropic provider SDK",
+    "azure: tests requiring the openai SDK (Azure OpenAI)",
+    "azure_ai: tests requiring the openai SDK (Azure AI Foundry)",
+    "no_providers: tests that run without any provider SDK installed",
+]
+
+[dependency-groups]
+test = [
+    "pytest==9.1.1",
+    "pytest-asyncio==1.4.0",
+    "pytest-cov==7.1.0",
+    "pytest-timeout==2.4.0",
+]
+dev = [
+    { include-group = "test" },
+    "giskard[full]",
+    "ipykernel==7.3.0",
+    "pip-audit==2.10.1",
+    "pylint-pydantic==0.4.1",
+]
+
+=== 2026-07-14T17:26:31.039717+00:00 git show HEAD:LICENSE ===
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "[]"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright (c) 2024-present GISKARD AI
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.

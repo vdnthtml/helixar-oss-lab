@@ -1,0 +1,1468 @@
+
+=== 2026-07-14T17:25:28.990757+00:00 git clone --depth 1 --filter=blob:none --no-checkout https://github.com/cedar-policy/cedar.git /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/sources/cedar ===
+Cloning into '/Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/sources/cedar'...
+
+=== 2026-07-14T17:25:30.116812+00:00 git rev-parse HEAD ===
+e75a13b731928f70e80e75a859fb97fc47987737
+
+=== 2026-07-14T17:25:30.175986+00:00 git symbolic-ref --short refs/remotes/origin/HEAD ===
+origin/main
+
+=== 2026-07-14T17:25:30.233495+00:00 git ls-tree -r --name-only HEAD ===
+.github/ISSUE_TEMPLATE/bug_report.yml
+.github/ISSUE_TEMPLATE/config.yml
+.github/ISSUE_TEMPLATE/feature_request.yml
+.github/ISSUE_TEMPLATE/internal_improvement.yml
+.github/PULL_REQUEST_TEMPLATE.md
+.github/actions/create_coverage_comment/action.yml
+.github/actions/create_coverage_reports/action.yml
+.github/dependabot.yml
+.github/scripts/check-crate-version.py
+.github/scripts/check-out-base-from-crates-io.sh
+.github/scripts/create_comment.py
+.github/scripts/process_coverage.py
+.github/workflows/build_and_test.yml
+.github/workflows/build_downstream_deps.yml
+.github/workflows/build_experimental.yml
+.github/workflows/cargo_audit.yml
+.github/workflows/cedar-policy-cli-release.yml
+.github/workflows/ci.yml
+.github/workflows/comment_pr.yml
+.github/workflows/mirror_release_tags.yml
+.github/workflows/nightly_build.yml
+.github/workflows/nightly_build_downstream.yml
+.github/workflows/publish.yml
+.github/workflows/publish_wasm.yml
+.github/workflows/run_integration_tests_reusable.yml
+.github/workflows/scorecard.yml
+.github/workflows/set_release_title.yml
+.gitignore
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+Cargo.lock
+Cargo.toml
+LICENSE
+NOTICE
+README.md
+SECURITY.md
+THIRD_PARTY_LICENSES.txt
+cedar-language-server/.gitignore
+cedar-language-server/Cargo.toml
+cedar-language-server/src/document.rs
+cedar-language-server/src/documentation.rs
+cedar-language-server/src/documentation/action.rs
+cedar-language-server/src/documentation/arithmetic.rs
+cedar-language-server/src/documentation/comparison.rs
+cedar-language-server/src/documentation/context.rs
+cedar-language-server/src/documentation/entity.rs
+cedar-language-server/src/documentation/extension.rs
+cedar-language-server/src/documentation/hierarchy.rs
+cedar-language-server/src/documentation/logical.rs
+cedar-language-server/src/documentation/markdown/action.md
+cedar-language-server/src/documentation/markdown/arithmetic/add.md
+cedar-language-server/src/documentation/markdown/arithmetic/multiply.md
+cedar-language-server/src/documentation/markdown/arithmetic/subtract.md
+cedar-language-server/src/documentation/markdown/comparison/equals.md
+cedar-language-server/src/documentation/markdown/comparison/greater_than.md
+cedar-language-server/src/documentation/markdown/comparison/greater_than_or_equals.md
+cedar-language-server/src/documentation/markdown/comparison/less_than.md
+cedar-language-server/src/documentation/markdown/comparison/less_than_or_equals.md
+cedar-language-server/src/documentation/markdown/comparison/like.md
+cedar-language-server/src/documentation/markdown/comparison/not_equals.md
+cedar-language-server/src/documentation/markdown/context.md
+cedar-language-server/src/documentation/markdown/extension/datetime/datetime.md
+cedar-language-server/src/documentation/markdown/extension/datetime/duration.md
+cedar-language-server/src/documentation/markdown/extension/datetime/duration_since.md
+cedar-language-server/src/documentation/markdown/extension/datetime/offset.md
+cedar-language-server/src/documentation/markdown/extension/datetime/to_date.md
+cedar-language-server/src/documentation/markdown/extension/datetime/to_days.md
+cedar-language-server/src/documentation/markdown/extension/datetime/to_hours.md
+cedar-language-server/src/documentation/markdown/extension/datetime/to_milliseconds.md
+cedar-language-server/src/documentation/markdown/extension/datetime/to_minutes.md
+cedar-language-server/src/documentation/markdown/extension/datetime/to_seconds.md
+cedar-language-server/src/documentation/markdown/extension/datetime/to_time.md
+cedar-language-server/src/documentation/markdown/extension/decimal/decimal.md
+cedar-language-server/src/documentation/markdown/extension/decimal/greater_than.md
+cedar-language-server/src/documentation/markdown/extension/decimal/greater_than_or_equal.md
+cedar-language-server/src/documentation/markdown/extension/decimal/less_than.md
+cedar-language-server/src/documentation/markdown/extension/decimal/less_than_or_equal.md
+cedar-language-server/src/documentation/markdown/extension/ip/ip.md
+cedar-language-server/src/documentation/markdown/extension/ip/is_in_range.md
+cedar-language-server/src/documentation/markdown/extension/ip/is_ipv4.md
+cedar-language-server/src/documentation/markdown/extension/ip/is_ipv6.md
+cedar-language-server/src/documentation/markdown/extension/ip/is_loopback.md
+cedar-language-server/src/documentation/markdown/extension/ip/is_multicast.md
+cedar-language-server/src/documentation/markdown/get_tag.md
+cedar-language-server/src/documentation/markdown/has_tag.md
+cedar-language-server/src/documentation/markdown/hierarchy/contains.md
+cedar-language-server/src/documentation/markdown/hierarchy/contains_all.md
+cedar-language-server/src/documentation/markdown/hierarchy/contains_any.md
+cedar-language-server/src/documentation/markdown/hierarchy/has.md
+cedar-language-server/src/documentation/markdown/hierarchy/in.md
+cedar-language-server/src/documentation/markdown/hierarchy/is.md
+cedar-language-server/src/documentation/markdown/hierarchy/is_empty.md
+cedar-language-server/src/documentation/markdown/hierarchy/set.md
+cedar-language-server/src/documentation/markdown/logical/and.md
+cedar-language-server/src/documentation/markdown/logical/if.md
+cedar-language-server/src/documentation/markdown/logical/not.md
+cedar-language-server/src/documentation/markdown/logical/or.md
+cedar-language-server/src/documentation/markdown/primitive/bool.md
+cedar-language-server/src/documentation/markdown/primitive/long.md
+cedar-language-server/src/documentation/markdown/primitive/string.md
+cedar-language-server/src/documentation/markdown/principal.md
+cedar-language-server/src/documentation/markdown/resource.md
+cedar-language-server/src/documentation/primitive.rs
+cedar-language-server/src/documentation/principal.rs
+cedar-language-server/src/documentation/resource.rs
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__action__test__action_documentation_any_no_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__action__test__action_documentation_any_with_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__action__test__action_documentation_default_no_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__action__test__action_documentation_eq_no_context_with_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__action__test__action_documentation_eq_no_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__action__test__action_documentation_eq_with_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__action__test__action_documentation_error_constraint_no_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__action__test__action_documentation_error_constraint_with_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__action__test__action_documentation_in_empty_no_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__action__test__action_documentation_in_empty_with_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__action__test__action_documentation_in_many_actions_with_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__action__test__action_documentation_in_multiple_no_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__action__test__action_documentation_in_multiple_with_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__action__test__action_documentation_in_single_no_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__action__test__action_documentation_in_single_with_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__context__test__context_documentation_action_no_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__context__test__context_documentation_action_set_empty_no_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__context__test__context_documentation_action_set_empty_with_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__context__test__context_documentation_action_set_mixed_context.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__context__test__context_documentation_action_set_multiple_no_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__context__test__context_documentation_action_set_multiple_with_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__context__test__context_documentation_action_set_no_context.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__context__test__context_documentation_action_set_single_no_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__context__test__context_documentation_action_set_single_with_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__context__test__context_documentation_action_with_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__context__test__context_documentation_any_context_no_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__context__test__context_documentation_any_context_with_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__context__test__context_documentation_default_no_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__context__test__context_documentation_default_with_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__context__test__context_documentation_no_context_action.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__entity__test__entity_type_kind_any_principal_no_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__entity__test__entity_type_kind_any_principal_with_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__entity__test__entity_type_kind_any_resource_no_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__entity__test__entity_type_kind_any_resource_with_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__entity__test__entity_type_kind_concrete.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__entity__test__entity_type_kind_concrete_no_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__entity__test__entity_type_kind_set_empty.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__entity__test__entity_type_kind_set_multiple.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__entity__test__entity_type_kind_set_multiple_no_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__entity__test__entity_type_kind_set_single.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__entity__test__entity_type_no_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__entity__test__entity_type_with_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__entity__test__entity_uid_no_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__entity__test__entity_uid_with_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__hierarchy__test__set-2.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__hierarchy__test__set.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__principal__test__concrete_entity_type_no_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__principal__test__concrete_entity_type_with_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__resource__test__concrete_entity_type_no_schema.snap
+cedar-language-server/src/documentation/snapshots/cedar_language_server__documentation__resource__test__concrete_entity_type_with_schema.snap
+cedar-language-server/src/entities.rs
+cedar-language-server/src/lib.rs
+cedar-language-server/src/lsp.rs
+cedar-language-server/src/main.rs
+cedar-language-server/src/markdown.rs
+cedar-language-server/src/policy.rs
+cedar-language-server/src/policy/completion.rs
+cedar-language-server/src/policy/completion/items.rs
+cedar-language-server/src/policy/completion/items/extension.rs
+cedar-language-server/src/policy/completion/items/operators.rs
+cedar-language-server/src/policy/completion/items/var.rs
+cedar-language-server/src/policy/completion/provider.rs
+cedar-language-server/src/policy/completion/provider/ast.rs
+cedar-language-server/src/policy/completion/provider/process.rs
+cedar-language-server/src/policy/completion/provider/scope.rs
+cedar-language-server/src/policy/completion/snippets.rs
+cedar-language-server/src/policy/definition.rs
+cedar-language-server/src/policy/definition/visitor.rs
+cedar-language-server/src/policy/diagnostics.rs
+cedar-language-server/src/policy/fold.rs
+cedar-language-server/src/policy/format.rs
+cedar-language-server/src/policy/hover.rs
+cedar-language-server/src/policy/hover/visitor.rs
+cedar-language-server/src/policy/loc.rs
+cedar-language-server/src/policy/quickfix.rs
+cedar-language-server/src/policy/quickpick.rs
+cedar-language-server/src/policy/symbols.rs
+cedar-language-server/src/policy/types.rs
+cedar-language-server/src/policy/types/cedar.rs
+cedar-language-server/src/policy/types/cedar/attribute.rs
+cedar-language-server/src/policy/types/cedar/context.rs
+cedar-language-server/src/policy/types/cedar/entity.rs
+cedar-language-server/src/policy/types/cedar/method.rs
+cedar-language-server/src/policy/types/context.rs
+cedar-language-server/src/policy/types/context/attr.rs
+cedar-language-server/src/policy/types/context/binary.rs
+cedar-language-server/src/policy/types/context/is.rs
+cedar-language-server/src/policy/types/get_type.rs
+cedar-language-server/src/schema.rs
+cedar-language-server/src/schema/completions.rs
+cedar-language-server/src/schema/definition.rs
+cedar-language-server/src/schema/diagnostics.rs
+cedar-language-server/src/schema/fold.rs
+cedar-language-server/src/schema/symbols.rs
+cedar-language-server/src/server.rs
+cedar-language-server/src/server/test.rs
+cedar-language-server/src/utils.rs
+cedar-language-server/test-data/goto_def.cedarschema
+cedar-language-server/test-data/policies.cedarschema
+cedar-policy-cli/CHANGELOG.md
+cedar-policy-cli/Cargo.toml
+cedar-policy-cli/README.md
+cedar-policy-cli/sample-data/README.md
+cedar-policy-cli/sample-data/sandbox_a/README.md
+cedar-policy-cli/sample-data/sandbox_a/entities.json
+cedar-policy-cli/sample-data/sandbox_a/policies_1.cedar
+cedar-policy-cli/sample-data/sandbox_a/policies_1_bad.cedar
+cedar-policy-cli/sample-data/sandbox_a/policies_2.cedar
+cedar-policy-cli/sample-data/sandbox_a/policies_3.cedar
+cedar-policy-cli/sample-data/sandbox_a/schema.cedarschema
+cedar-policy-cli/sample-data/sandbox_a/schema.cedarschema.json
+cedar-policy-cli/sample-data/sandbox_b/README.md
+cedar-policy-cli/sample-data/sandbox_b/context.json
+cedar-policy-cli/sample-data/sandbox_b/context_deny.json
+cedar-policy-cli/sample-data/sandbox_b/entities.json
+cedar-policy-cli/sample-data/sandbox_b/policies_4.cedar
+cedar-policy-cli/sample-data/sandbox_b/policies_5.cedar
+cedar-policy-cli/sample-data/sandbox_b/policies_5_bad.cedar
+cedar-policy-cli/sample-data/sandbox_b/policies_6.cedar
+cedar-policy-cli/sample-data/sandbox_b/schema.cedarschema
+cedar-policy-cli/sample-data/sandbox_b/schema.cedarschema.json
+cedar-policy-cli/sample-data/sandbox_c/README.md
+cedar-policy-cli/sample-data/sandbox_c/entities.json
+cedar-policy-cli/sample-data/sandbox_c/policies.cedar
+cedar-policy-cli/sample-data/sandbox_c/policies_edited.cedar
+cedar-policy-cli/sample-data/sandbox_c/schema.cedarschema
+cedar-policy-cli/sample-data/sandbox_c/schema.cedarschema.json
+cedar-policy-cli/sample-data/tiny_sandboxes/format/README.md
+cedar-policy-cli/sample-data/tiny_sandboxes/format/formatted.cedar
+cedar-policy-cli/sample-data/tiny_sandboxes/format/unformatted.cedar
+cedar-policy-cli/sample-data/tiny_sandboxes/json-authorize/README.md
+cedar-policy-cli/sample-data/tiny_sandboxes/json-authorize/entity.json
+cedar-policy-cli/sample-data/tiny_sandboxes/json-authorize/policy.cedar.json
+cedar-policy-cli/sample-data/tiny_sandboxes/json-check-parse/README.md
+cedar-policy-cli/sample-data/tiny_sandboxes/json-check-parse/policy_mixed_properties.cedar.json
+cedar-policy-cli/sample-data/tiny_sandboxes/json-check-parse/policy_no_matching_properties.cedar.json
+cedar-policy-cli/sample-data/tiny_sandboxes/json-check-parse/policy_set.cedar.json
+cedar-policy-cli/sample-data/tiny_sandboxes/json-check-parse/policy_template.cedar.json
+cedar-policy-cli/sample-data/tiny_sandboxes/json-check-parse/static_policy.cedar.json
+cedar-policy-cli/sample-data/tiny_sandboxes/level-validation/README.md
+cedar-policy-cli/sample-data/tiny_sandboxes/level-validation/policy-level-0.cedar
+cedar-policy-cli/sample-data/tiny_sandboxes/level-validation/policy-level-1.cedar
+cedar-policy-cli/sample-data/tiny_sandboxes/level-validation/policy-level-2.cedar
+cedar-policy-cli/sample-data/tiny_sandboxes/level-validation/schema.cedarschema
+cedar-policy-cli/sample-data/tiny_sandboxes/sample1/README.md
+cedar-policy-cli/sample-data/tiny_sandboxes/sample1/entity.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample1/policy.cedar
+cedar-policy-cli/sample-data/tiny_sandboxes/sample1/request.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample1/schema.cedarschema
+cedar-policy-cli/sample-data/tiny_sandboxes/sample1/schema.cedarschema.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample1/tests-combined.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample1/tests-fail.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample1/tests-format-error.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample1/tests-format-error2.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample1/tests-missing-reason.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample1/tests-named.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample1/tests-unexpected-error.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample10/policy.cedar
+cedar-policy-cli/sample-data/tiny_sandboxes/sample10/schema.cedarschema
+cedar-policy-cli/sample-data/tiny_sandboxes/sample10/tests-error.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample11/invalid_policy.cedar
+cedar-policy-cli/sample-data/tiny_sandboxes/sample11/schema.cedarschema
+cedar-policy-cli/sample-data/tiny_sandboxes/sample11/schema.cedarschema.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample11/test-policy-error.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample11/test-schema-error.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample11/valid_policy.cedar
+cedar-policy-cli/sample-data/tiny_sandboxes/sample2/README.md
+cedar-policy-cli/sample-data/tiny_sandboxes/sample2/entity.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample2/policy.cedar
+cedar-policy-cli/sample-data/tiny_sandboxes/sample2/request.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample2/schema.cedarschema
+cedar-policy-cli/sample-data/tiny_sandboxes/sample2/schema.cedarschema.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample2/tests-combined.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample3/README.md
+cedar-policy-cli/sample-data/tiny_sandboxes/sample3/entity.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample3/policy.cedar
+cedar-policy-cli/sample-data/tiny_sandboxes/sample3/request.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample3/schema.cedarschema
+cedar-policy-cli/sample-data/tiny_sandboxes/sample3/schema.cedarschema.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample3/tests-combined.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample4/README.md
+cedar-policy-cli/sample-data/tiny_sandboxes/sample4/entity.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample4/policy.cedar
+cedar-policy-cli/sample-data/tiny_sandboxes/sample4/request.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample4/schema.cedarschema
+cedar-policy-cli/sample-data/tiny_sandboxes/sample4/schema.cedarschema.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample4/tests-combined.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample5/README.md
+cedar-policy-cli/sample-data/tiny_sandboxes/sample5/entity.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample5/policy.cedar
+cedar-policy-cli/sample-data/tiny_sandboxes/sample5/request.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample5/schema.cedarschema
+cedar-policy-cli/sample-data/tiny_sandboxes/sample5/schema.cedarschema.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample6/README.md
+cedar-policy-cli/sample-data/tiny_sandboxes/sample6/entity.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample6/policy.cedar
+cedar-policy-cli/sample-data/tiny_sandboxes/sample6/request.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample6/schema.cedarschema
+cedar-policy-cli/sample-data/tiny_sandboxes/sample6/schema.cedarschema.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample6/tests-combined.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample7/README.md
+cedar-policy-cli/sample-data/tiny_sandboxes/sample7/entity.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample7/policy.cedar
+cedar-policy-cli/sample-data/tiny_sandboxes/sample7/request.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample7/schema.cedarschema
+cedar-policy-cli/sample-data/tiny_sandboxes/sample7/schema.cedarschema.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample7/tests-combined.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample8/README.md
+cedar-policy-cli/sample-data/tiny_sandboxes/sample8/entity.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample8/policy.cedar
+cedar-policy-cli/sample-data/tiny_sandboxes/sample8/request.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample8/schema.cedarschema
+cedar-policy-cli/sample-data/tiny_sandboxes/sample8/schema.cedarschema.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample9/README.md
+cedar-policy-cli/sample-data/tiny_sandboxes/sample9/entity.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample9/policy.cedar
+cedar-policy-cli/sample-data/tiny_sandboxes/sample9/policy_bad.cedar
+cedar-policy-cli/sample-data/tiny_sandboxes/sample9/request.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample9/schema.cedarschema
+cedar-policy-cli/sample-data/tiny_sandboxes/sample9/schema.cedarschema.json
+cedar-policy-cli/sample-data/tiny_sandboxes/sample9/tests-combined.json
+cedar-policy-cli/sample-data/tiny_sandboxes/translate-policy/README.md
+cedar-policy-cli/sample-data/tiny_sandboxes/translate-policy/policy.cedar
+cedar-policy-cli/sample-data/tiny_sandboxes/translate-policy/policy.cedar.json
+cedar-policy-cli/sample-data/tiny_sandboxes/translate-schema/README.md
+cedar-policy-cli/sample-data/tiny_sandboxes/translate-schema/tinytodo.cedarschema
+cedar-policy-cli/sample-data/tiny_sandboxes/translate-schema/tinytodo.cedarschema.json
+cedar-policy-cli/sample-data/tpe_rfc/context.json
+cedar-policy-cli/sample-data/tpe_rfc/entities.json
+cedar-policy-cli/sample-data/tpe_rfc/policies.cedar
+cedar-policy-cli/sample-data/tpe_rfc/request.json
+cedar-policy-cli/sample-data/tpe_rfc/schema.cedarschema
+cedar-policy-cli/src/command.rs
+cedar-policy-cli/src/command/authorize.rs
+cedar-policy-cli/src/command/check_parse.rs
+cedar-policy-cli/src/command/evaluate.rs
+cedar-policy-cli/src/command/format.rs
+cedar-policy-cli/src/command/language_version.rs
+cedar-policy-cli/src/command/license.rs
+cedar-policy-cli/src/command/link.rs
+cedar-policy-cli/src/command/new.rs
+cedar-policy-cli/src/command/partial_eval.rs
+cedar-policy-cli/src/command/run_test.rs
+cedar-policy-cli/src/command/symcc.rs
+cedar-policy-cli/src/command/tpe.rs
+cedar-policy-cli/src/command/translate_policy.rs
+cedar-policy-cli/src/command/translate_schema.rs
+cedar-policy-cli/src/command/validate.rs
+cedar-policy-cli/src/command/visualize.rs
+cedar-policy-cli/src/lib.rs
+cedar-policy-cli/src/main.rs
+cedar-policy-cli/src/utils.rs
+cedar-policy-cli/src/utils/entities.rs
+cedar-policy-cli/src/utils/links.rs
+cedar-policy-cli/src/utils/policies.rs
+cedar-policy-cli/src/utils/request.rs
+cedar-policy-cli/src/utils/schema.rs
+cedar-policy-cli/tests/sample.rs
+cedar-policy-cli/tests/symcc.rs
+cedar-policy-core/Cargo.toml
+cedar-policy-core/README.md
+cedar-policy-core/build.rs
+cedar-policy-core/experimental_warning.md
+cedar-policy-core/src/ast.rs
+cedar-policy-core/src/ast/annotation.rs
+cedar-policy-core/src/ast/entity.rs
+cedar-policy-core/src/ast/expr.rs
+cedar-policy-core/src/ast/expr_allows_errors.rs
+cedar-policy-core/src/ast/expr_iterator.rs
+cedar-policy-core/src/ast/expr_visitor.rs
+cedar-policy-core/src/ast/extension.rs
+cedar-policy-core/src/ast/id.rs
+cedar-policy-core/src/ast/integer.rs
+cedar-policy-core/src/ast/literal.rs
+cedar-policy-core/src/ast/name.rs
+cedar-policy-core/src/ast/ops.rs
+cedar-policy-core/src/ast/partial_value.rs
+cedar-policy-core/src/ast/pattern.rs
+cedar-policy-core/src/ast/policy.rs
+cedar-policy-core/src/ast/policy_set.rs
+cedar-policy-core/src/ast/request.rs
+cedar-policy-core/src/ast/restricted_expr.rs
+cedar-policy-core/src/ast/types.rs
+cedar-policy-core/src/ast/value.rs
+cedar-policy-core/src/authorizer.rs
+cedar-policy-core/src/authorizer/err.rs
+cedar-policy-core/src/authorizer/partial_response.rs
+cedar-policy-core/src/batched_evaluator.rs
+cedar-policy-core/src/batched_evaluator/err.rs
+cedar-policy-core/src/entities.rs
+cedar-policy-core/src/entities/conformance.rs
+cedar-policy-core/src/entities/conformance/err.rs
+cedar-policy-core/src/entities/err.rs
+cedar-policy-core/src/entities/json.rs
+cedar-policy-core/src/entities/json/context.rs
+cedar-policy-core/src/entities/json/entities.rs
+cedar-policy-core/src/entities/json/err.rs
+cedar-policy-core/src/entities/json/schema.rs
+cedar-policy-core/src/entities/json/schema_types.rs
+cedar-policy-core/src/entities/json/value.rs
+cedar-policy-core/src/error_macros.rs
+cedar-policy-core/src/est.rs
+cedar-policy-core/src/est/annotation.rs
+cedar-policy-core/src/est/err.rs
+cedar-policy-core/src/est/expr.rs
+cedar-policy-core/src/est/policy_set.rs
+cedar-policy-core/src/est/scope_constraints.rs
+cedar-policy-core/src/evaluator.rs
+cedar-policy-core/src/evaluator/err.rs
+cedar-policy-core/src/expr_builder.rs
+cedar-policy-core/src/extensions.rs
+cedar-policy-core/src/extensions/datetime.rs
+cedar-policy-core/src/extensions/decimal.rs
+cedar-policy-core/src/extensions/ipaddr.rs
+cedar-policy-core/src/extensions/partial_evaluation.rs
+cedar-policy-core/src/from_normalized_str.rs
+cedar-policy-core/src/fuzzy_match.rs
+cedar-policy-core/src/jsonvalue.rs
+cedar-policy-core/src/lib.rs
+cedar-policy-core/src/parser.rs
+cedar-policy-core/src/parser/cst.rs
+cedar-policy-core/src/parser/cst_to_ast.rs
+cedar-policy-core/src/parser/cst_to_ast/to_ref_or_refs.rs
+cedar-policy-core/src/parser/err.rs
+cedar-policy-core/src/parser/fmt.rs
+cedar-policy-core/src/parser/grammar.lalrpop
+cedar-policy-core/src/parser/loc.rs
+cedar-policy-core/src/parser/node.rs
+cedar-policy-core/src/parser/testfiles/policies.cedar
+cedar-policy-core/src/parser/text_to_cst.rs
+cedar-policy-core/src/parser/unescape.rs
+cedar-policy-core/src/parser/util.rs
+cedar-policy-core/src/pst/ast_conversions.rs
+cedar-policy-core/src/pst/constraints.rs
+cedar-policy-core/src/pst/err.rs
+cedar-policy-core/src/pst/est_conversions.rs
+cedar-policy-core/src/pst/expr.rs
+cedar-policy-core/src/pst/mod.rs
+cedar-policy-core/src/pst/policy.rs
+cedar-policy-core/src/pst/policy_set.rs
+cedar-policy-core/src/test_utils.rs
+cedar-policy-core/src/tpe.rs
+cedar-policy-core/src/tpe/entities.rs
+cedar-policy-core/src/tpe/err.rs
+cedar-policy-core/src/tpe/evaluator.rs
+cedar-policy-core/src/tpe/request.rs
+cedar-policy-core/src/tpe/residual.rs
+cedar-policy-core/src/tpe/response.rs
+cedar-policy-core/src/tpe/test_utils.rs
+cedar-policy-core/src/transitive_closure.rs
+cedar-policy-core/src/transitive_closure/err.rs
+cedar-policy-core/src/validator.rs
+cedar-policy-core/src/validator/README.md
+cedar-policy-core/src/validator/cedar_schema.rs
+cedar-policy-core/src/validator/cedar_schema/ast.rs
+cedar-policy-core/src/validator/cedar_schema/err.rs
+cedar-policy-core/src/validator/cedar_schema/fmt.rs
+cedar-policy-core/src/validator/cedar_schema/grammar.lalrpop
+cedar-policy-core/src/validator/cedar_schema/parser.rs
+cedar-policy-core/src/validator/cedar_schema/test.rs
+cedar-policy-core/src/validator/cedar_schema/testfiles/example.cedarschema
+cedar-policy-core/src/validator/cedar_schema/to_json_schema.rs
+cedar-policy-core/src/validator/coreschema.rs
+cedar-policy-core/src/validator/deprecated_schema_compat.rs
+cedar-policy-core/src/validator/deprecated_schema_compat/conversion.rs
+cedar-policy-core/src/validator/deprecated_schema_compat/json_schema.rs
+cedar-policy-core/src/validator/deprecated_schema_compat/test.rs
+cedar-policy-core/src/validator/diagnostics.rs
+cedar-policy-core/src/validator/diagnostics/validation_errors.rs
+cedar-policy-core/src/validator/diagnostics/validation_warnings.rs
+cedar-policy-core/src/validator/entity_manifest.rs
+cedar-policy-core/src/validator/entity_manifest/analysis.rs
+cedar-policy-core/src/validator/entity_manifest/loader.rs
+cedar-policy-core/src/validator/entity_manifest/slicing.rs
+cedar-policy-core/src/validator/entity_manifest/type_annotations.rs
+cedar-policy-core/src/validator/expr_iterator.rs
+cedar-policy-core/src/validator/extension_schema.rs
+cedar-policy-core/src/validator/extensions.rs
+cedar-policy-core/src/validator/extensions/datetime.rs
+cedar-policy-core/src/validator/extensions/decimal.rs
+cedar-policy-core/src/validator/extensions/ipaddr.rs
+cedar-policy-core/src/validator/extensions/partial_evaluation.rs
+cedar-policy-core/src/validator/json_schema.rs
+cedar-policy-core/src/validator/level_validate.rs
+cedar-policy-core/src/validator/partition_nonempty.rs
+cedar-policy-core/src/validator/rbac.rs
+cedar-policy-core/src/validator/schema.rs
+cedar-policy-core/src/validator/schema/action.rs
+cedar-policy-core/src/validator/schema/entity_type.rs
+cedar-policy-core/src/validator/schema/err.rs
+cedar-policy-core/src/validator/schema/namespace_def.rs
+cedar-policy-core/src/validator/schema/raw_name.rs
+cedar-policy-core/src/validator/schema/snapshots/cedar_policy_core__validator__schema__to_json__tests__roundtrip_schemas@action_entity_ref.cedarschema.snap
+cedar-policy-core/src/validator/schema/snapshots/cedar_policy_core__validator__schema__to_json__tests__roundtrip_schemas@action_hierarchy.cedarschema.snap
+cedar-policy-core/src/validator/schema/snapshots/cedar_policy_core__validator__schema__to_json__tests__roundtrip_schemas@action_no_applies_to.cedarschema.snap
+cedar-policy-core/src/validator/schema/snapshots/cedar_policy_core__validator__schema__to_json__tests__roundtrip_schemas@action_with_context.cedarschema.snap
+cedar-policy-core/src/validator/schema/snapshots/cedar_policy_core__validator__schema__to_json__tests__roundtrip_schemas@app_document.cedarschema.snap
+cedar-policy-core/src/validator/schema/snapshots/cedar_policy_core__validator__schema__to_json__tests__roundtrip_schemas@basic_action.cedarschema.snap
+cedar-policy-core/src/validator/schema/snapshots/cedar_policy_core__validator__schema__to_json__tests__roundtrip_schemas@basic_entity.cedarschema.snap
+cedar-policy-core/src/validator/schema/snapshots/cedar_policy_core__validator__schema__to_json__tests__roundtrip_schemas@common_types.cedarschema.snap
+cedar-policy-core/src/validator/schema/snapshots/cedar_policy_core__validator__schema__to_json__tests__roundtrip_schemas@complex_common_types.cedarschema.snap
+cedar-policy-core/src/validator/schema/snapshots/cedar_policy_core__validator__schema__to_json__tests__roundtrip_schemas@complex_types.cedarschema.snap
+cedar-policy-core/src/validator/schema/snapshots/cedar_policy_core__validator__schema__to_json__tests__roundtrip_schemas@comprehensive_schema.cedarschema.snap
+cedar-policy-core/src/validator/schema/snapshots/cedar_policy_core__validator__schema__to_json__tests__roundtrip_schemas@cross_namespace_references.cedarschema.snap
+cedar-policy-core/src/validator/schema/snapshots/cedar_policy_core__validator__schema__to_json__tests__roundtrip_schemas@deeply_nested_records.cedarschema.snap
+cedar-policy-core/src/validator/schema/snapshots/cedar_policy_core__validator__schema__to_json__tests__roundtrip_schemas@empty_schema.cedarschema.snap
+cedar-policy-core/src/validator/schema/snapshots/cedar_policy_core__validator__schema__to_json__tests__roundtrip_schemas@entity_hierarchy.cedarschema.snap
+cedar-policy-core/src/validator/schema/snapshots/cedar_policy_core__validator__schema__to_json__tests__roundtrip_schemas@entity_references.cedarschema.snap
+cedar-policy-core/src/validator/schema/snapshots/cedar_policy_core__validator__schema__to_json__tests__roundtrip_schemas@entity_tags.cedarschema.snap
+cedar-policy-core/src/validator/schema/snapshots/cedar_policy_core__validator__schema__to_json__tests__roundtrip_schemas@entity_with_attributes.cedarschema.snap
+cedar-policy-core/src/validator/schema/snapshots/cedar_policy_core__validator__schema__to_json__tests__roundtrip_schemas@enum_entities.cedarschema.snap
+cedar-policy-core/src/validator/schema/snapshots/cedar_policy_core__validator__schema__to_json__tests__roundtrip_schemas@extension_types.cedarschema.snap
+cedar-policy-core/src/validator/schema/snapshots/cedar_policy_core__validator__schema__to_json__tests__roundtrip_schemas@mixed_declarations.cedarschema.snap
+cedar-policy-core/src/validator/schema/snapshots/cedar_policy_core__validator__schema__to_json__tests__roundtrip_schemas@mixed_required_optional.cedarschema.snap
+cedar-policy-core/src/validator/schema/snapshots/cedar_policy_core__validator__schema__to_json__tests__roundtrip_schemas@multiple_actions_declared_together.cedarschema.snap
+cedar-policy-core/src/validator/schema/snapshots/cedar_policy_core__validator__schema__to_json__tests__roundtrip_schemas@multiple_entities_declared_together.cedarschema.snap
+cedar-policy-core/src/validator/schema/snapshots/cedar_policy_core__validator__schema__to_json__tests__roundtrip_schemas@multiple_namespaces.cedarschema.snap
+cedar-policy-core/src/validator/schema/snapshots/cedar_policy_core__validator__schema__to_json__tests__roundtrip_schemas@namespaced_entities.cedarschema.snap
+cedar-policy-core/src/validator/schema/snapshots/cedar_policy_core__validator__schema__to_json__tests__roundtrip_schemas@optional_attributes.cedarschema.snap
+cedar-policy-core/src/validator/schema/snapshots/cedar_policy_core__validator__schema__to_json__tests__roundtrip_schemas@shadowed_entity_and_common.cedarschema.snap
+cedar-policy-core/src/validator/schema/snapshots/cedar_policy_core__validator__schema__to_json__tests__roundtrip_schemas@shadowed_extension.cedarschema.snap
+cedar-policy-core/src/validator/schema/snapshots/cedar_policy_core__validator__schema__to_json__tests__roundtrip_schemas@shadowed_extension_as_entity.cedarschema.snap
+cedar-policy-core/src/validator/schema/snapshots/cedar_policy_core__validator__schema__to_json__tests__roundtrip_schemas@shadowed_primitive.cedarschema.snap
+cedar-policy-core/src/validator/schema/test_579.rs
+cedar-policy-core/src/validator/schema/to_json.rs
+cedar-policy-core/src/validator/str_checks.rs
+cedar-policy-core/src/validator/typecheck.rs
+cedar-policy-core/src/validator/typecheck/test.rs
+cedar-policy-core/src/validator/typecheck/test/expr.rs
+cedar-policy-core/src/validator/typecheck/test/extensions.rs
+cedar-policy-core/src/validator/typecheck/test/namespace.rs
+cedar-policy-core/src/validator/typecheck/test/optional_attributes.rs
+cedar-policy-core/src/validator/typecheck/test/partial.rs
+cedar-policy-core/src/validator/typecheck/test/policy.rs
+cedar-policy-core/src/validator/typecheck/test/strict.rs
+cedar-policy-core/src/validator/typecheck/test/tags.rs
+cedar-policy-core/src/validator/typecheck/test/test_utils.rs
+cedar-policy-core/src/validator/typecheck/test/type_annotation.rs
+cedar-policy-core/src/validator/typecheck/test/unspecified_entity.rs
+cedar-policy-core/src/validator/typecheck/typecheck_answer.rs
+cedar-policy-core/src/validator/types.rs
+cedar-policy-core/src/validator/types/capability.rs
+cedar-policy-core/src/validator/types/request_env.rs
+cedar-policy-formatter/Cargo.toml
+cedar-policy-formatter/README.md
+cedar-policy-formatter/src/lib.rs
+cedar-policy-formatter/src/pprint/config.rs
+cedar-policy-formatter/src/pprint/doc.rs
+cedar-policy-formatter/src/pprint/fmt.rs
+cedar-policy-formatter/src/pprint/lexer.rs
+cedar-policy-formatter/src/pprint/mod.rs
+cedar-policy-formatter/src/pprint/token.rs
+cedar-policy-formatter/src/pprint/utils.rs
+cedar-policy-formatter/tests/action_in_set.cedar
+cedar-policy-formatter/tests/annotations.cedar
+cedar-policy-formatter/tests/arith.cedar
+cedar-policy-formatter/tests/blank_lines.cedar
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__cli_sample_data_format@sandbox_a__policies_1.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__cli_sample_data_format@sandbox_a__policies_1_bad.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__cli_sample_data_format@sandbox_a__policies_2.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__cli_sample_data_format@sandbox_a__policies_3.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__cli_sample_data_format@sandbox_b__policies_4.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__cli_sample_data_format@sandbox_b__policies_5.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__cli_sample_data_format@sandbox_b__policies_5_bad.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__cli_sample_data_format@sandbox_b__policies_6.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__cli_sample_data_format@sandbox_c__policies.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__cli_sample_data_format@sandbox_c__policies_edited.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__cli_sample_data_format@tiny_sandboxes__format__formatted.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__cli_sample_data_format@tiny_sandboxes__format__unformatted.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__cli_sample_data_format@tiny_sandboxes__sample1__policy.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__cli_sample_data_format@tiny_sandboxes__sample2__policy.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__cli_sample_data_format@tiny_sandboxes__sample3__policy.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__cli_sample_data_format@tiny_sandboxes__sample4__policy.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__cli_sample_data_format@tiny_sandboxes__sample5__policy.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__cli_sample_data_format@tiny_sandboxes__sample6__policy.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__cli_sample_data_format@tiny_sandboxes__sample7__policy.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__cli_sample_data_format@tiny_sandboxes__sample8__policy.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__cli_sample_data_format@tiny_sandboxes__sample9__policy.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__cli_sample_data_format@tiny_sandboxes__sample9__policy_bad.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@sandbox_a__policies_1.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@sandbox_a__policies_1_bad.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@sandbox_a__policies_2.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@sandbox_a__policies_3.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@sandbox_b__policies_4.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@sandbox_b__policies_5.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@sandbox_b__policies_5_bad.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@sandbox_b__policies_6.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@sandbox_c__policies.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@sandbox_c__policies_edited.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@tiny_sandboxes__format__formatted.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@tiny_sandboxes__format__unformatted.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@tiny_sandboxes__level-validation__policy-level-0.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@tiny_sandboxes__level-validation__policy-level-1.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@tiny_sandboxes__level-validation__policy-level-2.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@tiny_sandboxes__sample10__policy.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@tiny_sandboxes__sample11__invalid_policy.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@tiny_sandboxes__sample11__valid_policy.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@tiny_sandboxes__sample1__policy.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@tiny_sandboxes__sample2__policy.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@tiny_sandboxes__sample3__policy.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@tiny_sandboxes__sample4__policy.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@tiny_sandboxes__sample5__policy.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@tiny_sandboxes__sample6__policy.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@tiny_sandboxes__sample7__policy.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@tiny_sandboxes__sample8__policy.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@tiny_sandboxes__sample9__policy.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@tiny_sandboxes__sample9__policy_bad.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@tiny_sandboxes__translate-policy__policy.cedar.snap
+cedar-policy-formatter/tests/cli-snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@tpe_rfc__policies.cedar.snap
+cedar-policy-formatter/tests/comment_euid_elems.cedar
+cedar-policy-formatter/tests/comment_only.cedar
+cedar-policy-formatter/tests/comment_trailing_whitespace.cedar
+cedar-policy-formatter/tests/empty.cedar
+cedar-policy-formatter/tests/empty_list.cedar
+cedar-policy-formatter/tests/empty_record.cedar
+cedar-policy-formatter/tests/extended_has.cedar
+cedar-policy-formatter/tests/index.cedar
+cedar-policy-formatter/tests/is_policies.cedar
+cedar-policy-formatter/tests/ite_comment.cedar
+cedar-policy-formatter/tests/like.cedar
+cedar-policy-formatter/tests/long_attr_access.cedar
+cedar-policy-formatter/tests/policies.cedar
+cedar-policy-formatter/tests/record_formatting.cedar
+cedar-policy-formatter/tests/snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@action_in_set.cedar.snap
+cedar-policy-formatter/tests/snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@annotations.cedar.snap
+cedar-policy-formatter/tests/snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@arith.cedar.snap
+cedar-policy-formatter/tests/snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@blank_lines.cedar.snap
+cedar-policy-formatter/tests/snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@comment_euid_elems.cedar.snap
+cedar-policy-formatter/tests/snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@comment_only.cedar.snap
+cedar-policy-formatter/tests/snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@comment_trailing_whitespace.cedar.snap
+cedar-policy-formatter/tests/snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@empty.cedar.snap
+cedar-policy-formatter/tests/snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@empty_list.cedar.snap
+cedar-policy-formatter/tests/snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@empty_record.cedar.snap
+cedar-policy-formatter/tests/snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@extended_has.cedar.snap
+cedar-policy-formatter/tests/snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@index.cedar.snap
+cedar-policy-formatter/tests/snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@is_policies.cedar.snap
+cedar-policy-formatter/tests/snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@ite_comment.cedar.snap
+cedar-policy-formatter/tests/snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@like.cedar.snap
+cedar-policy-formatter/tests/snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@long_attr_access.cedar.snap
+cedar-policy-formatter/tests/snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@policies.cedar.snap
+cedar-policy-formatter/tests/snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@record_formatting.cedar.snap
+cedar-policy-formatter/tests/snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@test.cedar.snap
+cedar-policy-formatter/tests/snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@trivial_forbid.cedar.snap
+cedar-policy-formatter/tests/snapshots/cedar_policy_formatter__pprint__fmt__tests__format_files@trivial_permit.cedar.snap
+cedar-policy-formatter/tests/test.cedar
+cedar-policy-formatter/tests/trivial_forbid.cedar
+cedar-policy-formatter/tests/trivial_permit.cedar
+cedar-policy-symcc/CHANGELOG.md
+cedar-policy-symcc/Cargo.toml
+cedar-policy-symcc/README.md
+cedar-policy-symcc/cvc5_tee.py
+cedar-policy-symcc/src/err.rs
+cedar-policy-symcc/src/lib.rs
+cedar-policy-symcc/src/symcc.rs
+cedar-policy-symcc/src/symcc/authorizer.rs
+cedar-policy-symcc/src/symcc/bitvec.rs
+cedar-policy-symcc/src/symcc/compiler.rs
+cedar-policy-symcc/src/symcc/concretizer.rs
+cedar-policy-symcc/src/symcc/decoder.rs
+cedar-policy-symcc/src/symcc/decoder/sexpr.rs
+cedar-policy-symcc/src/symcc/encoder.rs
+cedar-policy-symcc/src/symcc/enforcer.rs
+cedar-policy-symcc/src/symcc/entity_tag.rs
+cedar-policy-symcc/src/symcc/env.rs
+cedar-policy-symcc/src/symcc/ext.rs
+cedar-policy-symcc/src/symcc/extension_types/datetime.rs
+cedar-policy-symcc/src/symcc/extension_types/decimal.rs
+cedar-policy-symcc/src/symcc/extension_types/ipaddr.rs
+cedar-policy-symcc/src/symcc/extension_types/mod.rs
+cedar-policy-symcc/src/symcc/extfun.rs
+cedar-policy-symcc/src/symcc/extractor.rs
+cedar-policy-symcc/src/symcc/factory.rs
+cedar-policy-symcc/src/symcc/function.rs
+cedar-policy-symcc/src/symcc/interpretation.rs
+cedar-policy-symcc/src/symcc/op.rs
+cedar-policy-symcc/src/symcc/result.rs
+cedar-policy-symcc/src/symcc/smtlib_script.rs
+cedar-policy-symcc/src/symcc/solver.rs
+cedar-policy-symcc/src/symcc/solver_pool.rs
+cedar-policy-symcc/src/symcc/symbolizer.rs
+cedar-policy-symcc/src/symcc/tags.rs
+cedar-policy-symcc/src/symcc/term.rs
+cedar-policy-symcc/src/symcc/term_type.rs
+cedar-policy-symcc/src/symcc/type_abbrevs.rs
+cedar-policy-symcc/src/symcc/verifier.rs
+cedar-policy-symcc/src/symccopt.rs
+cedar-policy-symcc/src/symccopt/authorizer.rs
+cedar-policy-symcc/src/symccopt/compiled_policies.rs
+cedar-policy-symcc/src/symccopt/compiler.rs
+cedar-policy-symcc/src/symccopt/enforcer.rs
+cedar-policy-symcc/src/symccopt/extractor.rs
+cedar-policy-symcc/src/symccopt/verifier.rs
+cedar-policy-symcc/tests/cedar_examples.rs
+cedar-policy-symcc/tests/data/cedar-examples/README.md
+cedar-policy-symcc/tests/data/cedar-examples/document_cloud/policies.cedar
+cedar-policy-symcc/tests/data/cedar-examples/document_cloud/policies.cedarschema
+cedar-policy-symcc/tests/data/cedar-examples/github_example/policies.cedar
+cedar-policy-symcc/tests/data/cedar-examples/github_example/policies.cedarschema
+cedar-policy-symcc/tests/data/cedar-examples/hotel_chains/policies.cedar
+cedar-policy-symcc/tests/data/cedar-examples/hotel_chains/policies.cedarschema
+cedar-policy-symcc/tests/data/cedar-examples/sales_orgs/policies.cedar
+cedar-policy-symcc/tests/data/cedar-examples/sales_orgs/policies.cedarschema
+cedar-policy-symcc/tests/data/cedar-examples/streaming_service/policies.cedar
+cedar-policy-symcc/tests/data/cedar-examples/streaming_service/policies.cedarschema
+cedar-policy-symcc/tests/data/cedar-examples/tags_n_roles/policies.cedar
+cedar-policy-symcc/tests/data/cedar-examples/tags_n_roles/policies.cedarschema
+cedar-policy-symcc/tests/data/cedar-examples/tax_preparer/policies.cedar
+cedar-policy-symcc/tests/data/cedar-examples/tax_preparer/policies.cedarschema
+cedar-policy-symcc/tests/data/cedar-examples/tinytodo/policies.cedar
+cedar-policy-symcc/tests/data/cedar-examples/tinytodo/policies.cedarschema
+cedar-policy-symcc/tests/datetime.rs
+cedar-policy-symcc/tests/decimal.rs
+cedar-policy-symcc/tests/integration_tests.rs
+cedar-policy-symcc/tests/ipaddr.rs
+cedar-policy-symcc/tests/properties.rs
+cedar-policy-symcc/tests/term.rs
+cedar-policy-symcc/tests/utils/mod.rs
+cedar-policy-symcc/tests/well_typed.rs
+cedar-policy/CHANGELOG.md
+cedar-policy/Cargo.toml
+cedar-policy/README.md
+cedar-policy/benches/attr_errors.rs
+cedar-policy/benches/cedar_benchmarks.rs
+cedar-policy/benches/deeply_nested_est.rs
+cedar-policy/benches/entity_attr_errors.rs
+cedar-policy/benches/entity_parsing.rs
+cedar-policy/benches/extension_fn_validation.rs
+cedar-policy/benches/from_ast.rs
+cedar-policy/build.rs
+cedar-policy/experimental_warning.md
+cedar-policy/protobuf_schema/core.proto
+cedar-policy/protobuf_schema/validator.proto
+cedar-policy/src/api.rs
+cedar-policy/src/api/deprecated_schema_compat.rs
+cedar-policy/src/api/err.rs
+cedar-policy/src/api/err/validation_errors.rs
+cedar-policy/src/api/err/validation_warnings.rs
+cedar-policy/src/api/id.rs
+cedar-policy/src/api/tpe.rs
+cedar-policy/src/ffi/check_parse.rs
+cedar-policy/src/ffi/convert.rs
+cedar-policy/src/ffi/format.rs
+cedar-policy/src/ffi/is_authorized.rs
+cedar-policy/src/ffi/mod.rs
+cedar-policy/src/ffi/snapshots/cedar_policy__ffi__convert__test__schema_resolution_round_trip@action_entity_ref.snap
+cedar-policy/src/ffi/snapshots/cedar_policy__ffi__convert__test__schema_resolution_round_trip@action_hierarchy.snap
+cedar-policy/src/ffi/snapshots/cedar_policy__ffi__convert__test__schema_resolution_round_trip@action_no_applies_to.snap
+cedar-policy/src/ffi/snapshots/cedar_policy__ffi__convert__test__schema_resolution_round_trip@action_with_context.snap
+cedar-policy/src/ffi/snapshots/cedar_policy__ffi__convert__test__schema_resolution_round_trip@app_document.snap
+cedar-policy/src/ffi/snapshots/cedar_policy__ffi__convert__test__schema_resolution_round_trip@basic_action.snap
+cedar-policy/src/ffi/snapshots/cedar_policy__ffi__convert__test__schema_resolution_round_trip@basic_entity.snap
+cedar-policy/src/ffi/snapshots/cedar_policy__ffi__convert__test__schema_resolution_round_trip@common_types.snap
+cedar-policy/src/ffi/snapshots/cedar_policy__ffi__convert__test__schema_resolution_round_trip@complex_common_types.snap
+cedar-policy/src/ffi/snapshots/cedar_policy__ffi__convert__test__schema_resolution_round_trip@complex_types.snap
+cedar-policy/src/ffi/snapshots/cedar_policy__ffi__convert__test__schema_resolution_round_trip@comprehensive_schema.snap
+cedar-policy/src/ffi/snapshots/cedar_policy__ffi__convert__test__schema_resolution_round_trip@cross_namespace_references.snap
+cedar-policy/src/ffi/snapshots/cedar_policy__ffi__convert__test__schema_resolution_round_trip@deeply_nested_records.snap
+cedar-policy/src/ffi/snapshots/cedar_policy__ffi__convert__test__schema_resolution_round_trip@empty_schema.snap
+cedar-policy/src/ffi/snapshots/cedar_policy__ffi__convert__test__schema_resolution_round_trip@entity_hierarchy.snap
+cedar-policy/src/ffi/snapshots/cedar_policy__ffi__convert__test__schema_resolution_round_trip@entity_references.snap
+cedar-policy/src/ffi/snapshots/cedar_policy__ffi__convert__test__schema_resolution_round_trip@entity_tags.snap
+cedar-policy/src/ffi/snapshots/cedar_policy__ffi__convert__test__schema_resolution_round_trip@entity_with_attributes.snap
+cedar-policy/src/ffi/snapshots/cedar_policy__ffi__convert__test__schema_resolution_round_trip@enum_entities.snap
+cedar-policy/src/ffi/snapshots/cedar_policy__ffi__convert__test__schema_resolution_round_trip@extension_types.snap
+cedar-policy/src/ffi/snapshots/cedar_policy__ffi__convert__test__schema_resolution_round_trip@mixed_declarations.snap
+cedar-policy/src/ffi/snapshots/cedar_policy__ffi__convert__test__schema_resolution_round_trip@mixed_required_optional.snap
+cedar-policy/src/ffi/snapshots/cedar_policy__ffi__convert__test__schema_resolution_round_trip@multiple_actions_declared_together.snap
+cedar-policy/src/ffi/snapshots/cedar_policy__ffi__convert__test__schema_resolution_round_trip@multiple_entities_declared_together.snap
+cedar-policy/src/ffi/snapshots/cedar_policy__ffi__convert__test__schema_resolution_round_trip@multiple_namespaces.snap
+cedar-policy/src/ffi/snapshots/cedar_policy__ffi__convert__test__schema_resolution_round_trip@namespaced_entities.snap
+cedar-policy/src/ffi/snapshots/cedar_policy__ffi__convert__test__schema_resolution_round_trip@optional_attributes.snap
+cedar-policy/src/ffi/snapshots/cedar_policy__ffi__convert__test__schema_resolution_round_trip@shadowed_entity_and_common.snap
+cedar-policy/src/ffi/snapshots/cedar_policy__ffi__convert__test__schema_resolution_round_trip@shadowed_extension.snap
+cedar-policy/src/ffi/snapshots/cedar_policy__ffi__convert__test__schema_resolution_round_trip@shadowed_extension_as_entity.snap
+cedar-policy/src/ffi/snapshots/cedar_policy__ffi__convert__test__schema_resolution_round_trip@shadowed_primitive.snap
+cedar-policy/src/ffi/test_schemas/action_entity_ref.cedarschema
+cedar-policy/src/ffi/test_schemas/action_hierarchy.cedarschema
+cedar-policy/src/ffi/test_schemas/action_no_applies_to.cedarschema
+cedar-policy/src/ffi/test_schemas/action_with_context.cedarschema
+cedar-policy/src/ffi/test_schemas/app_document.cedarschema
+cedar-policy/src/ffi/test_schemas/basic_action.cedarschema
+cedar-policy/src/ffi/test_schemas/basic_entity.cedarschema
+cedar-policy/src/ffi/test_schemas/common_types.cedarschema
+cedar-policy/src/ffi/test_schemas/complex_common_types.cedarschema
+cedar-policy/src/ffi/test_schemas/complex_types.cedarschema
+cedar-policy/src/ffi/test_schemas/comprehensive_schema.cedarschema
+cedar-policy/src/ffi/test_schemas/cross_namespace_references.cedarschema
+cedar-policy/src/ffi/test_schemas/deeply_nested_records.cedarschema
+cedar-policy/src/ffi/test_schemas/empty_schema.cedarschema
+cedar-policy/src/ffi/test_schemas/entity_hierarchy.cedarschema
+cedar-policy/src/ffi/test_schemas/entity_references.cedarschema
+cedar-policy/src/ffi/test_schemas/entity_tags.cedarschema
+cedar-policy/src/ffi/test_schemas/entity_with_attributes.cedarschema
+cedar-policy/src/ffi/test_schemas/enum_entities.cedarschema
+cedar-policy/src/ffi/test_schemas/extension_types.cedarschema
+cedar-policy/src/ffi/test_schemas/mixed_declarations.cedarschema
+cedar-policy/src/ffi/test_schemas/mixed_required_optional.cedarschema
+cedar-policy/src/ffi/test_schemas/multiple_actions_declared_together.cedarschema
+cedar-policy/src/ffi/test_schemas/multiple_entities_declared_together.cedarschema
+cedar-policy/src/ffi/test_schemas/multiple_namespaces.cedarschema
+cedar-policy/src/ffi/test_schemas/namespaced_entities.cedarschema
+cedar-policy/src/ffi/test_schemas/optional_attributes.cedarschema
+cedar-policy/src/ffi/test_schemas/shadowed_entity_and_common.cedarschema
+cedar-policy/src/ffi/test_schemas/shadowed_extension.cedarschema
+cedar-policy/src/ffi/test_schemas/shadowed_extension_as_entity.cedarschema
+cedar-policy/src/ffi/test_schemas/shadowed_primitive.cedarschema
+cedar-policy/src/ffi/tests.rs
+cedar-policy/src/ffi/utils.rs
+cedar-policy/src/ffi/validate.rs
+cedar-policy/src/ffi/version.rs
+cedar-policy/src/lib.rs
+cedar-policy/src/proto.rs
+cedar-policy/src/proto/api.rs
+cedar-policy/src/proto/ast.rs
+cedar-policy/src/proto/entities.rs
+cedar-policy/src/proto/policy.rs
+cedar-policy/src/proto/traits.rs
+cedar-policy/src/proto/validator.rs
+cedar-policy/src/test.rs
+cedar-policy/src/test/prop_test_policy_set.rs
+cedar-policy/src/test/test.rs
+cedar-policy/tests/proto_decode_regression.rs
+cedar-policy/tests/proto_generate_test_files.rs
+cedar-policy/tests/proto_test_files/entities/entities.json
+cedar-policy/tests/proto_test_files/entities/entities.pb
+cedar-policy/tests/proto_test_files/entities/entities_all_literal_types.json
+cedar-policy/tests/proto_test_files/entities/entities_all_literal_types.pb
+cedar-policy/tests/proto_test_files/entities/entities_empty.json
+cedar-policy/tests/proto_test_files/entities/entities_empty.pb
+cedar-policy/tests/proto_test_files/entities/entities_ext_values.json
+cedar-policy/tests/proto_test_files/entities/entities_ext_values.pb
+cedar-policy/tests/proto_test_files/entities/entities_multiple_parents.json
+cedar-policy/tests/proto_test_files/entities/entities_multiple_parents.pb
+cedar-policy/tests/proto_test_files/entities/entities_nested_records.json
+cedar-policy/tests/proto_test_files/entities/entities_nested_records.pb
+cedar-policy/tests/proto_test_files/entities/entities_no_attrs.json
+cedar-policy/tests/proto_test_files/entities/entities_no_attrs.pb
+cedar-policy/tests/proto_test_files/entities/entities_special_chars.json
+cedar-policy/tests/proto_test_files/entities/entities_special_chars.pb
+cedar-policy/tests/proto_test_files/policies/annotations.cedar
+cedar-policy/tests/proto_test_files/policies/annotations.pb
+cedar-policy/tests/proto_test_files/policies/empty_policy_set.cedar
+cedar-policy/tests/proto_test_files/policies/empty_policy_set.pb
+cedar-policy/tests/proto_test_files/policies/expr_arithmetic.cedar
+cedar-policy/tests/proto_test_files/policies/expr_arithmetic.pb
+cedar-policy/tests/proto_test_files/policies/expr_comparison.cedar
+cedar-policy/tests/proto_test_files/policies/expr_comparison.pb
+cedar-policy/tests/proto_test_files/policies/expr_hierarchy.cedar
+cedar-policy/tests/proto_test_files/policies/expr_hierarchy.pb
+cedar-policy/tests/proto_test_files/policies/expr_if_then_else.cedar
+cedar-policy/tests/proto_test_files/policies/expr_if_then_else.pb
+cedar-policy/tests/proto_test_files/policies/expr_is.cedar
+cedar-policy/tests/proto_test_files/policies/expr_is.pb
+cedar-policy/tests/proto_test_files/policies/expr_logic.cedar
+cedar-policy/tests/proto_test_files/policies/expr_logic.pb
+cedar-policy/tests/proto_test_files/policies/expr_set_record.cedar
+cedar-policy/tests/proto_test_files/policies/expr_set_record.pb
+cedar-policy/tests/proto_test_files/policies/expr_string_like.cedar
+cedar-policy/tests/proto_test_files/policies/expr_string_like.pb
+cedar-policy/tests/proto_test_files/policies/ext_datetime.cedar
+cedar-policy/tests/proto_test_files/policies/ext_datetime.pb
+cedar-policy/tests/proto_test_files/policies/ext_decimal.cedar
+cedar-policy/tests/proto_test_files/policies/ext_decimal.pb
+cedar-policy/tests/proto_test_files/policies/ext_duration.cedar
+cedar-policy/tests/proto_test_files/policies/ext_duration.pb
+cedar-policy/tests/proto_test_files/policies/ext_ip.cedar
+cedar-policy/tests/proto_test_files/policies/ext_ip.pb
+cedar-policy/tests/proto_test_files/policies/forbid_policy.cedar
+cedar-policy/tests/proto_test_files/policies/forbid_policy.pb
+cedar-policy/tests/proto_test_files/policies/multiple_clauses.cedar
+cedar-policy/tests/proto_test_files/policies/multiple_clauses.pb
+cedar-policy/tests/proto_test_files/policies/policy_set.cedar
+cedar-policy/tests/proto_test_files/policies/policy_set.pb
+cedar-policy/tests/proto_test_files/policies/scope_action_eq.cedar
+cedar-policy/tests/proto_test_files/policies/scope_action_eq.pb
+cedar-policy/tests/proto_test_files/policies/scope_action_in_list.cedar
+cedar-policy/tests/proto_test_files/policies/scope_action_in_list.pb
+cedar-policy/tests/proto_test_files/policies/scope_all_any.cedar
+cedar-policy/tests/proto_test_files/policies/scope_all_any.pb
+cedar-policy/tests/proto_test_files/policies/scope_principal_eq.cedar
+cedar-policy/tests/proto_test_files/policies/scope_principal_eq.pb
+cedar-policy/tests/proto_test_files/policies/scope_principal_in.cedar
+cedar-policy/tests/proto_test_files/policies/scope_principal_in.pb
+cedar-policy/tests/proto_test_files/policies/scope_principal_is.cedar
+cedar-policy/tests/proto_test_files/policies/scope_principal_is.pb
+cedar-policy/tests/proto_test_files/policies/scope_principal_is_in.cedar
+cedar-policy/tests/proto_test_files/policies/scope_principal_is_in.pb
+cedar-policy/tests/proto_test_files/policies/scope_resource_eq.cedar
+cedar-policy/tests/proto_test_files/policies/scope_resource_eq.pb
+cedar-policy/tests/proto_test_files/policies/scope_resource_in.cedar
+cedar-policy/tests/proto_test_files/policies/scope_resource_in.pb
+cedar-policy/tests/proto_test_files/policies/scope_resource_is.cedar
+cedar-policy/tests/proto_test_files/policies/scope_resource_is.pb
+cedar-policy/tests/proto_test_files/policies/scope_resource_is_in.cedar
+cedar-policy/tests/proto_test_files/policies/scope_resource_is_in.pb
+cedar-policy/tests/proto_test_files/requests/request.json
+cedar-policy/tests/proto_test_files/requests/request.pb
+cedar-policy/tests/proto_test_files/requests/request_ext_context.json
+cedar-policy/tests/proto_test_files/requests/request_ext_context.pb
+cedar-policy/tests/proto_test_files/requests/request_minimal.json
+cedar-policy/tests/proto_test_files/requests/request_minimal.pb
+cedar-policy/tests/proto_test_files/requests/request_nested_context.json
+cedar-policy/tests/proto_test_files/requests/request_nested_context.pb
+cedar-policy/tests/proto_test_files/requests/request_special_chars.json
+cedar-policy/tests/proto_test_files/requests/request_special_chars.pb
+cedar-policy/tests/proto_test_files/schemas/schema.cedarschema
+cedar-policy/tests/proto_test_files/schemas/schema.pb
+cedar-policy/tests/proto_test_files/schemas/schema_action_hierarchy.cedarschema
+cedar-policy/tests/proto_test_files/schemas/schema_action_hierarchy.pb
+cedar-policy/tests/proto_test_files/schemas/schema_all_ext_types.cedarschema
+cedar-policy/tests/proto_test_files/schemas/schema_all_ext_types.pb
+cedar-policy/tests/proto_test_files/schemas/schema_empty.cedarschema
+cedar-policy/tests/proto_test_files/schemas/schema_empty.pb
+cedar-policy/tests/proto_test_files/schemas/schema_entity_hierarchy.cedarschema
+cedar-policy/tests/proto_test_files/schemas/schema_entity_hierarchy.pb
+cedar-policy/tests/proto_test_files/schemas/schema_multiple_namespaces.cedarschema
+cedar-policy/tests/proto_test_files/schemas/schema_multiple_namespaces.pb
+cedar-policy/tests/proto_test_files/schemas/schema_optional_attrs.cedarschema
+cedar-policy/tests/proto_test_files/schemas/schema_optional_attrs.pb
+cedar-policy/tests/public_interface.rs
+cedar-testing/Cargo.toml
+cedar-testing/README.md
+cedar-testing/src/cedar_test_impl.rs
+cedar-testing/src/integration_testing.rs
+cedar-testing/src/lib.rs
+cedar-testing/src/test_files.rs
+cedar-testing/tests/cedar-policy-cli/corpus_tests.rs
+cedar-testing/tests/cedar-policy-cli/decimal.rs
+cedar-testing/tests/cedar-policy-cli/example_use_cases.rs
+cedar-testing/tests/cedar-policy-cli/ip.rs
+cedar-testing/tests/cedar-policy-cli/main.rs
+cedar-testing/tests/cedar-policy-cli/multi.rs
+cedar-testing/tests/cedar-policy/corpus_tests.rs
+cedar-testing/tests/cedar-policy/decimal.rs
+cedar-testing/tests/cedar-policy/example_use_cases.rs
+cedar-testing/tests/cedar-policy/ip.rs
+cedar-testing/tests/cedar-policy/main.rs
+cedar-testing/tests/cedar-policy/multi.rs
+cedar-wasm/.cargo/config.toml
+cedar-wasm/.gitignore
+cedar-wasm/CHANGELOG.md
+cedar-wasm/Cargo.toml
+cedar-wasm/README.md
+cedar-wasm/build-wasm.sh
+cedar-wasm/package.json.patch
+cedar-wasm/src/lib.rs
+cedar-wasm/src/utils.rs
+clippy.toml
+deny.toml
+logo.svg
+scripts/normalize_changelogs.sh
+scripts/publish_crates.sh
+scripts/static_changelogs/cedar-policy-cli_CHANGELOG.md
+scripts/static_changelogs/cedar-policy-symcc_CHANGELOG.md
+scripts/static_changelogs/cedar-policy_CHANGELOG.md
+scripts/static_changelogs/cedar-wasm_CHANGELOG.md
+style_guide.md
+
+=== 2026-07-14T17:25:30.294226+00:00 git show HEAD:README.md ===
+# Cedar
+
+![Cedar Logo](./logo.svg)
+
+[![Crates.io](https://img.shields.io/crates/v/cedar-policy.svg)](https://crates.io/crates/cedar-policy)
+[![docs.rs](https://img.shields.io/docsrs/cedar-policy)](https://docs.rs/cedar-policy/latest/cedar_policy/)
+![nightly](https://github.com/cedar-policy/cedar/actions/workflows/nightly_build.yml/badge.svg)
+![nightly-deps](https://github.com/cedar-policy/cedar/actions/workflows/nightly_build_downstream.yml/badge.svg)
+![audit](https://github.com/cedar-policy/cedar/actions/workflows/cargo_audit.yml/badge.svg)
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/11398/badge)](https://www.bestpractices.dev/projects/11398)
+
+This repository contains source code of the Rust crates that implement the [Cedar](https://www.cedarpolicy.com/) policy language.
+
+Cedar is a language for writing and enforcing authorization policies in your applications. Using Cedar, you can write policies that specify your applications' fine-grained permissions. Your applications then authorize access requests by calling Cedar's authorization engine. Because Cedar policies are separate from application code, they can be independently authored, updated, analyzed, and audited. You can use Cedar's validator to check that Cedar policies are consistent with a declared schema which defines your application's authorization model.
+
+Cedar is:
+
+### Expressive
+
+Cedar is a simple yet expressive language that is purpose-built to support authorization use cases for common authorization models such as RBAC and ABAC.
+
+### Performant
+
+Cedar is fast and scalable. The policy structure is designed to be indexed for quick retrieval and to support fast and scalable real-time evaluation, with bounded latency.
+
+### Analyzable
+
+Cedar is designed for analysis using Automated Reasoning. This enables analyzer tools capable of optimizing your policies and proving that your security model is what you believe it is.
+
+## Using Cedar
+
+Cedar can be used in your application by depending on the [`cedar-policy` crate](https://crates.io/crates/cedar-policy).
+
+Just add `cedar-policy` as a dependency by running
+
+```sh
+cargo add cedar-policy
+```
+
+## Crates in This Workspace
+
+* [cedar-policy](./cedar-policy) : Main crate for using Cedar to authorize access requests in your applications, and validate Cedar policies against a schema
+* [cedar-policy-symcc](./cedar-policy-symcc) : Crate containing the Cedar symbolic compiler, enabling verification of properties about your Cedar policies with concrete counterexamples
+* [cedar-policy-cli](./cedar-policy-cli) : Crate containing a simple command-line interface (CLI) for interacting with Cedar
+* [cedar-language-server](./cedar-language-server) : Contains the implementation for the Cedar Langauge Server
+* [cedar-wasm](./cedar-wasm) : Crate defining the wasm interface for Cedar, enabling use with JavaScript and TypeScript
+* [cedar-policy-core](./cedar-policy-core) : Internal crate containing the Cedar parser, evaluator, typechecker, and other core components
+* [cedar-policy-formatter](./cedar-policy-formatter) : Internal crate containing an auto-formatter for Cedar policies
+* [cedar-testing](./cedar-testing) : Internal crate containing integration testing code
+
+## Quick Start
+
+Let's put the policy in `policy.cedar` and the entities in `entities.json`.
+
+`policy.cedar`:
+
+```cedar
+permit (
+  principal == User::"alice",
+  action == Action::"view",
+  resource in Album::"jane_vacation"
+);
+```
+
+This policy specifies that `alice` is allowed to view the photos in the `"jane_vacation"` album.
+
+`entities.json`:
+
+```json
+[
+    {
+        "uid": { "type": "User", "id": "alice"} ,
+        "attrs": {"age": 18},
+        "parents": []
+    },
+    {
+        "uid": { "type": "Photo", "id": "VacationPhoto94.jpg"},
+        "attrs": {},
+        "parents": [{ "type": "Album", "id": "jane_vacation" }]
+    },
+    {
+        "uid": { "type": "Photo", "id": "SecretPhoto94.jpg"},
+        "attrs": {},
+        "parents": [{ "type": "Album", "id": "jane_secrets" }]
+    }
+]
+
+```
+
+Cedar represents principals, resources, and actions as entities. An entity has a type (e.g., `User`) and an id (e.g., `alice`). They can also have attributes (e.g., `User::"alice"`'s `age` attribute is the integer `18`).
+
+Now, let's test our policy with the CLI:
+
+```sh
+ cargo run --bin cedar authorize \
+    --policies policy.cedar \
+    --entities entities.json \
+    --principal 'User::"alice"' \
+    --action 'Action::"view"' \
+    --resource 'Photo::"VacationPhoto94.jpg"'
+```
+
+CLI output:
+
+```
+ALLOW
+```
+
+This request is allowed because `VacationPhoto94.jpg` belongs to `Album::"jane_vacation"`, and `alice` can view photos in `Album::"jane_vacation"`.
+
+Let's test out policy again with a photo that `alice` shouldn't have access:
+
+```sh
+ cargo run --bin cedar authorize \
+    --policies policy.cedar \
+    --entities entities.json \
+    --principal 'User::"alice"' \
+    --action 'Action::"view"' \
+    --resource 'Photo::"SecretPhoto94.jpg"'
+```
+
+CLI output:
+
+```
+DENY
+```
+
+This request is denied because `SecretPhoto94.jpg` belongs to `Album::"jane_secrets"`, and `alice` doesn't have explicit permission to view photos from this Album. 
+
+If you'd like to see more details on what can be expressed as Cedar policies, see the [documentation](https://docs.cedarpolicy.com).
+
+Examples of how to use Cedar in an application are contained in the repository [cedar-examples](https://github.com/cedar-policy/cedar-examples). [TinyTodo](https://github.com/cedar-policy/cedar-examples/tree/main/tinytodo) is a simple task list management app whose users' requests, sent as HTTP messages, are authorized by Cedar. It shows how you can integrate Cedar into your own Rust program.
+
+## Documentation
+
+General documentation for Cedar is available at [docs.cedarpolicy.com](https://docs.cedarpolicy.com), with source code in the [cedar-policy/cedar-docs](https://github.com/cedar-policy/cedar-docs/) repository.
+
+Generated documentation for the latest version of the Rust crates can be accessed
+[on docs.rs](https://docs.rs/cedar-policy).
+
+If you're looking to integrate Cedar into a production system, please be sure to read the [security best practices](https://docs.cedarpolicy.com/other/security.html)
+
+## Building
+
+To build, simply run `cargo build` (or `cargo build --release`).
+
+## What's New
+
+We maintain changelogs for our public-facing crates:
+[cedar-policy](https://github.com/cedar-policy/cedar/blob/main/cedar-policy/CHANGELOG.md) and
+[cedar-policy-cli](https://github.com/cedar-policy/cedar/blob/main/cedar-policy-cli/CHANGELOG.md).
+Changelogs for all release branches and the `main` branch are all maintained on
+the `main` branch of this repository; you can see the most up-to-date changelogs
+by following the links above.
+
+For a list of the current and past releases, see [crates.io](https://crates.io/crates/cedar-policy) or [Releases](https://github.com/cedar-policy/cedar/releases).
+
+## Backward Compatibility Considerations
+
+Cedar is written in Rust and you will typically depend on Cedar via Cargo. Cargo makes sane choices for the majority of projects, but your needs may differ. If you don't want automatic updates to Cedar, then you can pin to a specific version in your `Cargo.toml`. For example:
+
+```toml
+[dependencies]
+cedar-policy = "=2.4.2"
+```
+
+Note that this is different from:
+
+```toml
+[dependencies]
+cedar-policy = "2.4.2"
+```
+
+Which expresses that 2.4.2 is the minimum version of Cedar you accept, and you implicitly accept anything newer that is semver-compatible. See <https://doc.rust-lang.org/cargo/reference/specifying-dependencies.html>.
+
+## Security
+
+See [SECURITY](SECURITY.md) for more information.
+
+## Contributing
+
+We welcome contributions from the community. Please either file an issue, or see [CONTRIBUTING](CONTRIBUTING.md)
+
+## License
+
+This project is licensed under the Apache-2.0 License.
+
+=== 2026-07-14T17:25:31.079719+00:00 git show HEAD:Cargo.toml ===
+[workspace]
+members = [
+	"cedar-policy",
+	"cedar-policy-core",
+	"cedar-policy-formatter",
+	"cedar-policy-cli",
+	"cedar-policy-symcc",
+	"cedar-testing",
+	"cedar-wasm",
+	"cedar-language-server",
+]
+
+resolver = "2"
+
+# cargo-dist config. Workspace default `dist = false`; `cedar-policy-cli`
+# opts in via its own `[package.metadata.dist]`.
+[workspace.metadata.dist]
+cargo-dist-version = "0.32.0"
+ci = "github"
+dist = false
+installers = ["shell", "powershell"]
+tag-namespace = "cedar-policy-cli"
+targets = [
+    "x86_64-unknown-linux-gnu",
+    "aarch64-unknown-linux-gnu",
+    "x86_64-apple-darwin",
+    "aarch64-apple-darwin",
+    "x86_64-pc-windows-msvc",
+]
+include = ["NOTICE", "THIRD_PARTY_LICENSES.txt"]
+pr-run-mode = "plan"
+install-updater = false
+post-announce-jobs = ["./build_experimental", "./set_release_title"]
+
+# SHA-pin the actions cargo-dist injects into the generated workflow.
+[workspace.metadata.dist.github-action-commits]
+"actions/checkout" = "df4cb1c069e1874edd31b4311f1884172cec0e10"            # v6.0.3
+"actions/upload-artifact" = "043fb46d1a93c77aae656e7c1c64a875d1fc6a0a"     # v7.0.1
+"actions/download-artifact" = "3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c"   # v8
+
+# Enable global integer overflow detection for the release profile
+[profile.release]
+overflow-checks = true
+
+# The profile that 'dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"
+
+[profile.bench]
+overflow-checks = true
+debug = "line-tables-only"  # this adds more debug symbols/info to the binary than the default for `release` (which is `none`)
+
+# https://insta.rs/docs/quickstart/ recommends compiling `insta` and `similar` in release mode, even for dev dependency
+[profile.dev.package]
+insta.opt-level = 3
+similar.opt-level = 3
+
+# Keys that packages can inherit
+[workspace.package]
+# Check the minimum supported Rust version with `cargo install cargo-msrv && cargo msrv --min 1.X.0` where `X` is something lower than the version noted here (to confirm that versions lower than the one noted here _don't_ work)
+rust-version = "1.89"
+version = "4.11.0"
+homepage = "https://cedarpolicy.com"
+keywords = ["cedar", "authorization", "policy", "security"]
+categories = ["compilers", "config"]
+license = "Apache-2.0"
+edition = "2021"
+repository = "https://github.com/cedar-policy/cedar"
+
+# We actually deny all rustc warnings in CI, but it's clearer if we explicitly
+# "deny" here even if setting to "warn" has the same effect.
+[workspace.lints.rust]
+unsafe_code = "forbid"
+unexpected_cfgs = { level = 'deny', check-cfg = ['cfg(kani)', 'cfg(fuzzing)'] }
+missing_debug_implementations = "deny"
+rust-2018-idioms = "deny"
+unused_assignments = "allow" # In Rust 1.92 this one erroneously identifies some fields in error structs as unused, when they are actually used in the `#[error]` attribute
+
+# For clippy lints CI will only block on errors, so setting one to "warn" just
+# means we'll see it in local runs.
+[workspace.lints.clippy]
+nursery = { level = "warn", priority = -1 }
+# Enabling some pedantic lints incrementally
+cast_lossless = "warn"
+cast_possible_truncation = "warn"
+cloned_instead_of_copied = "warn"
+format_collect = "warn"
+format_push_string = "warn"
+implicit_clone = "warn"
+inconsistent_struct_constructor = "warn"
+inefficient_to_string = "warn"
+large_types_passed_by_value = "warn"
+needless_pass_by_value = "warn"
+option_as_ref_cloned = "warn"
+option_option = "warn"
+redundant_clone = "deny"
+ref_option = "warn"
+ref_option_ref = "warn"
+trivially_copy_pass_by_ref = "warn"
+
+# When overriding lints, require `expect` instead of `allow`, and require a reason
+allow_attributes = "deny"
+allow_attributes_without_reason = "deny"
+should_panic_without_expect = "deny"
+
+# These lints may be worth enforcing, but cause a lot of noise at the moment.
+use_self = "allow"
+option_if_let_else = "allow"
+redundant_pub_crate = "allow"
+too_long_first_doc_paragraph = "allow"
+# We don't want to enforce these lints.
+missing_const_for_fn = "allow"
+needless_doctest_main = "allow"
+# see #878
+result_large_err = "allow"
+large_enum_variant = "allow"
+
+# Error on potential panics
+unwrap_used = "deny"
+expect_used = "deny"
+fallible_impl_from = "deny"
+unreachable = "deny"
+indexing_slicing = "deny"
+string_slice = "deny"
+panic = "deny"
+todo = "deny"
+unimplemented = "deny"
+
+=== 2026-07-14T17:25:31.904002+00:00 git show HEAD:LICENSE ===
+
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.

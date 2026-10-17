@@ -1,0 +1,83 @@
+{
+  "broad_source_drift": [
+    "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Current State/Dystopia Current Snapshot.md",
+    "/Users/vedantswami/Projects/Dystopia/Dystopia/04_Logs/Daily/Daily Log - 2026-07-14.md",
+    "/Users/vedantswami/Projects/Dystopia/Dystopia/02_Projects/Helixar World-Class Benchmark Program/00 Helixar World-Class Benchmark Program - Control Center.md"
+  ],
+  "candidate_listeners": [],
+  "candidate_processes": [],
+  "checks": {
+    "candidate_inventory_exact_8": true,
+    "candidate_repositories_clean_exact_commits": true,
+    "contract_fit_exact_8": true,
+    "deliverables_exist": true,
+    "falsification_failures_retained": true,
+    "frozen_source_csv_unchanged": true,
+    "license_security_exact_8": true,
+    "mem0_flakiness_preserved": true,
+    "no_candidate_listeners": true,
+    "no_candidate_processes": true,
+    "process_sequence_allocator_consistent": true,
+    "process_sequence_unique_contiguous": true,
+    "resource_exact_8": true,
+    "smoke_evidence_hashes_valid": true,
+    "storage_combination_pass": true,
+    "three_memory_retrieval_candidates_exercised": true,
+    "unstructured_ingestion_pass": true
+  },
+  "counts": {
+    "candidate_families": 8,
+    "frozen_source_csv_files": 20,
+    "local_command_envelopes": 69,
+    "network_command_envelopes": 26,
+    "process_max_sequence_visible": 95,
+    "process_records_visible_before_validator_receipt": 95,
+    "smoke_rows": 20
+  },
+  "deliverables": {
+    "/Users/vedantswami/Projects/Dystopia/Dystopia/02_Projects/Helixar World-Class Benchmark Program/Architecture/O02 Brain, Memory, Retrieval and Storage OSS Lab Report.md": {
+      "bytes": 20324,
+      "sha256": "1eb5a0eb2720d897a5609f104706712254a1771eafc67ab7a785e4f62baf0b16"
+    },
+    "/Users/vedantswami/Projects/Dystopia/Dystopia/04_Logs/Runs/Run Receipt - 2026-07-14 - O02 Brain Memory OSS Lab.md": {
+      "bytes": 15192,
+      "sha256": "4cd530a2c04897199f5ac35c2222186251a56acff258f95aa6a8eac250759268"
+    },
+    "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O02-brain-memory/candidate-inventory.csv": {
+      "bytes": 4873,
+      "sha256": "41dea149d466106ebe641055daefc0cb0dd0b8aa551d567e21dda6cbd84bdd47"
+    },
+    "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O02-brain-memory/cleanup-manifest.csv": {
+      "bytes": 6260,
+      "sha256": "ff84eb4efe945e3c102eafbfd884691765cc4374aaec3676e42ab4a41099fdbb"
+    },
+    "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O02-brain-memory/contract-fit.csv": {
+      "bytes": 6227,
+      "sha256": "491757976e894b7e47c64cf0e21a9b42185a641a6ef1a0580d1332687408abc5"
+    },
+    "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O02-brain-memory/deployment-smoke-results.csv": {
+      "bytes": 13643,
+      "sha256": "48c839b9dd1c6b80a1241d1e44da98e3a7bfd040d14acec5604ed9a732ae9621"
+    },
+    "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O02-brain-memory/license-and-security.csv": {
+      "bytes": 8339,
+      "sha256": "c5d835051f53ab89f28784b0fe701353ad045cf33009dc2c48a8773be1b2886e"
+    },
+    "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/Open Source Deployment Research/O02-brain-memory/resource-profile.csv": {
+      "bytes": 6618,
+      "sha256": "17659492ee999187ff518824a9819c7559e6190d1a15f7a2263e531268651fff"
+    }
+  },
+  "evidence_failures": [],
+  "known_gaps": [
+    "The original broad source manifest drifted because shared current-state/control/daily notes changed concurrently; frozen R01-R10 evidence CSVs remained unchanged.",
+    "Initial candidate venv diagnostics were contaminated by inherited Python environment variables; sanitized pip check passed in all four isolated environments.",
+    "pip-audit found advisories in pip/setuptools build tooling; no audited candidate runtime package was named.",
+    "Qdrant was exercised only in embedded mode; PostgreSQL+pgvector, Qdrant server and MinIO server were not run.",
+    "Graphiti proof is deprecated-Kuzu graph CRUD only, not episode extraction or temporal search.",
+    "Network denial was process-local socket guarding, not an OS-level sandbox."
+  ],
+  "repository_failures": [],
+  "source_csv_drift": [],
+  "status": "PASS_BOUNDED_WITH_DISCLOSED_GAPS"
+}

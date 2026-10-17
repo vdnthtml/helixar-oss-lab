@@ -1,0 +1,458 @@
+[
+  {
+    "bytes": 254,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/LICENSE",
+    "path": "LICENSE",
+    "sha256": "fae0bbc037781c1d4697b700106f50a0a13910778ef8279a657bd61dcaeb5a5f",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-api-gateway/LICENSE",
+    "path": "packages/cubejs-api-gateway/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-athena-driver/LICENSE",
+    "path": "packages/cubejs-athena-driver/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-backend-cloud/LICENSE",
+    "path": "packages/cubejs-backend-cloud/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-backend-maven/LICENSE",
+    "path": "packages/cubejs-backend-maven/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-backend-native/LICENSE",
+    "path": "packages/cubejs-backend-native/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-backend-native/python/cube/LICENSE",
+    "path": "packages/cubejs-backend-native/python/cube/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-backend-shared/LICENSE",
+    "path": "packages/cubejs-backend-shared/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-base-driver/LICENSE",
+    "path": "packages/cubejs-base-driver/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-bigquery-driver/LICENSE",
+    "path": "packages/cubejs-bigquery-driver/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-cli/LICENSE",
+    "path": "packages/cubejs-cli/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-clickhouse-driver/LICENSE",
+    "path": "packages/cubejs-clickhouse-driver/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 1065,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-client-core/LICENSE",
+    "path": "packages/cubejs-client-core/LICENSE",
+    "sha256": "516be1c1c0eb930e4ca37d77b0835972deb6a2b7d66863e08225536e16a900f9",
+    "status": "READ"
+  },
+  {
+    "bytes": 1065,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-client-dx/LICENSE",
+    "path": "packages/cubejs-client-dx/LICENSE",
+    "sha256": "516be1c1c0eb930e4ca37d77b0835972deb6a2b7d66863e08225536e16a900f9",
+    "status": "READ"
+  },
+  {
+    "bytes": 1065,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-client-ngx/LICENSE",
+    "path": "packages/cubejs-client-ngx/LICENSE",
+    "sha256": "516be1c1c0eb930e4ca37d77b0835972deb6a2b7d66863e08225536e16a900f9",
+    "status": "READ"
+  },
+  {
+    "bytes": 1065,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-client-react/LICENSE",
+    "path": "packages/cubejs-client-react/LICENSE",
+    "sha256": "516be1c1c0eb930e4ca37d77b0835972deb6a2b7d66863e08225536e16a900f9",
+    "status": "READ"
+  },
+  {
+    "bytes": 1065,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-client-vue3/LICENSE",
+    "path": "packages/cubejs-client-vue3/LICENSE",
+    "sha256": "516be1c1c0eb930e4ca37d77b0835972deb6a2b7d66863e08225536e16a900f9",
+    "status": "READ"
+  },
+  {
+    "bytes": 1065,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-client-ws-transport/LICENSE",
+    "path": "packages/cubejs-client-ws-transport/LICENSE",
+    "sha256": "516be1c1c0eb930e4ca37d77b0835972deb6a2b7d66863e08225536e16a900f9",
+    "status": "READ"
+  },
+  {
+    "bytes": 11350,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-crate-driver/LICENSE",
+    "path": "packages/cubejs-crate-driver/LICENSE",
+    "sha256": "5578bfec689646e6a9564d13ac8af1978165530a692ff7db6c97555115bf4e37",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-cubestore-driver/LICENSE",
+    "path": "packages/cubejs-cubestore-driver/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-databricks-jdbc-driver/LICENSE",
+    "path": "packages/cubejs-databricks-jdbc-driver/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-dbt-schema-extension/LICENSE",
+    "path": "packages/cubejs-dbt-schema-extension/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-docker/LICENSE",
+    "path": "packages/cubejs-docker/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-dremio-driver/LICENSE",
+    "path": "packages/cubejs-dremio-driver/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-druid-driver/LICENSE",
+    "path": "packages/cubejs-druid-driver/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-duckdb-driver/LICENSE",
+    "path": "packages/cubejs-duckdb-driver/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-firebolt-driver/LICENSE",
+    "path": "packages/cubejs-firebolt-driver/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-hive-driver/LICENSE",
+    "path": "packages/cubejs-hive-driver/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-jdbc-driver/LICENSE",
+    "path": "packages/cubejs-jdbc-driver/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-ksql-driver/LICENSE",
+    "path": "packages/cubejs-ksql-driver/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-materialize-driver/LICENSE",
+    "path": "packages/cubejs-materialize-driver/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-mongobi-driver/LICENSE",
+    "path": "packages/cubejs-mongobi-driver/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-mssql-driver/LICENSE",
+    "path": "packages/cubejs-mssql-driver/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-mysql-aurora-serverless-driver/LICENSE",
+    "path": "packages/cubejs-mysql-aurora-serverless-driver/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-mysql-driver/LICENSE",
+    "path": "packages/cubejs-mysql-driver/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-oracle-driver/LICENSE",
+    "path": "packages/cubejs-oracle-driver/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-pinot-driver/LICENSE",
+    "path": "packages/cubejs-pinot-driver/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 1065,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-playground/LICENSE",
+    "path": "packages/cubejs-playground/LICENSE",
+    "sha256": "516be1c1c0eb930e4ca37d77b0835972deb6a2b7d66863e08225536e16a900f9",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-postgres-driver/LICENSE",
+    "path": "packages/cubejs-postgres-driver/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-prestodb-driver/LICENSE",
+    "path": "packages/cubejs-prestodb-driver/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-query-orchestrator/LICENSE",
+    "path": "packages/cubejs-query-orchestrator/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-questdb-driver/LICENSE",
+    "path": "packages/cubejs-questdb-driver/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-redshift-driver/LICENSE",
+    "path": "packages/cubejs-redshift-driver/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-schema-compiler/LICENSE",
+    "path": "packages/cubejs-schema-compiler/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-server-core/LICENSE",
+    "path": "packages/cubejs-server-core/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-server/LICENSE",
+    "path": "packages/cubejs-server/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-snowflake-driver/LICENSE",
+    "path": "packages/cubejs-snowflake-driver/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-sqlite-driver/LICENSE",
+    "path": "packages/cubejs-sqlite-driver/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-templates/LICENSE",
+    "path": "packages/cubejs-templates/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 1065,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-testing-drivers/LICENSE",
+    "path": "packages/cubejs-testing-drivers/LICENSE",
+    "sha256": "516be1c1c0eb930e4ca37d77b0835972deb6a2b7d66863e08225536e16a900f9",
+    "status": "READ"
+  },
+  {
+    "bytes": 1065,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-testing-shared/LICENSE",
+    "path": "packages/cubejs-testing-shared/LICENSE",
+    "sha256": "516be1c1c0eb930e4ca37d77b0835972deb6a2b7d66863e08225536e16a900f9",
+    "status": "READ"
+  },
+  {
+    "bytes": 1065,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-testing/LICENSE",
+    "path": "packages/cubejs-testing/LICENSE",
+    "sha256": "516be1c1c0eb930e4ca37d77b0835972deb6a2b7d66863e08225536e16a900f9",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-trino-driver/LICENSE",
+    "path": "packages/cubejs-trino-driver/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/packages/cubejs-vertica-driver/LICENSE",
+    "path": "packages/cubejs-vertica-driver/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/rust/cubesql/cubesql/LICENSE",
+    "path": "rust/cubesql/cubesql/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/rust/cubesql/pg-srv/LICENSE",
+    "path": "rust/cubesql/pg-srv/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  },
+  {
+    "bytes": 11349,
+    "error": "",
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/cube/rust/cubestore/cubestore/LICENSE",
+    "path": "rust/cubestore/cubestore/LICENSE",
+    "sha256": "abcfcdca83be4a1ba4b5fc16d42277e5fafe24c1359e6c29a5152016069ce137",
+    "status": "READ"
+  }
+]

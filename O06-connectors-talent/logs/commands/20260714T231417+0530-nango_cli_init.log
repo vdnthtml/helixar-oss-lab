@@ -1,0 +1,11 @@
+✓ Copy example
+✓ Install dependencies
+✓ Typechecking
+  Building 3 file(s) - ./github/syncs/fetchIssues.js
+  Building 3 file(s) - ./github/actions/createIssue.js
+  Building 3 file(s) - ./github/on-events/pre-connection-deletion.js
+  Building 3 file(s)
+✓ Building 3 file(s)
+✓ Generating artifacts
+✓ Compiled
+Nango integrations initialized in /Users/vedantswami/Projects/helixar-oss-labs/O06-connectors-talent/fixtures/nango-smoke

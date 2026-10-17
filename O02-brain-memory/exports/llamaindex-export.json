@@ -1,0 +1,18 @@
+[
+  {
+    "node_id": "node-alpha",
+    "ordinal": 0,
+    "ref_doc_id": "source.invalid/document-001",
+    "source_uri": "https://source.invalid/document-001",
+    "state": "promoted",
+    "text": "alpha memory"
+  },
+  {
+    "node_id": "node-beta",
+    "ordinal": 1,
+    "ref_doc_id": "source.invalid/document-001",
+    "source_uri": "https://source.invalid/document-001",
+    "state": "promoted",
+    "text": "beta memory"
+  }
+]

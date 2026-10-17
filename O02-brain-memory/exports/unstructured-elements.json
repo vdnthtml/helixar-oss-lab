@@ -1,0 +1,53 @@
+[
+  {
+    "element_id": "a326f33b9d5dc07c7c1e4cba2b782679",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "fixtures.invalid",
+      "filename": "source.md",
+      "filetype": "text/markdown",
+      "last_modified": "2000-01-01T00:00:00+0000"
+    },
+    "text": "ROOT",
+    "type": "Title"
+  },
+  {
+    "element_id": "19ee7339e534759c3471c29acbf50d16",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "fixtures.invalid",
+      "filename": "source.md",
+      "filetype": "text/markdown",
+      "last_modified": "2000-01-01T00:00:00+0000",
+      "parent_id": "a326f33b9d5dc07c7c1e4cba2b782679"
+    },
+    "text": "CHILD",
+    "type": "Title"
+  },
+  {
+    "element_id": "bcf6c790c21669cc24f7f2d7aa2c1420",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "fixtures.invalid",
+      "filename": "source.md",
+      "filetype": "text/markdown",
+      "last_modified": "2000-01-01T00:00:00+0000",
+      "parent_id": "19ee7339e534759c3471c29acbf50d16"
+    },
+    "text": "OFFLINE LINEAGE ITEM",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "c78ede72699b942d54c389a21bd86600",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "fixtures.invalid",
+      "filename": "source.md",
+      "filetype": "text/markdown",
+      "last_modified": "2000-01-01T00:00:00+0000",
+      "parent_id": "19ee7339e534759c3471c29acbf50d16"
+    },
+    "text": "SECOND LINEAGE ITEM",
+    "type": "ListItem"
+  }
+]

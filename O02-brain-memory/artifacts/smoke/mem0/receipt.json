@@ -1,0 +1,22 @@
+{
+  "candidate": "mem0",
+  "embedding": "fixture deterministic sha256 token embedding (8 dims)",
+  "history_db_sha256": "1aba783ff94cfd4d883f5c0afda7fb4444e4eba979bef5bbd114ce591eefa500",
+  "history_event_count": 2,
+  "llm_used": false,
+  "memory_id": "dd542744-c3ed-4225-b43c-b1dae1705372",
+  "offline": true,
+  "package_version": "2.0.12",
+  "status": "PASS",
+  "telemetry_env": "MEM0_TELEMETRY=false",
+  "tests": {
+    "add_get": true,
+    "delete": true,
+    "history_lineage": true,
+    "process_restart_persistence": true,
+    "semantic_search": true,
+    "tenant_isolation": true,
+    "update": true
+  },
+  "vector_backend": "qdrant-client local persistent mode"
+}

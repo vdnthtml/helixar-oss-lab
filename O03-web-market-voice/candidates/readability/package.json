@@ -1,0 +1,9 @@
+{
+  "name": "o03-readability-smoke",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@mozilla/readability": "file:../../repos/readability",
+    "jsdom": "20.0.2"
+  }
+}

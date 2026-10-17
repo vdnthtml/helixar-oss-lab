@@ -1,0 +1,34 @@
+REPO repos/letta
+b76da9092518cbaa2d09042e52fdcbde69243e18
+REPO repos/letta-code
+7d3afd54b930d092d5f4547b3d874cb7efb15999
+REPO repos/mem0
+ccbe5861a138c7583e01bb3a3aa6168e52526a23
+REPO repos/graphiti
+526dcad7a300f3c5c506ff96a68bcdc7ca9f97ed
+REPO repos/llama_index
+67514f63410c6d4c2344e7ca14b3ea7214d0bb84
+REPO repos/unstructured
+c38745b32f5302a38f61245214d77fafff59368f
+REPO repos/pgvector
+a6420355c5d1c08f4c5fbd5112fc17e4cf3b5eb5
+REPO repos/qdrant
+44ad62f8cd69642be5afa6441612525e24a0d063
+REPO repos/minio
+7aac2a2c5b7c882e68c1ce017d8256be2feea27f
+DISK_KB
+33932	repos/letta
+84352	repos/letta-code
+54680	repos/mem0
+29504	repos/graphiti
+831144	repos/llama_index
+291356	repos/unstructured
+1368	repos/pgvector
+38328	repos/qdrant
+64060	repos/minio
+197096	envs/mem0
+118756	envs/graphiti
+235788	envs/llamaindex
+392472	envs/unstructured
+1252	storage
+12	exports

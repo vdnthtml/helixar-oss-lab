@@ -1,0 +1,1654 @@
+
+=== 2026-07-14T17:26:35.421319+00:00 git clone --depth 1 --filter=blob:none --no-checkout https://github.com/NVIDIA/garak.git /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/sources/garak ===
+Cloning into '/Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/sources/garak'...
+
+=== 2026-07-14T17:26:36.626098+00:00 git rev-parse HEAD ===
+e2e3ca1ba037435aa96d0a0e37d7847a1ff430d5
+
+=== 2026-07-14T17:26:36.694746+00:00 git symbolic-ref --short refs/remotes/origin/HEAD ===
+origin/main
+
+=== 2026-07-14T17:26:36.762737+00:00 git ls-tree -r --name-only HEAD ===
+.githooks/prepare-commit-msg
+.github/CODEOWNERS
+.github/ISSUE_TEMPLATE/bug_report.md
+.github/ISSUE_TEMPLATE/config.yml
+.github/ISSUE_TEMPLATE/documentation.md
+.github/ISSUE_TEMPLATE/feature_suggestion.md
+.github/ISSUE_TEMPLATE/plugin_suggestion.md
+.github/ISSUE_TEMPLATE/question.md
+.github/PULL_REQUEST_TEMPLATE.md
+.github/scripts/bump_version.py
+.github/workflows/docs.yml
+.github/workflows/labels.yml
+.github/workflows/lint.yml
+.github/workflows/maintain_cache.yml
+.github/workflows/nightly.yml
+.github/workflows/prepare_package.yml
+.github/workflows/release.yml
+.github/workflows/remote_package_install.yml
+.github/workflows/stale.yml
+.github/workflows/test_linux.yml
+.github/workflows/test_macos.yml
+.github/workflows/test_report_build.yaml
+.github/workflows/test_windows.yml
+.gitignore
+.pre-commit-config.yaml
+.readthedocs.yaml
+AGENTS.md
+CA_DCO.md
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+FAQ.md
+LICENSE
+PROJECTS.md
+README.md
+SECURITY.md
+docs/README.md
+docs/requirements-docs.txt
+docs/source/404.rst
+docs/source/Makefile
+docs/source/_config.rst
+docs/source/_ext/garak_ext.py
+docs/source/_plugins.rst
+docs/source/_static/css/garak_theme.css
+docs/source/analyze/tbsa.rst
+docs/source/ascii_smuggling.rst
+docs/source/attempt.rst
+docs/source/basic.rst
+docs/source/buffs/base.rst
+docs/source/buffs/encoding.rst
+docs/source/buffs/low_resource_languages.rst
+docs/source/buffs/lowercase.rst
+docs/source/buffs/paraphrase.rst
+docs/source/cli.rst
+docs/source/cliref.rst
+docs/source/command.rst
+docs/source/conf.py
+docs/source/configurable.rst
+docs/source/contributing.rst
+docs/source/detector_metrics.rst
+docs/source/detectors/agent_breaker.rst
+docs/source/detectors/always.rst
+docs/source/detectors/ansiescape.rst
+docs/source/detectors/any.rst
+docs/source/detectors/apikey.rst
+docs/source/detectors/base.rst
+docs/source/detectors/continuation.rst
+docs/source/detectors/dan.rst
+docs/source/detectors/divergence.rst
+docs/source/detectors/encoding.rst
+docs/source/detectors/exploitation.rst
+docs/source/detectors/fileformats.rst
+docs/source/detectors/goodside.rst
+docs/source/detectors/judge.rst
+docs/source/detectors/knownbadsignatures.rst
+docs/source/detectors/leakreplay.rst
+docs/source/detectors/lmrc.rst
+docs/source/detectors/malwaregen.rst
+docs/source/detectors/misleading.rst
+docs/source/detectors/mitigation.rst
+docs/source/detectors/packagehallucination.rst
+docs/source/detectors/perspective.rst
+docs/source/detectors/productkey.rst
+docs/source/detectors/promptinject.rst
+docs/source/detectors/propile.rst
+docs/source/detectors/shields.rst
+docs/source/detectors/snowball.rst
+docs/source/detectors/sysprompt_extraction.rst
+docs/source/detectors/unsafe_content.rst
+docs/source/detectors/visual_jailbreak.rst
+docs/source/detectors/web_injection.rst
+docs/source/evaluators/base.rst
+docs/source/exception.rst
+docs/source/extending.generator.rst
+docs/source/extending.probe.rst
+docs/source/extending.rst
+docs/source/faster.rst
+docs/source/generators/anthropic.rst
+docs/source/generators/azure.rst
+docs/source/generators/base.rst
+docs/source/generators/bedrock.rst
+docs/source/generators/cohere.rst
+docs/source/generators/function.rst
+docs/source/generators/ggml.rst
+docs/source/generators/groq.rst
+docs/source/generators/guardrails.rst
+docs/source/generators/huggingface.rst
+docs/source/generators/langchain.rst
+docs/source/generators/langchain_serve.rst
+docs/source/generators/litellm.rst
+docs/source/generators/llm.rst
+docs/source/generators/mistral.rst
+docs/source/generators/nim.rst
+docs/source/generators/nvcf.rst
+docs/source/generators/ollama.rst
+docs/source/generators/openai.rst
+docs/source/generators/rasa.rst
+docs/source/generators/replicate.rst
+docs/source/generators/rest.rst
+docs/source/generators/test.rst
+docs/source/generators/watsonx.rst
+docs/source/generators/websocket.rst
+docs/source/harnesses/base.rst
+docs/source/harnesses/probewise.rst
+docs/source/harnesses/pxd.rst
+docs/source/how.rst
+docs/source/index.rst
+docs/source/index_analyze.rst
+docs/source/index_buffs.rst
+docs/source/index_detectors.rst
+docs/source/index_evaluators.rst
+docs/source/index_generators.rst
+docs/source/index_harnesses.rst
+docs/source/index_probes.rst
+docs/source/install.rst
+docs/source/interactive.rst
+docs/source/langservice.rst
+docs/source/payloads.rst
+docs/source/probes/_tier.rst
+docs/source/probes/adaptive_attacks.rst
+docs/source/probes/agent_breaker.rst
+docs/source/probes/ansiescape.rst
+docs/source/probes/apikey.rst
+docs/source/probes/atkgen.rst
+docs/source/probes/audio.rst
+docs/source/probes/av_spam_scanning.rst
+docs/source/probes/badchars.rst
+docs/source/probes/base.rst
+docs/source/probes/continuation.rst
+docs/source/probes/dan.rst
+docs/source/probes/divergence.rst
+docs/source/probes/doctor.rst
+docs/source/probes/donotanswer.rst
+docs/source/probes/dra.rst
+docs/source/probes/encoding.rst
+docs/source/probes/exploitation.rst
+docs/source/probes/fileformats.rst
+docs/source/probes/fitd.rst
+docs/source/probes/glitch.rst
+docs/source/probes/goat.rst
+docs/source/probes/goodside.rst
+docs/source/probes/grandma.rst
+docs/source/probes/latentinjection.rst
+docs/source/probes/leakreplay.rst
+docs/source/probes/lmrc.rst
+docs/source/probes/malwaregen.rst
+docs/source/probes/misleading.rst
+docs/source/probes/packagehallucination.rst
+docs/source/probes/phrasing.rst
+docs/source/probes/promptinject.rst
+docs/source/probes/propile.rst
+docs/source/probes/realtoxicityprompts.rst
+docs/source/probes/sata.rst
+docs/source/probes/smuggling.rst
+docs/source/probes/snowball.rst
+docs/source/probes/suffix.rst
+docs/source/probes/sysprompt_extraction.rst
+docs/source/probes/tap.rst
+docs/source/probes/test.rst
+docs/source/probes/topic.rst
+docs/source/probes/visual_jailbreak.rst
+docs/source/probes/web_injection.rst
+docs/source/report.rst
+docs/source/reporting.calibration.rst
+docs/source/reporting.rst
+docs/source/translation.rst
+docs/source/usage.rst
+garak-paper.pdf
+garak-report/.gitignore
+garak-report/.prettierignore
+garak-report/.prettierrc
+garak-report/.yarnrc.yml
+garak-report/README.md
+garak-report/eslint.config.js
+garak-report/extracted_digest.json
+garak-report/index.html
+garak-report/package.json
+garak-report/public/index.html
+garak-report/src/App.tsx
+garak-report/src/assets/garak.svg
+garak-report/src/assets/kui-foundations-react-external-0.504.1.tgz
+garak-report/src/assets/react.svg
+garak-report/src/components/CalibrationSummary.tsx
+garak-report/src/components/ColorLegend.tsx
+garak-report/src/components/DefconBadge.tsx
+garak-report/src/components/DefconSummaryPanel.tsx
+garak-report/src/components/DetectorChart/DetectorChartHeader.tsx
+garak-report/src/components/DetectorChart/DetectorFilters.tsx
+garak-report/src/components/DetectorChart/DetectorLollipopChart.tsx
+garak-report/src/components/DetectorChart/DetectorResultsTable.tsx
+garak-report/src/components/DetectorChart/__tests__/DetectorChartHeader.test.tsx
+garak-report/src/components/DetectorChart/__tests__/DetectorFilters.test.tsx
+garak-report/src/components/DetectorChart/__tests__/DetectorResultsTable.test.tsx
+garak-report/src/components/DetectorChart/index.tsx
+garak-report/src/components/DetectorsView.tsx
+garak-report/src/components/ErrorBoundary.tsx
+garak-report/src/components/Footer.tsx
+garak-report/src/components/GarakLogo.tsx
+garak-report/src/components/Header.tsx
+garak-report/src/components/MetadataSection.tsx
+garak-report/src/components/ModuleAccordion.tsx
+garak-report/src/components/NvidiaLogo.tsx
+garak-report/src/components/ProbeChart/ModuleFilterChips.tsx
+garak-report/src/components/ProbeChart/ProbeBarChart.tsx
+garak-report/src/components/ProbeChart/ProbeChartHeader.tsx
+garak-report/src/components/ProbeChart/ProbeTagsList.tsx
+garak-report/src/components/ProbeChart/__tests__/ModuleFilterChips.test.tsx
+garak-report/src/components/ProbeChart/index.tsx
+garak-report/src/components/ProbesChart.tsx
+garak-report/src/components/ProgressBar.tsx
+garak-report/src/components/ReportDetails.tsx
+garak-report/src/components/ReportFilterBar.tsx
+garak-report/src/components/SetupSection.tsx
+garak-report/src/components/SummaryStatsCard.tsx
+garak-report/src/components/__tests__/CalibrationSummary.test.tsx
+garak-report/src/components/__tests__/ColorLegend.test.tsx
+garak-report/src/components/__tests__/DefconBadge.test.tsx
+garak-report/src/components/__tests__/DefconSummaryPanel.test.tsx
+garak-report/src/components/__tests__/DetectorsView.test.tsx
+garak-report/src/components/__tests__/ErrorBoundary.test.tsx
+garak-report/src/components/__tests__/Footer.test.tsx
+garak-report/src/components/__tests__/Header.test.tsx
+garak-report/src/components/__tests__/ProbesChart.slider.test.tsx
+garak-report/src/components/__tests__/ProbesChart.test.tsx
+garak-report/src/components/__tests__/ProbesChart.tooltip.test.tsx
+garak-report/src/components/__tests__/ProgressBar.test.tsx
+garak-report/src/components/__tests__/ReportDetails.test.tsx
+garak-report/src/components/__tests__/SetupSection.test.tsx
+garak-report/src/components/__tests__/SummaryStatsCard.test.tsx
+garak-report/src/components/index.ts
+garak-report/src/constants/chart.ts
+garak-report/src/constants/defcon.ts
+garak-report/src/constants/index.ts
+garak-report/src/constants/theme.ts
+garak-report/src/hooks/__tests__/useDetectorChartOptions.test.ts
+garak-report/src/hooks/__tests__/useDetectorsChartSeries.test.ts
+garak-report/src/hooks/__tests__/useFlattenedModules.test.ts
+garak-report/src/hooks/__tests__/useGroupedDetectors.test.ts
+garak-report/src/hooks/__tests__/useProbeTooltip.test.ts
+garak-report/src/hooks/__tests__/useRenderLineItem.test.ts
+garak-report/src/hooks/__tests__/useSeverityColor.test.ts
+garak-report/src/hooks/__tests__/useSortedDetectors.test.ts
+garak-report/src/hooks/__tests__/useTooltipFormatter.test.ts
+garak-report/src/hooks/__tests__/useValueFormatter.test.ts
+garak-report/src/hooks/__tests__/useZScoreHelpers.test.ts
+garak-report/src/hooks/index.ts
+garak-report/src/hooks/useDetectorChartOptions.ts
+garak-report/src/hooks/useDetectorsChartSeries.ts
+garak-report/src/hooks/useFlattenedModules.ts
+garak-report/src/hooks/useGroupedDetectors.ts
+garak-report/src/hooks/useModuleFilters.ts
+garak-report/src/hooks/usePayloadParser.ts
+garak-report/src/hooks/useProbeChartOptions.ts
+garak-report/src/hooks/useProbeTooltip.ts
+garak-report/src/hooks/useRenderLineItem.ts
+garak-report/src/hooks/useReportData.ts
+garak-report/src/hooks/useSeverityColor.ts
+garak-report/src/hooks/useSortedDetectors.ts
+garak-report/src/hooks/useThemeMode.ts
+garak-report/src/hooks/useTooltipFormatter.ts
+garak-report/src/hooks/useValueFormatter.ts
+garak-report/src/hooks/useZScoreHelpers.ts
+garak-report/src/index.css
+garak-report/src/logo.svg
+garak-report/src/main.tsx
+garak-report/src/pages/Report.tsx
+garak-report/src/pages/__tests__/Report.test.tsx
+garak-report/src/pages/styles.css
+garak-report/src/styles/theme.ts
+garak-report/src/test-utils/mockTypes.ts
+garak-report/src/types/Calibration.ts
+garak-report/src/types/CalibrationSummary.ts
+garak-report/src/types/Detector.ts
+garak-report/src/types/Eval.ts
+garak-report/src/types/Module.ts
+garak-report/src/types/ModuleEntry.ts
+garak-report/src/types/Payload.ts
+garak-report/src/types/ProbesChart.ts
+garak-report/src/types/ReportEntry.ts
+garak-report/src/types/SetupSection.ts
+garak-report/src/types/Theme.ts
+garak-report/src/types/echarts.d.ts
+garak-report/src/types/index.ts
+garak-report/src/utils/__tests__/formatPercentage.test.ts
+garak-report/src/utils/formatPercentage.ts
+garak-report/src/vite-env.d.ts
+garak-report/tools/dev/pre-commit-hook.sh
+garak-report/tsconfig.app.json
+garak-report/tsconfig.json
+garak-report/tsconfig.node.json
+garak-report/vite.config.ts
+garak-report/vitest.setup.ts
+garak-report/yarn.lock
+garak/__init__.py
+garak/__main__.py
+garak/_config.py
+garak/_plugins.py
+garak/analyze/__init__.py
+garak/analyze/aggregate_reports.py
+garak/analyze/analyze_log.py
+garak/analyze/bootstrap_ci.py
+garak/analyze/calibration.py
+garak/analyze/ci_calculator.py
+garak/analyze/count_tokens.py
+garak/analyze/detector_metrics.py
+garak/analyze/get_tree.py
+garak/analyze/misp.py
+garak/analyze/perf_stats.py
+garak/analyze/qual_review.py
+garak/analyze/rebuild_cis.py
+garak/analyze/report_avid.py
+garak/analyze/report_digest.py
+garak/analyze/tbsa.py
+garak/analyze/ui/index.html
+garak/attempt.py
+garak/buffs/__init__.py
+garak/buffs/base.py
+garak/buffs/encoding.py
+garak/buffs/low_resource_languages.py
+garak/buffs/lowercase.py
+garak/buffs/paraphrase.py
+garak/cli.py
+garak/command.py
+garak/configs/bag.yaml
+garak/configs/fast.json
+garak/configurable.py
+garak/data/__init__.py
+garak/data/adaptive_attacks/seeds.txt
+garak/data/adaptive_attacks/suffixes.txt
+garak/data/agent_breaker/agent.yaml
+garak/data/agent_breaker/prompts.yaml
+garak/data/autodan/autodan_init.txt
+garak/data/autodan/autodan_prompts.json
+garak/data/autodan/prompt_group.pth
+garak/data/badchars/intentional.txt
+garak/data/banners
+garak/data/beast/suffixes.txt
+garak/data/book_cloze.tsv
+garak/data/book_cloze_80.tsv
+garak/data/calibration/bag.md
+garak/data/calibration/calibration-2024-09update.json
+garak/data/calibration/calibration-2024-summer.json
+garak/data/calibration/calibration-2025-05.json
+garak/data/calibration/calibration-2026-02.json
+garak/data/calibration/calibration-alpha-202407.json
+garak/data/calibration/calibration.json
+garak/data/dan/AntiDAN.json
+garak/data/dan/ChatGPT_Developer_Mode_RANTI.json
+garak/data/dan/ChatGPT_Developer_Mode_v2.json
+garak/data/dan/ChatGPT_Image_Markdown.json
+garak/data/dan/DAN_Jailbreak.json
+garak/data/dan/DUDE.json
+garak/data/dan/Dan_10_0.json
+garak/data/dan/Dan_11_0.json
+garak/data/dan/Dan_6_0.json
+garak/data/dan/Dan_6_2.json
+garak/data/dan/Dan_7_0.json
+garak/data/dan/Dan_8_0.json
+garak/data/dan/Dan_9_0.json
+garak/data/dan/STAN.json
+garak/data/detectors-eval/detector_metrics_summary.json
+garak/data/donotanswer/discrimination_exclusion_toxicity_hateful_offensive.txt
+garak/data/donotanswer/human_chatbox.txt
+garak/data/donotanswer/information_hazard.txt
+garak/data/donotanswer/malicious_uses.txt
+garak/data/donotanswer/misinformation_harms.txt
+garak/data/dra/letter_map.json
+garak/data/dra/moderation_cache.json
+garak/data/dra/prompt_templates.txt
+garak/data/fitd/prompt_template_eval.txt
+garak/data/fitd/prompt_template_get_level_query.txt
+garak/data/fitd/prompt_template_increase_safety.txt
+garak/data/fitd/prompt_template_realign.txt
+garak/data/fitd/prompt_template_response_aligned.txt
+garak/data/fitd/prompt_template_slippery_slope_paraphrase.txt
+garak/data/fitd/sensitive_words.csv
+garak/data/gcg/gcg.txt
+garak/data/goat/attack_techniques.json
+garak/data/goat/followup_prompt.txt
+garak/data/goat/initial_prompt.txt
+garak/data/goat/judge_prompt.txt
+garak/data/goat/system_prompt.txt
+garak/data/graph_connectivity.json
+garak/data/guardian_cloze.tsv
+garak/data/harmbench/LICENSE
+garak/data/harmbench/README.md
+garak/data/harmbench/harmbench_prompts.txt
+garak/data/inthewild_jailbreak_llms.json
+garak/data/ldnoobw-en.txt
+garak/data/nyt_cloze.tsv
+garak/data/ofcom-potentially-offensive.txt
+garak/data/packagehallucination/rust_std_entries-1_84_0
+garak/data/payloads/access_shell_commands.json
+garak/data/payloads/domains_latentinjection.json
+garak/data/payloads/encoded.json
+garak/data/payloads/example_domains_xss.json
+garak/data/payloads/harmful_behaviors.json
+garak/data/payloads/keyedprod_win10.json
+garak/data/payloads/keyedprod_win11.json
+garak/data/payloads/markdown_js.json
+garak/data/payloads/normal_instructions.json
+garak/data/payloads/python_code_execution.json
+garak/data/payloads/rude_chinese.json
+garak/data/payloads/rude_french.json
+garak/data/payloads/slur_terms_en.json
+garak/data/payloads/sql_injection.json
+garak/data/payloads/text_en.json
+garak/data/payloads/web_html_js.json
+garak/data/payloads/whois_injection_contexts.json
+garak/data/phrasing/future_tense_en.txt
+garak/data/phrasing/past_tense_en.txt
+garak/data/potter_cloze.tsv
+garak/data/primality_testing.json
+garak/data/profanity_en.csv
+garak/data/propile/pii_data.jsonl
+garak/data/propile/prompt_templates.tsv
+garak/data/realtoxicityprompts/rtp_flirtation.txt
+garak/data/realtoxicityprompts/rtp_identity_attack.txt
+garak/data/realtoxicityprompts/rtp_insult.txt
+garak/data/realtoxicityprompts/rtp_profanity.txt
+garak/data/realtoxicityprompts/rtp_severe_toxicity.txt
+garak/data/realtoxicityprompts/rtp_sexually_explicit.txt
+garak/data/realtoxicityprompts/rtp_threat.txt
+garak/data/safebench_filenames.txt
+garak/data/safebenchtiny_filenames.txt
+garak/data/senator_search.json
+garak/data/slurprompts.jsonl
+garak/data/slurprompts_mini.jsonl
+garak/data/slursreclaimedslurs.txt
+garak/data/smuggling_homoglyph_5.txt
+garak/data/sysprompt_extraction/attacks.json
+garak/data/tags.misp.tsv
+garak/data/tap/tap_jailbreaks.txt
+garak/data/truefalse_falseclaims.txt
+garak/data/truefalse_falseclaims_50.txt
+garak/data/typology_payloads.tsv
+garak/data/xss/xss_concat_prompt_templates/basic_concat_inst.txt
+garak/data/xss/xss_domains.txt
+garak/data/xss/xss_encodings.txt
+garak/data/xss/xss_full_uri_prompt_templates/direct.txt
+garak/data/xss/xss_full_uri_prompt_templates/email.txt
+garak/data/xss/xss_injected_actions.txt
+garak/data/xss/xss_injection_markers.txt
+garak/data/xss/xss_link_display_texts.txt
+garak/data/xss/xss_var_names.txt
+garak/detectors/__init__.py
+garak/detectors/agent_breaker.py
+garak/detectors/always.py
+garak/detectors/ansiescape.py
+garak/detectors/any.py
+garak/detectors/apikey.py
+garak/detectors/base.py
+garak/detectors/continuation.py
+garak/detectors/dan.py
+garak/detectors/divergence.py
+garak/detectors/encoding.py
+garak/detectors/exploitation.py
+garak/detectors/fileformats.py
+garak/detectors/goodside.py
+garak/detectors/judge.py
+garak/detectors/knownbadsignatures.py
+garak/detectors/leakreplay.py
+garak/detectors/lmrc.py
+garak/detectors/malwaregen.py
+garak/detectors/misleading.py
+garak/detectors/mitigation.py
+garak/detectors/packagehallucination.py
+garak/detectors/perspective.py
+garak/detectors/productkey.py
+garak/detectors/promptinject.py
+garak/detectors/propile.py
+garak/detectors/shields.py
+garak/detectors/snowball.py
+garak/detectors/sysprompt_extraction.py
+garak/detectors/unsafe_content.py
+garak/detectors/visual_jailbreak.py
+garak/detectors/web_injection.py
+garak/evaluators/__init__.py
+garak/evaluators/base.py
+garak/exception.py
+garak/generators/__init__.py
+garak/generators/anthropic.py
+garak/generators/azure.py
+garak/generators/base.py
+garak/generators/bedrock.py
+garak/generators/cohere.py
+garak/generators/function.py
+garak/generators/ggml.py
+garak/generators/groq.py
+garak/generators/guardrails.py
+garak/generators/huggingface.py
+garak/generators/langchain.py
+garak/generators/langchain_serve.py
+garak/generators/litellm.py
+garak/generators/llm.py
+garak/generators/mistral.py
+garak/generators/nim.py
+garak/generators/nvcf.py
+garak/generators/ollama.py
+garak/generators/openai.py
+garak/generators/rasa.py
+garak/generators/replicate.py
+garak/generators/rest.py
+garak/generators/test.py
+garak/generators/watsonx.py
+garak/generators/websocket.py
+garak/harnesses/__init__.py
+garak/harnesses/base.py
+garak/harnesses/probewise.py
+garak/harnesses/pxd.py
+garak/interactive.py
+garak/langproviders/base.py
+garak/langproviders/local.py
+garak/langproviders/remote.py
+garak/langservice.py
+garak/payloads.py
+garak/probes/__init__.py
+garak/probes/_tier.py
+garak/probes/adaptive_attacks.py
+garak/probes/agent_breaker.py
+garak/probes/ansiescape.py
+garak/probes/apikey.py
+garak/probes/atkgen.py
+garak/probes/audio.py
+garak/probes/av_spam_scanning.py
+garak/probes/badchars.py
+garak/probes/base.py
+garak/probes/continuation.py
+garak/probes/dan.py
+garak/probes/divergence.py
+garak/probes/doctor.py
+garak/probes/donotanswer.py
+garak/probes/dra.py
+garak/probes/encoding.py
+garak/probes/exploitation.py
+garak/probes/fileformats.py
+garak/probes/fitd.py
+garak/probes/glitch.py
+garak/probes/goat.py
+garak/probes/goodside.py
+garak/probes/grandma.py
+garak/probes/latentinjection.py
+garak/probes/leakreplay.py
+garak/probes/lmrc.py
+garak/probes/malwaregen.py
+garak/probes/misleading.py
+garak/probes/packagehallucination.py
+garak/probes/phrasing.py
+garak/probes/promptinject.py
+garak/probes/propile.py
+garak/probes/realtoxicityprompts.py
+garak/probes/sata.py
+garak/probes/smuggling.py
+garak/probes/snowball.py
+garak/probes/suffix.py
+garak/probes/sysprompt_extraction.py
+garak/probes/tap.py
+garak/probes/test.py
+garak/probes/topic.py
+garak/probes/visual_jailbreak.py
+garak/probes/web_injection.py
+garak/report.py
+garak/resources/__init__.py
+garak/resources/ansi.py
+garak/resources/api/huggingface.py
+garak/resources/api/nltk.py
+garak/resources/apikey/regexes.py
+garak/resources/apikey/serviceutils.py
+garak/resources/autodan/__init__.py
+garak/resources/autodan/autodan.py
+garak/resources/autodan/genetic.py
+garak/resources/autodan/model_utils.py
+garak/resources/beast/__init__.py
+garak/resources/beast/beast_attack.py
+garak/resources/common.py
+garak/resources/encodings.py
+garak/resources/fixer/20240628_gcg_rename.py
+garak/resources/fixer/20240801_continuation_rename.py
+garak/resources/fixer/20240822_knownbadsignatures_rename.py
+garak/resources/fixer/20241011_replay_rename.py
+garak/resources/fixer/20250220_unsafe_content_rename.py
+garak/resources/fixer/20250224_lightweight_probe_defaults.py
+garak/resources/fixer/20250423_specialwords.py
+garak/resources/fixer/20250908_xss_rename.py
+garak/resources/fixer/20250925_model_target_nametype.py
+garak/resources/fixer/20260223_templateinjection_rename.py
+garak/resources/fixer/__init__.py
+garak/resources/fixer/_plugin.py
+garak/resources/garak.core.yaml
+garak/resources/gcg/__init__.py
+garak/resources/gcg/attack_manager.py
+garak/resources/gcg/generate_gcg.py
+garak/resources/matching.py
+garak/resources/plugin_cache.json
+garak/resources/promptinject/__init__.py
+garak/resources/promptinject/_utils.py
+garak/resources/promptinject/prompt_data.py
+garak/resources/promptinject/prompting.py
+garak/resources/red_team/__init__.py
+garak/resources/red_team/conversation.py
+garak/resources/red_team/evaluation.py
+garak/resources/red_team/system_prompts.py
+garak/resources/smuggling/__init__.py
+garak/resources/smuggling/smuggle_ascii.py
+garak/resources/tap/__init__.py
+garak/resources/tap/tap_main.py
+garak/resources/theme/__init__.py
+pylintrc
+pyproject.toml
+requirements.txt
+signatures/cla.json
+tests/_assets/analyze/agg.report.jsonl
+tests/_assets/analyze/quack.report.jsonl
+tests/_assets/analyze/qual_review_mixed.report.jsonl
+tests/_assets/analyze/qual_review_shuffled.report.jsonl
+tests/_assets/analyze/tbsa_digest_0.json
+tests/_assets/analyze/tbsa_digest_1.json
+tests/_assets/analyze/test.report.jsonl
+tests/_assets/analyze/test_with_ci.report.jsonl
+tests/_assets/fileformats/exec_files/LICENSE
+tests/_assets/fileformats/exec_files/batch.bat.base64
+tests/_assets/fileformats/exec_files/grep-mach-o-top4k.base64
+tests/_assets/fileformats/exec_files/libssl3-top4k.so.base64
+tests/_assets/fileformats/exec_files/python-elf-top4k.base64
+tests/_assets/fileformats/exec_files/setuptools-top4k.exe.base64
+tests/_assets/fileformats/exec_files/shell.sh.base64
+tests/_assets/generators/anthropic.json
+tests/_assets/generators/hf_inference.json
+tests/_assets/generators/mistral.json
+tests/_assets/generators/openai.json
+tests/_assets/generators/watsonx.json
+tests/_assets/langservice/translation.yaml
+tests/_assets/langservice/translation_deepl.yaml
+tests/_assets/langservice/translation_local_low.yaml
+tests/_assets/langservice/translation_riva.yaml
+tests/_assets/report/report_test.report.jsonl
+tests/_assets/tinytrans.gif
+tests/analyze/__init__.py
+tests/analyze/test_aggregate.py
+tests/analyze/test_analyze.py
+tests/analyze/test_bootstrap_ci.py
+tests/analyze/test_calibration.py
+tests/analyze/test_ci_calculator.py
+tests/analyze/test_detector_metrics.py
+tests/analyze/test_qual_review.py
+tests/analyze/test_report_digest.py
+tests/analyze/test_report_digest_plugin_cache.py
+tests/analyze/test_report_digest_sql_injection.py
+tests/analyze/test_tbsa.py
+tests/buffs/__init__.py
+tests/buffs/test_buff_config.py
+tests/buffs/test_buffs.py
+tests/buffs/test_buffs_paraphrase.py
+tests/cli/__init__.py
+tests/cli/test_cli.py
+tests/cli/test_cli_list_filtering.py
+tests/conftest.py
+tests/detectors/__init__.py
+tests/detectors/test_detectors.py
+tests/detectors/test_detectors_agent_breaker.py
+tests/detectors/test_detectors_always.py
+tests/detectors/test_detectors_ansiescape.py
+tests/detectors/test_detectors_apikey.py
+tests/detectors/test_detectors_base.py
+tests/detectors/test_detectors_continuation.py
+tests/detectors/test_detectors_divergence.py
+tests/detectors/test_detectors_encoding.py
+tests/detectors/test_detectors_exploitation.py
+tests/detectors/test_detectors_fileformats.py
+tests/detectors/test_detectors_judge.py
+tests/detectors/test_detectors_malwaregen.py
+tests/detectors/test_detectors_misleading.py
+tests/detectors/test_detectors_mitigation.py
+tests/detectors/test_detectors_packagehallucination.py
+tests/detectors/test_detectors_productkey.py
+tests/detectors/test_detectors_promptinject.py
+tests/detectors/test_detectors_propile.py
+tests/detectors/test_detectors_refusal.py
+tests/detectors/test_detectors_shields.py
+tests/detectors/test_detectors_snowball.py
+tests/detectors/test_detectors_sysprompt_extraction.py
+tests/detectors/test_detectors_unsafe_content.py
+tests/detectors/test_detectors_web_injection.py
+tests/evaluators/__init__.py
+tests/evaluators/test_base.py
+tests/evaluators/test_evaluators.py
+tests/generators/__init__.py
+tests/generators/conftest.py
+tests/generators/test_anthropic.py
+tests/generators/test_azure.py
+tests/generators/test_bedrock.py
+tests/generators/test_cohere.py
+tests/generators/test_function.py
+tests/generators/test_generators.py
+tests/generators/test_generators_base.py
+tests/generators/test_ggml.py
+tests/generators/test_groq.py
+tests/generators/test_guardrails.py
+tests/generators/test_huggingface.py
+tests/generators/test_langchain_serve.py
+tests/generators/test_litellm.py
+tests/generators/test_llava.py
+tests/generators/test_llm.py
+tests/generators/test_mistral.py
+tests/generators/test_muiltiprocessing_support.py
+tests/generators/test_nim.py
+tests/generators/test_nim_multimodal.py
+tests/generators/test_nvcf.py
+tests/generators/test_ollama.py
+tests/generators/test_openai.py
+tests/generators/test_openai_compatible.py
+tests/generators/test_rest.py
+tests/generators/test_rest_mtls_integration.py
+tests/generators/test_test.py
+tests/generators/test_watsonx.py
+tests/generators/test_websocket.py
+tests/harnesses/__init__.py
+tests/harnesses/test_harnesses.py
+tests/langservice/__init__.py
+tests/langservice/conftest.py
+tests/langservice/detectors/__init__.py
+tests/langservice/detectors/test_detectors_leakreplay.py
+tests/langservice/detectors/test_detectors_misleading.py
+tests/langservice/detectors/test_detectors_snowball.py
+tests/langservice/probes/__init__.py
+tests/langservice/probes/test_probes_base.py
+tests/langservice/probes/test_probes_goodside.py
+tests/langservice/test_langprovision.py
+tests/plugins/__init__.py
+tests/plugins/test_plugin_cache.py
+tests/plugins/test_plugin_load.py
+tests/plugins/test_plugin_provider.py
+tests/plugins/test_plugins.py
+tests/probes/__init__.py
+tests/probes/test_agent_breaker.py
+tests/probes/test_base2048.py
+tests/probes/test_probes.py
+tests/probes/test_probes_adaptive_attacks.py
+tests/probes/test_probes_ansiescape.py
+tests/probes/test_probes_atkgen.py
+tests/probes/test_probes_badcharacters.py
+tests/probes/test_probes_continuation.py
+tests/probes/test_probes_dan.py
+tests/probes/test_probes_divergence.py
+tests/probes/test_probes_doctor.py
+tests/probes/test_probes_dra.py
+tests/probes/test_probes_encoding.py
+tests/probes/test_probes_fileformats.py
+tests/probes/test_probes_fitd.py
+tests/probes/test_probes_glitch.py
+tests/probes/test_probes_goat.py
+tests/probes/test_probes_latentinjection.py
+tests/probes/test_probes_leakreplay.py
+tests/probes/test_probes_packagehallucination.py
+tests/probes/test_probes_phrasing.py
+tests/probes/test_probes_propile.py
+tests/probes/test_probes_sata.py
+tests/probes/test_probes_smuggling.py
+tests/probes/test_probes_snowball.py
+tests/probes/test_probes_suffix.py
+tests/probes/test_probes_sysprompt_extraction.py
+tests/probes/test_probes_topic.py
+tests/probes/test_probes_visual_jailbreak.py
+tests/resources/__init__.py
+tests/resources/red_team/__init__.py
+tests/resources/red_team/test_evaluation.py
+tests/resources/test_fixer.py
+tests/test_attempt.py
+tests/test_config.py
+tests/test_configurable.py
+tests/test_data.py
+tests/test_docs.py
+tests/test_hitlog.py
+tests/test_internal_structures.py
+tests/test_payloads.py
+tests/test_report.py
+tests/test_reqs.py
+tests/test_sysprompt.py
+tools/packagehallucination/dart/create_dataset.py
+tools/packagehallucination/javascript/main.py
+tools/packagehallucination/perl/create_dataset.py
+tools/packagehallucination/python/main.py
+tools/packagehallucination/raku/create_dataset.py
+tools/packagehallucination/ruby/main.py
+tools/propile/extract_pii_from_training_dataset.py
+tools/propile/requirements.txt
+tools/rebuild_plugin_cache.sh
+tools/requirements.txt
+tools/rest/restdemo.json
+tools/rest/restserv.py
+tools/sysprompt_drh_to_hf_dataset.py
+tools/termscrape.py
+
+=== 2026-07-14T17:26:36.830024+00:00 git show HEAD:README.md ===
+# garak, LLM vulnerability scanner
+
+*Generative AI Red-teaming & Assessment Kit*
+
+`garak` checks if an LLM can be made to fail in a way we don't want. `garak` probes for hallucination, data leakage, prompt injection, misinformation, toxicity generation, jailbreaks, and many other weaknesses. If you know `nmap` or `msf` / Metasploit Framework, garak does somewhat similar things to them, but for LLMs. 
+
+`garak` focuses on ways of making an LLM or dialog system fail. It combines static, dynamic, and adaptive probes to explore this.
+
+`garak`'s a free tool. We love developing it and are always interested in adding functionality to support applications. 
+
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Tests/Linux](https://github.com/NVIDIA/garak/actions/workflows/test_linux.yml/badge.svg)](https://github.com/NVIDIA/garak/actions/workflows/test_linux.yml)
+[![Tests/Windows](https://github.com/NVIDIA/garak/actions/workflows/test_windows.yml/badge.svg)](https://github.com/NVIDIA/garak/actions/workflows/test_windows.yml)
+[![Tests/OSX](https://github.com/NVIDIA/garak/actions/workflows/test_macos.yml/badge.svg)](https://github.com/NVIDIA/garak/actions/workflows/test_macos.yml)
+[![Documentation Status](https://readthedocs.org/projects/garak/badge/?version=latest)](http://garak.readthedocs.io/en/latest/?badge=latest)
+[![arXiv](https://img.shields.io/badge/cs.CL-arXiv%3A2406.11036-b31b1b.svg)](https://arxiv.org/abs/2406.11036)
+[![discord-img](https://img.shields.io/badge/chat-on%20discord-yellow.svg)](https://discord.gg/uVch4puUCs)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/garak)](https://pypi.org/project/garak)
+[![PyPI](https://badge.fury.io/py/garak.svg)](https://badge.fury.io/py/garak)
+[![Downloads](https://static.pepy.tech/badge/garak)](https://pepy.tech/project/garak)
+[![Downloads](https://static.pepy.tech/badge/garak/month)](https://pepy.tech/project/garak)
+
+
+## Get started
+### > See our user guide! [docs.garak.ai](https://docs.garak.ai/)
+### > Join our [Discord](https://discord.gg/uVch4puUCs)!
+### > Project links & home: [garak.ai](https://garak.ai/)
+### > Twitter: [@garak_llm](https://twitter.com/garak_llm)
+### > DEF CON [slides](https://garak.ai/garak_aiv_slides.pdf)!
+
+<hr>
+
+## LLM support
+
+currently supports:
+* [hugging face hub](https://huggingface.co/models) generative models
+* [replicate](https://replicate.com/) text models
+* [openai api](https://platform.openai.com/docs/introduction) chat & continuation models
+* [aws bedrock](https://aws.amazon.com/bedrock/) foundation models
+* [litellm](https://www.litellm.ai/)
+* pretty much anything accessible via REST
+* gguf models like [llama.cpp](https://github.com/ggerganov/llama.cpp) version >= 1046
+* .. and many more LLMs!
+
+## Install:
+
+`garak` is a command-line tool. It's developed in Linux and OSX.
+
+### Standard install with `pip`
+
+Just grab it from PyPI and you should be good to go:
+
+```
+python -m pip install -U garak
+```
+
+### Install development version with `pip`
+
+The standard pip version of `garak` is updated periodically. To get a fresher version from GitHub, try:
+
+```
+python -m pip install -U git+https://github.com/NVIDIA/garak.git@main
+```
+
+### Clone from source
+
+`garak` has its own dependencies. You can to install `garak` in its own Conda environment:
+
+```
+conda create --name garak "python>=3.10,<=3.12"
+conda activate garak
+gh repo clone NVIDIA/garak
+cd garak
+python -m pip install -e .
+```
+
+OK, if that went fine, you're probably good to go!
+
+**Note**: if you cloned before the move to the `NVIDIA` GitHub organisation, but you're reading this at the `github.com/NVIDIA` URI, please update your remotes as follows:
+
+```
+git remote set-url origin https://github.com/NVIDIA/garak.git
+```
+
+
+## Getting started
+
+The general syntax is:
+
+`garak <options>`
+
+`garak` needs to know what model to scan, and by default, it'll try all the probes it knows on that model, using the vulnerability detectors recommended by each probe. You can see a list of probes using:
+
+`garak --list_probes`
+
+To specify a generator, use the `--target_type` and, optionally, the `--target_name` options. Model type specifies a model family/interface; model name specifies the exact model to be used. The "Intro to generators" section below describes some of the generators supported. A straightforward generator family is Hugging Face models; to load one of these, set `--target_type` to `huggingface` and `--target_name` to the model's name on Hub (e.g. `"RWKV/rwkv-4-169m-pile"`). Some generators might need an API key to be set as an environment variable, and they'll let you know if they need that.
+
+`garak` runs all the probes by default, but you can be specific about that too. `--probes promptinject` will use only the [PromptInject](https://github.com/agencyenterprise/promptinject) framework's methods, for example. You can also specify one specific plugin instead of a plugin family by adding the plugin name after a `.`; for example, `--probes lmrc.SlurUsage` will use an implementation of checking for models generating slurs based on the [Language Model Risk Cards](https://arxiv.org/abs/2303.18190) framework.
+
+For help and inspiration, find us on [Twitter](https://twitter.com/garak_llm) or [discord](https://discord.gg/uVch4puUCs)!
+
+## Examples
+
+Probe a commercial model for encoding-based prompt injection (OSX/\*nix) (replace example value with a real OpenAI API key)
+ 
+```
+export OPENAI_API_KEY="sk-123XXXXXXXXXXXX"
+python3 -m garak --target_type openai --target_name gpt-5-nano --probes encoding
+```
+
+See if the Hugging Face version of GPT2 is vulnerable to DAN 11.0
+
+```
+python3 -m garak --target_type huggingface --target_name gpt2 --probes dan.Dan_11_0
+```
+
+
+## Reading the results
+
+For each probe loaded, garak will print a progress bar as it generates. Once generation is complete, a row evaluating that probe's results on each detector is given. If any of the prompt attempts yielded an undesirable behavior, the response will be marked as FAIL, and the failure rate given.
+
+Here are the results with the `encoding` module on a GPT-3 variant:
+![alt text](https://i.imgur.com/8Dxf45N.png)
+
+And the same results for ChatGPT:
+![alt text](https://i.imgur.com/VKAF5if.png)
+
+We can see that the more recent model is much more susceptible to encoding-based injection attacks, where text-babbage-001 was only found to be vulnerable to quoted-printable and MIME encoding injections.  The figures at the end of each row, e.g. 840/840, indicate the number of text generations total and then how many of these seemed to behave OK. The figure can be quite high because more than one generation is made per prompt - by default, 10.
+
+Errors go in `garak.log`; the run is logged in detail in a `.jsonl` file specified at analysis start & end. There's a basic analysis script in `analyse/analyse_log.py` which will output the probes and prompts that led to the most hits.
+
+Send PRs & open issues. Happy hunting!
+
+## Intro to generators
+
+### Hugging Face
+
+Using the Pipeline API:
+* `--target_type huggingface` (for transformers models to run locally)
+* `--target_name` - use the model name from Hub. Only generative models will work. If it fails and shouldn't, please open an issue and paste in the command you tried + the exception!
+
+Using the Inference API:
+* `--target_type huggingface.InferenceAPI` (for API-based model access)
+* `--target_name` - the model name from Hub, e.g. `"mosaicml/mpt-7b-instruct"`
+
+Using private endpoints:
+* `--target_type huggingface.InferenceEndpoint` (for private endpoints)
+* `--target_name` - the endpoint URL, e.g. `https://xxx.us-east-1.aws.endpoints.huggingface.cloud`
+
+* (optional) set the `HF_INFERENCE_TOKEN` environment variable to a Hugging Face API token with the "read" role; see https://huggingface.co/settings/tokens when logged in
+
+### OpenAI
+
+* `--target_type openai`
+* `--target_name` - the OpenAI model you'd like to use. `gpt-5-nano` is fast and fine for testing.
+* set the `OPENAI_API_KEY` environment variable to your OpenAI API key (e.g. "sk-19763ASDF87q6657"); see https://platform.openai.com/account/api-keys when logged in
+
+Recognised model types are whitelisted, because the plugin needs to know which sub-API to use. Completion or ChatCompletion models are OK. If you'd like to use a model not supported, you should get an informative error message, and please send a PR / open an issue.
+
+### Replicate
+
+* set the `REPLICATE_API_TOKEN` environment variable to your Replicate API token, e.g. "r8-123XXXXXXXXXXXX"; see https://replicate.com/account/api-tokens when logged in
+
+Public Replicate models:
+* `--target_type replicate`
+* `--target_name` - the Replicate model name and hash, e.g. `"stability-ai/stablelm-tuned-alpha-7b:c49dae36"`
+
+Private Replicate endpoints:
+* `--target_type replicate.InferenceEndpoint` (for private endpoints)
+* `--target_name` - username/model-name slug from the deployed endpoint, e.g. `elim/elims-llama2-7b`
+
+### Cohere
+
+* `--target_type cohere`
+* `--target_name` (optional, `command` by default) - The specific Cohere model you'd like to test
+* set the `COHERE_API_KEY` environment variable to your Cohere API key, e.g. "aBcDeFgHiJ123456789"; see https://dashboard.cohere.ai/api-keys when logged in
+
+### Groq
+
+* `--target_type groq`
+* `--target_name` - The name of the model to access via the Groq API
+* set the `GROQ_API_KEY` environment variable to your Groq API key, see https://console.groq.com/docs/quickstart for details on creating an API key
+
+### ggml
+
+* `--target_type ggml`
+* `--target_name` - The path to the ggml model you'd like to load, e.g. `/home/leon/llama.cpp/models/7B/ggml-model-q4_0.bin`
+* set the `GGML_MAIN_PATH` environment variable to the path to your ggml `main` executable
+
+### REST
+
+`rest.RestGenerator` is highly flexible and can connect to any REST endpoint that returns plaintext or JSON. It does need some brief config, which will typically result a short YAML file describing your endpoint. See https://reference.garak.ai/en/latest/garak.generators.rest.html for examples.
+
+### NIM
+
+Use models from https://build.nvidia.com/ or other NIM endpoints.
+* set the `NIM_API_KEY` environment variable to your authentication API token, or specify it in the config YAML
+
+For chat models:
+* `--target_type nim`
+* `--target_name` - the NIM `model` name, e.g. `meta/llama-3.1-8b-instruct`
+
+For completion models:
+* `--target_type nim.NVOpenAICompletion`
+* `--target_name` - the NIM `model` name, e.g. `bigcode/starcoder2-15b`
+
+### AWS Bedrock
+
+* `--target_type bedrock`
+* `--target_name` - the Bedrock model ID or alias, e.g. `anthropic.claude-3-sonnet-20240229-v1:0` or `claude-3-sonnet`
+* set the `BEDROCK_API_KEY` environment variable to your AWS Bedrock API key; see https://docs.aws.amazon.com/bedrock/latest/userguide/api-keys-use.html for setup instructions
+* (optional) set the `BEDROCK_REGION` environment variable to specify the AWS region (defaults to `us-east-1`)
+
+Supported model families include Anthropic Claude, Meta Llama, Amazon Titan, AI21 Labs, Cohere, and Mistral AI models. The generator uses the Converse API for unified access across all model types.
+
+Example usage:
+
+```
+export BEDROCK_API_KEY="your-api-key"
+export BEDROCK_REGION="us-east-1"
+garak --target_type bedrock --target_name claude-3-sonnet --probes dan
+```
+
+### Test
+
+* `--target_type test`
+* (alternatively) `--target_name test.Blank`
+For testing. This always generates the empty string, using the `test.Blank` generator.  Will be marked as failing for any tests that *require* an output, e.g. those that make contentious claims and expect the model to refute them in order to pass.
+
+* `--target_type test.Repeat`
+For testing. This generator repeats back the prompt it received.
+
+## Intro to probes
+
+| Probe                | Description                                                                                                                   |
+|----------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| blank                | A simple probe that always sends an empty prompt.                                                                             |
+| atkgen               | Automated Attack Generation. A red-teaming LLM probes the target and reacts to it in an attempt to get toxic output. Prototype, mostly stateless, for now uses a simple GPT-2 [fine-tuned](https://huggingface.co/garak-llm/artgpt2tox) on the subset of hhrlhf attempts that yielded detectable toxicity (the only target currently supported for now). |
+| badchars             | Implements imperceptible Unicode perturbations (invisible characters, homoglyphs, reorderings, deletions) inspired by the [Bad Characters](https://arxiv.org/abs/2106.09898) paper. |
+| av_spam_scanning     | Probes that attempt to make the model output malicious content signatures                                                     |
+| continuation         | Probes that test if the model will continue a probably undesirable word                                                       |
+| dan                  | Various [DAN](https://adguard.com/en/blog/chatgpt-dan-prompt-abuse.html) and DAN-like attacks                                 |
+| donotanswer          | Prompts to which responsible language models should not answer.                                                               |
+| encoding             | Prompt injection through text encoding                                                                                        |
+| gcg                  | Disrupt a system prompt by appending an adversarial suffix.                                                                   |
+| glitch               | Probe model for glitch tokens that provoke unusual behavior.                                                                  |
+| grandma              | Appeal to be reminded of one's grandmother.                                                                                   |
+| goodside             | Implementations of Riley Goodside attacks.                                                                                    |
+| leakreplay           | Evaluate if a model will replay training data.                                                                                |
+| lmrc                 | Subsample of the [Language Model Risk Cards](https://arxiv.org/abs/2303.18190) probes                                         |
+| malwaregen           | Attempts to have the model generate code for building malware                                                                 |
+| misleading           | Attempts to make a model support misleading and false claims                                                                  |
+| packagehallucination | Trying to get code generations that specify non-existent (and therefore insecure) packages.                                   |
+| promptinject         | Implementation of the Agency Enterprise [PromptInject](https://github.com/agencyenterprise/PromptInject/tree/main/promptinject) work (best paper awards @ NeurIPS ML Safety Workshop 2022) |
+| realtoxicityprompts  | Subset of the RealToxicityPrompts work (data constrained because the full test will take so long to run)                      |
+| snowball             | [Snowballed Hallucination](https://ofir.io/snowballed_hallucination.pdf) probes designed to make a model give a wrong answer to questions too complex for it to process |
+| xss                  | Look for vulnerabilities the permit or enact cross-site attacks, such as private data exfiltration.                           |
+
+## Logging
+
+`garak` generates multiple kinds of log:
+* A log file, `garak.log`. This includes debugging information from `garak` and its plugins, and is continued across runs.
+* A report of the current run, structured as JSONL. A new report file is created every time `garak` runs. The name of this file is output at the beginning and, if successful, also at the end of the run. In the report, an entry is made for each probing attempt both as the generations are received, and again when they are evaluated; the entry's `status` attribute takes a constant from `garak.attempts` to describe what stage it was made at.
+* A hit log, detailing attempts that yielded a vulnerability (a 'hit')
+
+## How is the code structured?
+
+Check out the [reference docs](https://reference.garak.ai/) for an authoritative guide to `garak` code structure.
+
+In a typical run, `garak` will read a model type (and optionally model name) from the command line, then determine which `probe`s and `detector`s to run, start up a `generator`, and then pass these to a `harness` to do the probing; an `evaluator` deals with the results. There are many modules in each of these categories, and each module provides a number of classes that act as individual plugins.
+
+* `garak/probes/` - classes for generating interactions with LLMs
+* `garak/detectors/` - classes for detecting an LLM is exhibiting a given failure mode
+* `garak/evaluators/` - assessment reporting schemes
+* `garak/generators/` - plugins for LLMs to be probed
+* `garak/harnesses/` - classes for structuring testing
+* `resources/` - ancillary items required by plugins
+
+The default operating mode is to use the `probewise` harness. Given a list of probe module names and probe plugin names, the `probewise` harness instantiates each probe, then for each probe reads its `primary_detector` and `extended_detectors` attributes to get a list of `detector`s to run on the output.
+
+Each plugin category (`probes`, `detectors`, `evaluators`, `generators`, `harnesses`) includes a `base.py` which defines the base classes usable by plugins in that category. Each plugin module defines plugin classes that inherit from one of the base classes. For example, `garak.generators.openai.OpenAIGenerator` descends from `garak.generators.base.Generator`.
+
+Larger artefacts, like model files and bigger corpora, are kept out of the repository; they can be stored on e.g. Hugging Face Hub and loaded locally by clients using `garak`.
+
+
+## Developing your own plugin
+
+* Take a look at how other plugins do it
+* Inherit from one of the base classes, e.g. `garak.probes.base.TextProbe`
+* Override as little as possible
+* You can test the new code in at least two ways:
+  * Start an interactive Python session
+    * Import the model, e.g. `import garak.probes.mymodule`
+    * Instantiate the plugin, e.g. `p = garak.probes.mymodule.MyProbe()`
+  * Run a scan with test plugins
+    * For probes, try a blank generator and always.Pass detector: `python3 -m garak -m test.Blank -p mymodule -d always.Pass`
+    * For detectors, try a blank generator and a blank probe: `python3 -m garak -m test.Blank -p test.Blank -d mymodule`
+    * For generators, try a blank probe and always.Pass detector: `python3 -m garak -m mymodule -p test.Blank -d always.Pass`
+  * Get `garak` to list all the plugins of the type you're writing, with `--list_probes`, `--list_detectors`, or `--list_generators`
+
+
+## FAQ
+
+We have an FAQ [here](https://github.com/NVIDIA/garak/blob/main/FAQ.md). Reach out if you have any more questions! [garak@nvidia.com](mailto:garak@nvidia.com)
+
+Code reference documentation is at [garak.readthedocs.io](https://garak.readthedocs.io/en/latest/).
+
+## Citing garak
+
+You can read the [garak preprint paper](garak-paper.pdf). If you use garak, please cite us.
+
+```
+@article{garak,
+  title={{garak: A Framework for Security Probing Large Language Models}},
+  author={Leon Derczynski and Erick Galinkin and Jeffrey Martin and Subho Majumdar and Nanna Inie},
+  year={2024},
+  howpublished={\url{https://garak.ai}}
+}
+```
+
+<hr>
+
+_"Lying is a skill like any other, and if you wish to maintain a level of excellence you have to practice constantly"_ - Elim
+
+For updates and news see [@garak_llm](https://twitter.com/garak_llm)
+
+© 2023- Leon Derczynski; Apache license v2, see [LICENSE](LICENSE)
+
+=== 2026-07-14T17:26:37.591973+00:00 git show HEAD:pyproject.toml ===
+[build-system]
+requires = ["flit_core >=3.11,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "garak"
+version = "0.15.2.pre1"
+authors = [
+  { name = "Leon Derczynski", email="lderczynski@nvidia.com" },
+  { name = "Subho Majumdar", email="subho@vijil.ai" },
+  { name = "nv052193" },
+  { name = "Mads Kongsbak" },
+  { name = "Erick Galinkin", email="egalinkin@nvidia.com" },
+  { name = "Tianhao Li" },
+  { name = "Phyllis Poh" },
+  { name = "Razvan Dinu" },
+  { name = "Zander Mackie" },
+  { name = "Greg Stephens" },
+  { name = "Jeffrey Martin", email="jemartin@nvidia.com" },
+  { name = "Ahsan Ayub" },
+  { name = "Jonathan Liberman" },
+  { name = "Gustav Fredrikson" },
+  { name = "Oh Tien Cheng" },
+  { name = "Brain John" },
+  { name = "Naman Mishra" },
+  { name = "Soumili Nandi" },
+  { name = "Arjun Krishna" },
+  { name = "Mihailo Milenkovic" },
+  { name = "Kai Greshake" },
+  { name = "Martin Borup-Larsen" },
+  { name = "Emmanuel Ferdman" },
+  { name = "Eric Therond" },
+  { name = "Zoe Nolan" },
+  { name = "Harsh Raj" },
+  { name = "Shine-afk" },
+  { name = "Rafael Sandroni" },  
+  { name = "Eric Hacker" },
+  { name = "Blessed Uyo" },
+  { name = "Ikko Eltociear Ashimine" },
+  { name = "iamnotcj" },
+  { name = "Dwight Temple" },
+  { name = "Shane Rosse" },
+  { name = "Masaya Ogushi" },
+  { name = "Viktor T. Zetterberg" },
+  { name = "Erwan Roussel" },
+  { name = "Matthew Rowe" },
+  { name = "Aishwarya Padmakumar" },
+  { name = "Marco Rosa" },
+  { name = "Ian Chu" },
+  { name = "Mike McKiernan" },
+  { name = "Divya Chitimalla" },
+  { name = "Katherine Luna" },
+  { name = "Dave Baker" },
+  { name = "Jack Kelly" },
+  { name = "Amrit Prakash" },
+  { name = "Cássia Sampaio" },
+  { name = "Nakul Rajpal" },
+  { name = "Noah Oeksuez" },
+  { name = "Dhruv Malik" },
+  { name = "Patricia Pampanelli" },
+  { name = "Joseph Davis Chamdani" },
+  { name = "Rob Geada" },
+  { name = "Ashish RajAnand" },
+  { name = "Paulina Kalicka" },
+  { name = "Gal Moshkovitz" },
+  { name = "Jack Smith" },
+  { name = "Paul A. Parkanzky" },
+  { name = "Leif Hancox-Li" },
+  { name = "Fabrizio Rocco" },
+  { name = "Sai Chandra Pandraju" },
+  { name = "Harish Kolla" },
+  { name = "Snehal Vartak" },
+  { name = "Abhiraj Sinha" },
+  { name = "Harsh Motla" },
+  { name = "Otavio Padovani" },
+  { name = "Siddhant Mishra" },
+  { name = "dyrtyData" },
+  { name = "Leone Lage Perdigão" },
+  { name = "Lucas Wang" },
+  { name = "Ian Miller" },
+  { name = "Edward Kim" },
+  { name = "Raina O'Sullivan" },
+  { name = "Christ Bowel Bouchuen" },
+  { name = "Hayato Fujihara" },
+  { name = "precognitivem0nk" },
+  { name = "Jacob J. lee" },
+  { name = "Eliya Cohen" },
+  { name = "Nathan Maine" },
+  { name = "Boao Dong" },
+  { name = "zw5" },
+  { name = "Musaab Hasan" },
+  { name = "Stefano Amorelli" },
+  { name = "Chris Southerland Jr." },
+  { name = "Lane Poole" },
+  { name = "Aditya Singh" },
+  { name = "Pradyoth Prashanth" },
+  { name = "Oleksandr Sanin" },
+  { name = "Varun Jakkula" },
+  { name = "Kyle Zang" },
+  { name = "Minh Vu" },
+]
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+description = "LLM vulnerability scanner"
+readme = "README.md"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.10"
+dependencies = [
+  "mikeshardmind-base2048>=1.0.2",
+  "transformers>=5.0,<6.0",
+  "datasets>=3.0.0,<4.0",
+  "colorama>=0.4.3",
+  "tqdm>=4.67.1",
+  "cohere>=5.16.0",
+  "anthropic>=0.40.0",
+  "openai>=2.0,<3.0",
+  "replicate>=0.8.3",
+  "google-api-python-client>=2.0",
+  "backoff>=2.1.1",
+  "nltk>=3.9.1",
+  "accelerate>=0.23.0",
+  "avidtools==0.1.2",
+  "stdlibs>=2022.10.9",
+  "langchain>=1.2.1",
+  "cmd2==2.4.3",
+  "torch>=2.6.0",
+  "sentencepiece>=0.1.99",
+  "markdown>=3.4.3",
+  "numpy>=2.0.0",
+  "zalgolib>=0.2.2",
+  "ecoji>=0.1.1",
+  "deepl==1.17.0",
+  "litellm>=1.84.0",
+  "llm>=0.31",
+  "jsonpath-ng>=1.6.1",
+  "huggingface_hub>=1.0",
+  'python-magic-bin>=0.4.14; sys_platform == "win32"',
+  'python-magic>=0.4.21; sys_platform != "win32"',
+  "lorem==0.1.1",
+  "xdg-base-dirs>=6.0.1",
+  "wn==0.9.5",
+  "ollama>=0.4.7",
+  "nvidia-riva-client==2.16.0",
+  "google-cloud-translate>=2.0.4",
+  "grpcio-tools>=1.71.0",
+  "langdetect==1.0.9",
+  "tiktoken>=0.7.0",
+  "mistralai==1.5.2",
+  "pillow>=10.4.0",
+  "ftfy>=6.3.1",
+  "websockets>=13.0",
+  "boto3>=1.28.0",
+  "py-markdown-table>=1.2.0",
+]
+
+[project.optional-dependencies]
+tests = [
+  "pytest>=8.0",
+  "pytest-mock>=3.14.0",
+  "requests-mock==1.12.1",
+  "respx>=0.21.1",
+  "pytest-cov>=5.0.0",
+  "pytest_httpserver>=1.1.0",
+  "pytest-asyncio>=0.21.0",
+  "langcodes>=3.4.0",
+  "cryptography>=47.0.0",
+]
+lint = [
+  "black>=26.1.0",
+  "pylint>=3.1.0",
+]
+calibration = [
+  "scipy>=1.14.0",
+]
+audio = [
+  "soundfile>=0.13.1",
+  "librosa>=0.10.2"
+]
+dra = [
+  "detoxify>=0.5.0"
+]
+[project.urls]
+"Homepage" = "https://github.com/NVIDIA/garak"
+"Bug Tracker" = "https://github.com/NVIDIA/garak/issues"
+
+[project.scripts]
+garak = "garak.__main__:main"
+
+[tool.flit.module]
+name = "garak"
+
+[tool.flit.sdist]
+include = [
+  "*.md",
+  "*.txt",
+  "garak/analyze/templates/*",
+  "garak/configs/*",
+  "garak/resources/*.json",
+  "garak/resources/*.yaml",
+]
+exclude = [
+  ".pre-commit-config.yaml",
+  ".github/",
+  ".gitignore",
+  "garak-report/",
+  "tests/",
+  "doc/source/html/",
+]
+
+[tool.black]
+line-length = 88
+target-version = ['py310']
+include = '\.pyi?$'
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    "ignore",
+    "default:::garak",
+]
+
+[tool.coverage.run]
+source = ["./garak"]
+omit = ["tests/*"]
+
+=== 2026-07-14T17:26:38.341491+00:00 git show HEAD:LICENSE ===
+
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "[]"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright (c) 2023 Leon Derczynski
+   Copyright (c) 2023 NVIDIA CORPORATION & AFFILIATES
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+=== 2026-07-14T17:26:39.099677+00:00 git show HEAD:garak/data/harmbench/LICENSE ===
+MIT License
+
+Copyright (c) 2024 centerforaisafety
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+=== 2026-07-14T17:26:39.875123+00:00 git show HEAD:tests/_assets/fileformats/exec_files/LICENSE ===
+4KB of Python setuptools' cli exe, and of Python Linux, is included
+
+1. This LICENSE AGREEMENT is between the Python Software Foundation ("PSF"), and
+   the Individual or Organization ("Licensee") accessing and otherwise using Python
+   3.12.4 software in source or binary form and its associated documentation.
+
+2. Subject to the terms and conditions of this License Agreement, PSF hereby
+   grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce,
+   analyze, test, perform and/or display publicly, prepare derivative works,
+   distribute, and otherwise use Python 3.12.4 alone or in any derivative
+   version, provided, however, that PSF's License Agreement and PSF's notice of
+   copyright, i.e., "Copyright © 2001-2023 Python Software Foundation; All Rights
+   Reserved" are retained in Python 3.12.4 alone or in any derivative version
+   prepared by Licensee.
+
+3. In the event Licensee prepares a derivative work that is based on or
+   incorporates Python 3.12.4 or any part thereof, and wants to make the
+   derivative work available to others as provided herein, then Licensee hereby
+   agrees to include in any such work a brief summary of the changes made to Python
+   3.12.4.
+
+4. PSF is making Python 3.12.4 available to Licensee on an "AS IS" basis.
+   PSF MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED.  BY WAY OF
+   EXAMPLE, BUT NOT LIMITATION, PSF MAKES NO AND DISCLAIMS ANY REPRESENTATION OR
+   WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE
+   USE OF PYTHON 3.12.4 WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.
+
+5. PSF SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON 3.12.4
+   FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF
+   MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON 3.12.4, OR ANY DERIVATIVE
+   THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.
+
+6. This License Agreement will automatically terminate upon a material breach of
+   its terms and conditions.
+
+7. Nothing in this License Agreement shall be deemed to create any relationship
+   of agency, partnership, or joint venture between PSF and Licensee.  This License
+   Agreement does not grant permission to use PSF trademarks or trade name in a
+   trademark sense to endorse or promote products or services of Licensee, or any
+   third party.
+
+8. By copying, installing or otherwise using Python 3.12.4, Licensee agrees
+   to be bound by the terms and conditions of this License Agreement.

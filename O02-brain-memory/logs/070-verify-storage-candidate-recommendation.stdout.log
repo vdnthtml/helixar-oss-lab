@@ -1,0 +1,48 @@
+{
+  "candidate_ports_free": {
+    "5432": true,
+    "6333": true,
+    "6334": true,
+    "9000": true,
+    "9001": true
+  },
+  "candidate_provenance": {
+    "MinIO": {
+      "clean": true,
+      "commit": "7aac2a2c5b7c882e68c1ce017d8256be2feea27f",
+      "license_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "tree": "376b09b793c57170a905208e64590164d8ab7a3b"
+    },
+    "PostgreSQL+pgvector": {
+      "clean": true,
+      "commit": "a6420355c5d1c08f4c5fbd5112fc17e4cf3b5eb5",
+      "license_sha256": "6bba9ebeb73e27477463b05e5ef1bf303bccbddb3db9bbc95905d351604d6a87",
+      "tree": "52b7f4807f58d7ae61990ba5c95f26755e66d65a"
+    },
+    "Qdrant": {
+      "clean": true,
+      "commit": "44ad62f8cd69642be5afa6441612525e24a0d063",
+      "license_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "tree": "c6b12563a75f1c5ee866e763be8ad93ebc51e5a8"
+    }
+  },
+  "fixture_id": "O02-STOR-FX-01",
+  "fixture_status": "RECOMMENDED_NOT_RUN",
+  "host_command_paths": {
+    "cargo": null,
+    "docker": null,
+    "go": null,
+    "mc": null,
+    "minio": null,
+    "pg_config": null,
+    "podman": null,
+    "postgres": null,
+    "psql": null,
+    "rustc": null
+  },
+  "proof_boundary": "Source provenance and recommendation/spec consistency only; no PostgreSQL, Qdrant, or MinIO server was installed or started.",
+  "recommendation_validated": true,
+  "service_fixture_not_run_reason": "Live preflight found no Docker/Podman, PostgreSQL toolchain, Go, Rust, MinIO, or mc; MinIO AGPL permission and PostgreSQL server provenance remain unresolved",
+  "service_fixture_run": false,
+  "status": "PASS"
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "path": "LICENSE",
+    "status": "READ",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "bytes": 11358,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/opencost/LICENSE",
+    "error": ""
+  },
+  {
+    "path": "NOTICE",
+    "status": "READ",
+    "sha256": "84b7e435b157b4b811125c23728bf0558123afb94b13bae60d10f2c9c484c770",
+    "bytes": 347,
+    "local_copy": "/Users/vedantswami/Projects/helixar-oss-labs/O05-measurement-economics/artifacts/licenses/opencost/NOTICE",
+    "error": ""
+  }
+]

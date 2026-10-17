@@ -1,0 +1,8 @@
+{
+  "files_hashed": 30,
+  "source_csvs_read": 20,
+  "source_csv_rows_read": 892,
+  "candidate_match_rows": 29,
+  "manifest": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/source-hash-manifest.json",
+  "inspection": "/Users/vedantswami/Projects/helixar-oss-labs/O02-brain-memory/source-csv-inspection.json"
+}

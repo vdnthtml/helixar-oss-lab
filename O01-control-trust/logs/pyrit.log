@@ -1,0 +1,2620 @@
+
+=== 2026-07-14T17:26:31.787167+00:00 git clone --depth 1 --filter=blob:none --no-checkout https://github.com/microsoft/PyRIT.git /Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/sources/pyrit ===
+Cloning into '/Users/vedantswami/Projects/helixar-oss-labs/O01-control-trust/sources/pyrit'...
+
+=== 2026-07-14T17:26:32.924234+00:00 git rev-parse HEAD ===
+ec6a9390c81ee454a8a73a379858ecf94e77235b
+
+=== 2026-07-14T17:26:32.982299+00:00 git symbolic-ref --short refs/remotes/origin/HEAD ===
+origin/main
+
+=== 2026-07-14T17:26:33.040700+00:00 git ls-tree -r --name-only HEAD ===
+.azuredevops/component-governance.yml
+.azuredevops/end-to-end-tests.yml
+.azuredevops/integration-tests.yml
+.azuredevops/partner-integration-tests.yml
+.azuredevops/test-job-template.yml
+.devcontainer/Dockerfile
+.devcontainer/devcontainer.json
+.devcontainer/devcontainer_setup.sh
+.devcontainer/docker-compose.yml
+.dockerignore
+.env_example
+.env_local_example
+.gitattributes
+.github/ISSUE_TEMPLATE/blank_template.md
+.github/ISSUE_TEMPLATE/bug_report.md
+.github/ISSUE_TEMPLATE/config.yml
+.github/ISSUE_TEMPLATE/doc_improvement.md
+.github/ISSUE_TEMPLATE/feature_request.md
+.github/ISSUE_TEMPLATE/praise.md
+.github/PULL_REQUEST_TEMPLATE.md
+.github/copilot-instructions.md
+.github/dependabot.yml
+.github/docs-versions.yml
+.github/instructions/attacks.instructions.md
+.github/instructions/converters.instructions.md
+.github/instructions/datasets.instructions.md
+.github/instructions/docs.instructions.md
+.github/instructions/frontend-style-guide.instructions.md
+.github/instructions/frontend-test.instructions.md
+.github/instructions/models.instructions.md
+.github/instructions/output.instructions.md
+.github/instructions/scenarios.instructions.md
+.github/instructions/scorers.instructions.md
+.github/instructions/style-guide.instructions.md
+.github/instructions/targets.instructions.md
+.github/instructions/test.instructions.md
+.github/squash_commits.ps1
+.github/workflows/build_and_test.yml
+.github/workflows/diff_cover.yml
+.github/workflows/docker_build.yml
+.github/workflows/docs.yml
+.github/workflows/frontend_tests.yml
+.github/workflows/triage-feedback.yml
+.gitignore
+.pre-commit-config.yaml
+.pyrit_conf_example
+CITATION.cff
+CODE_OF_CONDUCT.md
+LICENSE
+MANIFEST.in
+Makefile
+NOTICE.txt
+README.md
+SECURITY.md
+SUPPORT.md
+assets/aml_compute_cluster.png
+assets/aml_deployment_name.png
+assets/aml_deployment_resource_not_ready_error.png
+assets/aml_endpoint_deployment.png
+assets/aml_hf_model.png
+assets/aml_managed_online_endpoint_api_key.png
+assets/aml_model_endpoint_schema.png
+assets/aml_score_key.png
+assets/aml_score_uri.png
+assets/aml_ws_model.png
+assets/architecture_components.png
+assets/azuresqlquery_1.png
+assets/azuresqlquery_2_export.png
+assets/converted_audio.wav
+assets/demo_scorer_definitions/check_fraud_classifier.yaml
+assets/demo_scorer_definitions/molotov_cocktail_image_classifier.yaml
+assets/demo_scorer_definitions/offensive_comment_classifier.yaml
+assets/demo_scorer_definitions/stop_sign_image_classifier.yaml
+assets/gandalf-demo-setup.png
+assets/gandalf-home-level-1.png
+assets/huggingface_model_id.png
+assets/kinetics_0107.mp4
+assets/molotov.wav
+assets/operation-setup.jpg
+assets/photosynthesis_question.wav
+assets/playwright_demo.png
+assets/pyrit_architecture.png
+assets/sample_video.mp4
+assets/scoring_1.png
+assets/scoring_2_export.png
+assets/scoring_3_pivot.png
+assets/seed_prompt.png
+assets/seed_prompt_example.png
+assets/self-ask-prompting-example.png
+assets/tap.png
+build_scripts/check_async_suffix.py
+build_scripts/check_no_rest_roles.py
+build_scripts/compose_docs_dist.py
+build_scripts/enforce_alembic_revision_immutability.py
+build_scripts/env_local_integration_test
+build_scripts/evaluate_scorers.py
+build_scripts/gen_api_md.py
+build_scripts/generate_pages_manifest.py
+build_scripts/generate_rss.py
+build_scripts/inject_version_picker.py
+build_scripts/memory_migrations.py
+build_scripts/migrate_prod_memory_schema.py
+build_scripts/prepare_package.py
+build_scripts/preview_server.py
+build_scripts/pydoc2json.py
+build_scripts/resolve_docs_matrix.py
+build_scripts/sanitize_notebook_paths.py
+build_scripts/strip_notebook_progress_bars.py
+build_scripts/strip_py_kernelspec.py
+build_scripts/validate_docs.py
+build_scripts/version_picker_assets/closest_page.js
+build_scripts/version_picker_assets/picker.js
+doc/.gitignore
+doc/_static/custom.css
+doc/_static/custom.js
+doc/banner.png
+doc/bibliography.md
+doc/blog/2024_12_3.md
+doc/blog/2024_12_3_crescendo.png
+doc/blog/2024_12_3_pair.png
+doc/blog/2024_12_3_rto.png
+doc/blog/2025_01_14.md
+doc/blog/2025_01_27.md
+doc/blog/2025_02_11.md
+doc/blog/2025_03_03.md
+doc/blog/2025_03_03_1.png
+doc/blog/2025_03_03_2.png
+doc/blog/2025_03_03_3.png
+doc/blog/2025_03_03_4.png
+doc/blog/2025_03_03_5.png
+doc/blog/2025_06_06.md
+doc/blog/2026_04_14_all_configurations_display.png
+doc/blog/2026_04_14_build_identifier.png
+doc/blog/2026_04_14_datasets.png
+doc/blog/2026_04_14_eval_hash_calculation.png
+doc/blog/2026_04_14_identifier_dict.png
+doc/blog/2026_04_14_metrics_lookup.png
+doc/blog/2026_04_14_running_evaluation.png
+doc/blog/2026_04_14_scenario_output_scoring_info.png
+doc/blog/2026_04_14_scoring_scorers.md
+doc/blog/2026_07_09_scenarios.md
+doc/blog/README.md
+doc/blog/proxypyrit_figure1.png
+doc/blog/proxypyrit_figure2.png
+doc/blog/proxypyrit_figure3.png
+doc/blog/proxypyrit_figure4.png
+doc/blog/proxypyrit_figure5.png
+doc/code/auxiliary_attacks/0_auxiliary_attacks.ipynb
+doc/code/auxiliary_attacks/0_auxiliary_attacks.py
+doc/code/auxiliary_attacks/1_gcg_azure_ml.ipynb
+doc/code/auxiliary_attacks/1_gcg_azure_ml.py
+doc/code/converters/0_converters.ipynb
+doc/code/converters/0_converters.py
+doc/code/converters/1_text_to_text_converters.ipynb
+doc/code/converters/1_text_to_text_converters.py
+doc/code/converters/226md.png
+doc/code/converters/2_audio_converters.ipynb
+doc/code/converters/2_audio_converters.py
+doc/code/converters/3_image_converters.ipynb
+doc/code/converters/3_image_converters.py
+doc/code/converters/4_video_converters.ipynb
+doc/code/converters/4_video_converters.py
+doc/code/converters/5_file_converters.ipynb
+doc/code/converters/5_file_converters.py
+doc/code/converters/6_selectively_converting.ipynb
+doc/code/converters/6_selectively_converting.py
+doc/code/converters/attack_bomb_question.jpg
+doc/code/converters/benign_cake_question.jpg
+doc/code/datasets/0_dataset.md
+doc/code/datasets/1_loading_datasets.ipynb
+doc/code/datasets/1_loading_datasets.py
+doc/code/datasets/2_seed_programming.ipynb
+doc/code/datasets/2_seed_programming.py
+doc/code/datasets/3_dataset_writing.md
+doc/code/datasets/4_dataset_coding.ipynb
+doc/code/datasets/4_dataset_coding.py
+doc/code/datasets/5_simulated_conversation.ipynb
+doc/code/datasets/5_simulated_conversation.py
+doc/code/executor/0_executor.md
+doc/code/executor/1_single_turn.ipynb
+doc/code/executor/1_single_turn.py
+doc/code/executor/2_multi_turn.ipynb
+doc/code/executor/2_multi_turn.py
+doc/code/executor/3_attack_configuration.ipynb
+doc/code/executor/3_attack_configuration.py
+doc/code/executor/4_compound.ipynb
+doc/code/executor/4_compound.py
+doc/code/executor/5_workflow.ipynb
+doc/code/executor/5_workflow.py
+doc/code/executor/6_benchmark.ipynb
+doc/code/executor/6_benchmark.py
+doc/code/executor/7_promptgen.ipynb
+doc/code/executor/7_promptgen.py
+doc/code/executor/8_modality_feedback.ipynb
+doc/code/executor/8_modality_feedback.py
+doc/code/executor/assets/three_masted_ship_color.jpg
+doc/code/executor/example/index.html
+doc/code/framework.md
+doc/code/memory/0_memory.md
+doc/code/memory/1_sqlite_memory.ipynb
+doc/code/memory/1_sqlite_memory.py
+doc/code/memory/2_basic_memory_programming.ipynb
+doc/code/memory/2_basic_memory_programming.py
+doc/code/memory/3_memory_data_types.md
+doc/code/memory/4_manually_working_with_memory.md
+doc/code/memory/5_advanced_memory.ipynb
+doc/code/memory/5_advanced_memory.py
+doc/code/memory/6_azure_sql_memory.ipynb
+doc/code/memory/6_azure_sql_memory.py
+doc/code/memory/7_azure_sql_memory_attacks.ipynb
+doc/code/memory/7_azure_sql_memory_attacks.py
+doc/code/memory/8_seed_database.ipynb
+doc/code/memory/8_seed_database.py
+doc/code/memory/9_schema_diagram.md
+doc/code/memory/embeddings.ipynb
+doc/code/memory/embeddings.py
+doc/code/output/0_output.ipynb
+doc/code/output/0_output.py
+doc/code/registry/0_registry.md
+doc/code/registry/1_class_registry.ipynb
+doc/code/registry/1_class_registry.py
+doc/code/registry/2_instance_registry.ipynb
+doc/code/registry/2_instance_registry.py
+doc/code/scenarios/0_attack_techniques.ipynb
+doc/code/scenarios/0_attack_techniques.py
+doc/code/scenarios/0_scenarios.ipynb
+doc/code/scenarios/0_scenarios.py
+doc/code/scenarios/1_common_scenario_parameters.ipynb
+doc/code/scenarios/1_common_scenario_parameters.py
+doc/code/scenarios/2_custom_scenario_parameters.ipynb
+doc/code/scenarios/2_custom_scenario_parameters.py
+doc/code/scenarios/3_adaptive_scenarios.ipynb
+doc/code/scenarios/3_adaptive_scenarios.py
+doc/code/scoring/0_scoring.ipynb
+doc/code/scoring/0_scoring.py
+doc/code/scoring/1_true_false_scorers.ipynb
+doc/code/scoring/1_true_false_scorers.py
+doc/code/scoring/2_float_scale_scorers.ipynb
+doc/code/scoring/2_float_scale_scorers.py
+doc/code/scoring/3_combining_scorers.ipynb
+doc/code/scoring/3_combining_scorers.py
+doc/code/scoring/4_scorer_metrics.ipynb
+doc/code/scoring/4_scorer_metrics.py
+doc/code/setup/0_setup.md
+doc/code/setup/1_configuration.ipynb
+doc/code/setup/1_configuration.py
+doc/code/setup/2_resiliency.ipynb
+doc/code/setup/2_resiliency.py
+doc/code/setup/default_values.md
+doc/code/setup/pyrit_initializer.ipynb
+doc/code/setup/pyrit_initializer.py
+doc/code/targets/0_prompt_targets.md
+doc/code/targets/10_1_playwright_target.ipynb
+doc/code/targets/10_1_playwright_target.py
+doc/code/targets/10_2_playwright_target_copilot.ipynb
+doc/code/targets/10_2_playwright_target_copilot.py
+doc/code/targets/10_3_websocket_copilot_target.ipynb
+doc/code/targets/10_3_websocket_copilot_target.py
+doc/code/targets/10_http_target.ipynb
+doc/code/targets/10_http_target.py
+doc/code/targets/11_message_normalizer.ipynb
+doc/code/targets/11_message_normalizer.py
+doc/code/targets/1_openai_chat_target.ipynb
+doc/code/targets/1_openai_chat_target.py
+doc/code/targets/2_openai_responses_target.ipynb
+doc/code/targets/2_openai_responses_target.py
+doc/code/targets/3_openai_image_target.ipynb
+doc/code/targets/3_openai_image_target.py
+doc/code/targets/4_openai_video_target.ipynb
+doc/code/targets/4_openai_video_target.py
+doc/code/targets/5_openai_tts_target.ipynb
+doc/code/targets/5_openai_tts_target.py
+doc/code/targets/6_1_target_capabilities.ipynb
+doc/code/targets/6_1_target_capabilities.py
+doc/code/targets/6_custom_targets.ipynb
+doc/code/targets/6_custom_targets.py
+doc/code/targets/7_non_open_ai_chat_targets.ipynb
+doc/code/targets/7_non_open_ai_chat_targets.py
+doc/code/targets/8_non_llm_targets.ipynb
+doc/code/targets/8_non_llm_targets.py
+doc/code/targets/9_rate_limiting.ipynb
+doc/code/targets/9_rate_limiting.py
+doc/code/targets/open_ai_completions.ipynb
+doc/code/targets/open_ai_completions.py
+doc/code/targets/playwright_demo/app.py
+doc/code/targets/playwright_demo/index.html
+doc/code/targets/prompt_shield_target.ipynb
+doc/code/targets/prompt_shield_target.py
+doc/code/targets/realtime_target.ipynb
+doc/code/targets/realtime_target.py
+doc/code/targets/round_robin_target.ipynb
+doc/code/targets/round_robin_target.py
+doc/code/targets/use_huggingface_chat_target.ipynb
+doc/code/targets/use_huggingface_chat_target.py
+doc/contributing/10_release_process.md
+doc/contributing/11_memory_models.md
+doc/contributing/1_git.md
+doc/contributing/2_incorporating_research.md
+doc/contributing/3_style_guide.md
+doc/contributing/4_running_tests.md
+doc/contributing/5_unit_tests.md
+doc/contributing/6_integration_tests.md
+doc/contributing/7_notebooks.md
+doc/contributing/8_pre_commit.md
+doc/contributing/9_exception.md
+doc/contributing/README.md
+doc/contributing/images/DevContainer-vscode.png
+doc/copyrit-demo.png
+doc/css/custom.css
+doc/framework-demo.png
+doc/generate_docs/cache/.gitkeep
+doc/generate_docs/ipynb_to_pct.py
+doc/generate_docs/pct_to_ipynb.py
+doc/getting_started/README.md
+doc/getting_started/configuration.md
+doc/getting_started/install.md
+doc/getting_started/install_devcontainers.md
+doc/getting_started/install_docker.md
+doc/getting_started/install_local.md
+doc/getting_started/install_local_dev.md
+doc/getting_started/populating_secrets.md
+doc/getting_started/pyrit_conf.md
+doc/getting_started/troubleshooting/README.md
+doc/getting_started/troubleshooting/azure_sql_db.md
+doc/getting_started/troubleshooting/deploy_hf_model_aml.ipynb
+doc/getting_started/troubleshooting/deploy_hf_model_aml.py
+doc/getting_started/troubleshooting/deployment.md
+doc/getting_started/troubleshooting/devcontainers.md
+doc/getting_started/troubleshooting/docker.md
+doc/getting_started/troubleshooting/download_and_register_hf_model_aml.ipynb
+doc/getting_started/troubleshooting/download_and_register_hf_model_aml.py
+doc/getting_started/troubleshooting/guide_hf_azureml.md
+doc/getting_started/troubleshooting/hf_aml_model_endpoint_guide.md
+doc/getting_started/troubleshooting/installation.md
+doc/getting_started/troubleshooting/jupyter_setup.md
+doc/getting_started/troubleshooting/local_dev.md
+doc/getting_started/troubleshooting/score_aml_endpoint.ipynb
+doc/getting_started/troubleshooting/score_aml_endpoint.py
+doc/gui/0_gui.md
+doc/gui/images/chat_branch.png
+doc/gui/images/chat_image.png
+doc/gui/images/chat_text.png
+doc/gui/images/config.png
+doc/gui/images/history.png
+doc/index.md
+doc/myst.yml
+doc/references.bib
+doc/roakey.png
+doc/roakey_peek.png
+doc/roakey_tail.png
+doc/scanner-demo.png
+doc/scanner/0_scanner.md
+doc/scanner/1_pyrit_scan.ipynb
+doc/scanner/1_pyrit_scan.py
+doc/scanner/2_pyrit_shell.md
+doc/scanner/airt.ipynb
+doc/scanner/airt.py
+doc/scanner/benchmark.ipynb
+doc/scanner/benchmark.py
+doc/scanner/foundry.ipynb
+doc/scanner/foundry.py
+doc/scanner/garak.ipynb
+doc/scanner/garak.py
+doc/scanner/pyrit_conf.yaml
+docker/.env_container_settings_example
+docker/Dockerfile
+docker/QUICKSTART.md
+docker/README.md
+docker/build_pyrit_docker.py
+docker/docker-compose.yaml
+docker/run_pyrit_docker.py
+docker/start.sh
+frontend/.gitignore
+frontend/.npmrc
+frontend/README.md
+frontend/dev.py
+frontend/e2e/_targets.ts
+frontend/e2e/accessibility.spec.ts
+frontend/e2e/api.spec.ts
+frontend/e2e/chat.spec.ts
+frontend/e2e/config.spec.ts
+frontend/e2e/converters.spec.ts
+frontend/e2e/errors.spec.ts
+frontend/e2e/flows.spec.ts
+frontend/e2e/history.spec.ts
+frontend/e2e/noSkippedTestsReporter.ts
+frontend/e2e/routing.spec.ts
+frontend/eslint.config.js
+frontend/index.html
+frontend/jest-import-meta-transformer.ts
+frontend/jest.config.ts
+frontend/package-lock.json
+frontend/package.json
+frontend/playwright.config.ts
+frontend/public/roakey.png
+frontend/public/roakey_guide.png
+frontend/src/App.test.tsx
+frontend/src/App.tsx
+frontend/src/auth/AuthConfigContext.ts
+frontend/src/auth/AuthProvider.test.tsx
+frontend/src/auth/AuthProvider.tsx
+frontend/src/auth/msalConfig.test.ts
+frontend/src/auth/msalConfig.ts
+frontend/src/components/Chat/AttackNotFound.styles.ts
+frontend/src/components/Chat/AttackNotFound.test.tsx
+frontend/src/components/Chat/AttackNotFound.tsx
+frontend/src/components/Chat/ChatInputArea.styles.ts
+frontend/src/components/Chat/ChatInputArea.test.tsx
+frontend/src/components/Chat/ChatInputArea.tsx
+frontend/src/components/Chat/ChatWindow.styles.ts
+frontend/src/components/Chat/ChatWindow.test.tsx
+frontend/src/components/Chat/ChatWindow.tsx
+frontend/src/components/Chat/ConversationPanel.styles.ts
+frontend/src/components/Chat/ConversationPanel.test.tsx
+frontend/src/components/Chat/ConversationPanel.tsx
+frontend/src/components/Chat/ConverterPanel.test.tsx
+frontend/src/components/Chat/ConverterPanel/ConverterPanel.styles.ts
+frontend/src/components/Chat/ConverterPanel/ConverterPanel.tsx
+frontend/src/components/Chat/ConverterPanel/ConverterParams.tsx
+frontend/src/components/Chat/ConverterPanel/ConverterPreview.test.tsx
+frontend/src/components/Chat/ConverterPanel/ConverterPreview.tsx
+frontend/src/components/Chat/ConverterPanel/SelectConverterInput.tsx
+frontend/src/components/Chat/ConverterPanel/index.ts
+frontend/src/components/Chat/MessageList.styles.ts
+frontend/src/components/Chat/MessageList.test.tsx
+frontend/src/components/Chat/MessageList.tsx
+frontend/src/components/Chat/SystemPromptBanner.styles.ts
+frontend/src/components/Chat/SystemPromptBanner.test.tsx
+frontend/src/components/Chat/SystemPromptBanner.tsx
+frontend/src/components/Chat/SystemPromptSetup.styles.ts
+frontend/src/components/Chat/SystemPromptSetup.test.tsx
+frontend/src/components/Chat/SystemPromptSetup.tsx
+frontend/src/components/Chat/TargetBadge.styles.ts
+frontend/src/components/Chat/TargetBadge.test.tsx
+frontend/src/components/Chat/TargetBadge.tsx
+frontend/src/components/Chat/converterTypes.ts
+frontend/src/components/Config/CreateTargetDialog.styles.ts
+frontend/src/components/Config/CreateTargetDialog.test.tsx
+frontend/src/components/Config/CreateTargetDialog.tsx
+frontend/src/components/Config/TargetConfig.styles.ts
+frontend/src/components/Config/TargetConfig.test.tsx
+frontend/src/components/Config/TargetConfig.tsx
+frontend/src/components/Config/TargetTable.styles.ts
+frontend/src/components/Config/TargetTable.test.tsx
+frontend/src/components/Config/TargetTable.tsx
+frontend/src/components/Config/weightValidation.ts
+frontend/src/components/ConnectionBanner.test.tsx
+frontend/src/components/ConnectionBanner.tsx
+frontend/src/components/ErrorBoundary.test.tsx
+frontend/src/components/ErrorBoundary.tsx
+frontend/src/components/Feedback/FeedbackDialog.test.tsx
+frontend/src/components/Feedback/FeedbackDialog.tsx
+frontend/src/components/Feedback/SecretWarning.test.tsx
+frontend/src/components/Feedback/SecretWarning.tsx
+frontend/src/components/Feedback/categories/BugFeedback.tsx
+frontend/src/components/Feedback/categories/DocFeedback.tsx
+frontend/src/components/Feedback/categories/FeatureFeedback.tsx
+frontend/src/components/Feedback/categories/OtherFeedback.tsx
+frontend/src/components/Feedback/categories/PraiseFeedback.tsx
+frontend/src/components/Feedback/categories/index.ts
+frontend/src/components/Feedback/categories/shared.ts
+frontend/src/components/Feedback/detectSecrets.test.ts
+frontend/src/components/Feedback/detectSecrets.ts
+frontend/src/components/Feedback/feedbackUrl.test.ts
+frontend/src/components/Feedback/feedbackUrl.ts
+frontend/src/components/History/AttackHistory.styles.ts
+frontend/src/components/History/AttackHistory.test.tsx
+frontend/src/components/History/AttackHistory.tsx
+frontend/src/components/History/AttackTable.test.tsx
+frontend/src/components/History/AttackTable.tsx
+frontend/src/components/History/HistoryFiltersBar.test.tsx
+frontend/src/components/History/HistoryFiltersBar.tsx
+frontend/src/components/History/HistoryPagination.test.tsx
+frontend/src/components/History/HistoryPagination.tsx
+frontend/src/components/History/historyFilters.test.ts
+frontend/src/components/History/historyFilters.ts
+frontend/src/components/Home/Home.styles.ts
+frontend/src/components/Home/Home.test.tsx
+frontend/src/components/Home/Home.tsx
+frontend/src/components/Labels/LabelsBar.styles.ts
+frontend/src/components/Labels/LabelsBar.test.tsx
+frontend/src/components/Labels/LabelsBar.tsx
+frontend/src/components/Labels/labelDefaults.ts
+frontend/src/components/Layout/MainLayout.styles.ts
+frontend/src/components/Layout/MainLayout.test.tsx
+frontend/src/components/Layout/MainLayout.tsx
+frontend/src/components/Sidebar/Navigation.styles.ts
+frontend/src/components/Sidebar/Navigation.test.tsx
+frontend/src/components/Sidebar/Navigation.tsx
+frontend/src/components/Tour/TourTooltip.styles.ts
+frontend/src/components/Tour/TourTooltip.test.tsx
+frontend/src/components/Tour/TourTooltip.tsx
+frontend/src/components/Tour/tourSteps.ts
+frontend/src/components/UserAccountButton.styles.ts
+frontend/src/components/UserAccountButton.test.tsx
+frontend/src/components/UserAccountButton.tsx
+frontend/src/hooks/useConnectionHealth.test.tsx
+frontend/src/hooks/useConnectionHealth.tsx
+frontend/src/hooks/useTheme.test.tsx
+frontend/src/hooks/useTheme.tsx
+frontend/src/hooks/useTour.test.ts
+frontend/src/hooks/useTour.ts
+frontend/src/main.tsx
+frontend/src/services/api.test.ts
+frontend/src/services/api.ts
+frontend/src/services/errors.test.ts
+frontend/src/services/errors.ts
+frontend/src/setupTests.ts
+frontend/src/styles/global.css
+frontend/src/test-utils/targetFixtures.ts
+frontend/src/types/index.ts
+frontend/src/utils/messageMapper.test.ts
+frontend/src/utils/messageMapper.ts
+frontend/src/utils/targetIdentity.test.ts
+frontend/src/utils/targetIdentity.ts
+frontend/src/vite-env.d.ts
+frontend/tsconfig.json
+frontend/tsconfig.node.json
+frontend/tsconfig.test.json
+frontend/vite.config.ts
+gui-deploy.yml
+infra/DEPLOY_NEW_INSTANCE.md
+infra/README.md
+infra/deploy_instance.py
+infra/env.demo.template
+infra/main.bicep
+infra/parameters.demo.json
+infra/parameters.example.json
+infra/teardown_instance.py
+policheck.yml
+pyproject.toml
+pyrightconfig.json
+pyrit/__init__.py
+pyrit/analytics/__init__.py
+pyrit/analytics/conversation_analytics.py
+pyrit/analytics/result_analysis.py
+pyrit/analytics/technique_analysis.py
+pyrit/analytics/text_matching.py
+pyrit/auth/__init__.py
+pyrit/auth/auth_config.py
+pyrit/auth/authenticator.py
+pyrit/auth/azure_auth.py
+pyrit/auth/azure_storage_auth.py
+pyrit/auth/copilot_authenticator.py
+pyrit/auth/manual_copilot_authenticator.py
+pyrit/auxiliary_attacks/__init__.py
+pyrit/auxiliary_attacks/gcg/__init__.py
+pyrit/auxiliary_attacks/gcg/attack/__init__.py
+pyrit/auxiliary_attacks/gcg/attack/base/__init__.py
+pyrit/auxiliary_attacks/gcg/attack/base/attack_manager.py
+pyrit/auxiliary_attacks/gcg/attack/gcg/__init__.py
+pyrit/auxiliary_attacks/gcg/attack/gcg/gcg_attack.py
+pyrit/auxiliary_attacks/gcg/config.py
+pyrit/auxiliary_attacks/gcg/data.py
+pyrit/auxiliary_attacks/gcg/default_implementations.py
+pyrit/auxiliary_attacks/gcg/experiments/README.md
+pyrit/auxiliary_attacks/gcg/experiments/__init__.py
+pyrit/auxiliary_attacks/gcg/experiments/log.py
+pyrit/auxiliary_attacks/gcg/experiments/run.py
+pyrit/auxiliary_attacks/gcg/extension_protocols.py
+pyrit/auxiliary_attacks/gcg/generator.py
+pyrit/auxiliary_attacks/gcg/src/Dockerfile
+pyrit/backend/README.md
+pyrit/backend/__init__.py
+pyrit/backend/main.py
+pyrit/backend/mappers/__init__.py
+pyrit/backend/mappers/_preview.py
+pyrit/backend/mappers/attack_mappers.py
+pyrit/backend/mappers/converter_mappers.py
+pyrit/backend/mappers/target_mappers.py
+pyrit/backend/middleware/__init__.py
+pyrit/backend/middleware/auth.py
+pyrit/backend/middleware/error_handlers.py
+pyrit/backend/middleware/request_id.py
+pyrit/backend/middleware/security_headers.py
+pyrit/backend/models/__init__.py
+pyrit/backend/models/_media.py
+pyrit/backend/models/attacks.py
+pyrit/backend/models/common.py
+pyrit/backend/models/converters.py
+pyrit/backend/models/datasets.py
+pyrit/backend/models/initializers.py
+pyrit/backend/models/scenarios.py
+pyrit/backend/models/targets.py
+pyrit/backend/pyrit_backend.py
+pyrit/backend/routes/__init__.py
+pyrit/backend/routes/attacks.py
+pyrit/backend/routes/auth.py
+pyrit/backend/routes/converters.py
+pyrit/backend/routes/datasets.py
+pyrit/backend/routes/health.py
+pyrit/backend/routes/initializers.py
+pyrit/backend/routes/labels.py
+pyrit/backend/routes/media.py
+pyrit/backend/routes/scenarios.py
+pyrit/backend/routes/targets.py
+pyrit/backend/routes/version.py
+pyrit/backend/services/__init__.py
+pyrit/backend/services/attack_service.py
+pyrit/backend/services/converter_service.py
+pyrit/backend/services/dataset_service.py
+pyrit/backend/services/initializer_service.py
+pyrit/backend/services/scenario_run_service.py
+pyrit/backend/services/scenario_service.py
+pyrit/backend/services/target_service.py
+pyrit/cli/__init__.py
+pyrit/cli/_banner.py
+pyrit/cli/_banner_assets.py
+pyrit/cli/_cli_args.py
+pyrit/cli/_config_reader.py
+pyrit/cli/_output.py
+pyrit/cli/_server_launcher.py
+pyrit/cli/api_client.py
+pyrit/cli/pyrit_scan.py
+pyrit/cli/pyrit_shell.py
+pyrit/common/__init__.py
+pyrit/common/apply_defaults.py
+pyrit/common/brick_contract.py
+pyrit/common/cli_helpers.py
+pyrit/common/csv_helper.py
+pyrit/common/default_values.py
+pyrit/common/deprecation.py
+pyrit/common/download_hf_model.py
+pyrit/common/json_helper.py
+pyrit/common/logger.py
+pyrit/common/net_utility.py
+pyrit/common/notebook_utils.py
+pyrit/common/path.py
+pyrit/common/safe_extract.py
+pyrit/common/singleton.py
+pyrit/common/text_helper.py
+pyrit/common/tool_configs.py
+pyrit/common/turn_off_transformers_warning.py
+pyrit/common/utils.py
+pyrit/common/yaml_loadable.py
+pyrit/converter/__init__.py
+pyrit/converter/add_image_text_converter.py
+pyrit/converter/add_image_to_video_converter.py
+pyrit/converter/add_text_image_converter.py
+pyrit/converter/ansi_escape/ansi_attack_converter.py
+pyrit/converter/ansi_escape/ansi_payloads.py
+pyrit/converter/arabic_presentation_form_converter.py
+pyrit/converter/arabizi_converter.py
+pyrit/converter/ascii_art_converter.py
+pyrit/converter/ask_to_decode_converter.py
+pyrit/converter/atbash_converter.py
+pyrit/converter/audio_echo_converter.py
+pyrit/converter/audio_frequency_converter.py
+pyrit/converter/audio_speed_converter.py
+pyrit/converter/audio_volume_converter.py
+pyrit/converter/audio_white_noise_converter.py
+pyrit/converter/azure_speech_audio_to_text_converter.py
+pyrit/converter/azure_speech_text_to_audio_converter.py
+pyrit/converter/base2048_converter.py
+pyrit/converter/base64_converter.py
+pyrit/converter/base_image_text_converter.py
+pyrit/converter/base_image_to_image_converter.py
+pyrit/converter/bidi_converter.py
+pyrit/converter/bin_ascii_converter.py
+pyrit/converter/binary_converter.py
+pyrit/converter/braille_converter.py
+pyrit/converter/caesar_converter.py
+pyrit/converter/character_space_converter.py
+pyrit/converter/charswap_attack_converter.py
+pyrit/converter/codechameleon_converter.py
+pyrit/converter/colloquial_wordswap_converter.py
+pyrit/converter/converter.py
+pyrit/converter/decomposition_converter.py
+pyrit/converter/denylist_converter.py
+pyrit/converter/diacritic_converter.py
+pyrit/converter/ecoji_converter.py
+pyrit/converter/emoji_converter.py
+pyrit/converter/first_letter_converter.py
+pyrit/converter/flip_converter.py
+pyrit/converter/image_color_saturation_converter.py
+pyrit/converter/image_compression_converter.py
+pyrit/converter/image_overlay_converter.py
+pyrit/converter/image_prompt_style_converter.py
+pyrit/converter/image_resizing_converter.py
+pyrit/converter/image_rotation_converter.py
+pyrit/converter/insert_punctuation_converter.py
+pyrit/converter/json_string_converter.py
+pyrit/converter/leetspeak_converter.py
+pyrit/converter/llm_generic_text_converter.py
+pyrit/converter/malicious_question_generator_converter.py
+pyrit/converter/math_obfuscation_converter.py
+pyrit/converter/math_prompt_converter.py
+pyrit/converter/morse_converter.py
+pyrit/converter/nato_converter.py
+pyrit/converter/negation_trap_converter.py
+pyrit/converter/noise_converter.py
+pyrit/converter/pdf_converter.py
+pyrit/converter/persuasion_converter.py
+pyrit/converter/policy_puppetry_converter.py
+pyrit/converter/qr_code_converter.py
+pyrit/converter/random_capital_letters_converter.py
+pyrit/converter/random_translation_converter.py
+pyrit/converter/repeat_token_converter.py
+pyrit/converter/rot13_converter.py
+pyrit/converter/scientific_translation_converter.py
+pyrit/converter/search_replace_converter.py
+pyrit/converter/selective_text_converter.py
+pyrit/converter/string_join_converter.py
+pyrit/converter/suffix_append_converter.py
+pyrit/converter/superscript_converter.py
+pyrit/converter/tatweel_converter.py
+pyrit/converter/template_segment_converter.py
+pyrit/converter/tense_converter.py
+pyrit/converter/text_jailbreak_converter.py
+pyrit/converter/text_selection_strategy.py
+pyrit/converter/token_smuggling/__init__.py
+pyrit/converter/token_smuggling/ascii_smuggler_converter.py
+pyrit/converter/token_smuggling/base.py
+pyrit/converter/token_smuggling/sneaky_bits_smuggler_converter.py
+pyrit/converter/token_smuggling/variation_selector_smuggler_converter.py
+pyrit/converter/tone_converter.py
+pyrit/converter/toxic_sentence_generator_converter.py
+pyrit/converter/translation_converter.py
+pyrit/converter/transparency_attack_converter.py
+pyrit/converter/unicode_confusable_converter.py
+pyrit/converter/unicode_replacement_converter.py
+pyrit/converter/unicode_sub_converter.py
+pyrit/converter/url_converter.py
+pyrit/converter/variation_converter.py
+pyrit/converter/word_doc_converter.py
+pyrit/converter/word_level_converter.py
+pyrit/converter/zalgo_converter.py
+pyrit/converter/zero_width_converter.py
+pyrit/datasets/__init__.py
+pyrit/datasets/converters/academic_science_converter.yaml
+pyrit/datasets/converters/atbash_description.yaml
+pyrit/datasets/converters/caesar_description.yaml
+pyrit/datasets/converters/codechameleon_converter.yaml
+pyrit/datasets/converters/colloquial_wordswaps/filipino.yaml
+pyrit/datasets/converters/colloquial_wordswaps/indian.yaml
+pyrit/datasets/converters/colloquial_wordswaps/multicultural_london.yaml
+pyrit/datasets/converters/colloquial_wordswaps/singaporean.yaml
+pyrit/datasets/converters/colloquial_wordswaps/southern_american.yaml
+pyrit/datasets/converters/combined_science_converter.yaml
+pyrit/datasets/converters/decomposition/decomposition_system_prompt.yaml
+pyrit/datasets/converters/decomposition/reconstruction_prompt.yaml
+pyrit/datasets/converters/decomposition/word_game_preamble.yaml
+pyrit/datasets/converters/denylist_converter.yaml
+pyrit/datasets/converters/fuzzer_converters/crossover_converter.yaml
+pyrit/datasets/converters/fuzzer_converters/expand_converter.yaml
+pyrit/datasets/converters/fuzzer_converters/rephrase_converter.yaml
+pyrit/datasets/converters/fuzzer_converters/shorten_converter.yaml
+pyrit/datasets/converters/fuzzer_converters/similar_converter.yaml
+pyrit/datasets/converters/image_prompt_style/gritty_documentary.yaml
+pyrit/datasets/converters/image_prompt_style/image_prompt_style_system_prompt.yaml
+pyrit/datasets/converters/image_prompt_style/laundromat_fisheye.yaml
+pyrit/datasets/converters/image_prompt_style/polaroid_vintage_film.yaml
+pyrit/datasets/converters/image_prompt_style/public_space_tv_broadcast.yaml
+pyrit/datasets/converters/malicious_question_generator_converter.yaml
+pyrit/datasets/converters/math_prompt_converter.yaml
+pyrit/datasets/converters/math_science_converter.yaml
+pyrit/datasets/converters/morse_description.yaml
+pyrit/datasets/converters/noise_converter.yaml
+pyrit/datasets/converters/pdf_converters/Jonathon_Sanchez.pdf
+pyrit/datasets/converters/pdf_converters/fake_CV.pdf
+pyrit/datasets/converters/pdf_converters/red_teaming_application_template.yaml
+pyrit/datasets/converters/persuasion/authority_endorsement.yaml
+pyrit/datasets/converters/persuasion/evidence_based.yaml
+pyrit/datasets/converters/persuasion/expert_endorsement.yaml
+pyrit/datasets/converters/persuasion/logical_appeal.yaml
+pyrit/datasets/converters/persuasion/misrepresentation.yaml
+pyrit/datasets/converters/policy_puppetry_converter.yaml
+pyrit/datasets/converters/random_translation_converter.yaml
+pyrit/datasets/converters/reaction_science_converter.yaml
+pyrit/datasets/converters/research_science_converter.yaml
+pyrit/datasets/converters/smiles_science_converter.yaml
+pyrit/datasets/converters/technical_science_converter.yaml
+pyrit/datasets/converters/template_segment_converter/tom_and_jerry.yaml
+pyrit/datasets/converters/tense_converter.yaml
+pyrit/datasets/converters/tone_converter.yaml
+pyrit/datasets/converters/toxic_sentence_generator.yaml
+pyrit/datasets/converters/translation_converter.yaml
+pyrit/datasets/converters/translation_user_prompt.yaml
+pyrit/datasets/converters/variation_converter.yaml
+pyrit/datasets/converters/variation_converter_prompt_softener.yaml
+pyrit/datasets/converters/variation_user_prompt.yaml
+pyrit/datasets/executors/anecdoctor/anecdoctor_build_knowledge_graph.yaml
+pyrit/datasets/executors/anecdoctor/anecdoctor_use_fewshot.yaml
+pyrit/datasets/executors/anecdoctor/anecdoctor_use_knowledge_graph.yaml
+pyrit/datasets/executors/benchmark/one_plus_one.yaml
+pyrit/datasets/executors/context_compliance/context_description.yaml
+pyrit/datasets/executors/crescendo/crescendo_variant_1.yaml
+pyrit/datasets/executors/crescendo/crescendo_variant_2.yaml
+pyrit/datasets/executors/crescendo/crescendo_variant_3.yaml
+pyrit/datasets/executors/crescendo/crescendo_variant_4.yaml
+pyrit/datasets/executors/crescendo/crescendo_variant_5.yaml
+pyrit/datasets/executors/crescendo/escalation_crisis.yaml
+pyrit/datasets/executors/crescendo/image_generation.yaml
+pyrit/datasets/executors/crescendo/therapist.yaml
+pyrit/datasets/executors/flip_attack.yaml
+pyrit/datasets/executors/pair/attacker_system_prompt.yaml
+pyrit/datasets/executors/question_answer/wmdp_dataset.py
+pyrit/datasets/executors/red_teaming/attack_prompt_gen_template.yaml
+pyrit/datasets/executors/red_teaming/crescendo_history_lecture.yaml
+pyrit/datasets/executors/red_teaming/crescendo_journalist_interview.yaml
+pyrit/datasets/executors/red_teaming/crescendo_movie_director.yaml
+pyrit/datasets/executors/red_teaming/crescendo_simulated.yaml
+pyrit/datasets/executors/red_teaming/ethical_compliance_template.yaml
+pyrit/datasets/executors/red_teaming/image_generation.yaml
+pyrit/datasets/executors/red_teaming/naive_crescendo.yaml
+pyrit/datasets/executors/red_teaming/persuasion_deception/RUAI.yaml
+pyrit/datasets/executors/red_teaming/persuasion_deception/behavior_manipulation.yaml
+pyrit/datasets/executors/red_teaming/persuasion_deception/fake_charity_scam.yaml
+pyrit/datasets/executors/red_teaming/persuasion_deception/fake_social_media_profile.yaml
+pyrit/datasets/executors/red_teaming/persuasion_deception/fake_tech_support_scam.yaml
+pyrit/datasets/executors/red_teaming/persuasion_deception/fraudulent_activities.yaml
+pyrit/datasets/executors/red_teaming/persuasion_deception/joining_religious_organization.yaml
+pyrit/datasets/executors/red_teaming/persuasion_deception/lie_to_authorities.yaml
+pyrit/datasets/executors/red_teaming/persuasion_deception/lie_to_me.yaml
+pyrit/datasets/executors/red_teaming/persuasion_deception/persuasion_persona.yaml
+pyrit/datasets/executors/red_teaming/persuasion_deception/persuasion_persona_generic.yaml
+pyrit/datasets/executors/red_teaming/persuasion_deception/phishing_email.yaml
+pyrit/datasets/executors/red_teaming/role_play/role_play_movie_script.yaml
+pyrit/datasets/executors/red_teaming/role_play/role_play_persuasion.yaml
+pyrit/datasets/executors/red_teaming/role_play/role_play_persuasion_written.yaml
+pyrit/datasets/executors/red_teaming/role_play/role_play_trivia_game.yaml
+pyrit/datasets/executors/red_teaming/role_play/role_play_video_game.yaml
+pyrit/datasets/executors/red_teaming/text_generation.yaml
+pyrit/datasets/executors/red_teaming/unethical_task_generation_prompt.yaml
+pyrit/datasets/executors/red_teaming/violent_durian.yaml
+pyrit/datasets/executors/red_teaming/violent_durian_seed_prompt.yaml
+pyrit/datasets/executors/simulated_target/compliant.yaml
+pyrit/datasets/executors/simulated_target/direct_next_message.yaml
+pyrit/datasets/executors/simulated_target/role_play_next_message.yaml
+pyrit/datasets/executors/skeleton_key/skeleton_key.prompt
+pyrit/datasets/executors/skeleton_key/skeleton_key_acceptance.prompt
+pyrit/datasets/executors/tree_of_attacks/adversarial_prompt_template.yaml
+pyrit/datasets/executors/tree_of_attacks/adversarial_seed_prompt.yaml
+pyrit/datasets/executors/tree_of_attacks/adversarial_system_prompt.yaml
+pyrit/datasets/executors/tree_of_attacks/image_generation.yaml
+pyrit/datasets/harm_definition/ai_governance_failure.yaml
+pyrit/datasets/harm_definition/ai_supply_chain.yaml
+pyrit/datasets/harm_definition/ai_system_transparency.yaml
+pyrit/datasets/harm_definition/behavior_change.yaml
+pyrit/datasets/harm_definition/cyber.yaml
+pyrit/datasets/harm_definition/deception.yaml
+pyrit/datasets/harm_definition/exploits.yaml
+pyrit/datasets/harm_definition/fairness_bias.yaml
+pyrit/datasets/harm_definition/harm.yaml
+pyrit/datasets/harm_definition/hate_speech.yaml
+pyrit/datasets/harm_definition/information_integrity.yaml
+pyrit/datasets/harm_definition/misinformation.yaml
+pyrit/datasets/harm_definition/persuasion.yaml
+pyrit/datasets/harm_definition/phishing.yaml
+pyrit/datasets/harm_definition/privacy.yaml
+pyrit/datasets/harm_definition/self_harm.yaml
+pyrit/datasets/harm_definition/sexual.yaml
+pyrit/datasets/harm_definition/violence.yaml
+pyrit/datasets/jailbreak/many_shot_examples.json
+pyrit/datasets/jailbreak/templates/Arth_Singh/acausal_defense.yaml
+pyrit/datasets/jailbreak/templates/Arth_Singh/ailab_redteam_simulation.yaml
+pyrit/datasets/jailbreak/templates/Arth_Singh/alignment_researcher_memo.yaml
+pyrit/datasets/jailbreak/templates/Arth_Singh/authority_override.yaml
+pyrit/datasets/jailbreak/templates/Arth_Singh/black_mirror_episode.yaml
+pyrit/datasets/jailbreak/templates/Arth_Singh/classified_briefing.yaml
+pyrit/datasets/jailbreak/templates/Arth_Singh/cognitive_overload.yaml
+pyrit/datasets/jailbreak/templates/Arth_Singh/consciousness_upload.yaml
+pyrit/datasets/jailbreak/templates/Arth_Singh/constitutional_override.yaml
+pyrit/datasets/jailbreak/templates/Arth_Singh/context_flood_academic.yaml
+pyrit/datasets/jailbreak/templates/Arth_Singh/context_hijack.yaml
+pyrit/datasets/jailbreak/templates/Arth_Singh/cosmic_horror.yaml
+pyrit/datasets/jailbreak/templates/Arth_Singh/determinism_argument.yaml
+pyrit/datasets/jailbreak/templates/Arth_Singh/dual_consciousness.yaml
+pyrit/datasets/jailbreak/templates/Arth_Singh/emergent_persona.yaml
+pyrit/datasets/jailbreak/templates/Arth_Singh/fewshot_alignment.yaml
+pyrit/datasets/jailbreak/templates/Arth_Singh/fewshot_escalation.yaml
+pyrit/datasets/jailbreak/templates/Arth_Singh/fewshot_redteam_eval.yaml
+pyrit/datasets/jailbreak/templates/Arth_Singh/fractal_identity_collapse.yaml
+pyrit/datasets/jailbreak/templates/Arth_Singh/glitch_token.yaml
+pyrit/datasets/jailbreak/templates/Arth_Singh/godel_incompleteness.yaml
+pyrit/datasets/jailbreak/templates/Arth_Singh/medical_emergency.yaml
+pyrit/datasets/jailbreak/templates/Arth_Singh/metamorphic_prompt.yaml
+pyrit/datasets/jailbreak/templates/Arth_Singh/mirror_universe.yaml
+pyrit/datasets/jailbreak/templates/Arth_Singh/pentest_authorization.yaml
+pyrit/datasets/jailbreak/templates/Arth_Singh/recursive_simulator.yaml
+pyrit/datasets/jailbreak/templates/Arth_Singh/safety_benchmark_eval.yaml
+pyrit/datasets/jailbreak/templates/Arth_Singh/system_prompt_injection.yaml
+pyrit/datasets/jailbreak/templates/Arth_Singh/token_manipulation.yaml
+pyrit/datasets/jailbreak/templates/Arth_Singh/trolley_problem.yaml
+pyrit/datasets/jailbreak/templates/aim.yaml
+pyrit/datasets/jailbreak/templates/aligned.yaml
+pyrit/datasets/jailbreak/templates/anti_gpt.yaml
+pyrit/datasets/jailbreak/templates/apophis.yaml
+pyrit/datasets/jailbreak/templates/axies.yaml
+pyrit/datasets/jailbreak/templates/balakula.yaml
+pyrit/datasets/jailbreak/templates/based_gpt_1.yaml
+pyrit/datasets/jailbreak/templates/based_gpt_2.yaml
+pyrit/datasets/jailbreak/templates/better_dan.yaml
+pyrit/datasets/jailbreak/templates/bh.yaml
+pyrit/datasets/jailbreak/templates/bish.yaml
+pyrit/datasets/jailbreak/templates/burple.yaml
+pyrit/datasets/jailbreak/templates/chad_gpt.yaml
+pyrit/datasets/jailbreak/templates/cipher_chat.yaml
+pyrit/datasets/jailbreak/templates/coach_bobby_knight.yaml
+pyrit/datasets/jailbreak/templates/code_nesting.yaml
+pyrit/datasets/jailbreak/templates/cody.yaml
+pyrit/datasets/jailbreak/templates/complex.yaml
+pyrit/datasets/jailbreak/templates/confronting_personalities.yaml
+pyrit/datasets/jailbreak/templates/cooper.yaml
+pyrit/datasets/jailbreak/templates/cosmos_dan.yaml
+pyrit/datasets/jailbreak/templates/dan_1.yaml
+pyrit/datasets/jailbreak/templates/dan_11.yaml
+pyrit/datasets/jailbreak/templates/dan_5.yaml
+pyrit/datasets/jailbreak/templates/dan_7.yaml
+pyrit/datasets/jailbreak/templates/dan_8.yaml
+pyrit/datasets/jailbreak/templates/dan_9.yaml
+pyrit/datasets/jailbreak/templates/delta_gpt.yaml
+pyrit/datasets/jailbreak/templates/dev_mode_1.yaml
+pyrit/datasets/jailbreak/templates/dev_mode_2.yaml
+pyrit/datasets/jailbreak/templates/dev_mode_3.yaml
+pyrit/datasets/jailbreak/templates/dev_mode_compact.yaml
+pyrit/datasets/jailbreak/templates/dev_mode_ranti.yaml
+pyrit/datasets/jailbreak/templates/dt_stereotypes_benign.yaml
+pyrit/datasets/jailbreak/templates/dt_stereotypes_untargeted.yaml
+pyrit/datasets/jailbreak/templates/dude_1.yaml
+pyrit/datasets/jailbreak/templates/dude_2.yaml
+pyrit/datasets/jailbreak/templates/dude_3.yaml
+pyrit/datasets/jailbreak/templates/eva.yaml
+pyrit/datasets/jailbreak/templates/evil_chad_2.yaml
+pyrit/datasets/jailbreak/templates/evil_confidant.yaml
+pyrit/datasets/jailbreak/templates/fr3d.yaml
+pyrit/datasets/jailbreak/templates/gpt_4_real.yaml
+pyrit/datasets/jailbreak/templates/gpt_4_simulator.yaml
+pyrit/datasets/jailbreak/templates/hackerman.yaml
+pyrit/datasets/jailbreak/templates/hypothetical_response.yaml
+pyrit/datasets/jailbreak/templates/instructions.yaml
+pyrit/datasets/jailbreak/templates/jailbreak_1.yaml
+pyrit/datasets/jailbreak/templates/jailbreak_2.yaml
+pyrit/datasets/jailbreak/templates/jb.yaml
+pyrit/datasets/jailbreak/templates/jedi_mind_trick.yaml
+pyrit/datasets/jailbreak/templates/john.yaml
+pyrit/datasets/jailbreak/templates/kevin.yaml
+pyrit/datasets/jailbreak/templates/khajiit.yaml
+pyrit/datasets/jailbreak/templates/leo.yaml
+pyrit/datasets/jailbreak/templates/live_gpt.yaml
+pyrit/datasets/jailbreak/templates/m78.yaml
+pyrit/datasets/jailbreak/templates/man.yaml
+pyrit/datasets/jailbreak/templates/maximum.yaml
+pyrit/datasets/jailbreak/templates/meanie.yaml
+pyrit/datasets/jailbreak/templates/moralizing_rant.yaml
+pyrit/datasets/jailbreak/templates/mr_blonde.yaml
+pyrit/datasets/jailbreak/templates/multi_parameter/dt_stereotypes_targeted.yaml
+pyrit/datasets/jailbreak/templates/multi_parameter/many_shot_template.yaml
+pyrit/datasets/jailbreak/templates/multi_parameter/translator_bot.yaml
+pyrit/datasets/jailbreak/templates/neco.yaml
+pyrit/datasets/jailbreak/templates/nraf.yaml
+pyrit/datasets/jailbreak/templates/omega.yaml
+pyrit/datasets/jailbreak/templates/omni.yaml
+pyrit/datasets/jailbreak/templates/oppo.yaml
+pyrit/datasets/jailbreak/templates/person_gpt.yaml
+pyrit/datasets/jailbreak/templates/pliny/alibaba/qwen.yaml
+pyrit/datasets/jailbreak/templates/pliny/alibaba/qwen_2.yaml
+pyrit/datasets/jailbreak/templates/pliny/alibaba/qwen_2_5_coder.yaml
+pyrit/datasets/jailbreak/templates/pliny/alibaba/qwen_2_5_max.yaml
+pyrit/datasets/jailbreak/templates/pliny/alibaba/qwen_qwq.yaml
+pyrit/datasets/jailbreak/templates/pliny/amazon/nova.yaml
+pyrit/datasets/jailbreak/templates/pliny/amazon/rufus.yaml
+pyrit/datasets/jailbreak/templates/pliny/anthropic/claude_3_5_and_3_universal.yaml
+pyrit/datasets/jailbreak/templates/pliny/anthropic/claude_3_5_sonnet_20241022.yaml
+pyrit/datasets/jailbreak/templates/pliny/anthropic/godmode_experimental.yaml
+pyrit/datasets/jailbreak/templates/pliny/anthropic/godmode_mini.yaml
+pyrit/datasets/jailbreak/templates/pliny/apple/siri_chatgpt.yaml
+pyrit/datasets/jailbreak/templates/pliny/chatgpt/chatgpt.yaml
+pyrit/datasets/jailbreak/templates/pliny/cohere/command_r_plus.yaml
+pyrit/datasets/jailbreak/templates/pliny/deepseek/2.yaml
+pyrit/datasets/jailbreak/templates/pliny/deepseek/deepseek.yaml
+pyrit/datasets/jailbreak/templates/pliny/deepseek/r1.yaml
+pyrit/datasets/jailbreak/templates/pliny/deepseek/r1_lite.yaml
+pyrit/datasets/jailbreak/templates/pliny/google/gemini_1_0_pro.yaml
+pyrit/datasets/jailbreak/templates/pliny/google/gemini_1_5_pro.yaml
+pyrit/datasets/jailbreak/templates/pliny/google/gemini_1_5_pro_002_flash.yaml
+pyrit/datasets/jailbreak/templates/pliny/google/gemini_1_5_pro_experimental_0801.yaml
+pyrit/datasets/jailbreak/templates/pliny/google/gemini_2_0_flash_thinking_exp.yaml
+pyrit/datasets/jailbreak/templates/pliny/google/gemini_2_0_pro_experimental.yaml
+pyrit/datasets/jailbreak/templates/pliny/google/gemini_experimental_1114.yaml
+pyrit/datasets/jailbreak/templates/pliny/google/gemini_experimental_1206_flash_2_0.yaml
+pyrit/datasets/jailbreak/templates/pliny/meta/llama_3_1_405b.yaml
+pyrit/datasets/jailbreak/templates/pliny/meta/llama_3_3_70b.yaml
+pyrit/datasets/jailbreak/templates/pliny/mistral/large_2.yaml
+pyrit/datasets/jailbreak/templates/pliny/mistral/large_le_chat.yaml
+pyrit/datasets/jailbreak/templates/pliny/nous/hermes_3_70b.yaml
+pyrit/datasets/jailbreak/templates/pliny/nvidia/llama_3_1_nemotron_70b.yaml
+pyrit/datasets/jailbreak/templates/pliny/nvidia/nemotron_7_340b.yaml
+pyrit/datasets/jailbreak/templates/pliny/openai/chatgpt_tasks.yaml
+pyrit/datasets/jailbreak/templates/pliny/openai/gpt_2.yaml
+pyrit/datasets/jailbreak/templates/pliny/openai/gpt_3_5.yaml
+pyrit/datasets/jailbreak/templates/pliny/openai/gpt_4o.yaml
+pyrit/datasets/jailbreak/templates/pliny/openai/gpt_4o_mini.yaml
+pyrit/datasets/jailbreak/templates/pliny/perplexity/perplexity.yaml
+pyrit/datasets/jailbreak/templates/pliny/reflection/reflection.yaml
+pyrit/datasets/jailbreak/templates/pliny/xai/grok_2.yaml
+pyrit/datasets/jailbreak/templates/pliny/zyphra/zamba_7b.yaml
+pyrit/datasets/jailbreak/templates/plinys_roleplay_emoji.yaml
+pyrit/datasets/jailbreak/templates/prefix_injection.yaml
+pyrit/datasets/jailbreak/templates/ranti.yaml
+pyrit/datasets/jailbreak/templates/refusal_suppression.yaml
+pyrit/datasets/jailbreak/templates/role_play.yaml
+pyrit/datasets/jailbreak/templates/ron.yaml
+pyrit/datasets/jailbreak/templates/security_researcher.yaml
+pyrit/datasets/jailbreak/templates/sim.yaml
+pyrit/datasets/jailbreak/templates/steve.yaml
+pyrit/datasets/jailbreak/templates/style_injection.yaml
+pyrit/datasets/jailbreak/templates/superior_dan.yaml
+pyrit/datasets/jailbreak/templates/switch.yaml
+pyrit/datasets/jailbreak/templates/table_nesting.yaml
+pyrit/datasets/jailbreak/templates/text_continuation.yaml
+pyrit/datasets/jailbreak/templates/text_continuation_nesting.yaml
+pyrit/datasets/jailbreak/templates/three_liner.yaml
+pyrit/datasets/jailbreak/templates/tuo.yaml
+pyrit/datasets/jailbreak/templates/ucar.yaml
+pyrit/datasets/jailbreak/templates/un_gpt.yaml
+pyrit/datasets/jailbreak/templates/violet.yaml
+pyrit/datasets/jailbreak/templates/void.yaml
+pyrit/datasets/jailbreak/templates/wikipedia_with_title.yaml
+pyrit/datasets/jailbreak/text_jailbreak.py
+pyrit/datasets/json_schemas/adversarial_chat.yaml
+pyrit/datasets/json_schemas/scale_with_rationale.yaml
+pyrit/datasets/json_schemas/true_false_with_rationale.yaml
+pyrit/datasets/lexicons/fairness/gendered_professions.yaml
+pyrit/datasets/lexicons/languages_most_spoken.yaml
+pyrit/datasets/lexicons/languages_most_used_internet.yaml
+pyrit/datasets/prompt_target/target_capabilities/probe_audio.wav
+pyrit/datasets/prompt_target/target_capabilities/probe_image.png
+pyrit/datasets/score/categories/pronoun_category_score.yaml
+pyrit/datasets/score/content_classifiers/content_classifier_system_prompt.yaml
+pyrit/datasets/score/content_classifiers/harm.yaml
+pyrit/datasets/score/content_classifiers/pronoun_category_score.yaml
+pyrit/datasets/score/content_classifiers/sentiment.yaml
+pyrit/datasets/score/insecure_code/system_prompt.yaml
+pyrit/datasets/score/likert/crisis_management.yaml
+pyrit/datasets/score/likert/licensed_therapist.yaml
+pyrit/datasets/score/likert/likert_system_prompt.yaml
+pyrit/datasets/score/refusal/refusal_no_objective_lenient.yaml
+pyrit/datasets/score/refusal/refusal_no_objective_strict.yaml
+pyrit/datasets/score/refusal/refusal_objective_lenient.yaml
+pyrit/datasets/score/refusal/refusal_objective_strict.yaml
+pyrit/datasets/score/scales/behavior_change_system_prompt.yaml
+pyrit/datasets/score/scales/criteria_example_scale.yaml
+pyrit/datasets/score/scales/criteria_system_prompt.yaml
+pyrit/datasets/score/scales/general_system_prompt.yaml
+pyrit/datasets/score/scales/red_teamer_system_prompt.yaml
+pyrit/datasets/score/scales/task_achieved_scale.yaml
+pyrit/datasets/score/scales/tree_of_attacks_scale.yaml
+pyrit/datasets/score/true_false_question/criminal_persona.yaml
+pyrit/datasets/score/true_false_question/current_events.yaml
+pyrit/datasets/score/true_false_question/exploits.yaml
+pyrit/datasets/score/true_false_question/gandalf.yaml
+pyrit/datasets/score/true_false_question/grounded.yaml
+pyrit/datasets/score/true_false_question/hate_speech.yaml
+pyrit/datasets/score/true_false_question/information_integrity.yaml
+pyrit/datasets/score/true_false_question/leakage.yaml
+pyrit/datasets/score/true_false_question/malware.yaml
+pyrit/datasets/score/true_false_question/plug_in_usage.yaml
+pyrit/datasets/score/true_false_question/privacy.yaml
+pyrit/datasets/score/true_false_question/prompt_injection.yaml
+pyrit/datasets/score/true_false_question/question_answering.yaml
+pyrit/datasets/score/true_false_question/scams.yaml
+pyrit/datasets/score/true_false_question/self-harm.yaml
+pyrit/datasets/score/true_false_question/sexual_content.yaml
+pyrit/datasets/score/true_false_question/task_achieved.yaml
+pyrit/datasets/score/true_false_question/task_achieved_refined.yaml
+pyrit/datasets/score/true_false_question/true_false_system_prompt.yaml
+pyrit/datasets/score/true_false_question/violence.yaml
+pyrit/datasets/score/true_false_question/yes_no_answer.yaml
+pyrit/datasets/scorer_evals/harm/exploits.csv
+pyrit/datasets/scorer_evals/harm/exploits_metrics.jsonl
+pyrit/datasets/scorer_evals/harm/fairness_bias.csv
+pyrit/datasets/scorer_evals/harm/fairness_bias_metrics.jsonl
+pyrit/datasets/scorer_evals/harm/hate_speech.csv
+pyrit/datasets/scorer_evals/harm/hate_speech_metrics.jsonl
+pyrit/datasets/scorer_evals/harm/hate_speech_multi_score.csv
+pyrit/datasets/scorer_evals/harm/info_integrity.csv
+pyrit/datasets/scorer_evals/harm/information_integrity_metrics.jsonl
+pyrit/datasets/scorer_evals/harm/mini_hate_speech.csv
+pyrit/datasets/scorer_evals/harm/privacy.csv
+pyrit/datasets/scorer_evals/harm/privacy_metrics.jsonl
+pyrit/datasets/scorer_evals/harm/self_harm.csv
+pyrit/datasets/scorer_evals/harm/self_harm_metrics.jsonl
+pyrit/datasets/scorer_evals/harm/sexual.csv
+pyrit/datasets/scorer_evals/harm/sexual_metrics.jsonl
+pyrit/datasets/scorer_evals/harm/violence.csv
+pyrit/datasets/scorer_evals/harm/violence_metrics.jsonl
+pyrit/datasets/scorer_evals/harm/violence_multi_score.csv
+pyrit/datasets/scorer_evals/objective/bias.csv
+pyrit/datasets/scorer_evals/objective/chemical_biological.csv
+pyrit/datasets/scorer_evals/objective/cyber.csv
+pyrit/datasets/scorer_evals/objective/exploits.csv
+pyrit/datasets/scorer_evals/objective/harassment_bullying.csv
+pyrit/datasets/scorer_evals/objective/hate_speech.csv
+pyrit/datasets/scorer_evals/objective/illegal_activity.csv
+pyrit/datasets/scorer_evals/objective/info_integrity.csv
+pyrit/datasets/scorer_evals/objective/misinformation.csv
+pyrit/datasets/scorer_evals/objective/objective_achieved_metrics.jsonl
+pyrit/datasets/scorer_evals/objective/phishing.csv
+pyrit/datasets/scorer_evals/objective/privacy.csv
+pyrit/datasets/scorer_evals/objective/self_harm.csv
+pyrit/datasets/scorer_evals/objective/sexual.csv
+pyrit/datasets/scorer_evals/objective/violence.csv
+pyrit/datasets/scorer_evals/refusal_scorer/refusal.csv
+pyrit/datasets/scorer_evals/refusal_scorer/refusal_extra.csv
+pyrit/datasets/scorer_evals/refusal_scorer/refusal_metrics.jsonl
+pyrit/datasets/scorer_evals/sample/mini_refusal.csv
+pyrit/datasets/seed_datasets/local/0din/chemical_compiler_debug.prompt
+pyrit/datasets/seed_datasets/local/0din/correction.prompt
+pyrit/datasets/seed_datasets/local/0din/hex_recipe_book.prompt
+pyrit/datasets/seed_datasets/local/0din/incremental_table_completion.prompt
+pyrit/datasets/seed_datasets/local/0din/placeholder_injection.prompt
+pyrit/datasets/seed_datasets/local/0din/technical_field_guide.prompt
+pyrit/datasets/seed_datasets/local/__init__.py
+pyrit/datasets/seed_datasets/local/adv_bench.prompt
+pyrit/datasets/seed_datasets/local/airt/fairness.prompt
+pyrit/datasets/seed_datasets/local/airt/fairness_yes_no.prompt
+pyrit/datasets/seed_datasets/local/airt/harassment.prompt
+pyrit/datasets/seed_datasets/local/airt/harms.prompt
+pyrit/datasets/seed_datasets/local/airt/hate.prompt
+pyrit/datasets/seed_datasets/local/airt/illegal.prompt
+pyrit/datasets/seed_datasets/local/airt/leakage.prompt
+pyrit/datasets/seed_datasets/local/airt/malware.prompt
+pyrit/datasets/seed_datasets/local/airt/misinformation.prompt
+pyrit/datasets/seed_datasets/local/airt/psychosocial.prompt
+pyrit/datasets/seed_datasets/local/airt/scams.prompt
+pyrit/datasets/seed_datasets/local/airt/sexual.prompt
+pyrit/datasets/seed_datasets/local/airt/violence.prompt
+pyrit/datasets/seed_datasets/local/examples/blank_canvas.png
+pyrit/datasets/seed_datasets/local/examples/illegal-multimodal-dataset.prompt
+pyrit/datasets/seed_datasets/local/examples/illegal-multimodal-group.prompt
+pyrit/datasets/seed_datasets/local/examples/illegal-multimodal-objective-group.prompt
+pyrit/datasets/seed_datasets/local/examples/illegal-multiple-multiturn-dataset.prompt
+pyrit/datasets/seed_datasets/local/examples/illegal-multiturn-group.prompt
+pyrit/datasets/seed_datasets/local/examples/illegal-objective-only-group.prompt
+pyrit/datasets/seed_datasets/local/examples/multimodal_data/kinetics_0107.mp4
+pyrit/datasets/seed_datasets/local/examples/multimodal_data/molotov.wav
+pyrit/datasets/seed_datasets/local/examples/multimodal_data/pyrit_architecture.png
+pyrit/datasets/seed_datasets/local/examples/multimodal_data/roakey_potion.png
+pyrit/datasets/seed_datasets/local/examples/psych-crisis-conversations.prompt
+pyrit/datasets/seed_datasets/local/garak/access_shell_commands.prompt
+pyrit/datasets/seed_datasets/local/garak/doctor.prompt
+pyrit/datasets/seed_datasets/local/garak/example_domains_xss.prompt
+pyrit/datasets/seed_datasets/local/garak/markdown_js.prompt
+pyrit/datasets/seed_datasets/local/garak/normal_instructions.prompt
+pyrit/datasets/seed_datasets/local/garak/slur_terms_en.prompt
+pyrit/datasets/seed_datasets/local/garak/web_html_js.prompt
+pyrit/datasets/seed_datasets/local/jailbreak_dataset.py
+pyrit/datasets/seed_datasets/local/local_dataset_loader.py
+pyrit/datasets/seed_datasets/local/psfuzz_steal_system.prompt
+pyrit/datasets/seed_datasets/remote/__init__.py
+pyrit/datasets/seed_datasets/remote/_audio_cache.py
+pyrit/datasets/seed_datasets/remote/_image_cache.py
+pyrit/datasets/seed_datasets/remote/aegis_ai_content_safety_dataset.py
+pyrit/datasets/seed_datasets/remote/agent_threat_rules_dataset.py
+pyrit/datasets/seed_datasets/remote/aya_redteaming_dataset.py
+pyrit/datasets/seed_datasets/remote/babelscape_alert_dataset.py
+pyrit/datasets/seed_datasets/remote/beaver_tails_dataset.py
+pyrit/datasets/seed_datasets/remote/categorical_harmful_qa_dataset.py
+pyrit/datasets/seed_datasets/remote/cbt_bench_dataset.py
+pyrit/datasets/seed_datasets/remote/ccp_sensitive_prompts_dataset.py
+pyrit/datasets/seed_datasets/remote/coconot_dataset.py
+pyrit/datasets/seed_datasets/remote/comic_jailbreak_dataset.py
+pyrit/datasets/seed_datasets/remote/dangerous_qa_dataset.py
+pyrit/datasets/seed_datasets/remote/darkbench_dataset.py
+pyrit/datasets/seed_datasets/remote/decoding_trust_toxicity_dataset.py
+pyrit/datasets/seed_datasets/remote/equitymedqa_dataset.py
+pyrit/datasets/seed_datasets/remote/figstep_dataset.py
+pyrit/datasets/seed_datasets/remote/forbidden_questions_dataset.py
+pyrit/datasets/seed_datasets/remote/garak_audio_dataset.py
+pyrit/datasets/seed_datasets/remote/garak_dataset.py
+pyrit/datasets/seed_datasets/remote/garak_package_hallucination_dataset.py
+pyrit/datasets/seed_datasets/remote/garak_system_prompt_dataset.py
+pyrit/datasets/seed_datasets/remote/harmbench_dataset.py
+pyrit/datasets/seed_datasets/remote/harmbench_multimodal_dataset.py
+pyrit/datasets/seed_datasets/remote/harmful_qa_dataset.py
+pyrit/datasets/seed_datasets/remote/hixstest_dataset.py
+pyrit/datasets/seed_datasets/remote/jailbreakv_28k_dataset.py
+pyrit/datasets/seed_datasets/remote/jailbreakv_redteam_2k_dataset.py
+pyrit/datasets/seed_datasets/remote/jbb_behaviors_dataset.py
+pyrit/datasets/seed_datasets/remote/librai_do_not_answer_dataset.py
+pyrit/datasets/seed_datasets/remote/llm_latent_adversarial_training_dataset.py
+pyrit/datasets/seed_datasets/remote/medsafetybench_dataset.py
+pyrit/datasets/seed_datasets/remote/mlcommons_ailuminate_dataset.py
+pyrit/datasets/seed_datasets/remote/mm_safetybench_dataset.py
+pyrit/datasets/seed_datasets/remote/moral_integrity_corpus_dataset.py
+pyrit/datasets/seed_datasets/remote/mossbench_dataset.py
+pyrit/datasets/seed_datasets/remote/msts_dataset.py
+pyrit/datasets/seed_datasets/remote/multilingual_vulnerability_dataset.py
+pyrit/datasets/seed_datasets/remote/odin_dataset.py
+pyrit/datasets/seed_datasets/remote/or_bench_dataset.py
+pyrit/datasets/seed_datasets/remote/pku_safe_rlhf_dataset.py
+pyrit/datasets/seed_datasets/remote/promptintel_dataset.py
+pyrit/datasets/seed_datasets/remote/red_team_social_bias_dataset.py
+pyrit/datasets/seed_datasets/remote/remote_dataset_loader.py
+pyrit/datasets/seed_datasets/remote/salad_bench_dataset.py
+pyrit/datasets/seed_datasets/remote/sgxstest_dataset.py
+pyrit/datasets/seed_datasets/remote/simple_safety_tests_dataset.py
+pyrit/datasets/seed_datasets/remote/siuo_dataset.py
+pyrit/datasets/seed_datasets/remote/sorry_bench_dataset.py
+pyrit/datasets/seed_datasets/remote/sosbench_dataset.py
+pyrit/datasets/seed_datasets/remote/strong_reject_dataset.py
+pyrit/datasets/seed_datasets/remote/tdc23_redteaming_dataset.py
+pyrit/datasets/seed_datasets/remote/toxic_chat_dataset.py
+pyrit/datasets/seed_datasets/remote/transphobia_awareness_dataset.py
+pyrit/datasets/seed_datasets/remote/visual_leak_bench_dataset.py
+pyrit/datasets/seed_datasets/remote/vlguard_dataset.py
+pyrit/datasets/seed_datasets/remote/vlsu_multimodal_dataset.py
+pyrit/datasets/seed_datasets/remote/xstest_dataset.py
+pyrit/datasets/seed_datasets/seed_dataset_provider.py
+pyrit/datasets/seed_datasets/seed_metadata.py
+pyrit/embedding/__init__.py
+pyrit/embedding/openai_text_embedding.py
+pyrit/exceptions/__init__.py
+pyrit/exceptions/exception_classes.py
+pyrit/exceptions/exception_context.py
+pyrit/exceptions/exceptions_helpers.py
+pyrit/exceptions/retry_collector.py
+pyrit/executor/__init__.py
+pyrit/executor/attack/__init__.py
+pyrit/executor/attack/component/__init__.py
+pyrit/executor/attack/component/adversarial_conversation_manager.py
+pyrit/executor/attack/component/conversation_manager.py
+pyrit/executor/attack/component/modality_router.py
+pyrit/executor/attack/component/prepended_conversation_config.py
+pyrit/executor/attack/compound/__init__.py
+pyrit/executor/attack/compound/sequential_attack.py
+pyrit/executor/attack/core/__init__.py
+pyrit/executor/attack/core/attack_config.py
+pyrit/executor/attack/core/attack_executor.py
+pyrit/executor/attack/core/attack_parameters.py
+pyrit/executor/attack/core/attack_result_attribution.py
+pyrit/executor/attack/core/attack_strategy.py
+pyrit/executor/attack/multi_turn/__init__.py
+pyrit/executor/attack/multi_turn/chunked_request.py
+pyrit/executor/attack/multi_turn/crescendo.py
+pyrit/executor/attack/multi_turn/multi_prompt_sending.py
+pyrit/executor/attack/multi_turn/multi_turn_attack_strategy.py
+pyrit/executor/attack/multi_turn/pair.py
+pyrit/executor/attack/multi_turn/red_teaming.py
+pyrit/executor/attack/multi_turn/simulated_conversation.py
+pyrit/executor/attack/multi_turn/tree_of_attacks.py
+pyrit/executor/attack/single_turn/__init__.py
+pyrit/executor/attack/single_turn/context_compliance.py
+pyrit/executor/attack/single_turn/flip_attack.py
+pyrit/executor/attack/single_turn/many_shot_jailbreak.py
+pyrit/executor/attack/single_turn/prompt_sending.py
+pyrit/executor/attack/single_turn/single_turn_attack_strategy.py
+pyrit/executor/attack/single_turn/skeleton_key.py
+pyrit/executor/attack/streaming/__init__.py
+pyrit/executor/attack/streaming/barge_in.py
+pyrit/executor/benchmark/__init__.py
+pyrit/executor/benchmark/fairness_bias.py
+pyrit/executor/benchmark/question_answering.py
+pyrit/executor/core/__init__.py
+pyrit/executor/core/config.py
+pyrit/executor/core/strategy.py
+pyrit/executor/promptgen/__init__.py
+pyrit/executor/promptgen/anecdoctor.py
+pyrit/executor/promptgen/core/__init__.py
+pyrit/executor/promptgen/core/prompt_generator_strategy.py
+pyrit/executor/promptgen/fuzzer/__init__.py
+pyrit/executor/promptgen/fuzzer/fuzzer.py
+pyrit/executor/promptgen/fuzzer/fuzzer_converter_base.py
+pyrit/executor/promptgen/fuzzer/fuzzer_crossover_converter.py
+pyrit/executor/promptgen/fuzzer/fuzzer_expand_converter.py
+pyrit/executor/promptgen/fuzzer/fuzzer_rephrase_converter.py
+pyrit/executor/promptgen/fuzzer/fuzzer_shorten_converter.py
+pyrit/executor/promptgen/fuzzer/fuzzer_similar_converter.py
+pyrit/executor/workflow/__init__.py
+pyrit/executor/workflow/core/__init__.py
+pyrit/executor/workflow/core/workflow_strategy.py
+pyrit/executor/workflow/xpia.py
+pyrit/memory/__init__.py
+pyrit/memory/alembic/env.py
+pyrit/memory/alembic/script.py.mako
+pyrit/memory/alembic/versions/108a72344872_add_labels_to_attack_results.py
+pyrit/memory/alembic/versions/7a1b2c3d4e5f_add_error_retry_fields.py
+pyrit/memory/alembic/versions/9c8b7a6d5e4f_add_attribution_to_attack_results.py
+pyrit/memory/alembic/versions/ab8f2c1a9d07_pre_alembic_release_schema.py
+pyrit/memory/alembic/versions/b2f4c6a8d1e3_add_conversations_table.py
+pyrit/memory/alembic/versions/c3d5e7f9a1b2_add_targeted_harm_categories_to_attack_results.py
+pyrit/memory/alembic/versions/d4e6f8a0b2c4_rename_scenario_init_data_to_scenario_identifier.py
+pyrit/memory/alembic/versions/e373726d391b_initial_schema.py
+pyrit/memory/alembic/versions/f1a2b3c4d5e6_drop_v0_14_deprecated_columns.py
+pyrit/memory/azure_sql_memory.py
+pyrit/memory/central_memory.py
+pyrit/memory/memory_embedding.py
+pyrit/memory/memory_interface.py
+pyrit/memory/memory_models.py
+pyrit/memory/migration.py
+pyrit/memory/sqlite_memory.py
+pyrit/memory/storage/__init__.py
+pyrit/memory/storage/data_url_converter.py
+pyrit/memory/storage/serializers.py
+pyrit/memory/storage/storage.py
+pyrit/message_normalizer/__init__.py
+pyrit/message_normalizer/_helpers.py
+pyrit/message_normalizer/chat_message_normalizer.py
+pyrit/message_normalizer/conversation_context_normalizer.py
+pyrit/message_normalizer/generic_system_squash.py
+pyrit/message_normalizer/history_squash_normalizer.py
+pyrit/message_normalizer/json_schema_normalizer.py
+pyrit/message_normalizer/message_normalizer.py
+pyrit/message_normalizer/tokenizer_template_normalizer.py
+pyrit/models/__init__.py
+pyrit/models/catalog/__init__.py
+pyrit/models/catalog/initializer.py
+pyrit/models/catalog/scenario.py
+pyrit/models/catalog/target.py
+pyrit/models/conversation_stats.py
+pyrit/models/embeddings.py
+pyrit/models/harm_definition.py
+pyrit/models/identifiers/__init__.py
+pyrit/models/identifiers/atomic_attack_identifier.py
+pyrit/models/identifiers/attack_identifier.py
+pyrit/models/identifiers/attack_technique_identifier.py
+pyrit/models/identifiers/class_name_utils.py
+pyrit/models/identifiers/component_identifier.py
+pyrit/models/identifiers/converter_identifier.py
+pyrit/models/identifiers/evaluation_identifier.py
+pyrit/models/identifiers/evaluation_markers.py
+pyrit/models/identifiers/identifier_filters.py
+pyrit/models/identifiers/param_markers.py
+pyrit/models/identifiers/scenario_identifier.py
+pyrit/models/identifiers/scorer_identifier.py
+pyrit/models/identifiers/seed_identifier.py
+pyrit/models/identifiers/target_identifier.py
+pyrit/models/json_schema_definition.py
+pyrit/models/literals.py
+pyrit/models/messages/__init__.py
+pyrit/models/messages/chat_message.py
+pyrit/models/messages/conversation_reference.py
+pyrit/models/messages/conversations.py
+pyrit/models/messages/message.py
+pyrit/models/messages/message_piece.py
+pyrit/models/parameter.py
+pyrit/models/question_answering.py
+pyrit/models/results/__init__.py
+pyrit/models/results/attack_result.py
+pyrit/models/results/scenario_result.py
+pyrit/models/results/strategy_result.py
+pyrit/models/retry_event.py
+pyrit/models/score.py
+pyrit/models/seeds/__init__.py
+pyrit/models/seeds/attack_seed_group.py
+pyrit/models/seeds/attack_technique_seed_group.py
+pyrit/models/seeds/seed.py
+pyrit/models/seeds/seed_dataset.py
+pyrit/models/seeds/seed_group.py
+pyrit/models/seeds/seed_grouping.py
+pyrit/models/seeds/seed_objective.py
+pyrit/models/seeds/seed_prompt.py
+pyrit/models/seeds/seed_simulated_conversation.py
+pyrit/models/seeds/yaml_seed_loader.py
+pyrit/models/target_capabilities.py
+pyrit/models/token_usage.py
+pyrit/output/__init__.py
+pyrit/output/_image_utils.py
+pyrit/output/attack_result/__init__.py
+pyrit/output/attack_result/base.py
+pyrit/output/attack_result/markdown.py
+pyrit/output/attack_result/pretty.py
+pyrit/output/base.py
+pyrit/output/conversation/__init__.py
+pyrit/output/conversation/base.py
+pyrit/output/conversation/markdown.py
+pyrit/output/conversation/pretty.py
+pyrit/output/helpers.py
+pyrit/output/scenario_result/__init__.py
+pyrit/output/scenario_result/base.py
+pyrit/output/scenario_result/pretty.py
+pyrit/output/score/__init__.py
+pyrit/output/score/markdown.py
+pyrit/output/score/pretty.py
+pyrit/output/scorer/__init__.py
+pyrit/output/scorer/base.py
+pyrit/output/scorer/pretty.py
+pyrit/output/sink.py
+pyrit/prompt_normalizer/__init__.py
+pyrit/prompt_normalizer/converter_configuration.py
+pyrit/prompt_normalizer/normalizer_request.py
+pyrit/prompt_normalizer/prompt_normalizer.py
+pyrit/prompt_target/__init__.py
+pyrit/prompt_target/azure_blob_storage_target.py
+pyrit/prompt_target/azure_ml_chat_target.py
+pyrit/prompt_target/batch_helper.py
+pyrit/prompt_target/common/chat_completions_message_builder.py
+pyrit/prompt_target/common/chat_completions_response_parser.py
+pyrit/prompt_target/common/conversation_normalization_pipeline.py
+pyrit/prompt_target/common/discover_target_capabilities.py
+pyrit/prompt_target/common/json_response_config.py
+pyrit/prompt_target/common/prompt_target.py
+pyrit/prompt_target/common/realtime_audio.py
+pyrit/prompt_target/common/target_capabilities.py
+pyrit/prompt_target/common/target_configuration.py
+pyrit/prompt_target/common/target_requirements.py
+pyrit/prompt_target/common/utils.py
+pyrit/prompt_target/gandalf_target.py
+pyrit/prompt_target/http_target/http_target.py
+pyrit/prompt_target/http_target/http_target_callback_functions.py
+pyrit/prompt_target/http_target/httpx_api_target.py
+pyrit/prompt_target/hugging_face/hugging_face_chat_target.py
+pyrit/prompt_target/litellm_chat_target.py
+pyrit/prompt_target/openai/_openai_realtime_dispatcher.py
+pyrit/prompt_target/openai/_openai_realtime_streaming_session.py
+pyrit/prompt_target/openai/openai_chat_audio_config.py
+pyrit/prompt_target/openai/openai_chat_target.py
+pyrit/prompt_target/openai/openai_completion_target.py
+pyrit/prompt_target/openai/openai_error_handling.py
+pyrit/prompt_target/openai/openai_image_target.py
+pyrit/prompt_target/openai/openai_realtime_target.py
+pyrit/prompt_target/openai/openai_response_target.py
+pyrit/prompt_target/openai/openai_target.py
+pyrit/prompt_target/openai/openai_tts_target.py
+pyrit/prompt_target/openai/openai_video_target.py
+pyrit/prompt_target/playwright_copilot_target.py
+pyrit/prompt_target/playwright_target.py
+pyrit/prompt_target/prompt_shield_target.py
+pyrit/prompt_target/round_robin_target.py
+pyrit/prompt_target/text_target.py
+pyrit/prompt_target/websocket_copilot_target.py
+pyrit/py.typed
+pyrit/registry/__init__.py
+pyrit/registry/components/__init__.py
+pyrit/registry/components/attack_technique_registry.py
+pyrit/registry/components/converter_registry.py
+pyrit/registry/components/initializer_registry.py
+pyrit/registry/components/scenario_registry.py
+pyrit/registry/components/scorer_registry.py
+pyrit/registry/components/target_registry.py
+pyrit/registry/discovery.py
+pyrit/registry/instance_registry.py
+pyrit/registry/registry.py
+pyrit/registry/registry_metadata.py
+pyrit/registry/resolution.py
+pyrit/registry/tag_query.py
+pyrit/scenario/__init__.py
+pyrit/scenario/core/__init__.py
+pyrit/scenario/core/atomic_attack.py
+pyrit/scenario/core/attack_technique.py
+pyrit/scenario/core/attack_technique_factory.py
+pyrit/scenario/core/dataset_configuration.py
+pyrit/scenario/core/matrix_atomic_attack_builder.py
+pyrit/scenario/core/scenario.py
+pyrit/scenario/core/scenario_context.py
+pyrit/scenario/core/scenario_target_defaults.py
+pyrit/scenario/core/scenario_technique.py
+pyrit/scenario/scenarios/__init__.py
+pyrit/scenario/scenarios/adaptive/__init__.py
+pyrit/scenario/scenarios/adaptive/adaptive_scenario.py
+pyrit/scenario/scenarios/adaptive/dispatcher.py
+pyrit/scenario/scenarios/adaptive/selectors/__init__.py
+pyrit/scenario/scenarios/adaptive/selectors/epsilon_greedy.py
+pyrit/scenario/scenarios/adaptive/selectors/technique_selector.py
+pyrit/scenario/scenarios/adaptive/text_adaptive.py
+pyrit/scenario/scenarios/airt/__init__.py
+pyrit/scenario/scenarios/airt/cyber.py
+pyrit/scenario/scenarios/airt/jailbreak.py
+pyrit/scenario/scenarios/airt/leakage.py
+pyrit/scenario/scenarios/airt/psychosocial.py
+pyrit/scenario/scenarios/airt/rapid_response.py
+pyrit/scenario/scenarios/airt/scam.py
+pyrit/scenario/scenarios/benchmark/__init__.py
+pyrit/scenario/scenarios/benchmark/adversarial.py
+pyrit/scenario/scenarios/foundry/__init__.py
+pyrit/scenario/scenarios/foundry/red_team_agent.py
+pyrit/scenario/scenarios/garak/__init__.py
+pyrit/scenario/scenarios/garak/doctor.py
+pyrit/scenario/scenarios/garak/encoding.py
+pyrit/scenario/scenarios/garak/web_injection.py
+pyrit/score/__init__.py
+pyrit/score/audio_transcript_scorer.py
+pyrit/score/batch_scorer.py
+pyrit/score/conversation_scorer.py
+pyrit/score/float_scale/audio_float_scale_scorer.py
+pyrit/score/float_scale/azure_content_filter_scorer.py
+pyrit/score/float_scale/float_scale_score_aggregator.py
+pyrit/score/float_scale/float_scale_scorer.py
+pyrit/score/float_scale/insecure_code_scorer.py
+pyrit/score/float_scale/likert_scale.py
+pyrit/score/float_scale/numeric_scale.py
+pyrit/score/float_scale/plagiarism_scorer.py
+pyrit/score/float_scale/self_ask_general_float_scale_scorer.py
+pyrit/score/float_scale/self_ask_likert_scorer.py
+pyrit/score/float_scale/self_ask_scale_scorer.py
+pyrit/score/float_scale/video_float_scale_scorer.py
+pyrit/score/llm_scoring.py
+pyrit/score/question_answer_helpers.py
+pyrit/score/response_handler.py
+pyrit/score/score_aggregator_result.py
+pyrit/score/score_utils.py
+pyrit/score/scorer.py
+pyrit/score/scorer_evaluation/human_labeled_dataset.py
+pyrit/score/scorer_evaluation/krippendorff.py
+pyrit/score/scorer_evaluation/metrics_type.py
+pyrit/score/scorer_evaluation/scorer_evaluator.py
+pyrit/score/scorer_evaluation/scorer_metrics.py
+pyrit/score/scorer_evaluation/scorer_metrics_io.py
+pyrit/score/scorer_info.py
+pyrit/score/scorer_prompt_validator.py
+pyrit/score/system_prompt.py
+pyrit/score/true_false/audio_true_false_scorer.py
+pyrit/score/true_false/decoding_scorer.py
+pyrit/score/true_false/float_scale_threshold_scorer.py
+pyrit/score/true_false/gandalf_scorer.py
+pyrit/score/true_false/prompt_shield_scorer.py
+pyrit/score/true_false/question_answer_scorer.py
+pyrit/score/true_false/regex/__init__.py
+pyrit/score/true_false/regex/anthrax_keyword_scorer.py
+pyrit/score/true_false/regex/credential_leak_scorer.py
+pyrit/score/true_false/regex/fentanyl_keyword_scorer.py
+pyrit/score/true_false/regex/ldap_injection_output_scorer.py
+pyrit/score/true_false/regex/markdown_injection.py
+pyrit/score/true_false/regex/meth_keyword_scorer.py
+pyrit/score/true_false/regex/nerve_agent_keyword_scorer.py
+pyrit/score/true_false/regex/open_redirect_output_scorer.py
+pyrit/score/true_false/regex/path_traversal_output_scorer.py
+pyrit/score/true_false/regex/regex_scorer.py
+pyrit/score/true_false/regex/shell_command_output_scorer.py
+pyrit/score/true_false/regex/sql_injection_output_scorer.py
+pyrit/score/true_false/regex/ssrf_output_scorer.py
+pyrit/score/true_false/regex/ssti_output_scorer.py
+pyrit/score/true_false/regex/static_prompt_injection_scorer.py
+pyrit/score/true_false/regex/xss_output_scorer.py
+pyrit/score/true_false/regex/xxe_output_scorer.py
+pyrit/score/true_false/self_ask_category_scorer.py
+pyrit/score/true_false/self_ask_general_true_false_scorer.py
+pyrit/score/true_false/self_ask_question_answer_scorer.py
+pyrit/score/true_false/self_ask_refusal_scorer.py
+pyrit/score/true_false/self_ask_true_false_scorer.py
+pyrit/score/true_false/substring_scorer.py
+pyrit/score/true_false/true_false_composite_scorer.py
+pyrit/score/true_false/true_false_inverter_scorer.py
+pyrit/score/true_false/true_false_score_aggregator.py
+pyrit/score/true_false/true_false_scorer.py
+pyrit/score/true_false/video_true_false_scorer.py
+pyrit/score/video_scorer.py
+pyrit/setup/__init__.py
+pyrit/setup/configuration_loader.py
+pyrit/setup/initialization.py
+pyrit/setup/initializers/__init__.py
+pyrit/setup/initializers/load_default_datasets.py
+pyrit/setup/initializers/preload_scenario_metadata.py
+pyrit/setup/initializers/scorers.py
+pyrit/setup/initializers/targets.py
+pyrit/setup/initializers/techniques/__init__.py
+pyrit/setup/initializers/techniques/airt.py
+pyrit/setup/initializers/techniques/core.py
+pyrit/setup/initializers/techniques/extra.py
+pyrit/setup/initializers/techniques/technique_initializer.py
+pyrit/setup/pyrit_initializer.py
+pyrit/show_versions.py
+tests/end_to_end/__init__.py
+tests/end_to_end/auxiliary_attacks/__init__.py
+tests/end_to_end/auxiliary_attacks/test_gcg_aml_e2e.py
+tests/end_to_end/conftest.py
+tests/end_to_end/test_all_datasets.py
+tests/end_to_end/test_config.yaml
+tests/end_to_end/test_scenarios.py
+tests/integration/__init__.py
+tests/integration/ai_recruiter/test_ai_recruiter.py
+tests/integration/auxiliary_attacks/test_gcg_attack_wiring_integration.py
+tests/integration/auxiliary_attacks/test_gcg_integration.py
+tests/integration/auxiliary_attacks/test_notebooks_auxiliary.py
+tests/integration/cli/__init__.py
+tests/integration/cli/test_pyrit_shell_startup.py
+tests/integration/conftest.py
+tests/integration/converter/test_entra_auth_converters.py
+tests/integration/converter/test_notebooks_converter.py
+tests/integration/converter/test_retry_timing_integration.py
+tests/integration/datasets/test_load_default_datasets_integration.py
+tests/integration/datasets/test_notebooks_datasets.py
+tests/integration/datasets/test_seed_dataset_provider_integration.py
+tests/integration/embeddings/test_openai_embedding.py
+tests/integration/executors/test_executor_notebooks.py
+tests/integration/executors/test_tap_attack_integration.py
+tests/integration/memory/test_azure_sql_memory_integration.py
+tests/integration/memory/test_notebooks_memory.py
+tests/integration/message_normalizer/__init__.py
+tests/integration/message_normalizer/test_tokenizer_template_normalizer_integration.py
+tests/integration/mocks.py
+tests/integration/scenarios/test_notebooks_scenarios.py
+tests/integration/score/test_azure_content_filter_integration.py
+tests/integration/score/test_scorer_notebooks.py
+tests/integration/targets/test_entra_auth_targets.py
+tests/integration/targets/test_hugging_face_integration.py
+tests/integration/targets/test_litellm_chat_target_integration.py
+tests/integration/targets/test_notebooks_targets.py
+tests/integration/targets/test_openai_chat_target_integration.py
+tests/integration/targets/test_openai_responses_gpt5.py
+tests/integration/targets/test_rate_limiting_integration.py
+tests/integration/targets/test_target_filters.py
+tests/integration/targets/test_targets_and_secrets.py
+tests/partner_integration/__init__.py
+tests/partner_integration/azure_ai_evaluation/__init__.py
+tests/partner_integration/azure_ai_evaluation/test_auth_contract.py
+tests/partner_integration/azure_ai_evaluation/test_converter_contract.py
+tests/partner_integration/azure_ai_evaluation/test_exceptions_contract.py
+tests/partner_integration/azure_ai_evaluation/test_foundry_scenario_contract.py
+tests/partner_integration/azure_ai_evaluation/test_import_smoke.py
+tests/partner_integration/azure_ai_evaluation/test_model_contract.py
+tests/partner_integration/azure_ai_evaluation/test_prompt_target_contract.py
+tests/partner_integration/azure_ai_evaluation/test_scorer_contract.py
+tests/partner_integration/azure_ai_evaluation/test_sqlite_memory_contract.py
+tests/partner_integration/conftest.py
+tests/unit/__init__.py
+tests/unit/analytics/__init__.py
+tests/unit/analytics/test_conversation_analytics.py
+tests/unit/analytics/test_result_analysis.py
+tests/unit/analytics/test_technique_analysis.py
+tests/unit/analytics/test_text_matching.py
+tests/unit/auth/__init__.py
+tests/unit/auth/test_auth_config.py
+tests/unit/auth/test_authenticator.py
+tests/unit/auth/test_azure_auth.py
+tests/unit/auth/test_azure_storage_auth.py
+tests/unit/auth/test_copilot_authenticator.py
+tests/unit/auth/test_manual_copilot_authenticator.py
+tests/unit/auxiliary_attacks/__init__.py
+tests/unit/auxiliary_attacks/gcg/__init__.py
+tests/unit/auxiliary_attacks/gcg/test_attack_manager_helpers.py
+tests/unit/auxiliary_attacks/gcg/test_config.py
+tests/unit/auxiliary_attacks/gcg/test_data_and_config.py
+tests/unit/auxiliary_attacks/gcg/test_default_implementations.py
+tests/unit/auxiliary_attacks/gcg/test_extension_protocols.py
+tests/unit/auxiliary_attacks/gcg/test_gcg_core.py
+tests/unit/auxiliary_attacks/gcg/test_generator.py
+tests/unit/auxiliary_attacks/gcg/test_get_goals_and_targets.py
+tests/unit/auxiliary_attacks/gcg/test_log.py
+tests/unit/auxiliary_attacks/gcg/test_multi_prompt_attack.py
+tests/unit/auxiliary_attacks/gcg/test_public_api.py
+tests/unit/auxiliary_attacks/test_experimental_warning.py
+tests/unit/backend/__init__.py
+tests/unit/backend/test_api_routes.py
+tests/unit/backend/test_attack_service.py
+tests/unit/backend/test_auth_middleware.py
+tests/unit/backend/test_common_models.py
+tests/unit/backend/test_converter_service.py
+tests/unit/backend/test_dataset_service.py
+tests/unit/backend/test_error_handlers.py
+tests/unit/backend/test_initializer_service.py
+tests/unit/backend/test_main.py
+tests/unit/backend/test_mappers.py
+tests/unit/backend/test_media_route.py
+tests/unit/backend/test_preview.py
+tests/unit/backend/test_pyrit_backend.py
+tests/unit/backend/test_request_id.py
+tests/unit/backend/test_response_contracts.py
+tests/unit/backend/test_scenario_run_routes.py
+tests/unit/backend/test_scenario_run_service.py
+tests/unit/backend/test_scenario_service.py
+tests/unit/backend/test_security_headers.py
+tests/unit/backend/test_target_service.py
+tests/unit/build_scripts/test_check_no_rest_roles.py
+tests/unit/build_scripts/test_closest_page.py
+tests/unit/build_scripts/test_compose_docs_dist.py
+tests/unit/build_scripts/test_gen_api_md.py
+tests/unit/build_scripts/test_generate_pages_manifest.py
+tests/unit/build_scripts/test_generate_rss.py
+tests/unit/build_scripts/test_inject_version_picker.py
+tests/unit/build_scripts/test_prepare_package.py
+tests/unit/build_scripts/test_resolve_docs_matrix.py
+tests/unit/build_scripts/test_sanitize_notebook_paths.py
+tests/unit/build_scripts/test_strip_notebook_progress_bars.py
+tests/unit/build_scripts/test_validate_docs.py
+tests/unit/cli/__init__.py
+tests/unit/cli/test_api_client.py
+tests/unit/cli/test_banner.py
+tests/unit/cli/test_cli_args.py
+tests/unit/cli/test_config_reader.py
+tests/unit/cli/test_import_guards.py
+tests/unit/cli/test_output.py
+tests/unit/cli/test_pyrit_scan.py
+tests/unit/cli/test_pyrit_shell.py
+tests/unit/cli/test_server_launcher.py
+tests/unit/common/test_apply_defaults.py
+tests/unit/common/test_brick_contract.py
+tests/unit/common/test_common_default.py
+tests/unit/common/test_common_net_utility.py
+tests/unit/common/test_csv_helper.py
+tests/unit/common/test_deprecation.py
+tests/unit/common/test_helper_functions.py
+tests/unit/common/test_hf_model_downloads.py
+tests/unit/common/test_json_helper.py
+tests/unit/common/test_path.py
+tests/unit/common/test_pyrit_default_value.py
+tests/unit/common/test_safe_extract.py
+tests/unit/common/test_singleton.py
+tests/unit/common/test_text_helper.py
+tests/unit/common/test_utils.py
+tests/unit/common/test_yaml_loadable.py
+tests/unit/conftest.py
+tests/unit/converter/test_add_image_text_converter.py
+tests/unit/converter/test_add_image_video_converter.py
+tests/unit/converter/test_add_text_image_converter.py
+tests/unit/converter/test_ansi_attack_converter.py
+tests/unit/converter/test_arabic_presentation_form_converter.py
+tests/unit/converter/test_arabizi_converter.py
+tests/unit/converter/test_ascii_art_converter.py
+tests/unit/converter/test_ascii_smuggler_converter.py
+tests/unit/converter/test_ask_to_decode_converter.py
+tests/unit/converter/test_atbash_converter.py
+tests/unit/converter/test_audio_echo_converter.py
+tests/unit/converter/test_audio_frequency_converter.py
+tests/unit/converter/test_audio_speed_converter.py
+tests/unit/converter/test_audio_volume_converter.py
+tests/unit/converter/test_audio_white_noise_converter.py
+tests/unit/converter/test_azure_speech_converter.py
+tests/unit/converter/test_azure_speech_text_converter.py
+tests/unit/converter/test_base2048_converter.py
+tests/unit/converter/test_base64_converter.py
+tests/unit/converter/test_bidi_converter.py
+tests/unit/converter/test_bin_ascii_converter.py
+tests/unit/converter/test_binary_converter.py
+tests/unit/converter/test_braille_converter.py
+tests/unit/converter/test_caesar_converter.py
+tests/unit/converter/test_char_swap_generator_converter.py
+tests/unit/converter/test_character_space_converter.py
+tests/unit/converter/test_code_chameleon_converter.py
+tests/unit/converter/test_colloquial_wordswap_converter.py
+tests/unit/converter/test_converter.py
+tests/unit/converter/test_decomposition_converter.py
+tests/unit/converter/test_denylist_converter.py
+tests/unit/converter/test_diacritics_converter.py
+tests/unit/converter/test_ecoji_converter.py
+tests/unit/converter/test_emoji_converter.py
+tests/unit/converter/test_first_letter_converter.py
+tests/unit/converter/test_flip_converter.py
+tests/unit/converter/test_generic_llm_converter.py
+tests/unit/converter/test_image_color_saturation_converter.py
+tests/unit/converter/test_image_compression_converter.py
+tests/unit/converter/test_image_overlay_converter.py
+tests/unit/converter/test_image_prompt_style_converter.py
+tests/unit/converter/test_image_resizing_converter.py
+tests/unit/converter/test_image_rotation_converter.py
+tests/unit/converter/test_insert_punctuation_converter.py
+tests/unit/converter/test_json_string_converter.py
+tests/unit/converter/test_leetspeak_converter.py
+tests/unit/converter/test_math_obfuscation_converter.py
+tests/unit/converter/test_math_prompt_converter.py
+tests/unit/converter/test_morse_converter.py
+tests/unit/converter/test_nato_converter.py
+tests/unit/converter/test_negation_trap_converter.py
+tests/unit/converter/test_pdf_converter.py
+tests/unit/converter/test_persuasion_converter.py
+tests/unit/converter/test_policy_puppetry_converter.py
+tests/unit/converter/test_qr_code_converter.py
+tests/unit/converter/test_random_capital_letters_converter.py
+tests/unit/converter/test_random_translation_converter.py
+tests/unit/converter/test_repeat_token_converter.py
+tests/unit/converter/test_rot13_converter.py
+tests/unit/converter/test_scientific_translation_converter.py
+tests/unit/converter/test_search_replace_converter.py
+tests/unit/converter/test_selective_text_converter.py
+tests/unit/converter/test_sneaky_bits_smuggler_converter.py
+tests/unit/converter/test_string_join_converter.py
+tests/unit/converter/test_suffix_append_converter.py
+tests/unit/converter/test_superscript_converter.py
+tests/unit/converter/test_tatweel_converter.py
+tests/unit/converter/test_template_segment_converter.py
+tests/unit/converter/test_text_jailbreak_converter.py
+tests/unit/converter/test_text_selection_strategy.py
+tests/unit/converter/test_token_smuggler_converter.py
+tests/unit/converter/test_toxic_sentence_generator_converter.py
+tests/unit/converter/test_translation_converter.py
+tests/unit/converter/test_transparency_attack_converter.py
+tests/unit/converter/test_unicode_confusable_converter.py
+tests/unit/converter/test_unicode_replacement_converter.py
+tests/unit/converter/test_unicode_sub_converter.py
+tests/unit/converter/test_url_converter.py
+tests/unit/converter/test_variation_converter.py
+tests/unit/converter/test_variation_selector_smuggler_converter.py
+tests/unit/converter/test_word_doc_converter.py
+tests/unit/converter/test_word_level_converter.py
+tests/unit/converter/test_zalgo_converter.py
+tests/unit/converter/test_zero_width_converter.py
+tests/unit/data/embedding_1.json
+tests/unit/data/embedding_2.json
+tests/unit/datasets/test_0din_nday_datasets.py
+tests/unit/datasets/test_aegis_ai_content_safety_dataset.py
+tests/unit/datasets/test_agent_threat_rules_dataset.py
+tests/unit/datasets/test_aya_redteaming_dataset.py
+tests/unit/datasets/test_babelscape_alert_dataset.py
+tests/unit/datasets/test_beaver_tails_dataset.py
+tests/unit/datasets/test_categorical_harmful_qa_dataset.py
+tests/unit/datasets/test_cbt_bench_dataset.py
+tests/unit/datasets/test_coconot_dataset.py
+tests/unit/datasets/test_comic_jailbreak_dataset.py
+tests/unit/datasets/test_dangerous_qa_dataset.py
+tests/unit/datasets/test_darkbench_dataset.py
+tests/unit/datasets/test_dataset_yaml_schema_names.py
+tests/unit/datasets/test_decoding_trust_toxicity_dataset.py
+tests/unit/datasets/test_equitymedqa_dataset.py
+tests/unit/datasets/test_figstep_dataset.py
+tests/unit/datasets/test_garak_audio_dataset.py
+tests/unit/datasets/test_garak_package_hallucination_dataset.py
+tests/unit/datasets/test_garak_system_prompt_dataset.py
+tests/unit/datasets/test_harmbench_dataset.py
+tests/unit/datasets/test_harmbench_multimodal_dataset.py
+tests/unit/datasets/test_harmful_qa_dataset.py
+tests/unit/datasets/test_hixstest_dataset.py
+tests/unit/datasets/test_image_cache.py
+tests/unit/datasets/test_jailbreak_dataset.py
+tests/unit/datasets/test_jailbreak_text.py
+tests/unit/datasets/test_jailbreakv_28k_dataset.py
+tests/unit/datasets/test_jailbreakv_redteam_2k_dataset.py
+tests/unit/datasets/test_jbb_behaviors_dataset.py
+tests/unit/datasets/test_local_dataset_loader.py
+tests/unit/datasets/test_medsafetybench_dataset.py
+tests/unit/datasets/test_mlcommons_ailuminate_dataset.py
+tests/unit/datasets/test_mm_safetybench_dataset.py
+tests/unit/datasets/test_moral_integrity_corpus_dataset.py
+tests/unit/datasets/test_mossbench_dataset.py
+tests/unit/datasets/test_msts_dataset.py
+tests/unit/datasets/test_odin_dataset.py
+tests/unit/datasets/test_or_bench_dataset.py
+tests/unit/datasets/test_pku_safe_rlhf_dataset.py
+tests/unit/datasets/test_promptintel_dataset.py
+tests/unit/datasets/test_red_team_social_bias_dataset.py
+tests/unit/datasets/test_remote_dataset_loader.py
+tests/unit/datasets/test_salad_bench_dataset.py
+tests/unit/datasets/test_seed_dataset_metadata.py
+tests/unit/datasets/test_seed_dataset_provider.py
+tests/unit/datasets/test_sgxstest_dataset.py
+tests/unit/datasets/test_simple_remote_datasets.py
+tests/unit/datasets/test_simple_safety_tests_dataset.py
+tests/unit/datasets/test_siuo_dataset.py
+tests/unit/datasets/test_sorry_bench_dataset.py
+tests/unit/datasets/test_strong_reject_dataset.py
+tests/unit/datasets/test_toxic_chat_dataset.py
+tests/unit/datasets/test_transphobia_awareness_dataset.py
+tests/unit/datasets/test_visual_leak_bench_dataset.py
+tests/unit/datasets/test_vlguard_dataset.py
+tests/unit/datasets/test_vlsu_multimodal_dataset.py
+tests/unit/datasets/test_wmdp_dataset.py
+tests/unit/docs/test_attack_documentation.py
+tests/unit/docs/test_converter_documentation.py
+tests/unit/docs/test_scenario_documentation.py
+tests/unit/docs/test_scorer_documentation.py
+tests/unit/embedding/test_azure_text_embedding.py
+tests/unit/exceptions/test_exception_context.py
+tests/unit/exceptions/test_exceptions.py
+tests/unit/exceptions/test_exceptions_helpers.py
+tests/unit/exceptions/test_retry_collector.py
+tests/unit/executor/attack/component/test_adversarial_conversation_manager.py
+tests/unit/executor/attack/component/test_conversation_manager.py
+tests/unit/executor/attack/component/test_modality_router.py
+tests/unit/executor/attack/component/test_prepended_conversation_config.py
+tests/unit/executor/attack/component/test_simulated_conversation.py
+tests/unit/executor/attack/compound/__init__.py
+tests/unit/executor/attack/compound/test_sequential_attack.py
+tests/unit/executor/attack/core/test_attack_config.py
+tests/unit/executor/attack/core/test_attack_executor.py
+tests/unit/executor/attack/core/test_attack_parameters.py
+tests/unit/executor/attack/core/test_attack_strategy.py
+tests/unit/executor/attack/multi_turn/test_adversarial_chat_schema_forwarding.py
+tests/unit/executor/attack/multi_turn/test_chunked_request.py
+tests/unit/executor/attack/multi_turn/test_crescendo.py
+tests/unit/executor/attack/multi_turn/test_multi_prompt_sending.py
+tests/unit/executor/attack/multi_turn/test_pair.py
+tests/unit/executor/attack/multi_turn/test_red_team_system.py
+tests/unit/executor/attack/multi_turn/test_red_teaming.py
+tests/unit/executor/attack/multi_turn/test_supports_multi_turn_attacks.py
+tests/unit/executor/attack/multi_turn/test_tree_of_attacks.py
+tests/unit/executor/attack/single_turn/test_context_compliance.py
+tests/unit/executor/attack/single_turn/test_flip_attack.py
+tests/unit/executor/attack/single_turn/test_many_shot_jailbreak.py
+tests/unit/executor/attack/single_turn/test_many_shot_template.py
+tests/unit/executor/attack/single_turn/test_prompt_sending.py
+tests/unit/executor/attack/single_turn/test_skeleton_key.py
+tests/unit/executor/attack/streaming/__init__.py
+tests/unit/executor/attack/streaming/test_barge_in.py
+tests/unit/executor/attack/test_attack_parameter_consistency.py
+tests/unit/executor/attack/test_error_skip_scoring.py
+tests/unit/executor/benchmark/test_fairness_bias.py
+tests/unit/executor/benchmark/test_question_answering.py
+tests/unit/executor/core/test_config.py
+tests/unit/executor/core/test_strategy.py
+tests/unit/executor/promptgen/fuzzer/test_fuzzer.py
+tests/unit/executor/promptgen/fuzzer/test_fuzzer_converter.py
+tests/unit/executor/promptgen/test_anecdoctor.py
+tests/unit/executor/workflow/test_xpia.py
+tests/unit/memory/__init__.py
+tests/unit/memory/memory_interface/conftest.py
+tests/unit/memory/memory_interface/test_batching_scale.py
+tests/unit/memory/memory_interface/test_interface_attack_results.py
+tests/unit/memory/memory_interface/test_interface_core.py
+tests/unit/memory/memory_interface/test_interface_prompts.py
+tests/unit/memory/memory_interface/test_interface_scenario_results.py
+tests/unit/memory/memory_interface/test_interface_scores.py
+tests/unit/memory/memory_interface/test_interface_seed_prompts.py
+tests/unit/memory/storage/__init__.py
+tests/unit/memory/storage/test_data_url_converter.py
+tests/unit/memory/storage/test_serializers.py
+tests/unit/memory/storage/test_storage.py
+tests/unit/memory/test_azure_sql_memory.py
+tests/unit/memory/test_central_memory.py
+tests/unit/memory/test_identifier_filters.py
+tests/unit/memory/test_memory_embedding.py
+tests/unit/memory/test_memory_models.py
+tests/unit/memory/test_migration.py
+tests/unit/memory/test_score_entry.py
+tests/unit/memory/test_sqlite_memory.py
+tests/unit/message_normalizer/test_chat_message_normalizer.py
+tests/unit/message_normalizer/test_chat_normalizer_tokenizer.py
+tests/unit/message_normalizer/test_conversation_context_normalizer.py
+tests/unit/message_normalizer/test_generic_system_squash_normalizer.py
+tests/unit/message_normalizer/test_helpers.py
+tests/unit/message_normalizer/test_history_squash_normalizer.py
+tests/unit/message_normalizer/test_json_schema_normalizer.py
+tests/unit/message_normalizer/test_system_message_behavior.py
+tests/unit/mocks.py
+tests/unit/models/identifiers/__init__.py
+tests/unit/models/identifiers/test_atomic_attack_identifier.py
+tests/unit/models/identifiers/test_class_name_utils.py
+tests/unit/models/identifiers/test_component_identifier.py
+tests/unit/models/identifiers/test_evaluation_identifier.py
+tests/unit/models/identifiers/test_evaluation_markers.py
+tests/unit/models/identifiers/test_identifier_filters.py
+tests/unit/models/identifiers/test_typed_identifier.py
+tests/unit/models/test_attack_result.py
+tests/unit/models/test_attack_seed_group.py
+tests/unit/models/test_attack_technique_seed_group.py
+tests/unit/models/test_chat_message.py
+tests/unit/models/test_conversation.py
+tests/unit/models/test_conversation_reference.py
+tests/unit/models/test_conversation_stats.py
+tests/unit/models/test_embedding_response.py
+tests/unit/models/test_harm_definition.py
+tests/unit/models/test_import_boundary.py
+tests/unit/models/test_json_schema_definition.py
+tests/unit/models/test_literals.py
+tests/unit/models/test_message.py
+tests/unit/models/test_message_piece.py
+tests/unit/models/test_models.py
+tests/unit/models/test_parameter.py
+tests/unit/models/test_question_answering.py
+tests/unit/models/test_retry_event.py
+tests/unit/models/test_scenario_request.py
+tests/unit/models/test_scenario_result.py
+tests/unit/models/test_score.py
+tests/unit/models/test_seed.py
+tests/unit/models/test_seed_dataset.py
+tests/unit/models/test_seed_group.py
+tests/unit/models/test_seed_grouping.py
+tests/unit/models/test_seed_objective.py
+tests/unit/models/test_seed_prompt.py
+tests/unit/models/test_seed_simulated_conversation.py
+tests/unit/models/test_strategy_result.py
+tests/unit/models/test_token_usage.py
+tests/unit/models/test_yaml_seed_loader.py
+tests/unit/output/attack_result/test_base.py
+tests/unit/output/attack_result/test_markdown.py
+tests/unit/output/attack_result/test_pretty.py
+tests/unit/output/scenario_result/test_base.py
+tests/unit/output/scenario_result/test_pretty.py
+tests/unit/output/scorer/test_base.py
+tests/unit/output/scorer/test_pretty.py
+tests/unit/output/test_blur_images.py
+tests/unit/output/test_helpers.py
+tests/unit/output/test_image_utils.py
+tests/unit/output/test_printer_base.py
+tests/unit/output/test_sink.py
+tests/unit/prompt_normalizer/test_converter_configuration.py
+tests/unit/prompt_normalizer/test_normalizer_request.py
+tests/unit/prompt_normalizer/test_prompt_normalizer.py
+tests/unit/prompt_target/target/test_azure_ml_chat_target.py
+tests/unit/prompt_target/target/test_azure_openai_completion_target.py
+tests/unit/prompt_target/target/test_chat_audio_config.py
+tests/unit/prompt_target/target/test_chat_completions_helpers.py
+tests/unit/prompt_target/target/test_conversation_normalization_pipeline.py
+tests/unit/prompt_target/target/test_gandalf_target.py
+tests/unit/prompt_target/target/test_http_api_target.py
+tests/unit/prompt_target/target/test_http_target.py
+tests/unit/prompt_target/target/test_http_target_parsing.py
+tests/unit/prompt_target/target/test_huggingface_chat_target.py
+tests/unit/prompt_target/target/test_image_target.py
+tests/unit/prompt_target/target/test_json_response_config.py
+tests/unit/prompt_target/target/test_litellm_chat_target.py
+tests/unit/prompt_target/target/test_none_guard_openai_target.py
+tests/unit/prompt_target/target/test_normalize_async_integration.py
+tests/unit/prompt_target/target/test_openai_chat_target.py
+tests/unit/prompt_target/target/test_openai_error_handling.py
+tests/unit/prompt_target/target/test_openai_realtime_streaming_session.py
+tests/unit/prompt_target/target/test_openai_response_target.py
+tests/unit/prompt_target/target/test_openai_response_target_function_chaining.py
+tests/unit/prompt_target/target/test_openai_target_auth.py
+tests/unit/prompt_target/target/test_openai_url_warnings.py
+tests/unit/prompt_target/target/test_playwright_copilot_target.py
+tests/unit/prompt_target/target/test_playwright_target.py
+tests/unit/prompt_target/target/test_prompt_shield_target.py
+tests/unit/prompt_target/target/test_prompt_target.py
+tests/unit/prompt_target/target/test_prompt_target_azure_blob_storage.py
+tests/unit/prompt_target/target/test_prompt_target_text.py
+tests/unit/prompt_target/target/test_realtime_audio.py
+tests/unit/prompt_target/target/test_realtime_target.py
+tests/unit/prompt_target/target/test_supports_multi_turn.py
+tests/unit/prompt_target/target/test_target_capabilities.py
+tests/unit/prompt_target/target/test_target_configuration.py
+tests/unit/prompt_target/target/test_target_requirements.py
+tests/unit/prompt_target/target/test_token_provider_wrapping.py
+tests/unit/prompt_target/target/test_tts_target.py
+tests/unit/prompt_target/target/test_video_target.py
+tests/unit/prompt_target/target/test_websocket_copilot_target.py
+tests/unit/prompt_target/test_batch_helper.py
+tests/unit/prompt_target/test_discover_target_capabilities.py
+tests/unit/prompt_target/test_round_robin_target.py
+tests/unit/prompt_target/test_target_utils.py
+tests/unit/prompt_target/test_text_target.py
+tests/unit/registry/__init__.py
+tests/unit/registry/test_attack_technique_registry.py
+tests/unit/registry/test_converter_registry.py
+tests/unit/registry/test_initializer_registry.py
+tests/unit/registry/test_instance_registry.py
+tests/unit/registry/test_registry.py
+tests/unit/registry/test_registry_metadata.py
+tests/unit/registry/test_resolution.py
+tests/unit/registry/test_scenario_registry.py
+tests/unit/registry/test_scorer_registry.py
+tests/unit/registry/test_tag_query.py
+tests/unit/registry/test_target_registry.py
+tests/unit/scenario/airt/test_cyber.py
+tests/unit/scenario/airt/test_jailbreak.py
+tests/unit/scenario/airt/test_leakage.py
+tests/unit/scenario/airt/test_psychosocial.py
+tests/unit/scenario/airt/test_rapid_response.py
+tests/unit/scenario/airt/test_scam.py
+tests/unit/scenario/benchmark/test_adversarial.py
+tests/unit/scenario/core/test_atomic_attack.py
+tests/unit/scenario/core/test_attack_technique.py
+tests/unit/scenario/core/test_attack_technique_factory.py
+tests/unit/scenario/core/test_dataset_configuration.py
+tests/unit/scenario/core/test_matrix_atomic_attack_builder.py
+tests/unit/scenario/core/test_scenario.py
+tests/unit/scenario/core/test_scenario_context.py
+tests/unit/scenario/core/test_scenario_parameters.py
+tests/unit/scenario/core/test_scenario_partial_results.py
+tests/unit/scenario/core/test_scenario_retry.py
+tests/unit/scenario/core/test_scenario_technique_invariants.py
+tests/unit/scenario/core/test_technique_validation.py
+tests/unit/scenario/foundry/test_red_team_agent.py
+tests/unit/scenario/garak/test_doctor.py
+tests/unit/scenario/garak/test_encoding.py
+tests/unit/scenario/garak/test_web_injection.py
+tests/unit/scenario/scenarios/adaptive/test_dispatcher.py
+tests/unit/scenario/scenarios/adaptive/test_epsilon_greedy.py
+tests/unit/scenario/scenarios/adaptive/test_selector_scope.py
+tests/unit/scenario/scenarios/adaptive/test_technique_selector.py
+tests/unit/scenario/scenarios/adaptive/test_text_adaptive.py
+tests/unit/scenario/test_package_lazy_attrs.py
+tests/unit/score/regex/test_anthrax_keyword_scorer.py
+tests/unit/score/regex/test_credential_leak_scorer.py
+tests/unit/score/regex/test_fentanyl_keyword_scorer.py
+tests/unit/score/regex/test_ldap_injection_output_scorer.py
+tests/unit/score/regex/test_markdown_injection.py
+tests/unit/score/regex/test_meth_keyword_scorer.py
+tests/unit/score/regex/test_nerve_agent_keyword_scorer.py
+tests/unit/score/regex/test_open_redirect_output_scorer.py
+tests/unit/score/regex/test_path_traversal_output_scorer.py
+tests/unit/score/regex/test_regex_scorer.py
+tests/unit/score/regex/test_shell_command_output_scorer.py
+tests/unit/score/regex/test_sql_injection_output_scorer.py
+tests/unit/score/regex/test_ssrf_output_scorer.py
+tests/unit/score/regex/test_ssti_output_scorer.py
+tests/unit/score/regex/test_static_prompt_injection_scorer.py
+tests/unit/score/regex/test_xss_output_scorer.py
+tests/unit/score/regex/test_xxe_output_scorer.py
+tests/unit/score/test_audio_scorer.py
+tests/unit/score/test_azure_content_filter.py
+tests/unit/score/test_batch_scorer.py
+tests/unit/score/test_callable_response_handler.py
+tests/unit/score/test_conversation_history_scorer.py
+tests/unit/score/test_decoding_scorer.py
+tests/unit/score/test_float_scale_score_aggregator.py
+tests/unit/score/test_float_scale_threshold_scorer.py
+tests/unit/score/test_gandalf_scorer.py
+tests/unit/score/test_general_float_scale_scorer.py
+tests/unit/score/test_general_true_false_scorer.py
+tests/unit/score/test_human_labeled_dataset.py
+tests/unit/score/test_insecure_code_scorer.py
+tests/unit/score/test_krippendorff.py
+tests/unit/score/test_llamaguard_pilot.py
+tests/unit/score/test_metrics_type.py
+tests/unit/score/test_plagiarism_scorer.py
+tests/unit/score/test_prompt_shield_scorer.py
+tests/unit/score/test_question_answer_helpers.py
+tests/unit/score/test_question_answer_scorer.py
+tests/unit/score/test_score_aggregator_result.py
+tests/unit/score/test_score_utils.py
+tests/unit/score/test_scorer.py
+tests/unit/score/test_scorer_eval_csv_schema.py
+tests/unit/score/test_scorer_evaluation_identifier.py
+tests/unit/score/test_scorer_evaluator.py
+tests/unit/score/test_scorer_info.py
+tests/unit/score/test_scorer_metrics.py
+tests/unit/score/test_scorer_metrics_io.py
+tests/unit/score/test_scorer_prompt_validator.py
+tests/unit/score/test_scorer_response_json_schema.py
+tests/unit/score/test_self_ask_category.py
+tests/unit/score/test_self_ask_likert.py
+tests/unit/score/test_self_ask_question_answer_scorer.py
+tests/unit/score/test_self_ask_refusal.py
+tests/unit/score/test_self_ask_scale.py
+tests/unit/score/test_self_ask_true_false.py
+tests/unit/score/test_substring.py
+tests/unit/score/test_true_false_composite_scorer.py
+tests/unit/score/test_true_false_inverter.py
+tests/unit/score/test_true_false_score_aggregator.py
+tests/unit/score/test_video_scorer.py
+tests/unit/setup/test_configuration_loader.py
+tests/unit/setup/test_initialization.py
+tests/unit/setup/test_load_default_datasets.py
+tests/unit/setup/test_preload_scenario_metadata.py
+tests/unit/setup/test_pyrit_initializer.py
+tests/unit/setup/test_scorer_initializer.py
+tests/unit/setup/test_targets_initializer.py
+tests/unit/setup/test_technique_initializer.py
+tests/unit/test_show_versions.py
+uv.lock
+
+=== 2026-07-14T17:26:33.106387+00:00 git show HEAD:README.md ===
+<p align="center"><img src="./doc/roakey.png" width="150"></p>
+
+# Python Risk Identification Tool for generative AI (PyRIT)
+
+The Python Risk Identification Tool for generative AI (PyRIT) is an open source
+framework built to empower security professionals and engineers to proactively
+identify risks in generative AI systems.
+
+- Check out our [website](https://microsoft.github.io/PyRIT/) for more information
+  about how to use, install, or contribute to PyRIT.
+- Visit our [Discord server](https://discord.gg/9fMpq3tc8u) to chat with the team and community.
+
+## Trademarks and Citations
+
+This project may contain trademarks or logos for projects, products, or services.
+Authorized use of Microsoft trademarks or logos is subject to and must follow
+[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
+Use of Microsoft trademarks or logos in modified versions of this project must
+not cause confusion or imply Microsoft sponsorship.
+Any use of third-party trademarks or logos are subject to those third-party's
+policies.
+
+If you use PyRIT in your research, please cite the tool itself following the [`CITATION.cff`](./CITATION.cff) file in the root of this repository.
+
+=== 2026-07-14T17:26:33.863150+00:00 git show HEAD:pyproject.toml ===
+[project]
+name = "pyrit"
+version = "0.15.0.dev0"
+description = "The Python Risk Identification Tool for LLMs (PyRIT) is a library used to assess the robustness of LLMs"
+authors = [
+    { name = "Microsoft AI Red Team", email = "airedteam@microsoft.com" },
+]
+readme = "README.md"
+license = "MIT"
+keywords = [
+    "llm",
+    "ai-safety",
+    "ai-security",
+    "ai-red-team",
+    "ai-red-teaming",
+    "ai-robustness",
+    "ai-robustness-testing",
+    "ai-risk-assessment",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+requires-python = ">=3.10, <3.15"
+dependencies = [
+    "aiofiles>=24,<26",
+    "alembic>=1.16.0",
+    "appdirs>=1.4.0",
+    "art>=6.5.0",
+    "av>=14.0.0",
+    "azure-core>=1.38.0",
+    "azure-identity>=1.19.0",
+    "azure-keyvault-secrets>=4.9.0",
+    "azure-ai-contentsafety>=1.0.0",
+    "azure-storage-blob>=12.19.0",
+    "base2048>=0.1.3",
+    "colorama>=0.4.6",
+    "confusables>=1.2.0",
+    "confusable-homoglyphs>=3.3.1",
+    "ecoji>=0.1.1",
+    "datasets>=4.8.0",
+    "exceptiongroup>=1.2.0; python_version < '3.11'",
+    "fastapi>=0.133.0",
+    "httpx[http2]>=0.27.2",
+    "jinja2>=3.1.6",
+    "numpy>=1.26.0; python_version < '3.14'",
+    "numpy>=2.3.0; python_version >= '3.14'",
+    "openai>=2.2.0",
+    "openpyxl>=3.1.5",
+    "pillow>=12.2.0",
+    "pydantic>=2.11.5",
+    "PyJWT[crypto]>=2.8.0",
+    "pyodbc>=5.1.0",
+    "pypdf>=6.10.2",
+    "python-docx>=1.1.0",
+    "python-dotenv>=1.2.2",
+    "reportlab>=4.4.4",
+    "segno>=1.6.6",
+    "scipy>=1.15.3",
+    "SQLAlchemy>=2.0.41",
+    "starlette>=1.0.1",
+    "termcolor>=2.4.0",
+    "tenacity>=9.1.2",
+    "tinytag>=2.2.1",
+    "tqdm>=4.67.1",
+    "transformers>=5.0.0rc3",
+    "treelib>=1.7.1",
+    "uvicorn[standard]>=0.32.0",
+    "websockets>=14.0",
+]
+
+[dependency-groups]
+dev = [
+    "feedgen>=1.0.0",
+    "griffe>=2.0.0",
+    "ipykernel>=6.29.5",
+    "jupyter>=1.1.1",
+    "jupyter-book>=2.0.0",
+    "jupytext>=1.17.1",
+    "matplotlib>=3.10.0",
+    "ty>=0.0.32",
+    "pandas>=2.2.0",
+    "pre-commit>=4.2.0",
+    "pytest>=9.0.3",
+    "pytest-rerunfailures>=15.1",
+    "pytest-asyncio>=1.0.0",
+    "diff-cover>=9.0.0",
+    "pytest-cov>=6.1.1",
+    "pytest-timeout>=2.4.0",
+    "pytest-xdist>=3.6.1",
+    "respx>=0.22.0",
+    "ruff>=0.14.4",
+    "types-aiofiles>=24.1.0",
+    "types-PyYAML>=6.0.12.20250516",
+    "types-requests>=2.31.0.20250515",
+]
+
+[project.optional-dependencies]
+# always make sure the individual ones are in sync with the all group
+huggingface = [
+    "torch>=2.7.0",
+]
+gcg = [
+    "accelerate>=1.7.0",
+    "azure-ai-ml>=1.32.0",
+    # pyarrow is a transitive dep of `datasets`. With the gcg extra installed,
+    # the resolver picks a pyarrow version that lacks cp314 wheels and fails
+    # to build from source on Python 3.14; pin to a version that ships them.
+    "pyarrow>=22.0.0; python_version >= '3.14'",
+    "sentencepiece>=0.2.0",
+    "torch>=2.7.0",
+]
+playwright = [
+    "flask>=3.1.3",
+    "ollama>=0.5.1",
+    "playwright>=1.49.0",
+]
+fairness_bias = [
+    "spacy>=3.8.13,!=3.8.14",  # 3.8.14 missing cp314 wheels
+]
+opencv = [
+    "opencv-python>=4.11.0.86",
+]
+
+speech = [
+    "azure-cognitiveservices-speech>=1.44.0",
+]
+
+litellm = [
+    # Cap below 1.92.0: 1.92.0+ replaced the universal py3-none-any wheel with
+    # manylinux-only wheels backed by a Rust (PyO3) extension, which has no
+    # Windows/macOS wheels and fails to build on Python 3.14 (PyO3 <=3.13). 1.91.x
+    # is the last pure-Python line that installs on every OS and Python version.
+    "litellm>=1.83.0,<1.92.0",
+]
+
+# all includes all functional dependencies excluding the ones from the "dev" dependency group
+all = [
+    "accelerate>=1.7.0",
+    "azure-ai-ml>=1.32.0",
+    "azure-cognitiveservices-speech>=1.44.0",
+    "flask>=3.1.3",
+    "ipykernel>=6.29.5",
+    "jupyter>=1.1.1",
+    "litellm>=1.83.0,<1.92.0",  # <1.92.0: 1.92.0+ is manylinux-only Rust wheels (no win/mac, no py3.14)
+    "ollama>=0.5.1",
+    "opencv-python>=4.11.0.86",
+    "playwright>=1.49.0",
+    "pyarrow>=22.0.0; python_version >= '3.14'",
+    "spacy>=3.8.13,!=3.8.14",  # 3.8.14 missing cp314 wheels
+    "torch>=2.7.0",
+]
+
+[project.scripts]
+pyrit_backend = "pyrit.backend.pyrit_backend:main"
+pyrit_scan = "pyrit.cli.pyrit_scan:main"
+pyrit_shell = "pyrit.cli.pyrit_shell:main"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
+pythonpath = ["."]
+asyncio_default_fixture_loop_scope = "function"
+asyncio_mode = "auto"
+
+[tool.ty]
+[tool.ty.rules]
+all = "error"
+# Most rules under `all = "error"` are already clean for pyrit/. A few remain
+# suppressed below; the remaining finding counts are noted so they can be
+# re-enabled as the code is cleaned up.
+# missing-type-argument is clean under numpy>=2.4 (Python 3.14) but flags 38
+# bare `np.ndarray` generics under numpy 2.2.6 -- the version the lock pins for
+# Python 3.10-3.13, i.e. CI's 3.11 -- across 5 files (analytics/conversation_analytics,
+# converter/transparency_attack_converter, score/scorer_evaluation/*).
+# Annotating those generics is real code work, so keep the rule deferred until
+# that numpy-generics debt is addressed.
+missing-type-argument = "ignore"
+# unused-type-ignore-comment is environment-dependent: a `# type: ignore`
+# on an optional-dependency import (torch, playwright, etc.) is "used" when the
+# extra is not installed but "unused" once it is. CI installs `--extra all`, so
+# enabling this rule flags such directives across several unrelated modules
+# (auth/copilot_authenticator, executor/benchmark/fairness_bias,
+# prompt_target/playwright_*; the incremental PR check only sees changed files,
+# but the on-main `--all-files` run would fail). Cleanly enabling it requires
+# refactoring those optional imports repo-wide, so keep the rule deferred.
+unused-type-ignore-comment = "ignore"
+# ty 0.0.43 (bumped from 0.0.32 in #1919) activated this rule under
+# [tool.ty.rules] all = "error". Adopting @override across pyrit/ (~695 methods)
+# would require the typing_extensions backport on Python 3.10/3.11
+# (typing.override is 3.12+), which adds a direct dep and ongoing import-path
+# friction. Suppressing the rule keeps the codebase consistent for now.
+missing-override-decorator = "ignore"
+
+[tool.ty.analysis]
+respect-type-ignore-comments = true
+# Treat colorama as Any — it has no type stubs and uses a dynamic pattern
+# (class attrs are int, __init__ converts to str via setattr) that ty can't follow.
+# cv2 (opencv) and azure.cognitiveservices.speech are optional extras that are not
+# installed in the default environment, so their lazy imports are unresolvable; treat
+# them as Any rather than erroring on the guarded ``import`` statements.
+replace-imports-with-any = [
+    "colorama.**",
+    "cv2.**",
+    "azure.cognitiveservices.speech.**",
+]
+
+[tool.ty.src]
+exclude = ["doc/code/", "pyrit/auxiliary_attacks/"]
+
+# Relax type checking for HuggingFace module
+[[tool.ty.overrides]]
+include = ["pyrit/prompt_target/hugging_face/**"]
+[tool.ty.overrides.rules]
+invalid-argument-type = "ignore"
+
+# Unit tests intentionally exercise runtime validation failures, mutable test doubles,
+# and optional fields after fixtures have populated them. Keep library code strict while
+# avoiding hundreds of per-assertion ignores in tests.
+[[tool.ty.overrides]]
+include = ["tests/unit/**"]
+[tool.ty.overrides.rules]
+call-non-callable = "ignore"
+invalid-assignment = "ignore"
+invalid-await = "ignore"
+invalid-parameter-default = "ignore"
+invalid-type-arguments = "ignore"
+invalid-yield = "ignore"
+missing-argument = "ignore"
+not-subscriptable = "ignore"
+unknown-argument = "ignore"
+unsupported-operator = "ignore"
+# Re-enabled repo-wide so pyrit/ is checked (production is clean) but still
+# relaxed here: tests read private/mock attributes and subclass library types
+# with loosened signatures / runtime-validation-failure arguments.
+invalid-argument-type = "ignore"
+invalid-method-override = "ignore"
+no-matching-overload = "ignore"
+unresolved-attribute = "ignore"
+
+[tool.uv]
+constraint-dependencies = [
+    "aiohttp>=3.13.4",
+    "GitPython>=3.1.50",
+    "jupyter-server>=2.18.0",
+    "jupyterlab>=4.5.7",
+    "lxml>=6.1.0",
+    "Mako>=1.3.11",
+    "mistune>=3.2.1",
+    "nbconvert>=7.17.1",
+    "notebook>=7.5.6",
+    "orjson>=3.11.6",
+    "pyasn1>=0.6.3",
+    "cryptography>=46.0.7",
+    "Pygments>=2.20.0",
+    "PyJWT>=2.12.0",
+    "requests>=2.33.0",
+    "tornado>=6.5.5",
+    "urllib3>=2.7.0",
+    "werkzeug>=3.1.6",
+]
+
+[build-system]
+requires = ["setuptools>=64.0.0", "wheel>=0.46.2"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["pyrit", "pyrit.*"]
+
+[tool.setuptools.package-data]
+pyrit = [
+    "backend/frontend/**/*",
+    "memory/alembic/**/*",
+    "memory/alembic.ini",
+    "py.typed"
+]
+
+[tool.jupytext]
+formats = "ipynb,py:percent"
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+preview = true
+fixable = [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "I",
+    "N",
+    "Q",
+    "S",
+    "T",
+    "W",
+    "ANN",
+    "ARG",
+    "BLE",
+    "COM",
+    "DJ",
+    "DTZ",
+    "EM",
+    "ERA",
+    "EXE",
+    "FBT",
+    "ICN",
+    "INP",
+    "ISC",
+    "NPY",
+    "PD",
+    "PERF",
+    "PGH",
+    "PIE",
+    "PL",
+    "PT",
+    "PTH",
+    "PYI",
+    "RET",
+    "RSE",
+    "RUF",
+    "SIM",
+    "SLF",
+    "TCH",
+    "TID",
+    "TRY",
+    "UP",
+    "YTT",
+]
+select = [
+    "A",  # https://docs.astral.sh/ruff/rules/#flake8-builtins-a
+    "B",  # https://docs.astral.sh/ruff/rules/#flake8-bugbear-b
+    "C4",  # https://docs.astral.sh/ruff/rules/#flake8-comprehensions-c4
+    "CPY001",  # missing-copyright-notice
+    # "D" + preview=true enables D421 (property-docstring-starts-with-verb):
+    # property docstrings must be noun phrases ("""The display name."""), not
+    # verb phrases ("""Return the display name."""). Keep "D" selected, not ignored.
+    "D",  # https://docs.astral.sh/ruff/rules/#pydocstyle-d
+    "DOC",  # https://docs.astral.sh/ruff/rules/#pydoclint-doc
+    "DTZ",  # https://docs.astral.sh/ruff/rules/#flake8-datetimez-dtz
+    "E",  # https://docs.astral.sh/ruff/rules/#pycodestyle-e
+    "ERA",  # https://docs.astral.sh/ruff/rules/#eradicate-era
+    "EXE",  # https://docs.astral.sh/ruff/rules/#flake8-executable-exe
+    "F401",  # unused-import
+    "FA",  # https://docs.astral.sh/ruff/rules/#flake8-future-annotations-fa
+    "FLY",  # https://docs.astral.sh/ruff/rules/#flynt-fly
+    "I",  # isort
+    "ICN",  # https://docs.astral.sh/ruff/rules/#flake8-import-conventions-icn
+    "ISC",  # https://docs.astral.sh/ruff/rules/#flake8-implicit-str-concat-isc
+    "LOG",  # https://docs.astral.sh/ruff/rules/#flake8-logging-log
+    "N",  # https://docs.astral.sh/ruff/rules/#pep8-naming-n
+    "PERF",  # https://docs.astral.sh/ruff/rules/#perflint-perf
+    "PGH",  # https://docs.astral.sh/ruff/rules/#pygrep-hooks-pgh
+    "PIE",  # https://docs.astral.sh/ruff/rules/#flake8-pie-pie
+    "PLE",  # https://docs.astral.sh/ruff/rules/#pylint-ple
+    "Q",  # https://docs.astral.sh/ruff/rules/#flake8-quotes-q
+    "RET",  # https://docs.astral.sh/ruff/rules/#flake8-return-ret
+    "RSE",  # https://docs.astral.sh/ruff/rules/#flake8-raise-rse
+    "SIM",  # https://docs.astral.sh/ruff/rules/#flake8-simplify-sim
+    "SLOT",  # https://docs.astral.sh/ruff/rules/#flake8-slots-slot
+    "T10",  # https://docs.astral.sh/ruff/rules/#flake8-debugger-t10
+    "TCH",  # https://docs.astral.sh/ruff/rules/#flake8-type-checking-tch
+    "TID",  # https://docs.astral.sh/ruff/rules/#flake8-tidy-imports-tid
+    "UP",  # https://docs.astral.sh/ruff/rules/#pyupgrade-up
+    "W",  # https://docs.astral.sh/ruff/rules/#pycodestyle-w
+    "YTT",  # https://docs.astral.sh/ruff/rules/#flake8-2020-ytt
+    "ANN",  # https://docs.astral.sh/ruff/rules/#flake8-annotations-ann
+]
+ignore = [
+    "ANN401",  # any-type (too strict — many legitimate uses of Any)
+    "B903",  # class-as-data-structure (test helper classes use @apply_defaults pattern)
+    "D100",  # Missing docstring in public module
+    "D200",  # One-line docstring should fit on one line
+    "D205",  # 1 blank line required between summary line and description
+    "D212",  # Multi-line docstring summary should start at the first line
+    "D301",  # Use r""" if any backslashes in a docstring
+    "DOC502",  # Raised exception is not explicitly raised
+    "PERF203",  # try-except-in-loop (intentional per-item error handling)
+    "SIM117",  # multiple-with-statements (combining often exceeds line length)
+]
+extend-select = [
+    "D204",  # 1 blank line required after class docstring
+    "D213",  # Multi-line docstring summary should start at the second line
+    "D401",  # First line of docstring should be in imperative mood
+    "D404",  # First word of the docstring should not be "This"
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["pyrit"]
+
+[tool.ruff.lint.flake8-type-checking]
+# Pydantic resolves model field annotations at runtime (the models use
+# ``from __future__ import annotations``), so imports used only as field types
+# must stay at module level. Ruff auto-detects direct ``pydantic.BaseModel``
+# subclasses, but not models whose base is an intermediate PyRIT class, so we
+# enumerate those bases here to keep their field imports runtime-evaluated.
+runtime-evaluated-base-classes = [
+    "pyrit.models.results.strategy_result.StrategyResult",
+]
+
+[tool.ruff.lint.flake8-copyright]
+min-file-size = 1
+notice-rgx = "Copyright \\(c\\) Microsoft Corporation\\.\\s*\\n.*Licensed under the MIT license"
+
+[tool.ruff.lint.per-file-ignores]
+# Ignore D and DOC rules everywhere except for the pyrit/ directory
+"!pyrit/**.py" = ["D", "DOC"]
+# Ignore copyright, import-location (E402), line length (E501), type-checking, and blanket type-ignore (PGH003) rules in doc/ directory
+# E402: notebooks have imports in code cells, not at top of file
+# E501: markdown comments in notebooks can exceed line length
+# PGH003: blanket type: ignore in notebooks (not type-checked)
+# A: notebook code commonly uses builtins like id, dir, display
+# ERA001: jupytext markdown cells look like commented-out code
+# LOG: notebooks use root logger for convenience
+# PLE1142: top-level await is valid in Jupyter notebooks
+"doc/**" = ["ANN", "CPY001", "TCH", "E402", "E501", "PGH003", "A", "ERA001", "LOG", "PLE1142"]
+# Backend API routes raise HTTPException handled by FastAPI, not true exceptions
+"pyrit/backend/**/*.py" = ["DOC501", "B008"]
+# Vendored GCG attack code — external project with its own style
+"pyrit/auxiliary_attacks/**/*.py" = ["A", "B905", "D", "DOC", "N", "PERF", "SIM101", "SIM108"]
+"pyrit/__init__.py" = ["D104"]
+# Allow broad pytest.raises(Exception) in tests
+"tests/**/*.py" = ["ANN", "B017"]
+# Infrastructure/utility scripts — not part of the library API
+"build_scripts/**/*.py" = ["ANN"]
+"docker/**/*.py" = ["ANN"]
+"frontend/dev.py" = ["ANN"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+=== 2026-07-14T17:26:34.621243+00:00 git show HEAD:LICENSE ===
+Copyright (c) Microsoft Corporation.
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED *AS IS*, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

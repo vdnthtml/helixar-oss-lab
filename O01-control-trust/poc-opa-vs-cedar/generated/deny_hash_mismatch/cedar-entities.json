@@ -1,0 +1,23 @@
+[
+  {
+    "uid": {
+      "type": "Helixar::Operator",
+      "id": "operator.invalid"
+    },
+    "attrs": {
+      "tenant": "tenant-a.invalid"
+    },
+    "parents": []
+  },
+  {
+    "uid": {
+      "type": "Helixar::Proposal",
+      "id": "proposal.invalid"
+    },
+    "attrs": {
+      "tenant": "tenant-a.invalid",
+      "targetHash": "sha256:changed.invalid"
+    },
+    "parents": []
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/AGENTS.md",
+    "sha256": "74e71f4585687162aed39523258f6670c9a6bcb572c2c228643e1e9069dd9122",
+    "bytes": 5201,
+    "role": "mandatory_context"
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/000_HOME.md",
+    "sha256": "503eb16b7c316fbf14fa98cc8c55963f9428b2d5e1d588e265ac57c10bbcc2a1",
+    "bytes": 4408,
+    "role": "mandatory_context"
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Current State/Dystopia Current Snapshot.md",
+    "sha256": "5ab0b779d7f37000d842ebb27e88bc3ad6dfe180a49d0435142b87f24fcd3873",
+    "bytes": 10637,
+    "role": "mandatory_context"
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/04_Logs/Daily/Daily Log - 2026-07-14.md",
+    "sha256": "dde8c9c85e463ed15249c0ffeaceef371dc40c9d7cb1e555c93578f78f463f6d",
+    "bytes": 4099,
+    "role": "mandatory_context"
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/02_Projects/Helixar World-Class Benchmark Program/00 Helixar World-Class Benchmark Program - Control Center.md",
+    "sha256": "36557820ecd031a3a87729386c45e9ed58f241782795afcc79cc25d08cb5b5ad",
+    "bytes": 10147,
+    "role": "mandatory_context"
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/02_Projects/Helixar World-Class Benchmark Program/02 Current Architecture Benchmark.md",
+    "sha256": "c322dd9aa27d7f39b33b7570fb2da5202371d3e12392ed7339f560cd5192d5c2",
+    "bytes": 7991,
+    "role": "mandatory_context"
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/02_Projects/Helixar World-Class Benchmark Program/04 Cross-Packet Implementation Readiness Audit - 2026-07-14.md",
+    "sha256": "8693cee6432e7167ed7f298e8411693eef1875ca24c21995571d28f36f71b015",
+    "bytes": 10797,
+    "role": "mandatory_context"
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/02_Projects/Helixar World-Class Benchmark Program/05 Hermes Parallel Architecture and Build Roadmap.md",
+    "sha256": "238be0cd1177b4dddd9496ea031c05acb17746b6d26f414be98fa9f59c0e938c",
+    "bytes": 9215,
+    "role": "mandatory_context"
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/02_Projects/Helixar World-Class Benchmark Program/06 Folder and Evidence Use Guide.md",
+    "sha256": "50e91bf36dee3496f6318f114802a8e52941abb7959b4e7649f161ed7d0ee6dc",
+    "bytes": 8754,
+    "role": "mandatory_context"
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/02_Projects/Helixar World-Class Benchmark Program/Packets/R01 Sol-Fleet Research and Architecture Packet.md",
+    "sha256": "cd0744d06efa0bbf8a08659d13c71dc6eed85d7548ab228c6136f5f10b81bc23",
+    "bytes": 54165,
+    "role": "mandatory_context"
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R01 Sol-Fleet/open-source-inventory.csv",
+    "sha256": "78a33ff846a4c52b9041b8596c63de10be80228e084cac37d670f1ef645ddb75",
+    "bytes": 10697,
+    "role": "source_csv"
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R01 Sol-Fleet/evidence-ledger.csv",
+    "sha256": "3d53c1051ca3949ff535970b7c8cdf08055e3840d283c4e350661b8ab6052ca2",
+    "bytes": 33021,
+    "role": "source_csv"
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R02 Sol-Trust/open-source-inventory.csv",
+    "sha256": "b520563016a1c65d53b9ec39f8ade876950a90f414787a48001d994a0be96cc0",
+    "bytes": 10435,
+    "role": "source_csv"
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R02 Sol-Trust/evidence-ledger.csv",
+    "sha256": "09db3991b94737c561783805e246b38c1f86703767eea174a5f265c8fe8b230b",
+    "bytes": 30658,
+    "role": "source_csv"
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R03 Terra-Authority/open-source-inventory.csv",
+    "sha256": "0184a377c1dc2b547454fb8b021d54108e7d9ae7da3f9f5a5ae6b062cf1af0af",
+    "bytes": 5759,
+    "role": "source_csv"
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R03 Terra-Authority/evidence-ledger.csv",
+    "sha256": "e38aa660ed31fbc2cec29b882c0b858c5456f4aafc702e7c65096d350fb3576f",
+    "bytes": 15741,
+    "role": "source_csv"
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R04 Terra-Market/open-source-inventory.csv",
+    "sha256": "33152da1a1efbc5a02f3d2e9d332936c284650b7a8918671ab0c08abf3c311e5",
+    "bytes": 6626,
+    "role": "source_csv"
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R04 Terra-Market/evidence-ledger.csv",
+    "sha256": "459bcea576c2b1fac3d63c181aa6c3483b7c2940b6409bdcbab342fcc4f450dc",
+    "bytes": 26873,
+    "role": "source_csv"
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R05 Terra-Pain/open-source-inventory.csv",
+    "sha256": "c9c1fcd1885d59cc932d97345835b56c636bacc933ec1f5734192272e02c4206",
+    "bytes": 7443,
+    "role": "source_csv"
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R05 Terra-Pain/evidence-ledger.csv",
+    "sha256": "280dad6afbc15b6ab6b6b43c5fcc530bfe276feebba20ca3f6b69664c0c0c9c7",
+    "bytes": 24036,
+    "role": "source_csv"
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R06 Luna-Creative/open-source-inventory.csv",
+    "sha256": "d6b9a01b9caf19e650f4f037029e86e9ff54d6f9ca063700b4ad267bebb24364",
+    "bytes": 3362,
+    "role": "source_csv"
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R06 Luna-Creative/evidence-ledger.csv",
+    "sha256": "d8cfdefe7529972db8d3ae5777ddc2149f024985ab6e09d21ff86f2b09434e9e",
+    "bytes": 19039,
+    "role": "source_csv"
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R07 Mars-GTM/open-source-inventory.csv",
+    "sha256": "ffdd251a328b45b749eb86ca0868d308015adacf2fe000b831bce4ad708f1819",
+    "bytes": 5062,
+    "role": "source_csv"
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R07 Mars-GTM/evidence-ledger.csv",
+    "sha256": "14e13638f7e499f338921e116151bb2c2e77ff4464c9e28d13c159327a93c039",
+    "bytes": 22384,
+    "role": "source_csv"
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R08 Mars-Measurement/open-source-inventory.csv",
+    "sha256": "3f0e2c94c0ec417107dbf4a943f02cbee4c996a5d01d4bbea265d9f2c38d237a",
+    "bytes": 7370,
+    "role": "source_csv"
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R08 Mars-Measurement/evidence-ledger.csv",
+    "sha256": "b020f32a9673fc64801faa83e6b8b705014d588159c09e33aea44a60a9a7e115",
+    "bytes": 24049,
+    "role": "source_csv"
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R09 Mars-Economics/open-source-inventory.csv",
+    "sha256": "a183c694b559bd4787c240400259cb119b3e5346001a6f90566dc55acbdd69bd",
+    "bytes": 6464,
+    "role": "source_csv"
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R09 Mars-Economics/evidence-ledger.csv",
+    "sha256": "df2b1bb28555608418b3f25bfba7f1ecd248fe80a8a9e583ed8a82920d89f8f7",
+    "bytes": 22990,
+    "role": "source_csv"
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R10 Mercury-Talent/open-source-inventory.csv",
+    "sha256": "af5918c206aed4b39dc4279fd26a9db3653e7b0623eab8748a11e1b9bea0cc88",
+    "bytes": 4886,
+    "role": "source_csv"
+  },
+  {
+    "path": "/Users/vedantswami/Projects/Dystopia/Dystopia/05_Data/Helixar World-Class Benchmark Program/R10 Mercury-Talent/evidence-ledger.csv",
+    "sha256": "30b6ee6a043592333720d8d275e5380aa11b7e3ffaffc53ee1a15406e0147ff7",
+    "bytes": 15057,
+    "role": "source_csv"
+  }
+]

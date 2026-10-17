@@ -1,0 +1,224 @@
+{
+  "candidate": "Mem0",
+  "concurrent_memories": [
+    {
+      "created_at": "2026-07-14T18:40:55.380746+00:00",
+      "hash": "7bee2cc35c8c98ea0e35b7b12ac54703",
+      "id": "07244bb9-bd30-4d6c-afd7-4e75bd2d2a14",
+      "memory": "thread alpha policy 0",
+      "metadata": {
+        "governance_state": "approved",
+        "source_id": "fixture://thread-0"
+      },
+      "role": "user",
+      "updated_at": "2026-07-14T18:40:55.380746+00:00",
+      "user_id": "lab-concurrent.invalid"
+    },
+    {
+      "created_at": "2026-07-14T18:40:55.383071+00:00",
+      "hash": "4fc7d961d33e7e66b3ce929386d0c3cb",
+      "id": "2d98f204-4608-473f-bdc9-7148f8ffc2cd",
+      "memory": "thread alpha policy 6",
+      "metadata": {
+        "governance_state": "approved",
+        "source_id": "fixture://thread-6"
+      },
+      "role": "user",
+      "updated_at": "2026-07-14T18:40:55.383071+00:00",
+      "user_id": "lab-concurrent.invalid"
+    },
+    {
+      "created_at": "2026-07-14T18:40:55.381267+00:00",
+      "hash": "bc139991787c874c885c8b09c8f424a9",
+      "id": "2fd7000e-212c-4c75-a6d9-bda51b40934e",
+      "memory": "thread alpha policy 3",
+      "metadata": {
+        "governance_state": "approved",
+        "source_id": "fixture://thread-3"
+      },
+      "role": "user",
+      "updated_at": "2026-07-14T18:40:55.381267+00:00",
+      "user_id": "lab-concurrent.invalid"
+    },
+    {
+      "created_at": "2026-07-14T18:40:55.380840+00:00",
+      "hash": "efaed8a7ee285c6e4794f6425fa95f01",
+      "id": "346bf59a-a56a-472f-b2e6-b77148f3eb9f",
+      "memory": "thread alpha policy 1",
+      "metadata": {
+        "governance_state": "approved",
+        "source_id": "fixture://thread-1"
+      },
+      "role": "user",
+      "updated_at": "2026-07-14T18:40:55.380840+00:00",
+      "user_id": "lab-concurrent.invalid"
+    },
+    {
+      "created_at": "2026-07-14T18:40:55.381064+00:00",
+      "hash": "8fc3ea6a84e7dacd6a4b604d45a2864d",
+      "id": "5d9b16f8-ffbc-4a4d-ba4d-2b3a78d2f6ca",
+      "memory": "thread alpha policy 2",
+      "metadata": {
+        "governance_state": "approved",
+        "source_id": "fixture://thread-2"
+      },
+      "role": "user",
+      "updated_at": "2026-07-14T18:40:55.381064+00:00",
+      "user_id": "lab-concurrent.invalid"
+    },
+    {
+      "created_at": "2026-07-14T18:40:55.382641+00:00",
+      "hash": "08c0e79d931109888342b5d3bcc0209c",
+      "id": "8661d5c5-ad5e-4329-90f0-29c8408178cc",
+      "memory": "thread alpha policy 5",
+      "metadata": {
+        "governance_state": "approved",
+        "source_id": "fixture://thread-5"
+      },
+      "role": "user",
+      "updated_at": "2026-07-14T18:40:55.382641+00:00",
+      "user_id": "lab-concurrent.invalid"
+    },
+    {
+      "created_at": "2026-07-14T18:40:55.383499+00:00",
+      "hash": "f2a8a0d8dbebbb579272ee55ba831a7c",
+      "id": "a09c8791-44db-40e0-a88d-8d67fc0905fa",
+      "memory": "thread alpha policy 7",
+      "metadata": {
+        "governance_state": "approved",
+        "source_id": "fixture://thread-7"
+      },
+      "role": "user",
+      "updated_at": "2026-07-14T18:40:55.383499+00:00",
+      "user_id": "lab-concurrent.invalid"
+    },
+    {
+      "created_at": "2026-07-14T18:40:55.382200+00:00",
+      "hash": "e742e7de52fa3e240e0149eadd1fb30f",
+      "id": "c15d480b-3ec0-4137-98d5-bedcdf25a648",
+      "memory": "thread alpha policy 4",
+      "metadata": {
+        "governance_state": "approved",
+        "source_id": "fixture://thread-4"
+      },
+      "role": "user",
+      "updated_at": "2026-07-14T18:40:55.382200+00:00",
+      "user_id": "lab-concurrent.invalid"
+    }
+  ],
+  "concurrent_write_attempt": {
+    "errors": [],
+    "passed": true,
+    "post_concurrency_retrieval_errors": [],
+    "post_concurrency_retrieval_stable": true,
+    "requested": 8,
+    "returned_ids": [
+      "07244bb9-bd30-4d6c-afd7-4e75bd2d2a14",
+      "2fd7000e-212c-4c75-a6d9-bda51b40934e",
+      "346bf59a-a56a-472f-b2e6-b77148f3eb9f",
+      "5d9b16f8-ffbc-4a4d-ba4d-2b3a78d2f6ca",
+      "c15d480b-3ec0-4137-98d5-bedcdf25a648",
+      "8661d5c5-ad5e-4329-90f0-29c8408178cc",
+      "2d98f204-4608-473f-bdc9-7148f8ffc2cd",
+      "a09c8791-44db-40e0-a88d-8d67fc0905fa"
+    ]
+  },
+  "current_memories": [
+    {
+      "created_at": "2026-07-14T18:40:55.374447+00:00",
+      "hash": "8f04a0f61389689a5208e75cb3512cf4",
+      "id": "5987d6e9-896a-4f50-b9bb-71f3b34aa480",
+      "memory": "alpha launch policy approved",
+      "metadata": {
+        "approved_by": "synthetic-human.invalid",
+        "governance_state": "revoked",
+        "revocation_reason": "synthetic-test",
+        "source_id": "fixture://alpha-v1",
+        "source_sha256": "0e90242b5a98abd20f272baefab884168b7d355f13996721f705beaa37874842"
+      },
+      "role": "user",
+      "updated_at": "2026-07-14T18:40:55.378820+00:00",
+      "user_id": "lab-user.invalid"
+    },
+    {
+      "created_at": "2026-07-14T18:40:55.376904+00:00",
+      "hash": "95b9deb4556308f0c431ae455cc73c17",
+      "id": "92448f37-01e7-4a1e-a5c0-a8a7e1394727",
+      "memory": "beta finance policy",
+      "metadata": {
+        "governance_state": "approved",
+        "source_id": "fixture://beta-v1"
+      },
+      "role": "user",
+      "updated_at": "2026-07-14T18:40:55.376904+00:00",
+      "user_id": "lab-user.invalid"
+    }
+  ],
+  "fixture": "offline-embedded-qdrant",
+  "history": {
+    "36fb5ebf-e1af-4897-ad86-b223b71d2ab7": [
+      {
+        "actor_id": null,
+        "created_at": "2026-07-14T18:40:55.377572+00:00",
+        "event": "ADD",
+        "id": "b1066c4c-88eb-4f6e-9853-8f69f4f380bf",
+        "is_deleted": false,
+        "memory_id": "36fb5ebf-e1af-4897-ad86-b223b71d2ab7",
+        "new_memory": "gamma temporary policy",
+        "old_memory": null,
+        "role": "user",
+        "updated_at": "2026-07-14T18:40:55.377572+00:00"
+      },
+      {
+        "actor_id": null,
+        "created_at": "2026-07-14T18:40:55.377572+00:00",
+        "event": "DELETE",
+        "id": "3d00dc16-1ed0-4bae-a263-e6c9ec57cb8b",
+        "is_deleted": true,
+        "memory_id": "36fb5ebf-e1af-4897-ad86-b223b71d2ab7",
+        "new_memory": null,
+        "old_memory": "gamma temporary policy",
+        "role": "user",
+        "updated_at": "2026-07-14T18:40:55.378152+00:00"
+      }
+    ],
+    "5987d6e9-896a-4f50-b9bb-71f3b34aa480": [
+      {
+        "actor_id": null,
+        "created_at": "2026-07-14T18:40:55.374447+00:00",
+        "event": "ADD",
+        "id": "119e41e7-6950-499f-b2d9-451a4b15a088",
+        "is_deleted": false,
+        "memory_id": "5987d6e9-896a-4f50-b9bb-71f3b34aa480",
+        "new_memory": "alpha launch policy approved",
+        "old_memory": null,
+        "role": "user",
+        "updated_at": "2026-07-14T18:40:55.374447+00:00"
+      },
+      {
+        "actor_id": null,
+        "created_at": "2026-07-14T18:40:55.374447+00:00",
+        "event": "UPDATE",
+        "id": "74882fdb-6eb9-4bb1-aa5e-d838c90efb76",
+        "is_deleted": false,
+        "memory_id": "5987d6e9-896a-4f50-b9bb-71f3b34aa480",
+        "new_memory": "alpha launch policy approved",
+        "old_memory": "alpha launch policy approved",
+        "role": "user",
+        "updated_at": "2026-07-14T18:40:55.376266+00:00"
+      },
+      {
+        "actor_id": null,
+        "created_at": "2026-07-14T18:40:55.374447+00:00",
+        "event": "UPDATE",
+        "id": "aa66c067-140f-41d8-a8bf-4294a96fbd27",
+        "is_deleted": false,
+        "memory_id": "5987d6e9-896a-4f50-b9bb-71f3b34aa480",
+        "new_memory": "alpha launch policy approved",
+        "old_memory": "alpha launch policy approved",
+        "role": "user",
+        "updated_at": "2026-07-14T18:40:55.378820+00:00"
+      }
+    ]
+  }
+}

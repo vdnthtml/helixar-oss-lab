@@ -1,0 +1,231 @@
+[
+  {
+    "candidate": "Activepieces",
+    "commit": "a452b7e67a58c7c3ee57ccedb3b1c678ac4a4c35",
+    "commit_date": "2026-07-14T16:34:40+03:00",
+    "exact_tag": "",
+    "licenses": [
+      {
+        "bytes": 1629,
+        "first_nonempty_lines": [
+          "Copyright (c) 2020-2024 Activepieces Inc.",
+          "Portions of this software are licensed as follows:",
+          "* All content that resides under the \"packages/ee/\" and \"packages/server/api/src/app/ee\" directory of this repository, if that directory exists, is licensed under the license defined in packages/ee/LICENSE",
+          "* All third party components incorporated into the Activepieces Inc Software are licensed under the original license provided by the owner of the applicable component."
+        ],
+        "path": "LICENSE",
+        "sha256": "d490fc48488c4f5a721d354f0a5cce0972c7e3de768ac3e0c5851c3de79f3c9b"
+      },
+      {
+        "bytes": 2230,
+        "first_nonempty_lines": [
+          "The Activepieces Enterprise license (the \u201cEnterprise License\u201d)",
+          "Copyright (c) 2022-2023 Activepieces Inc.",
+          "With regard to the Activepieces Software:",
+          "This software and associated documentation files (the \"Software\") may only be"
+        ],
+        "path": "packages/ee/LICENSE",
+        "sha256": "c3df96493ef0d1f6f6ab134bc0b15d9f08225a2b3ed81e7aadc9d9c9e74c914f"
+      }
+    ],
+    "repository": "https://github.com/activepieces/activepieces.git",
+    "security_files": [
+      "SECURITY.md"
+    ],
+    "source_tree_bytes": 248325440
+  },
+  {
+    "candidate": "Nango",
+    "commit": "d6b11330aa74c8dc4362bda5154b79499734fe09",
+    "commit_date": "2026-07-14T16:42:56Z",
+    "exact_tag": "",
+    "licenses": [
+      {
+        "bytes": 3793,
+        "first_nonempty_lines": [
+          "Elastic License 2.0 (ELv2)",
+          "**Acceptance**",
+          "By using the software, you agree to all of the terms and conditions below.",
+          "**Copyright License**"
+        ],
+        "path": "LICENSE",
+        "sha256": "6dbe65007c1f2eb6c362834cc509bd958938a7be3fd15155f3a29c0c8d0a334a"
+      },
+      {
+        "bytes": 50,
+        "first_nonempty_lines": [
+          "Copyright (c) 2023 Nango Inc, all rights reserved."
+        ],
+        "path": "LICENSE_SHORT",
+        "sha256": "d8173232ac620f67955d4106d8bfed353a4c899ec9eeef2f28089a65be504a2d"
+      }
+    ],
+    "repository": "https://github.com/NangoHQ/nango.git",
+    "security_files": [
+      "SECURITY.md"
+    ],
+    "source_tree_bytes": 406095803
+  },
+  {
+    "candidate": "Twenty",
+    "commit": "58fcb3cb0ff21d0e4d1a5f00c85d5736de2e33af",
+    "commit_date": "2026-07-14T17:16:59+02:00",
+    "exact_tag": "",
+    "licenses": [
+      {
+        "bytes": 37272,
+        "first_nonempty_lines": [
+          "This project is mostly licensed under the GNU General Public License (GPL) as described below. However, certain files within this project are licensed under a different commercial license. These files are clearly marked with the following comment at the top of the file: /* @license Enterprise */",
+          "Files with this comment are not licensed under the aGPL v3, but instead are subject to the commercial license terms defined later in this file.",
+          "GNU AFFERO GENERAL PUBLIC LICENSE",
+          "Version 3, 19 November 2007"
+        ],
+        "path": "LICENSE",
+        "sha256": "327d638e06df0bbf9491e0a3683d70c2ffdb6b5a0b7f1a79ac35bd73c89fbf8a"
+      }
+    ],
+    "repository": "https://github.com/twentyhq/twenty.git",
+    "security_files": [
+      ".github/SECURITY.md"
+    ],
+    "source_tree_bytes": 410200494
+  },
+  {
+    "candidate": "Apache Unomi",
+    "commit": "36e9ac4cf49514ecadc81e07c1518e88c3505bc2",
+    "commit_date": "2026-07-14T06:34:13+02:00",
+    "exact_tag": "",
+    "licenses": [
+      {
+        "bytes": 11356,
+        "first_nonempty_lines": [
+          "Apache License",
+          "Version 2.0, January 2004",
+          "http://www.apache.org/licenses/",
+          "TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION"
+        ],
+        "path": "LICENSE",
+        "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1"
+      }
+    ],
+    "repository": "https://github.com/apache/unomi.git",
+    "security_files": [
+      "SECURITY.md"
+    ],
+    "source_tree_bytes": 29991876
+  },
+  {
+    "candidate": "OpenFGA",
+    "commit": "46b1d53b99af0e8b310fe90c3c1b1682b1a15eb9",
+    "commit_date": "2026-07-09T19:29:47Z",
+    "exact_tag": "",
+    "licenses": [
+      {
+        "bytes": 10176,
+        "first_nonempty_lines": [
+          "Apache License",
+          "Version 2.0, January 2004",
+          "http://www.apache.org/licenses/",
+          "TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION"
+        ],
+        "path": "LICENSE",
+        "sha256": "1c46d7b2bed94d457d745f28cabeb31f8d6c81dd9035bc5d24039989ee1e1bff"
+      }
+    ],
+    "repository": "https://github.com/openfga/openfga.git",
+    "security_files": [
+      ".github/SECURITY-INSIGHTS.yml"
+    ],
+    "source_tree_bytes": 8070762
+  },
+  {
+    "candidate": "Klaro",
+    "commit": "db9f1aca906a392990c58c58475366a091012ea7",
+    "commit_date": "2025-03-27T14:59:10+01:00",
+    "exact_tag": "",
+    "licenses": [
+      {
+        "bytes": 1658,
+        "first_nonempty_lines": [
+          "BSD 3-Clause License",
+          "Copyright (c) 2019-2020, KIProtect GmbH",
+          "Copyright (c) various authors obtainable by running `git shortlog -nse` or",
+          "visiting https://github.com/KIProtect/klaro/graphs/contributors"
+        ],
+        "path": "LICENSE",
+        "sha256": "77e99125636bef70b534cc86b6f890bf8b33b453d4a9402f3ff4b2cf26e7fa82"
+      }
+    ],
+    "repository": "https://github.com/kiprotect/klaro.git",
+    "security_files": [],
+    "source_tree_bytes": 17411611
+  },
+  {
+    "candidate": "dedupe",
+    "commit": "3f61e79102910bd355e920a2df7e44c14c9cb247",
+    "commit_date": "2025-07-28T20:18:20-04:00",
+    "exact_tag": "",
+    "licenses": [
+      {
+        "bytes": 1118,
+        "first_nonempty_lines": [
+          "The MIT License (MIT)",
+          "Copyright (c) 2014 Forest Gregg, Derek Eder, DataMade and Contributors",
+          "Permission is hereby granted, free of charge, to any person obtaining a copy",
+          "of this software and associated documentation files (the \"Software\"), to deal"
+        ],
+        "path": "LICENSE",
+        "sha256": "b56e9035c9831249ff8684b87f5875be815fbdfe5527430beeb9a8baaec6a82b"
+      }
+    ],
+    "repository": "https://github.com/dedupeio/dedupe.git",
+    "security_files": [],
+    "source_tree_bytes": 1430703
+  },
+  {
+    "candidate": "OpenCATS",
+    "commit": "b83a23489c5d7b12d81e4e5debfde29b4cd13ef1",
+    "commit_date": "2026-07-09T14:57:25+02:00",
+    "exact_tag": "",
+    "licenses": [
+      {
+        "bytes": 43229,
+        "first_nonempty_lines": [
+          "This application is available under two licenses.",
+          "1) OpenCATS code is under Mozilla Public License 2.0",
+          "2) Original code from the 'CATS Project' circa 2007 is under CATS Public License Version 1.1a (a modified Mozilla Public License)",
+          "Mozilla Public License Version 2.0"
+        ],
+        "path": "LICENSE.md",
+        "sha256": "e012562b38ed2f78fa2f7f0249f78df5851990e6d7f239ff33debeb21b6fb45a"
+      }
+    ],
+    "repository": "https://github.com/opencats/OpenCATS.git",
+    "security_files": [],
+    "source_tree_bytes": 12704492
+  },
+  {
+    "candidate": "Frappe HR",
+    "commit": "ce0b54a1e26d5d14919a47187c0e36388f0401cb",
+    "commit_date": "2026-07-14T17:30:24+05:30",
+    "exact_tag": "",
+    "licenses": [
+      {
+        "bytes": 34916,
+        "first_nonempty_lines": [
+          "### GNU GENERAL PUBLIC LICENSE",
+          "Version 3, 29 June 2007",
+          "Copyright (C) 2007 Free Software Foundation, Inc.",
+          "<http://fsf.org/>"
+        ],
+        "path": "license.txt",
+        "sha256": "f333043685c88280b1a0a41b4f8e2eacb02079f0bfca4d467e52c8834c658cea"
+      }
+    ],
+    "repository": "https://github.com/frappe/hrms.git",
+    "security_files": [
+      "SECURITY.md"
+    ],
+    "source_tree_bytes": 42399563
+  }
+]

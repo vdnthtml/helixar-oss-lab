@@ -1,0 +1,9 @@
+{
+  "bytes": 14827,
+  "candidate_rows": 8,
+  "process_records_before_receipt": 85,
+  "public_network_command_envelopes": 26,
+  "receipt": "/Users/vedantswami/Projects/Dystopia/Dystopia/04_Logs/Runs/Run Receipt - 2026-07-14 - O02 Brain Memory OSS Lab.md",
+  "sha256": "089a0c40364bb03df7aa238f07875f9c3313cce1d15c1c3e2510f956d91c6db7",
+  "source_csv_unchanged": true
+}

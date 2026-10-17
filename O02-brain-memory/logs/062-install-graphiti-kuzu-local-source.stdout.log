@@ -1,0 +1,49 @@
+Processing ./repos/graphiti
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: neo4j>=5.26.0 in ./envs/graphiti/lib/python3.11/site-packages (from graphiti-core==0.29.2) (6.2.0)
+Requirement already satisfied: numpy>=1.0.0 in ./envs/graphiti/lib/python3.11/site-packages (from graphiti-core==0.29.2) (2.4.6)
+Requirement already satisfied: openai>=1.91.0 in ./envs/graphiti/lib/python3.11/site-packages (from graphiti-core==0.29.2) (2.45.0)
+Requirement already satisfied: posthog>=3.0.0 in ./envs/graphiti/lib/python3.11/site-packages (from graphiti-core==0.29.2) (7.22.2)
+Requirement already satisfied: pydantic>=2.11.5 in ./envs/graphiti/lib/python3.11/site-packages (from graphiti-core==0.29.2) (2.13.4)
+Requirement already satisfied: python-dotenv>=1.0.1 in ./envs/graphiti/lib/python3.11/site-packages (from graphiti-core==0.29.2) (1.2.2)
+Requirement already satisfied: tenacity>=9.0.0 in ./envs/graphiti/lib/python3.11/site-packages (from graphiti-core==0.29.2) (9.1.4)
+Collecting kuzu>=0.11.3 (from graphiti-core==0.29.2)
+  Downloading kuzu-0.11.3-cp311-cp311-macosx_11_0_arm64.whl.metadata (4.2 kB)
+Requirement already satisfied: pytz in ./envs/graphiti/lib/python3.11/site-packages (from neo4j>=5.26.0->graphiti-core==0.29.2) (2026.2)
+Requirement already satisfied: anyio<5,>=3.5.0 in ./envs/graphiti/lib/python3.11/site-packages (from openai>=1.91.0->graphiti-core==0.29.2) (4.14.2)
+Requirement already satisfied: distro<2,>=1.7.0 in ./envs/graphiti/lib/python3.11/site-packages (from openai>=1.91.0->graphiti-core==0.29.2) (1.9.0)
+Requirement already satisfied: httpx<1,>=0.23.0 in ./envs/graphiti/lib/python3.11/site-packages (from openai>=1.91.0->graphiti-core==0.29.2) (0.28.1)
+Requirement already satisfied: jiter<1,>=0.10.0 in ./envs/graphiti/lib/python3.11/site-packages (from openai>=1.91.0->graphiti-core==0.29.2) (0.16.0)
+Requirement already satisfied: sniffio in ./envs/graphiti/lib/python3.11/site-packages (from openai>=1.91.0->graphiti-core==0.29.2) (1.3.1)
+Requirement already satisfied: tqdm>4 in ./envs/graphiti/lib/python3.11/site-packages (from openai>=1.91.0->graphiti-core==0.29.2) (4.68.4)
+Requirement already satisfied: typing-extensions<5,>=4.14 in ./envs/graphiti/lib/python3.11/site-packages (from openai>=1.91.0->graphiti-core==0.29.2) (4.16.0)
+Requirement already satisfied: requests<3.0,>=2.7 in ./envs/graphiti/lib/python3.11/site-packages (from posthog>=3.0.0->graphiti-core==0.29.2) (2.34.2)
+Requirement already satisfied: backoff>=1.10.0 in ./envs/graphiti/lib/python3.11/site-packages (from posthog>=3.0.0->graphiti-core==0.29.2) (2.2.1)
+Requirement already satisfied: annotated-types>=0.6.0 in ./envs/graphiti/lib/python3.11/site-packages (from pydantic>=2.11.5->graphiti-core==0.29.2) (0.7.0)
+Requirement already satisfied: pydantic-core==2.46.4 in ./envs/graphiti/lib/python3.11/site-packages (from pydantic>=2.11.5->graphiti-core==0.29.2) (2.46.4)
+Requirement already satisfied: typing-inspection>=0.4.2 in ./envs/graphiti/lib/python3.11/site-packages (from pydantic>=2.11.5->graphiti-core==0.29.2) (0.4.2)
+Requirement already satisfied: idna>=2.8 in ./envs/graphiti/lib/python3.11/site-packages (from anyio<5,>=3.5.0->openai>=1.91.0->graphiti-core==0.29.2) (3.18)
+Requirement already satisfied: certifi in ./envs/graphiti/lib/python3.11/site-packages (from httpx<1,>=0.23.0->openai>=1.91.0->graphiti-core==0.29.2) (2026.6.17)
+Requirement already satisfied: httpcore==1.* in ./envs/graphiti/lib/python3.11/site-packages (from httpx<1,>=0.23.0->openai>=1.91.0->graphiti-core==0.29.2) (1.0.9)
+Requirement already satisfied: h11>=0.16 in ./envs/graphiti/lib/python3.11/site-packages (from httpcore==1.*->httpx<1,>=0.23.0->openai>=1.91.0->graphiti-core==0.29.2) (0.16.0)
+Requirement already satisfied: charset_normalizer<4,>=2 in ./envs/graphiti/lib/python3.11/site-packages (from requests<3.0,>=2.7->posthog>=3.0.0->graphiti-core==0.29.2) (3.4.9)
+Requirement already satisfied: urllib3<3,>=1.26 in ./envs/graphiti/lib/python3.11/site-packages (from requests<3.0,>=2.7->posthog>=3.0.0->graphiti-core==0.29.2) (2.7.0)
+Downloading kuzu-0.11.3-cp311-cp311-macosx_11_0_arm64.whl (4.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.1/4.1 MB 4.4 MB/s eta 0:00:00
+Building wheels for collected packages: graphiti-core
+  Building wheel for graphiti-core (pyproject.toml): started
+  Building wheel for graphiti-core (pyproject.toml): finished with status 'done'
+  Created wheel for graphiti-core: filename=graphiti_core-0.29.2-py3-none-any.whl size=357989 sha256=0a45672bc1ddaa4b30e207e051283d999acd25d7d624996c83f9f79a4f7934a3
+  Stored in directory: /private/var/folders/vj/_w3ccnk96p3dxghn29rf_vz80000gn/T/pip-ephem-wheel-cache-qouqfmrh/wheels/ac/14/43/0823f48663ef61cb32f0389e9323635f25423298542ab4176c
+Successfully built graphiti-core
+Installing collected packages: kuzu, graphiti-core
+  Attempting uninstall: graphiti-core
+    Found existing installation: graphiti-core 0.29.2
+    Uninstalling graphiti-core-0.29.2:
+      Successfully uninstalled graphiti-core-0.29.2
+Successfully installed graphiti-core-0.29.2 kuzu-0.11.3
